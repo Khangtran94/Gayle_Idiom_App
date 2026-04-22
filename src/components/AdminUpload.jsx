@@ -8,14 +8,14 @@ export default function AdminUpload({ onIdiomsExtracted }) {
     const [preview, setPreview] = useState(null)
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(null)
-    const [extractedIdioms, setExtractedIdioms] = useState(null)
+    const [extractedData, setExtractedData] = useState(null)
     const [weekNumber, setWeekNumber] = useState("")
 
     function handleFileChange(e) {
         const selected = e.target.files[0]
         if (!selected) return
         setFile(selected)
-        setExtractedIdioms(null)
+        setExtractedData(null)
         setError(null)
 
         if (selected.type.startsWith("image/")) {
@@ -37,74 +37,103 @@ export default function AdminUpload({ onIdiomsExtracted }) {
         setError(null)
 
         try {
-            const reader = new FileReader()
-            reader.readAsDataURL(file)
-            reader.onload = async () => {
-                const base64 = reader.result.split(",")[1]
-                const mediaType = file.type
+            const base64 = await new Promise((resolve, reject) => {
+                const reader = new FileReader()
+                reader.readAsDataURL(file)
+                reader.onload = () => resolve(reader.result.split(",")[1])
+                reader.onerror = () => reject(new Error("Failed to read file"))
+            })
 
-                const isImage = mediaType.startsWith("image/")
-                const isPDF = mediaType === "application/pdf"
+            const mediaType = file.type
+            const isImage = mediaType.startsWith("image/")
+            const isPDF = mediaType === "application/pdf"
 
-                if (!isImage && !isPDF) {
-                    setError("Please upload an image (jpg, png) or PDF file.")
-                    setLoading(false)
-                    return
-                }
-
-                const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" })
-
-                const prompt = `This is a paper from an English class. It contains a conversation with some idioms underlined or highlighted.
-
-Please extract all the idioms from this document and return them as a JSON array ONLY — no explanation, no markdown, no backticks, just raw JSON.
-
-Each idiom object must follow this exact format:
-[
-  {
-    "id": "w${weekNumber.padStart(2, "0")}_01",
-    "idiom": "the idiom phrase",
-    "meaning_en": "clear English explanation of the idiom",
-    "meaning_vi": "giải thích bằng tiếng Việt",
-    "example": "a natural example sentence using this idiom",
-    "context": "the original sentence from the paper where this idiom appeared",
-    "week": ${parseInt(weekNumber)}
-  }
-]
-
-Number the ids sequentially: w${weekNumber.padStart(2, "0")}_01, w${weekNumber.padStart(2, "0")}_02, etc.
-Return ONLY the JSON array, nothing else. No markdown, no backticks.`
-
-                const imagePart = {
-                    inlineData: {
-                        data: base64,
-                        mimeType: mediaType
-                    }
-                }
-
-                const result = await model.generateContent([prompt, imagePart])
-                const text = result.response.text().trim()
-
-                // Clean up any accidental markdown formatting
-                const clean = text.replace(/```json|```/g, "").trim()
-                const parsed = JSON.parse(clean)
-
-                setExtractedIdioms(parsed)
+            if (!isImage && !isPDF) {
+                setError("Please upload an image (jpg, png) or PDF file.")
                 setLoading(false)
+                return
             }
+
+            const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" })
+
+            const prompt = `This is a paper from an English class. It contains a conversation with idioms.
+
+Return a single JSON object ONLY — no explanation, no markdown, no backticks.
+
+Format:
+{
+  "title": "the topic/title of the conversation (e.g. Going Shopping)",
+  "conversation": "the full conversation text, each line separated by \\n. IMPORTANT: every idiom must be wrapped EXACTLY like this: <u><b>idiom</b></u>. Always include BOTH opening AND closing tags. Never omit closing tags."
+  "idioms": [
+    {
+      "id": "w${weekNumber.padStart(2, "0")}_01",
+      "idiom": "the idiom phrase",
+      "meaning_en": "clear English explanation",
+      "meaning_vi": "giải thích bằng tiếng Việt",
+      "example": "a natural example sentence",
+      "context": "original sentence from the paper",
+      "week": ${parseInt(weekNumber)}
+    }
+  ]
+}
+
+Rules:
+- Identify all idioms in the conversation.
+- Wrap each idiom EXACTLY as: <u><b>idiom</b></u>
+- Always close tags in the correct order: </b></u>
+- Do NOT repeat opening tags
+- Do NOT leave tags unclosed
+- Keep the conversation natural and unchanged except for formatting idioms.
+- Number idioms sequentially.
+
+Return ONLY the JSON object, nothing else. No markdown, no backticks.`;
+
+            const imagePart = {
+                inlineData: {
+                    data: base64,
+                    mimeType: mediaType
+                }
+            }
+
+            const result = await model.generateContent([prompt, imagePart])
+            const text = result.response.text().trim()
+            console.log("Raw Gemini response:", text)
+
+            const clean = text.replace(/```json|```/g, "").trim()
+
+            let parsed
+            try {
+                parsed = JSON.parse(clean)
+            } catch (parseErr) {
+                console.error("JSON parse failed:", parseErr)
+                setError("AI returned invalid format. Please try again.")
+                return
+            }
+
+            // Make sure idioms array exists
+            if (!parsed.idioms || parsed.idioms.length === 0) {
+                setError("No idioms found. Try a clearer image.")
+                return
+            }
+
+            setExtractedData(parsed)
+
         } catch (err) {
+            console.error("Full error:", err)
             setError("Something went wrong: " + err.message)
+        } finally {
             setLoading(false)
         }
     }
 
     function handleConfirm() {
-        if (extractedIdioms) {
-            onIdiomsExtracted(extractedIdioms, parseInt(weekNumber))
+        if (extractedData) {
+            onIdiomsExtracted(extractedData, parseInt(weekNumber))
         }
     }
 
     function handleExportJSON() {
-        const blob = new Blob([JSON.stringify(extractedIdioms, null, 2)], {
+        const blob = new Blob([JSON.stringify(extractedData, null, 2)], {
             type: "application/json"
         })
         const url = URL.createObjectURL(blob)
@@ -132,7 +161,7 @@ Return ONLY the JSON array, nothing else. No markdown, no backticks.`
                         max="30"
                         value={weekNumber}
                         onChange={e => setWeekNumber(e.target.value)}
-                        placeholder="e.g. 2"
+                        placeholder="e.g. 3"
                         className="w-32 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-indigo-400"
                     />
                 </div>
@@ -173,17 +202,33 @@ Return ONLY the JSON array, nothing else. No markdown, no backticks.`
             </div>
 
             {/* Results */}
-            {extractedIdioms && (
+            {extractedData && (
                 <div className="mt-6 bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+
+                    {/* Title and conversation preview */}
+                    {extractedData.title && (
+                        <div className="mb-4 p-3 bg-indigo-50 rounded-xl">
+                            <p className="text-sm font-semibold text-indigo-600">
+                                📖 Title: {extractedData.title}
+                            </p>
+                            {extractedData.conversation && (
+                                <p className="text-xs text-gray-400 mt-1">
+                                    ✅ Conversation text extracted ({extractedData.conversation.split("\n").length} lines)
+                                </p>
+                            )}
+                        </div>
+                    )}
+
                     <h3 className="text-lg font-bold text-gray-700 mb-1">
-                        ✅ Found {extractedIdioms.length} idioms
+                        ✅ Found {extractedData.idioms.length} idioms
                     </h3>
                     <p className="text-sm text-gray-400 mb-4">
                         Review below, then export as JSON to save into your project
                     </p>
 
+                    {/* Idiom list */}
                     <div className="flex flex-col gap-3 mb-6">
-                        {extractedIdioms.map((item, i) => (
+                        {extractedData.idioms.map((item, i) => (
                             <div key={i} className="border border-gray-100 rounded-xl p-4 bg-gray-50">
                                 <p className="font-bold text-indigo-700">"{item.idiom}"</p>
                                 <p className="text-sm text-gray-600 mt-1">
@@ -200,7 +245,7 @@ Return ONLY the JSON array, nothing else. No markdown, no backticks.`
                         ))}
                     </div>
 
-                    {/* Two action buttons */}
+                    {/* Action buttons */}
                     <div className="flex gap-3">
                         <button
                             onClick={handleExportJSON}
@@ -217,7 +262,7 @@ Return ONLY the JSON array, nothing else. No markdown, no backticks.`
                     </div>
 
                     <p className="text-xs text-gray-400 mt-3 text-center">
-                        💡 Export JSON → fix any errors in a text editor → drop into src/data/idioms/week_XX/
+                        💡 Export JSON → fix any errors → drop into src/data/idioms/week_XX/idioms.json
                     </p>
                 </div>
             )}

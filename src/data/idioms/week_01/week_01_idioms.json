@@ -1,0 +1,132 @@
+{
+  "title": "GOING SHOPPING",
+  "conversation": "Amy is at a clothing store shopping for a new pair of pants. Lisa, a saleswoman, asks her if she needs any help.\n\nLisa: May I help you?\nAmy: I'm <u><b>just browsing</b></u>.\nLisa: Let me know if I can help. My name is Lisa.\nAmy: Do these pants <u><b>come in</b></u> black?\nLisa: Yes, but we're <u><b>sold out</b></u>. They're so popular, we can't keep them <u><b>in stock</b></u>.\nAmy: Do you have any black pants <u><b>on sale</b></u>?\nLisa: Yes, these are <u><b>marked down</b></u> from $69.95 to $24.95.\nAmy: That's <u><b>a good buy</b></u>, but I'm <u><b>not crazy about</b></u> the fabric.\nLisa: What about these pants? These are <u><b>on sale</b></u> for $49.\nAmy: That's <u><b>a little pricey</b></u>, but I'll <u><b>try them on</b></u>.\n(Amy enters the fitting room with the pants. A few minutes later, Lisa comes to check on her.)\nLisa: How are the pants?\nAmy: <u><b>A little snug</b></u>.\nLisa: That style does <u><b>run small</b></u>. Let me bring you the next size up.\n(Lisa hands Amy the pants and Amy puts them on.)\nAmy: These pants are a little big, aren't they?\nLisa: No, they fit nicely!\nAmy: They're baggy in the back, don't you think?\nLisa: No, they're perfect. <u><b>Take my word for it</b></u>.\nAmy: I'm just not sure. I think I'd better <u><b>hold off</b></u> for now.",
+  "idioms": [
+    {
+      "id": "w01_01",
+      "idiom": "just browsing",
+      "meaning_en": "Looking at goods in a store without the immediate intention of buying anything.",
+      "meaning_vi": "chỉ đang xem qua (không có ý định mua ngay)",
+      "example": "The clerk asked if I needed help, but I told her I was just browsing.",
+      "context": "I'm just browsing.",
+      "week": 1
+    },
+    {
+      "id": "w01_02",
+      "idiom": "come in",
+      "meaning_en": "To be produced or available in a specific color, size, or style.",
+      "meaning_vi": "có sẵn (theo màu sắc, kích cỡ, kiểu dáng)",
+      "example": "Does this dress come in a smaller size?",
+      "context": "Do these pants come in black?",
+      "week": 1
+    },
+    {
+      "id": "w01_03",
+      "idiom": "sold out",
+      "meaning_en": "Having all of a particular item sold; no longer available.",
+      "meaning_vi": "hết hàng",
+      "example": "I wanted to buy the new iPhone, but the store was completely sold out.",
+      "context": "Yes, but we're sold out.",
+      "week": 1
+    },
+    {
+      "id": "w01_04",
+      "idiom": "in stock",
+      "meaning_en": "Available for sale and present in the store.",
+      "meaning_vi": "còn hàng (trong kho/cửa hàng)",
+      "example": "We don't have any more of these shoes in stock right now.",
+      "context": "They're so popular, we can't keep them in stock.",
+      "week": 1
+    },
+    {
+      "id": "w01_05",
+      "idiom": "on sale",
+      "meaning_en": "Offered at a lower price than usual.",
+      "meaning_vi": "đang giảm giá",
+      "example": "I bought these jeans while they were on sale for 50% off.",
+      "context": "Do you have any black pants on sale?",
+      "week": 1
+    },
+    {
+      "id": "w01_06",
+      "idiom": "marked down",
+      "meaning_en": "Reduced in price.",
+      "meaning_vi": "được hạ giá",
+      "example": "All winter coats have been marked down to make room for spring clothes.",
+      "context": "Yes, these are marked down from $69.95 to $24.95.",
+      "week": 1
+    },
+    {
+      "id": "w01_07",
+      "idiom": "a good buy",
+      "meaning_en": "Something that is worth the price; a bargain.",
+      "meaning_vi": "một món hời/đáng mua",
+      "example": "At only $10, that shirt is definitely a good buy.",
+      "context": "That's a good buy, but I'm not crazy about the fabric.",
+      "week": 1
+    },
+    {
+      "id": "w01_08",
+      "idiom": "not crazy about",
+      "meaning_en": "To not like or enjoy something very much.",
+      "meaning_vi": "không thích lắm",
+      "example": "I'm not crazy about spicy food, so let's eat somewhere else.",
+      "context": "That's a good buy, but I'm not crazy about the fabric.",
+      "week": 1
+    },
+    {
+      "id": "w01_09",
+      "idiom": "a little pricey",
+      "meaning_en": "Somewhat expensive.",
+      "meaning_vi": "hơi đắt",
+      "example": "The food was delicious, but the restaurant was a little pricey.",
+      "context": "That's a little pricey, but I'll try them on.",
+      "week": 1
+    },
+    {
+      "id": "w01_10",
+      "idiom": "try them on",
+      "meaning_en": "To put on a piece of clothing to see if it fits or looks good.",
+      "meaning_vi": "thử đồ",
+      "example": "You should try them on before you buy them.",
+      "context": "That's a little pricey, but I'll try them on.",
+      "week": 1
+    },
+    {
+      "id": "w01_11",
+      "idiom": "a little snug",
+      "meaning_en": "Slightly tight but fitting closely.",
+      "meaning_vi": "hơi chật/bó",
+      "example": "These shoes are a little snug; do you have a larger size?",
+      "context": "A little snug.",
+      "week": 1
+    },
+    {
+      "id": "w01_12",
+      "idiom": "run small",
+      "meaning_en": "To be smaller in size than is typical for that item of clothing.",
+      "meaning_vi": "cỡ hơi nhỏ (so với tiêu chuẩn thông thường)",
+      "example": "Italian designer clothes often run small.",
+      "context": "That style does run small.",
+      "week": 1
+    },
+    {
+      "id": "w01_13",
+      "idiom": "take my word for it",
+      "meaning_en": "To believe someone's statement without requiring further proof.",
+      "meaning_vi": "hãy tin lời tôi",
+      "example": "It's a great movie, just take my word for it.",
+      "context": "No, they're perfect. Take my word for it.",
+      "week": 1
+    },
+    {
+      "id": "w01_14",
+      "idiom": "hold off",
+      "meaning_en": "To delay or wait before doing something.",
+      "meaning_vi": "trì hoãn/chờ thêm",
+      "example": "We should hold off on buying a new car until next year.",
+      "context": "I think I'd better hold off for now.",
+      "week": 1
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Picking up the tab at a restaurant",
+  "conversation": "Tanya: Let me <u><b>pick up the tab</b></u>.\nJohn: No, <u><b>it's my treat</b></u>. The guy is supposed to pay on a date!\nTanya: Says who? I don't want you to pay for me every time we go out! Let's <u><b>go Dutch</b></u> this time.\nJohn: No, I'll get it. I insist.\nTanya: Okay, but next time <u><b>it's on me</b></u>.\nJohn: Let's see . . . The total without tax is $74.75.\nTanya: Do you think we should leave 15 percent or more?\nJohn: The service was <u><b>so-so</b></u>. Our waiter was <u><b>no great shakes</b></u>. He seemed <u><b>put out</b></u> when we complained about our food.\nTanya: What did he expect? The food <u><b>left a lot to be desired</b></u>! This is supposed to be such a great restaurant. I don't know what happened.\nJohn: I guess it's <u><b>gone downhill</b></u>. I'll leave 15 percent. I could leave less, but I don't want to be a <u><b>cheapskate</b></u>.\nTanya: Yeah, we may want to come back here someday.\nJohn: Come back here? <u><b>When hell freezes over</b></u>!",
+  "idioms": [
+    {
+      "id": "w07_01",
+      "idiom": "pick up the tab",
+      "meaning_en": "to pay the bill for something, especially a meal at a restaurant",
+      "meaning_vi": "trả tiền hóa đơn, thanh toán",
+      "example": "My father always picks up the tab when we eat out as a family.",
+      "context": "Let me pick up the tab.",
+      "week": 7
+    },
+    {
+      "id": "w07_02",
+      "idiom": "it's my treat",
+      "meaning_en": "used to tell someone that you will pay for them",
+      "meaning_vi": "tôi mời, tôi sẽ trả tiền",
+      "example": "Let's go for coffee; it's my treat.",
+      "context": "No, it's my treat.",
+      "week": 7
+    },
+    {
+      "id": "w07_03",
+      "idiom": "go Dutch",
+      "meaning_en": "to share the cost of a meal or an outing equally",
+      "meaning_vi": "chia tiền, tiền ai nấy trả",
+      "example": "We decided to go Dutch on our first date so neither of us felt awkward.",
+      "context": "Let's go Dutch this time.",
+      "week": 7
+    },
+    {
+      "id": "w07_04",
+      "idiom": "it's on me",
+      "meaning_en": "used to indicate that you will pay for the item or service",
+      "meaning_vi": "để tôi trả tiền, tôi khao",
+      "example": "Don't worry about the drinks; they are on me.",
+      "context": "Okay, but next time it's on me.",
+      "week": 7
+    },
+    {
+      "id": "w07_05",
+      "idiom": "so-so",
+      "meaning_en": "neither very good nor very bad; mediocre",
+      "meaning_vi": "tàm tạm, bình thường",
+      "example": "The concert was just so-so; I expected much more from them.",
+      "context": "The service was so-so.",
+      "week": 7
+    },
+    {
+      "id": "w07_06",
+      "idiom": "no great shakes",
+      "meaning_en": "not particularly good, clever, or skillful",
+      "meaning_vi": "không có gì đặc biệt, không giỏi lắm",
+      "example": "He's a nice guy, but as a cook, he's no great shakes.",
+      "context": "Our waiter was no great shakes.",
+      "week": 7
+    },
+    {
+      "id": "w07_07",
+      "idiom": "put out",
+      "meaning_en": "annoyed, offended, or inconvenienced",
+      "meaning_vi": "bực bội, khó chịu, phật lòng",
+      "example": "She was clearly put out by his rude comments.",
+      "context": "He seemed put out when we complained about our food.",
+      "week": 7
+    },
+    {
+      "id": "w07_08",
+      "idiom": "left a lot to be desired",
+      "meaning_en": "to be very unsatisfactory or lacking in quality",
+      "meaning_vi": "còn nhiều thiếu sót, không tốt như mong đợi",
+      "example": "The cleanliness of the hotel left a lot to be desired.",
+      "context": "The food left a lot to be desired!",
+      "week": 7
+    },
+    {
+      "id": "w07_09",
+      "idiom": "gone downhill",
+      "meaning_en": "to decline in quality, health, or status",
+      "meaning_vi": "xuống dốc, trở nên tồi tệ hơn",
+      "example": "That bakery used to be great, but it has really gone downhill lately.",
+      "context": "I guess it's gone downhill.",
+      "week": 7
+    },
+    {
+      "id": "w07_10",
+      "idiom": "cheapskate",
+      "meaning_en": "a person who is unwilling to spend money",
+      "meaning_vi": "người keo kiệt, bủn xỉn",
+      "example": "He's such a cheapskate that he never leaves a tip.",
+      "context": "I could leave less, but I don't want to be a cheapskate.",
+      "week": 7
+    },
+    {
+      "id": "w07_11",
+      "idiom": "When hell freezes over",
+      "meaning_en": "something that will never happen",
+      "meaning_vi": "không bao giờ, không đời nào",
+      "example": "I'll go back to that store when hell freezes over!",
+      "context": "Come back here? When hell freezes over!",
+      "week": 7
+    }
+  ]
+}

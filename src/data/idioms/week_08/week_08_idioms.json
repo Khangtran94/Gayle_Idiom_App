@@ -1,0 +1,96 @@
+{
+  "title": "ORDERING LUNCH TO GO",
+  "conversation": "Tim: Welcome to Angelo’s. What can I get for you?\nJoe: A chicken salad sandwich.\nTim: For here or to go?\nJoe: To go.\nTim: Would you like that on white, wheat, or pumpernickel?\nJoe: What’s pumpernickel?\nTim: It’s a dark brown bread, similar to rye bread.\nJoe: Let me try that.\nTim: And would you like that with mustard, mayonnaise, or oil?\nJoe: Mustard. But please <u><b>go light on</b></u> it.\nTim: Would you like to make that a <u><b>meal deal</b></u>? Our special this month is a sandwich, an order of French fries, and a large soda for $6.99.\nJoe: I’m going to <u><b>pass on</b></u> that. But I’d like a <u><b>side order</b></u> of fries.\nTim: Your total <u><b>comes to</b></u> $6.99.\nJoe: <u><b>On second thought</b></u>, I will <u><b>take you up on</b></u> that <u><b>meal deal</b></u>.\nTim: Sure, then you’ll get a soda at <u><b>no extra charge</b></u>. That’ll be $6.99.\nJoe: Sorry, but I’ve only got a $100 bill.\nTim: <u><b>No worries</b></u>. We can <u><b>break</b></u> it.",
+  "idioms": [
+    {
+      "id": "w08_01",
+      "idiom": "go light on",
+      "meaning_en": "to use a small amount of something",
+      "meaning_vi": "dùng ít, hạn chế dùng cái gì đó",
+      "example": "Please go light on the salt when you cook the soup.",
+      "context": "Mustard. But please go light on it.",
+      "week": 8
+    },
+    {
+      "id": "w08_02",
+      "idiom": "meal deal",
+      "meaning_en": "a combination of food items sold together at a lower price than if bought separately",
+      "meaning_vi": "suất ăn trọn gói, combo món ăn giá rẻ",
+      "example": "The burger shop has a great meal deal that includes a drink and fries.",
+      "context": "Would you like to make that a meal deal?",
+      "week": 8
+    },
+    {
+      "id": "w08_03",
+      "idiom": "pass on",
+      "meaning_en": "to decline an offer or opportunity",
+      "meaning_vi": "từ chối một lời đề nghị",
+      "example": "I think I'll pass on the invitation to the party tonight; I'm too tired.",
+      "context": "I’m going to pass on that.",
+      "week": 8
+    },
+    {
+      "id": "w08_04",
+      "idiom": "side order",
+      "meaning_en": "an extra dish served with the main course",
+      "meaning_vi": "món gọi thêm, món phụ",
+      "example": "I'd like a side order of onion rings with my steak.",
+      "context": "But I’d like a side order of fries.",
+      "week": 8
+    },
+    {
+      "id": "w08_05",
+      "idiom": "comes to",
+      "meaning_en": "to reach a total amount or cost",
+      "meaning_vi": "tổng cộng là, lên đến mức",
+      "example": "The repair bill comes to two hundred dollars.",
+      "context": "Your total comes to $6.99.",
+      "week": 8
+    },
+    {
+      "id": "w08_06",
+      "idiom": "on second thought",
+      "meaning_en": "after reconsidering a previous decision",
+      "meaning_vi": "sau khi suy nghĩ lại",
+      "example": "I was going to buy the red shirt, but on second thought, I'll take the blue one.",
+      "context": "On second thought, I will take you up on that meal deal.",
+      "week": 8
+    },
+    {
+      "id": "w08_07",
+      "idiom": "take someone up on",
+      "meaning_en": "to accept an offer that someone has made",
+      "meaning_vi": "chấp nhận lời đề nghị của ai đó",
+      "example": "I’ll take you up on your offer to drive me to the airport.",
+      "context": "I will take you up on that meal deal.",
+      "week": 8
+    },
+    {
+      "id": "w08_08",
+      "idiom": "no extra charge",
+      "meaning_en": "at no additional cost; for free",
+      "meaning_vi": "không tính thêm phí, miễn phí thêm",
+      "example": "They will deliver the furniture to your house at no extra charge.",
+      "context": "Sure, then you’ll get a soda at no extra charge.",
+      "week": 8
+    },
+    {
+      "id": "w08_09",
+      "idiom": "no worries",
+      "meaning_en": "don't worry about it; it's okay",
+      "meaning_vi": "không sao đâu, đừng lo",
+      "example": "No worries, I can finish the report for you.",
+      "context": "No worries.",
+      "week": 8
+    },
+    {
+      "id": "w08_10",
+      "idiom": "break",
+      "meaning_en": "to change a large banknote for smaller bills or coins",
+      "meaning_vi": "đổi tiền lẻ, phá tiền chẵn",
+      "example": "I need to buy a ticket; can you break a fifty-dollar bill?",
+      "context": "We can break it.",
+      "week": 8
+    }
+  ]
+}

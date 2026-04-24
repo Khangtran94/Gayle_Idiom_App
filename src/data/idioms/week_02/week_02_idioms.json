@@ -1,0 +1,114 @@
+{
+  "title": "RETURNING AN ITEM TO THE STORE",
+  "conversation": "Paul: Hi, I bought this camera here yesterday, and it's not working.\nTim: Did you charge the battery and put it in correctly?\nPaul: Yes. I followed the directions <u><b>to the letter</b></u>.\nTim: Do you mind if I <u><b>take a crack at</b></u> it?\nPaul: <u><b>Be my guest</b></u>.\nTim: I usually <u><b>have the magic touch</b></u> . . . Hmmm, you're right. It doesn't work. Would you like a replacement?\nPaul: No, this is the second one I've had to return. I think I'll <u><b>steer clear of</b></u> this model.\nTim: <u><b>I hear what you're saying</b></u>. It's frustrating when you get one bad unit, <u><b>let alone</b></u>, two!\nPaul: Yeah, it's a <u><b>bummer</b></u>! I'd like my money back.\nTim: If you give me your receipt, I'll <u><b>issue a credit</b></u> to your credit card. But you might also try a different model or brand.\nPaul: Maybe I will try a different camera.\nTim: We've got an excellent Canon camera that's the same price as this one. It would be an <u><b>even exchange</b></u>.\nPaul: Okay, I'll take it. I hope this one <u><b>works out</b></u>.\nTim: If you're not happy with it, <u><b>don't hesitate</b></u> to bring it back.",
+  "idioms": [
+    {
+      "id": "w02_01",
+      "idiom": "to the letter",
+      "meaning_en": "following instructions or rules exactly and precisely",
+      "meaning_vi": "làm theo đúng từng li từng tí, tuân thủ nghiêm ngặt",
+      "example": "He followed the recipe to the letter, so the cake turned out perfectly.",
+      "context": "Yes. I followed the directions to the letter.",
+      "week": 2
+    },
+    {
+      "id": "w02_02",
+      "idiom": "take a crack at",
+      "meaning_en": "to try to do something, especially something you have not done before",
+      "meaning_vi": "thử làm việc gì đó",
+      "example": "I've never fixed a car before, but I'll take a crack at it.",
+      "context": "Do you mind if I take a crack at it?",
+      "week": 2
+    },
+    {
+      "id": "w02_03",
+      "idiom": "Be my guest",
+      "meaning_en": "a polite way of telling someone to go ahead and do something",
+      "meaning_vi": "cứ tự nhiên, xin cứ việc",
+      "example": "If you want to use my phone, be my guest.",
+      "context": "Be my guest.",
+      "week": 2
+    },
+    {
+      "id": "w02_04",
+      "idiom": "have the magic touch",
+      "meaning_en": "to have a special ability to make something successful or work well",
+      "meaning_vi": "có bàn tay phù thủy, có biệt tài làm mọi thứ thành công",
+      "example": "Everything she plants grows well; she really has the magic touch in the garden.",
+      "context": "I usually have the magic touch . . .",
+      "week": 2
+    },
+    {
+      "id": "w02_05",
+      "idiom": "steer clear of",
+      "meaning_en": "to avoid someone or something because they are unpleasant or dangerous",
+      "meaning_vi": "tránh xa cái gì hoặc ai đó",
+      "example": "You should steer clear of that neighborhood at night.",
+      "context": "I think I'll steer clear of this model.",
+      "week": 2
+    },
+    {
+      "id": "w02_06",
+      "idiom": "I hear what you're saying",
+      "meaning_en": "to understand or empathize with someone's point of view",
+      "meaning_vi": "Tôi hiểu những gì bạn đang nói/chia sẻ",
+      "example": "I hear what you're saying about the price, but the quality is much better.",
+      "context": "I hear what you're saying.",
+      "week": 2
+    },
+    {
+      "id": "w02_07",
+      "idiom": "let alone",
+      "meaning_en": "used to emphasize that something is even more unlikely or impossible than the first thing mentioned",
+      "meaning_vi": "huống hồ, nói chi đến",
+      "example": "I can't afford a new bike, let alone a new car.",
+      "context": "It's frustrating when you get one bad unit, let alone, two!",
+      "week": 2
+    },
+    {
+      "id": "w02_08",
+      "idiom": "bummer",
+      "meaning_en": "a situation that is disappointing, annoying, or unpleasant",
+      "meaning_vi": "một sự thất vọng, điều đáng tiếc, điều xui xẻo",
+      "example": "It's a real bummer that the concert was canceled because of rain.",
+      "context": "Yeah, it's a bummer!",
+      "week": 2
+    },
+    {
+      "id": "w02_09",
+      "idiom": "issue a credit",
+      "meaning_en": "to refund money back to a customer's account",
+      "meaning_vi": "hoàn tiền, cấp một khoản tín dụng hoàn trả",
+      "example": "The store will issue a credit to your account within five business days.",
+      "context": "If you give me your receipt, I'll issue a credit to your credit card.",
+      "week": 2
+    },
+    {
+      "id": "w02_10",
+      "idiom": "even exchange",
+      "meaning_en": "trading one item for another of equal value",
+      "meaning_vi": "đổi ngang giá, đổi đồng giá",
+      "example": "Since the two shirts cost the same, it was an even exchange.",
+      "context": "It would be an even exchange.",
+      "week": 2
+    },
+    {
+      "id": "w02_11",
+      "idiom": "works out",
+      "meaning_en": "to happen or develop in a satisfactory or successful way",
+      "meaning_vi": "diễn ra tốt đẹp, có kết quả tốt",
+      "example": "I hope your new job works out for you.",
+      "context": "I hope this one works out.",
+      "week": 2
+    },
+    {
+      "id": "w02_12",
+      "idiom": "don't hesitate",
+      "meaning_en": "do not wait or be worried about doing something; feel free to do it",
+      "meaning_vi": "đừng ngần ngại",
+      "example": "If you have any questions, please don't hesitate to ask.",
+      "context": "If you're not happy with it, don't hesitate to bring it back.",
+      "week": 2
+    }
+  ]
+}

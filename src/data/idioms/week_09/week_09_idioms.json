@@ -1,0 +1,105 @@
+{
+  "title": "MAKING A DOCTOR’S APPOINTMENT",
+  "conversation": "Grace is sick. She calls her doctor's office to make an appointment for today.\n\nLaura: Primary Medical Group. How may I help you?\nGrace: I'd like to make an appointment with Dr. Feinberg.\nLaura: Your name?\nGrace: Grace Lee\nLaura: <u><b>What's the nature of</b></u> your visit?\nGrace: I think I've <u><b>come down with</b></u> the flu.\nLaura: We <u><b>have an opening</b></u> tomorrow at three.\nGrace: I can't wait that long. I'm really sick!\nLaura: Well, unfortunately, Dr. Feinberg is <u><b>booked solid</b></u> today. If he were free <u><b>at all</b></u>, I would <u><b>squeeze you in</b></u>.\nGrace: Can anybody else see me?\nLaura: <u><b>Hang on</b></u>. Let me check . . . You're <u><b>in luck</b></u>. Dr. Wilson can see you at four o'clock this afternoon.\nGrace: Don't you have anything earlier today?\nLaura: No, <u><b>I'm afraid not</b></u>. We're <u><b>short-staffed</b></u> this week.\nGrace: So there's no way I can come in before four today?\nLaura: I'd like to help you, but <u><b>my hands are tied</b></u>. If I were you, I would grab this four o'clock appointment.\nGrace: Okay. I'll take it.",
+  "idioms": [
+    {
+      "id": "w08_01",
+      "idiom": "What's the nature of",
+      "meaning_en": "A formal way to ask about the reason or purpose of a visit or inquiry.",
+      "meaning_vi": "Lý do hay mục đích của (buổi khám/cuộc gặp) là gì.",
+      "example": "What's the nature of your business with the director?",
+      "context": "What's the nature of your visit?",
+      "week": 8
+    },
+    {
+      "id": "w08_02",
+      "idiom": "come down with",
+      "meaning_en": "To begin to catch or suffer from an illness (usually a minor one).",
+      "meaning_vi": "Bị mắc bệnh, đổ bệnh.",
+      "example": "I think I'm coming down with a cold because my throat is sore.",
+      "context": "I think I've come down with the flu.",
+      "week": 8
+    },
+    {
+      "id": "w08_03",
+      "idiom": "have an opening",
+      "meaning_en": "To have an available time slot in a schedule.",
+      "meaning_vi": "Có lịch trống, có chỗ trống.",
+      "example": "Does the dentist have an opening for a cleaning next Tuesday?",
+      "context": "We have an opening tomorrow at three.",
+      "week": 8
+    },
+    {
+      "id": "w08_04",
+      "idiom": "booked solid",
+      "meaning_en": "Completely full; having no available appointments or space.",
+      "meaning_vi": "Đã kín lịch, không còn chỗ trống.",
+      "example": "The hotel is booked solid for the holiday weekend.",
+      "context": "Dr. Feinberg is booked solid today.",
+      "week": 8
+    },
+    {
+      "id": "w08_05",
+      "idiom": "at all",
+      "meaning_en": "In any way or to any degree (used for emphasis).",
+      "meaning_vi": "Chút nào, tí nào.",
+      "example": "I don't mind at all if you stay a bit longer.",
+      "context": "If he were free at all, I would squeeze you in.",
+      "week": 8
+    },
+    {
+      "id": "w08_06",
+      "idiom": "squeeze someone in",
+      "meaning_en": "To manage to find time to see or help someone despite a busy schedule.",
+      "meaning_vi": "Cố gắng sắp xếp thời gian để tiếp ai đó.",
+      "example": "The manager is very busy, but she can squeeze you in for ten minutes.",
+      "context": "I would squeeze you in.",
+      "week": 8
+    },
+    {
+      "id": "w08_07",
+      "idiom": "Hang on",
+      "meaning_en": "To wait for a short period of time.",
+      "meaning_vi": "Chờ một chút, giữ máy.",
+      "example": "Hang on a second, I forgot my wallet upstairs.",
+      "context": "Hang on. Let me check . . .",
+      "week": 8
+    },
+    {
+      "id": "w08_08",
+      "idiom": "in luck",
+      "meaning_en": "Experiencing good fortune; fortunate.",
+      "meaning_vi": "May mắn.",
+      "example": "You're in luck! We just had one cancellation for tonight.",
+      "context": "You're in luck.",
+      "week": 8
+    },
+    {
+      "id": "w08_09",
+      "idiom": "I'm afraid not",
+      "meaning_en": "A polite way of saying no or giving disappointing news.",
+      "meaning_vi": "Tôi e là không (cách từ chối lịch sự).",
+      "example": "Is there any dessert left? I'm afraid not.",
+      "context": "No, I'm afraid not.",
+      "week": 8
+    },
+    {
+      "id": "w08_10",
+      "idiom": "short-staffed",
+      "meaning_en": "Not having enough workers or employees to operate efficiently.",
+      "meaning_vi": "Thiếu nhân sự, thiếu nhân viên.",
+      "example": "Service is slow today because the restaurant is short-staffed.",
+      "context": "We're short-staffed this week.",
+      "week": 8
+    },
+    {
+      "id": "w08_11",
+      "idiom": "my hands are tied",
+      "meaning_en": "Unable to act or help due to rules, regulations, or circumstances beyond control.",
+      "meaning_vi": "Bó tay, không thể làm khác được do quy định.",
+      "example": "I'd like to give you a refund, but my hands are tied by the store's policy.",
+      "context": "I'd like to help you, but my hands are tied.",
+      "week": 8
+    }
+  ]
+}

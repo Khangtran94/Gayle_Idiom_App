@@ -26,7 +26,7 @@ export default function App() {
     const [selectedWeek, setSelectedWeek] = useState(0)
     const [lang, setLang] = useState("both")
     const [mode, setMode] = useState("browse")
-    const [darkMode, setDarkMode] = useState(false)
+    const [darkMode, setDarkMode] = useState(true)
     const [isAdmin, setIsAdmin] = useState(false)
     const [titleClicks, setTitleClicks] = useState(0)
 

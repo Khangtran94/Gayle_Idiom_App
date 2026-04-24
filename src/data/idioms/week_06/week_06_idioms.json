@@ -1,0 +1,141 @@
+{
+  "title": "COMPLAINING AT A RESTAURANT",
+  "conversation": "At Carmen’s Bistro, all is not going well. John complains to Kevin, the waiter, about his overdone steak. Tanya complains that her fish is too rare and that the music is too loud.\n\nKevin: How are we doing?\nJohn: Not very well. I ordered my steak <u><b>medium rare</b></u>, and it’s <u><b>burnt to a crisp</b></u>.\nKevin: I’m sorry about that. I can ask our chef to prepare another one.\nJohn: Okay, please do that.\nKevin: <u><b>You bet</b></u>. And how’s your fish, ma’am?\nTanya: It’s very rare.\nKevin: Would you like me to have the chef put it back in the oven?\nTanya: No, I’ve <u><b>lost my appetite for</b></u> fish.\nKevin: I’d be happy to bring you something else.\nTanya: Okay, let me try the stuffed chicken breast.\n\n(Ten minutes after the waiter has brought the new meals.)\n\nKevin: How are we doing over here?\nTanya: I was wondering if you could <u><b>turn down the music</b></u>. Loud music in restaurants is a <u><b>pet peeve</b></u> of mine.\nKevin: Sure, I’ll take care of that. Can I get you another <u><b>round of drinks</b></u>?\nJohn: No, we’re <u><b>all set</b></u> for now.\n\n(The waiter returns after fifteen minutes.)\n\nKevin: Are you still <u><b>working on</b></u> your meals?\nTanya: I’ll need a <u><b>doggy bag</b></u>.\nJohn: Would you mind <u><b>wrapping this up</b></u>, too?\nKevin: I’ll bring you some containers and you can <u><b>box up</b></u> your <u><b>leftovers</b></u>. <u><b>Can I interest you in dessert?</b></u>\nTanya: I’m <u><b>stuffed</b></u>.\nJohn: Could you please bring the check?",
+  "idioms": [
+    {
+      "id": "w06_01",
+      "idiom": "medium rare",
+      "meaning_en": "meat cooked so that it is still red and warm in the middle",
+      "meaning_vi": "tái vừa",
+      "example": "I'd like my steak medium rare, please.",
+      "context": "I ordered my steak medium rare, and it’s burnt to a crisp.",
+      "week": 6
+    },
+    {
+      "id": "w06_02",
+      "idiom": "burnt to a crisp",
+      "meaning_en": "extremely overcooked or burned",
+      "meaning_vi": "cháy đen, cháy thành than",
+      "example": "The toast was left in the toaster too long and was burnt to a crisp.",
+      "context": "I ordered my steak medium rare, and it’s burnt to a crisp.",
+      "week": 6
+    },
+    {
+      "id": "w06_03",
+      "idiom": "You bet",
+      "meaning_en": "certainly; you're welcome; used to express agreement or to say yes",
+      "meaning_vi": "chắc chắn rồi, không có gì",
+      "example": "\"Can you help me with this?\" \"You bet!\"",
+      "context": "Kevin: You bet. And how’s your fish, ma’am?",
+      "week": 6
+    },
+    {
+      "id": "w06_04",
+      "idiom": "lost my appetite",
+      "meaning_en": "to no longer feel hungry, especially because of something unpleasant",
+      "meaning_vi": "mất cảm giác ngon miệng",
+      "example": "After seeing a fly in the soup, I completely lost my appetite.",
+      "context": "No, I’ve lost my appetite for fish.",
+      "week": 6
+    },
+    {
+      "id": "w06_05",
+      "idiom": "turn down",
+      "meaning_en": "to reduce the volume, heat, or intensity of something",
+      "meaning_vi": "vặn nhỏ lại, giảm âm lượng",
+      "example": "Could you please turn down the radio? It's too loud.",
+      "context": "I was wondering if you could turn down the music.",
+      "week": 6
+    },
+    {
+      "id": "w06_06",
+      "idiom": "pet peeve",
+      "meaning_en": "something that a particular person finds especially annoying",
+      "meaning_vi": "điều gây khó chịu hoặc phiền toái cá nhân",
+      "example": "One of my pet peeves is people who chew with their mouths open.",
+      "context": "Loud music in restaurants is a pet peeve of mine.",
+      "week": 6
+    },
+    {
+      "id": "w06_07",
+      "idiom": "round of drinks",
+      "meaning_en": "a set of drinks served to everyone in a group at one time",
+      "meaning_vi": "một lượt đồ uống cho cả bàn",
+      "example": "The host ordered a round of drinks for everyone at the table.",
+      "context": "Can I get you another round of drinks?",
+      "week": 6
+    },
+    {
+      "id": "w06_08",
+      "idiom": "all set",
+      "meaning_en": "to be finished, ready, or having everything that is needed",
+      "meaning_vi": "xong rồi, chuẩn bị xong, đủ rồi",
+      "example": "I don't need any more help, I'm all set.",
+      "context": "No, we’re all set for now.",
+      "week": 6
+    },
+    {
+      "id": "w06_09",
+      "idiom": "working on",
+      "meaning_en": "in the process of eating or doing something",
+      "meaning_vi": "vẫn đang dùng, vẫn đang ăn",
+      "example": "Are you still working on that salad, or can I take the plate?",
+      "context": "Are you still working on your meals?",
+      "week": 6
+    },
+    {
+      "id": "w06_10",
+      "idiom": "doggy bag",
+      "meaning_en": "a container or bag used to take home leftover food from a restaurant",
+      "meaning_vi": "túi/hộp đựng thức ăn thừa mang về",
+      "example": "The portions were huge, so I asked for a doggy bag.",
+      "context": "I’ll need a doggy bag.",
+      "week": 6
+    },
+    {
+      "id": "w06_11",
+      "idiom": "wrapping this up",
+      "meaning_en": "to pack food to take away; to finish something",
+      "meaning_vi": "gói đồ lại mang về",
+      "example": "Since we can't finish the pizza, could you wrap it up for us?",
+      "context": "Would you mind wrapping this up, too?",
+      "week": 6
+    },
+    {
+      "id": "w06_12",
+      "idiom": "box up",
+      "meaning_en": "to put something (usually food) into a box or container",
+      "meaning_vi": "đóng hộp (đồ ăn)",
+      "example": "I'll box up the rest of the cake so you can take it home.",
+      "context": "I’ll bring you some containers and you can box up your leftovers.",
+      "week": 6
+    },
+    {
+      "id": "w06_13",
+      "idiom": "leftovers",
+      "meaning_en": "food that remains uneaten at the end of a meal",
+      "meaning_vi": "thức ăn thừa",
+      "example": "We had pizza leftovers for breakfast the next morning.",
+      "context": "I’ll bring you some containers and you can box up your leftovers.",
+      "week": 6
+    },
+    {
+      "id": "w06_14",
+      "idiom": "Can I interest you in...?",
+      "meaning_en": "a polite way to offer something to someone",
+      "meaning_vi": "Tôi có thể mời bạn dùng... không?",
+      "example": "Can I interest you in a cup of coffee after dinner?",
+      "context": "Can I interest you in dessert?",
+      "week": 6
+    },
+    {
+      "id": "w06_15",
+      "idiom": "stuffed",
+      "meaning_en": "feeling very full after eating a lot of food",
+      "meaning_vi": "no căng, no ứ hự",
+      "example": "I've eaten so much turkey that I'm absolutely stuffed.",
+      "context": "Tanya: I’m stuffed.",
+      "week": 6
+    }
+  ]
+}

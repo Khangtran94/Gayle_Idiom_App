@@ -1,0 +1,123 @@
+{
+  "title": "Visiting the Doctor",
+  "conversation": "Doctor: Hi, I’m Dr. Wilson. <u><b>What seems to be the trouble?</b></u>\nGrace: I’ve been <u><b>under the weather</b></u> for days.\nDoctor: The flu is <u><b>going around</b></u>. Did you get the vaccine?\nGrace: No, this year I didn’t <u><b>get around to it</b></u>.\nDoctor: What are your symptoms?\nGrace: I’ve had a <u><b>splitting headache</b></u> since yesterday morning. My whole body hurts.\nDoctor: You have all the <u><b>telltale signs</b></u> of the flu. Let me take your temperature . . . 101. That’s <u><b>on the high side</b></u>.\nGrace: My throat hurts, too.\nDoctor: Let me <u><b>take a peek</b></u>. Yes, your throat is very red. It looks like a <u><b>garden-variety</b></u> flu.\nGrace: Are you going to prescribe some medicine for it?\nDoctor: You can take Tylenol for your headache. Also, be sure to get plenty of rest and drink lots of water.\nGrace: How long do you think this is going to <u><b>drag on</b></u>?\nDoctor: You should be <u><b>back on your feet</b></u> in a week or so.\nGrace: I have to get better quickly. I’m needed at the office.\nDoctor: Well, there’s <u><b>no magic bullet</b></u>. You’re going to have to let this <u><b>run its course</b></u>.",
+  "idioms": [
+    {
+      "id": "w10_01",
+      "idiom": "What seems to be the trouble?",
+      "meaning_en": "a phrase used to ask what is wrong or what medical problem someone has",
+      "meaning_vi": "Có chuyện gì vậy? (câu hỏi về tình trạng bệnh lý)",
+      "example": "The doctor entered the room and asked, 'What seems to be the trouble?'",
+      "context": "Doctor: Hi, I’m Dr. Wilson. What seems to be the trouble?",
+      "week": 10
+    },
+    {
+      "id": "w10_02",
+      "idiom": "under the weather",
+      "meaning_en": "feeling sick or not well",
+      "meaning_vi": "cảm thấy không khỏe, bị ốm",
+      "example": "I'm feeling a bit under the weather, so I'm going to stay home today.",
+      "context": "Grace: I’ve been under the weather for days.",
+      "week": 10
+    },
+    {
+      "id": "w10_03",
+      "idiom": "going around",
+      "meaning_en": "spreading from person to person (usually referring to an illness)",
+      "meaning_vi": "đang lây lan, đang có dịch",
+      "example": "There is a nasty stomach bug going around the school.",
+      "context": "Doctor: The flu is going around.",
+      "week": 10
+    },
+    {
+      "id": "w10_04",
+      "idiom": "get around to it",
+      "meaning_en": "to find the time to do something that has been intended for a while",
+      "meaning_vi": "có thời gian/thu xếp được thời gian để làm việc gì đó",
+      "example": "I meant to fix the sink, but I never got around to it.",
+      "context": "Grace: No, this year I didn’t get around to it.",
+      "week": 10
+    },
+    {
+      "id": "w10_05",
+      "idiom": "splitting headache",
+      "meaning_en": "a very severe or intense headache",
+      "meaning_vi": "đau đầu như búa đổ",
+      "example": "Turn down the music; I have a splitting headache.",
+      "context": "Grace: I’ve had a splitting headache since yesterday morning.",
+      "week": 10
+    },
+    {
+      "id": "w10_06",
+      "idiom": "telltale signs",
+      "meaning_en": "obvious signs that reveal the truth about a situation",
+      "meaning_vi": "dấu hiệu rõ rệt, dấu hiệu cho biết điều gì đó",
+      "example": "Weight loss and fatigue are telltale signs of the illness.",
+      "context": "Doctor: You have all the telltale signs of the flu.",
+      "week": 10
+    },
+    {
+      "id": "w10_07",
+      "idiom": "on the high side",
+      "meaning_en": "slightly higher than what is considered normal or average",
+      "meaning_vi": "hơi cao so với mức bình thường",
+      "example": "The price for the car is a bit on the high side.",
+      "context": "That’s on the high side.",
+      "week": 10
+    },
+    {
+      "id": "w10_08",
+      "idiom": "take a peek",
+      "meaning_en": "to look at something quickly or secretly",
+      "meaning_vi": "nhìn lướt qua, xem qua",
+      "example": "Let me take a peek at your notes before the exam starts.",
+      "context": "Doctor: Let me take a peek.",
+      "week": 10
+    },
+    {
+      "id": "w10_09",
+      "idiom": "garden-variety",
+      "meaning_en": "ordinary or common; not special",
+      "meaning_vi": "loại thường, không có gì đặc biệt",
+      "example": "It wasn't a rare disease, just a garden-variety cold.",
+      "context": "It looks like a garden-variety flu.",
+      "week": 10
+    },
+    {
+      "id": "w10_10",
+      "idiom": "drag on",
+      "meaning_en": "to continue for a long time in a boring or unpleasant way",
+      "meaning_vi": "kéo dài lê thê, kéo dài không dứt",
+      "example": "The meeting dragged on for three hours.",
+      "context": "Grace: How long do you think this is going to drag on?",
+      "week": 10
+    },
+    {
+      "id": "w10_11",
+      "idiom": "back on your feet",
+      "meaning_en": "recovered from an illness or problem and able to live normally again",
+      "meaning_vi": "hồi phục, khỏe lại (sau khi ốm)",
+      "example": "We hope to see you back on your feet soon.",
+      "context": "Doctor: You should be back on your feet in a week or so.",
+      "week": 10
+    },
+    {
+      "id": "w10_12",
+      "idiom": "no magic bullet",
+      "meaning_en": "no simple solution or quick cure for a difficult problem",
+      "meaning_vi": "không có phương thuốc thần kì/giải pháp tức thời",
+      "example": "There is no magic bullet for weight loss; it takes exercise and diet.",
+      "context": "Doctor: Well, there’s no magic bullet.",
+      "week": 10
+    },
+    {
+      "id": "w10_13",
+      "idiom": "run its course",
+      "meaning_en": "to develop and finish naturally",
+      "meaning_vi": "phát triển và kết thúc một cách tự nhiên (để bệnh tự khỏi)",
+      "example": "There's no medicine for this virus; you just have to let it run its course.",
+      "context": "You’re going to have to let this run its course.",
+      "week": 10
+    }
+  ]
+}

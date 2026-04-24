@@ -1,0 +1,159 @@
+{
+  "title": "BUYING A SERVICE PLAN",
+  "conversation": "Tom: Hi, I'm <u><b>in the market for</b></u> a new cell phone plan.\nMike: Do you have a plan now?\nTom: Yes, with MobileOne. But it's about to expire.\nMike: You're not happy with them?\nTom: No, I'm not. Their service is terrible. My calls are always <u><b>breaking up</b></u>.\nMike: Cellular Star's service is <u><b>first rate</b></u>. You'll get great reception. What are you looking for in a plan?\nTom: I need 400 minutes a month for daytime calls. I'd like unlimited night and weekend calling.\nMike: What about call forwarding, voice mail, and text messaging?\nTom: I don't need any of those <u><b>bells and whistles</b></u>.\nMike: The Choice 450 is our <u><b>no-frills</b></u> plan. That'll <u><b>run you</b></u> $39.99 a month, plus tax.\nTom: That doesn't include long-distance calls, does it?\nMike: Yes, it does.\nTom: So it's $39.99 a month, plus tax.\nMike: Yes, and there's a <u><b>one-time fee</b></u> of $35. That's for <u><b>setting up</b></u> the account.\nTom: Any <u><b>hidden fees</b></u>?\nMike: No. Of course, you'll want to read <u><b>the fine print</b></u> of your contract.\nTom: Right. I don't want <u><b>to get stuck with</b></u> a plan that only lets me make long-distance calls between midnight and 3 a.m.\nMike: Did I mention that if you sign up for this plan by Friday, we'll <u><b>throw in</b></u> a free phone?\nTom: I <u><b>could use</b></u> a new phone.\nMike: It's a great offer, with <u><b>no strings attached</b></u>. <u><b>All set to</b></u> sign up?\nTom: Before I <u><b>sign on the dotted line</b></u>, I'd better make sure I know what I'm <u><b>getting into</b></u>.",
+  "idioms": [
+    {
+      "id": "w04_01",
+      "idiom": "in the market for",
+      "meaning_en": "Interested in purchasing or acquiring something",
+      "meaning_vi": "có nhu cầu mua cái gì đó",
+      "example": "I'm in the market for a new laptop since my old one broke.",
+      "context": "Hi, I'm in the market for a new cell phone plan.",
+      "week": 4
+    },
+    {
+      "id": "w04_02",
+      "idiom": "breaking up",
+      "meaning_en": "When a telephone signal is being interrupted so that the caller's voice is not clear",
+      "meaning_vi": "tín hiệu bị chập chờn, nghe không rõ",
+      "example": "Can you hear me? You're breaking up because the signal is weak.",
+      "context": "My calls are always breaking up.",
+      "week": 4
+    },
+    {
+      "id": "w04_03",
+      "idiom": "first rate",
+      "meaning_en": "Of the highest quality; excellent",
+      "meaning_vi": "chất lượng hàng đầu, tuyệt vời",
+      "example": "The service at this hotel is absolutely first rate.",
+      "context": "Cellular Star's service is first rate.",
+      "week": 4
+    },
+    {
+      "id": "w04_04",
+      "idiom": "bells and whistles",
+      "meaning_en": "Extra features added to a product to make it more attractive, though not essential",
+      "meaning_vi": "những tính năng phụ trợ hào nhoáng (không quá cần thiết)",
+      "example": "I just want a simple phone without all the expensive bells and whistles.",
+      "context": "I don't need any of those bells and whistles.",
+      "week": 4
+    },
+    {
+      "id": "w04_05",
+      "idiom": "no-frills",
+      "meaning_en": "Providing only the basic essentials; without extra features",
+      "meaning_vi": "dịch vụ cơ bản, không có tiện ích dư thừa",
+      "example": "We stayed at a no-frills hotel to save money on our trip.",
+      "context": "The Choice 450 is our no-frills plan.",
+      "week": 4
+    },
+    {
+      "id": "w04_06",
+      "idiom": "run you",
+      "meaning_en": "To cost someone a specific amount of money",
+      "meaning_vi": "tiêu tốn của bạn (bao nhiêu tiền)",
+      "example": "A new engine for that car will run you about two thousand dollars.",
+      "context": "That'll run you $39.99 a month, plus tax.",
+      "week": 4
+    },
+    {
+      "id": "w04_07",
+      "idiom": "one-time fee",
+      "meaning_en": "A charge that is paid only once",
+      "meaning_vi": "phí đóng một lần duy nhất",
+      "example": "There is a small one-time fee to join the club.",
+      "context": "Yes, and there's a one-time fee of $35.",
+      "week": 4
+    },
+    {
+      "id": "w04_08",
+      "idiom": "setting up",
+      "meaning_en": "The process of establishing or starting something",
+      "meaning_vi": "thiết lập, cài đặt",
+      "example": "He spent the whole afternoon setting up his new computer.",
+      "context": "That's for setting up the account.",
+      "week": 4
+    },
+    {
+      "id": "w04_09",
+      "idiom": "hidden fees",
+      "meaning_en": "Expenses that are not clearly stated or apparent at the start",
+      "meaning_vi": "các loại phí ẩn, chi phí ngầm",
+      "example": "Make sure to check the contract for any hidden fees before signing.",
+      "context": "Any hidden fees?",
+      "week": 4
+    },
+    {
+      "id": "w04_10",
+      "idiom": "the fine print",
+      "meaning_en": "Important details of a legal document that are written in small heavy-to-read text",
+      "meaning_vi": "điều khoản in chữ nhỏ (thường chứa thông tin quan trọng/bất lợi)",
+      "example": "Always read the fine print before you sign a loan agreement.",
+      "context": "Of course, you'll want to read the fine print of your contract.",
+      "week": 4
+    },
+    {
+      "id": "w04_11",
+      "idiom": "to get stuck with",
+      "meaning_en": "To be forced to deal with someone or something unpleasant",
+      "meaning_vi": "bị mắc kẹt với, phải chịu đựng (điều gì đó không mong muốn)",
+      "example": "I got stuck with the bill because my friends forgot their wallets.",
+      "context": "I don't want to get stuck with a plan that only lets me make long-distance calls between midnight and 3 a.m.",
+      "week": 4
+    },
+    {
+      "id": "w04_12",
+      "idiom": "throw in",
+      "meaning_en": "To include something extra in a deal for free",
+      "meaning_vi": "tặng kèm, đưa thêm vào (miễn phí)",
+      "example": "If you buy the sofa today, we'll throw in two matching cushions.",
+      "context": "Did I mention that if you sign up for this plan by Friday, we'll throw in a free phone?",
+      "week": 4
+    },
+    {
+      "id": "w04_13",
+      "idiom": "could use",
+      "meaning_en": "To need or benefit from something",
+      "meaning_vi": "cần hoặc có thể tận dụng điều gì đó",
+      "example": "I'm exhausted; I could use a cup of strong coffee.",
+      "context": "I could use a new phone.",
+      "week": 4
+    },
+    {
+      "id": "w04_14",
+      "idiom": "no strings attached",
+      "meaning_en": "Without any special conditions, restrictions, or hidden requirements",
+      "meaning_vi": "không có điều kiện ràng buộc, không kèm theo yêu cầu gì",
+      "example": "They offered me a free trial with no strings attached.",
+      "context": "It's a great offer, with no strings attached.",
+      "week": 4
+    },
+    {
+      "id": "w04_15",
+      "idiom": "All set to",
+      "meaning_en": "Completely ready to do something",
+      "meaning_vi": "đã sẵn sàng để làm gì đó",
+      "example": "Are you all set to leave for the airport?",
+      "context": "All set to sign up?",
+      "week": 4
+    },
+    {
+      "id": "w04_16",
+      "idiom": "sign on the dotted line",
+      "meaning_en": "To sign a formal contract or agreement",
+      "meaning_vi": "ký tên vào hợp đồng chính thức",
+      "example": "Once you sign on the dotted line, the house is officially yours.",
+      "context": "Before I sign on the dotted line, I'd better make sure I know what I'm getting into.",
+      "week": 4
+    },
+    {
+      "id": "w04_17",
+      "idiom": "getting into",
+      "meaning_en": "Becoming involved in a situation, often a complex or difficult one",
+      "meaning_vi": "tham gia vào, vướng vào (tình huống hoặc thỏa thuận)",
+      "example": "He didn't realize how much work he was getting into when he volunteered.",
+      "context": "I'd better make sure I know what I'm getting into.",
+      "week": 4
+    }
+  ]
+}

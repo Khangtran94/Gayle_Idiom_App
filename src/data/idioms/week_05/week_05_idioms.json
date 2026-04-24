@@ -1,0 +1,150 @@
+{
+  "title": "Ordering at a Restaurant",
+  "conversation": "Tanya: I hope the waiter comes soon. <u><b>I'm starving</b></u>!\nJohn: Me too!\nTanya: Why don't we <u><b>flag him down</b></u>?\nJohn: Waiter, waiter!\nKevin: <u><b>I'll be right with you</b></u>! . . . Sorry for the <u><b>hold up</b></u>. We're <u><b>packed to the rafters</b></u> tonight.\nJohn: We noticed!\nKevin: I'm Kevin, and I'll be your server tonight. <u><b>Can I start you off with</b></u> some drinks?\nJohn: I'd like the Sam Adams Summer Ale.\nTanya: <u><b>Make it two</b></u>.\nKevin: And did you <u><b>decide on</b></u> some appetizers?\nJohn: We're going <u><b>to skip</b></u> the appetizers tonight. What do you recommend for a main course?\nKevin: We're <u><b>known for</b></u> our seafood. The salmon with black bean sauce is our most popular dish.\nTanya: Okay, I'll try that.\nKevin: Excellent choice. And for you, sir?\nJohn: I'm having trouble deciding. I'm <u><b>in the mood for</b></u> steak, but I know you <u><b>pride yourselves on</b></u> your seafood.\nKevin: How about trying the <u><b>surf and turf</b></u>? That way, you get <u><b>the best of both worlds</b></u>!\nJohn: Okay, <u><b>let's go with that</b></u>.\nKevin: I'll be right back with your drinks. They're <u><b>on the house</b></u> because you had to wait so long to order.",
+  "idioms": [
+    {
+      "id": "w05_01",
+      "idiom": "I'm starving",
+      "meaning_en": "extremely hungry",
+      "meaning_vi": "đang rất đói",
+      "example": "I haven't eaten all day, so I'm starving.",
+      "context": "I hope the waiter comes soon. I'm starving!",
+      "week": 5
+    },
+    {
+      "id": "w05_02",
+      "idiom": "flag him down",
+      "meaning_en": "to signal to someone to stop",
+      "meaning_vi": "vẫy tay ra hiệu cho ai đó dừng lại",
+      "example": "We need to flag down a taxi if we want to get to the airport on time.",
+      "context": "Why don't we flag him down?",
+      "week": 5
+    },
+    {
+      "id": "w05_03",
+      "idiom": "I'll be right with you",
+      "meaning_en": "I will help or serve you in a moment",
+      "meaning_vi": "Tôi sẽ phục vụ/hỗ trợ bạn ngay đây",
+      "example": "Finish your phone call, and I'll be right with you to help with those bags.",
+      "context": "I'll be right with you!",
+      "week": 5
+    },
+    {
+      "id": "w05_04",
+      "idiom": "hold up",
+      "meaning_en": "a delay",
+      "meaning_vi": "sự trì hoãn, chậm trễ",
+      "example": "There was a major hold up on the highway due to an accident.",
+      "context": "Sorry for the hold up.",
+      "week": 5
+    },
+    {
+      "id": "w05_05",
+      "idiom": "packed to the rafters",
+      "meaning_en": "extremely crowded; full to capacity",
+      "meaning_vi": "chật kín người, không còn chỗ trống",
+      "example": "The stadium was packed to the rafters for the final game of the season.",
+      "context": "We're packed to the rafters tonight.",
+      "week": 5
+    },
+    {
+      "id": "w05_06",
+      "idiom": "Can I start you off with",
+      "meaning_en": "a phrase used by servers to ask for an initial order (usually drinks or appetizers)",
+      "meaning_vi": "Tôi có thể bắt đầu phục vụ bạn món... không?",
+      "example": "Can I start you off with some fresh bread and water?",
+      "context": "Can I start you off with some drinks?",
+      "week": 5
+    },
+    {
+      "id": "w05_07",
+      "idiom": "Make it two",
+      "meaning_en": "I would like the same thing as the person who just ordered",
+      "meaning_vi": "Cho tôi hai phần giống vậy (hoặc cho tôi phần giống người vừa gọi)",
+      "example": "If he's having the chocolate cake, make it two!",
+      "context": "Make it two.",
+      "week": 5
+    },
+    {
+      "id": "w05_08",
+      "idiom": "decide on",
+      "meaning_en": "to choose something after thinking about several possibilities",
+      "meaning_vi": "quyết định chọn cái gì",
+      "example": "It took a while, but we finally decided on the blue paint for the kitchen.",
+      "context": "And did you decide on some appetizers?",
+      "week": 5
+    },
+    {
+      "id": "w05_09",
+      "idiom": "to skip",
+      "meaning_en": "to not do or have something that you usually do or that you should do",
+      "meaning_vi": "bỏ qua, không dùng",
+      "example": "I think I'll skip dessert today; I'm too full.",
+      "context": "We're going to skip the appetizers tonight.",
+      "week": 5
+    },
+    {
+      "id": "w05_10",
+      "idiom": "known for",
+      "meaning_en": "famous or recognized for a specific quality or achievement",
+      "meaning_vi": "nổi tiếng về điều gì",
+      "example": "This region is known for its beautiful vineyards.",
+      "context": "We're known for our seafood.",
+      "week": 5
+    },
+    {
+      "id": "w05_11",
+      "idiom": "in the mood for",
+      "meaning_en": "feeling like doing or having something specific",
+      "meaning_vi": "đang muốn/có hứng thú với cái gì",
+      "example": "Are you in the mood for Italian food tonight?",
+      "context": "I'm in the mood for steak, but I know you pride yourselves on your seafood.",
+      "week": 5
+    },
+    {
+      "id": "w05_12",
+      "idiom": "pride yourselves on",
+      "meaning_en": "to be proud of a particular quality or skill that you have",
+      "meaning_vi": "tự hào về điều gì đó của bản thân/cửa hàng mình",
+      "example": "They pride themselves on their excellent customer service.",
+      "context": "I know you pride yourselves on your seafood.",
+      "week": 5
+    },
+    {
+      "id": "w05_13",
+      "idiom": "surf and turf",
+      "meaning_en": "a main course that combines seafood (surf) and meat, usually beef (turf)",
+      "meaning_vi": "món ăn kết hợp hải sản và thịt đỏ",
+      "example": "I couldn't decide between lobster and steak, so I ordered the surf and turf.",
+      "context": "How about trying the surf and turf?",
+      "week": 5
+    },
+    {
+      "id": "w05_14",
+      "idiom": "the best of both worlds",
+      "meaning_en": "a situation where you can enjoy the advantages of two very different things at the same time",
+      "meaning_vi": "vẹn cả đôi đường, tốt cả hai mặt",
+      "example": "Living in the suburbs gives her the best of both worlds: peace and quiet, but close to the city.",
+      "context": "That way, you get the best of both worlds!",
+      "week": 5
+    },
+    {
+      "id": "w05_15",
+      "idiom": "let's go with that",
+      "meaning_en": "let's choose that option or make that decision",
+      "meaning_vi": "hãy chọn cái đó, chốt phương án đó",
+      "example": "The red dress looks better on you, let's go with that.",
+      "context": "Okay, let's go with that.",
+      "week": 5
+    },
+    {
+      "id": "w05_16",
+      "idiom": "on the house",
+      "meaning_en": "given for free by a business (like a restaurant or bar)",
+      "meaning_vi": "miễn phí (do cửa hàng mời/đãi)",
+      "example": "The manager said the drinks are on the house since it's our anniversary.",
+      "context": "They're on the house because you had to wait so long to order.",
+      "week": 5
+    }
+  ]
+}

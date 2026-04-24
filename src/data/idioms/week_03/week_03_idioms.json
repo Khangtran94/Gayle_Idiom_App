@@ -1,0 +1,150 @@
+{
+  "title": "NEGOTIATING A PURCHASE",
+  "conversation": "Max is shopping for a used car. He goes to see Jim who's selling his used Honda. After a test drive, Max negotiates with Jim and gets him to reduce the price by $800.\n\nJim: Hello. Jim Harris speaking.\nMax: Hello, Jim. My name is Max Taylor. I'm shopping for a used car, and I saw your ad for a 2008 Honda Civic.\nJim: The car is still available, but I'm getting lots of calls for it.\nMax: How about if I <u><b>swing by</b></u> at 5:30?\nJim: Okay. I'm on 433 Main Avenue, across the street from Arroyo High School.\n(Max comes over to Jim's house.)\nMax: Hi, I'm Max. I'm here to see the car.\nJim: Good to meet you, Max. I'm Jim. Would you like to <u><b>take a test drive</b></u>?\nMax: Yes, thanks. <u><b>The last thing I need</b></u> is another <u><b>lemon</b></u>!\nJim: You don't have to worry about that. This is a great car.\n(They return from the drive.)\nMax: It does drive well.\nJim: And it's <u><b>in mint condition</b></u>!\nMax: You're asking $8000 for it?\nJim: Yes, it's <u><b>a steal</b></u>.\nMax: It's a nice car, but it's a two-door car and I was hoping to buy a four-door.\nJim: A car like this is going to sell quickly. I'd hate for you to <u><b>miss out</b></u>.\nMax: I'll give you $7,000.\nJim: Let's <u><b>split the difference</b></u>. If you can make it $7,500, <u><b>you've got a deal</b></u>.\nMax: I'd like to <u><b>sleep on it</b></u>. Can I <u><b>give you a ring</b></u> in the morning?\nJim: I'd like to <u><b>reach an agreement</b></u> now. How about $7,300?\nMax: Would you take $7,200?\nJim: I don't want to <u><b>haggle</b></u>.\nMax: I'm sorry to <u><b>nickel and dime</b></u> you, but <u><b>money is tight</b></u> for me right now.\nJim: Okay, let's <u><b>close the deal</b></u>. I'll take $7,200.",
+  "idioms": [
+    {
+      "id": "w03_01",
+      "idiom": "swing by",
+      "meaning_en": "to visit a place briefly on your way to somewhere else",
+      "meaning_vi": "ghé qua nhanh",
+      "example": "I'll swing by your office this afternoon to pick up the documents.",
+      "context": "How about if I swing by at 5:30?",
+      "week": 3
+    },
+    {
+      "id": "w03_02",
+      "idiom": "take a test drive",
+      "meaning_en": "to drive a motor vehicle to test its condition before buying it",
+      "meaning_vi": "lái thử xe",
+      "example": "Always take a test drive before you sign any car purchase papers.",
+      "context": "Would you like to take a test drive?",
+      "week": 3
+    },
+    {
+      "id": "w03_03",
+      "idiom": "The last thing I need",
+      "meaning_en": "something that you do not want at all",
+      "meaning_vi": "điều cuối cùng tôi muốn (điều tôi thực sự không muốn)",
+      "example": "The last thing I need right now is more work.",
+      "context": "The last thing I need is another lemon!",
+      "week": 3
+    },
+    {
+      "id": "w03_04",
+      "idiom": "lemon",
+      "meaning_en": "a vehicle that turns out to have many defects or doesn't work properly",
+      "meaning_vi": "chiếc xe bị lỗi, xe rác (không đáng tiền)",
+      "example": "I realized the car was a lemon when the engine failed after just one week.",
+      "context": "The last thing I need is another lemon!",
+      "week": 3
+    },
+    {
+      "id": "w03_05",
+      "idiom": "in mint condition",
+      "meaning_en": "in perfect condition, as if new",
+      "meaning_vi": "trong tình trạng hoàn hảo, như mới",
+      "example": "He keeps his old comic book collection in mint condition.",
+      "context": "And it's in mint condition!",
+      "week": 3
+    },
+    {
+      "id": "w03_06",
+      "idiom": "a steal",
+      "meaning_en": "a bargain; something bought at a very low price",
+      "meaning_vi": "một món hời (giá rất rẻ)",
+      "example": "At only twenty dollars, this designer jacket is a steal.",
+      "context": "Yes, it's a steal.",
+      "week": 3
+    },
+    {
+      "id": "w03_07",
+      "idiom": "miss out",
+      "meaning_en": "to fail to use an opportunity to enjoy or get something",
+      "meaning_vi": "bỏ lỡ cơ hội",
+      "example": "Don't miss out on the early-bird discount; book your tickets now.",
+      "context": "I'd hate for you to miss out.",
+      "week": 3
+    },
+    {
+      "id": "w03_08",
+      "idiom": "split the difference",
+      "meaning_en": "to agree on an amount halfway between two proposed amounts",
+      "meaning_vi": "chia đôi phần chênh lệch (lấy mức giá ở giữa)",
+      "example": "You want $100 and I want $80, so let's split the difference and say $90.",
+      "context": "Let's split the difference.",
+      "week": 3
+    },
+    {
+      "id": "w03_09",
+      "idiom": "you've got a deal",
+      "meaning_en": "I accept your offer or proposal",
+      "meaning_vi": "chốt đơn, đồng ý thỏa thuận",
+      "example": "If you can finish the project by Friday, you've got a deal.",
+      "context": "If you can make it $7,500, you've got a deal.",
+      "week": 3
+    },
+    {
+      "id": "w03_10",
+      "idiom": "sleep on it",
+      "meaning_en": "to wait until the next day before making a decision",
+      "meaning_vi": "suy nghĩ thêm qua đêm",
+      "example": "I'm not sure about the job offer yet; I need to sleep on it.",
+      "context": "I'd like to sleep on it.",
+      "week": 3
+    },
+    {
+      "id": "w03_11",
+      "idiom": "give you a ring",
+      "meaning_en": "to call someone on the telephone",
+      "meaning_vi": "gọi điện thoại cho bạn",
+      "example": "I'll give you a ring when I arrive at the airport.",
+      "context": "Can I give you a ring in the morning?",
+      "week": 3
+    },
+    {
+      "id": "w03_12",
+      "idiom": "reach an agreement",
+      "meaning_en": "to arrive at a mutual decision or settle a deal",
+      "meaning_vi": "đạt được thỏa thuận",
+      "example": "After hours of negotiation, both sides finally reached an agreement.",
+      "context": "I'd like to reach an agreement now.",
+      "week": 3
+    },
+    {
+      "id": "w03_13",
+      "idiom": "haggle",
+      "meaning_en": "to argue or bargain over the price of something",
+      "meaning_vi": "mặc cả, trả giá",
+      "example": "In many street markets, it's expected that customers will haggle.",
+      "context": "I don't want to haggle.",
+      "week": 3
+    },
+    {
+      "id": "w03_14",
+      "idiom": "nickel and dime",
+      "meaning_en": "to argue or bother about small amounts of money",
+      "meaning_vi": "kèo nèo, chi li từng đồng",
+      "example": "The airline will nickel and dime you for every little thing, from bags to water.",
+      "context": "I'm sorry to nickel and dime you, but money is tight for me right now.",
+      "week": 3
+    },
+    {
+      "id": "w03_15",
+      "idiom": "money is tight",
+      "meaning_en": "having very little money; experiencing financial difficulty",
+      "meaning_vi": "tiền bạc eo hẹp, đang kẹt tiền",
+      "example": "Money is tight this month, so we can't afford to go out for dinner.",
+      "context": "I'm sorry to nickel and dime you, but money is tight for me right now.",
+      "week": 3
+    },
+    {
+      "id": "w03_16",
+      "idiom": "close the deal",
+      "meaning_en": "to finalize a business transaction or agreement",
+      "meaning_vi": "chốt giao dịch, hoàn tất thỏa thuận",
+      "example": "The salesman was happy to finally close the deal and sign the contract.",
+      "context": "Okay, let's close the deal.",
+      "week": 3
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "title": "RENTING A CAR",
+  "conversation": "Peter talks to Sam at the rental car counter about renting a car. Sam tells Peter about a special offer they're having and helps him understand how the rental fees work.\n\nSam: Hello. How can I help you?\nPeter: I'd like to rent a car for the weekend.\nSam: What size do you <u><b>have in mind</b></u>?\nPeter: I'd like your cheapest car, so I guess that would be a compact.\nSam: We're <u><b>running a special</b></u> right now. You can rent a mid-size car for the same price as a compact. It's $55 a day <u><b>inclusive of</b></u> tax, plus insurance. It's such a great deal!\nPeter: Okay, I'll take it.\nSam: All right. Let me just print out the agreement. . . Here you go, <u><b>read that over</b></u>, please.\nPeter: I <u><b>can't make heads or tails of</b></u> this information. Do I really need insurance? I already have a good auto insurance plan.\nSam: Then you're probably <u><b>all set</b></u>. I do recommend the collision damage waiver.* It's only $10 a day. That way, if you <u><b>bang up</b></u> the car, you won't owe us anything.\nPeter: I'm sure I won't have an accident, but I'll take it <u><b>just in case</b></u>.\nSam: Very good. If you don't return the car with a full tank of gas, we charge $9 a gallon to refill it.\nPeter: Nine bucks a gallon? That's so expensive. It's <u><b>highway robbery</b></u>!\nSam: Be sure to return the car by 5 p.m. on Sunday.\nPeter: Five? That's going to be <u><b>cutting it close</b></u>. The conference I'm attending ends at 4:30. What if I get here at 6 on Sunday?\nSam: It'll be another $65.\nPeter: There's no <u><b>grace period</b></u>?\nSam: There's a 29 minute <u><b>grace period</b></u>. So, you could return the car at 5:29 and still be okay.\nPeter: Okay, thanks. You've been such a big help.\nSam: You're very welcome. Here's the key. The car is in space A4. You're <u><b>good to go</b></u>.",
+  "idioms": [
+    {
+      "id": "w18_01",
+      "idiom": "have in mind",
+      "meaning_en": "to be thinking of something or have a plan/idea",
+      "meaning_vi": "đang suy nghĩ về cái gì đó/đang cân nhắc",
+      "example": "What kind of color do you have in mind for the bedroom?",
+      "context": "What size do you have in mind?",
+      "week": 18
+    },
+    {
+      "id": "w18_02",
+      "idiom": "running a special",
+      "meaning_en": "offering a lower price or a special deal for a limited time",
+      "meaning_vi": "đang có chương trình khuyến mãi đặc biệt",
+      "example": "The grocery store is running a special on strawberries this week.",
+      "context": "We're running a special right now.",
+      "week": 18
+    },
+    {
+      "id": "w18_03",
+      "idiom": "inclusive of",
+      "meaning_en": "including everything listed",
+      "meaning_vi": "bao gồm cả",
+      "example": "The price of the hotel room is inclusive of breakfast.",
+      "context": "It's $55 a day inclusive of tax, plus insurance.",
+      "week": 18
+    },
+    {
+      "id": "w18_04",
+      "idiom": "read that over",
+      "meaning_en": "to read something carefully from beginning to end",
+      "meaning_vi": "đọc kỹ lại toàn bộ",
+      "example": "You should read the contract over before you sign it.",
+      "context": "Here you go, read that over, please.",
+      "week": 18
+    },
+    {
+      "id": "w18_05",
+      "idiom": "can't make heads or tails of",
+      "meaning_en": "to be unable to understand something at all",
+      "meaning_vi": "không hiểu đầu đuôi tai nheo gì cả/không hiểu chút nào",
+      "example": "I can't make heads or tails of these assembly instructions.",
+      "context": "I can't make heads or tails of this information.",
+      "week": 18
+    },
+    {
+      "id": "w18_06",
+      "idiom": "all set",
+      "meaning_en": "ready; prepared; finished",
+      "meaning_vi": "đã chuẩn bị xong/sẵn sàng/xong xuôi",
+      "example": "We are all set for our trip to Japan.",
+      "context": "Then you're probably all set.",
+      "week": 18
+    },
+    {
+      "id": "w18_07",
+      "idiom": "bang up",
+      "meaning_en": "to damage something (especially a vehicle) in a minor accident",
+      "meaning_vi": "làm hư hỏng, va quẹt (thường là xe cộ)",
+      "example": "He banged up his car when he hit a pole in the parking lot.",
+      "context": "That way, if you bang up the car, you won't owe us anything.",
+      "week": 18
+    },
+    {
+      "id": "w18_08",
+      "idiom": "just in case",
+      "meaning_en": "to be prepared for a possible future event",
+      "meaning_vi": "để phòng hờ/phòng khi",
+      "example": "Take an umbrella just in case it rains.",
+      "context": "I'm sure I won't have an accident, but I'll take it just in case.",
+      "week": 18
+    },
+    {
+      "id": "w18_09",
+      "idiom": "highway robbery",
+      "meaning_en": "an extremely high price for something",
+      "meaning_vi": "giá quá đắt/đắt cắt cổ (như là ăn cướp)",
+      "example": "Charging $10 for a bottle of water is highway robbery.",
+      "context": "It's highway robbery!",
+      "week": 18
+    },
+    {
+      "id": "w18_10",
+      "idiom": "cutting it close",
+      "meaning_en": "to allow very little time for something to happen",
+      "meaning_vi": "sát nút/suýt soát thời gian",
+      "example": "We're cutting it close; the flight leaves in 30 minutes and we're still in traffic.",
+      "context": "That's going to be cutting it close.",
+      "week": 18
+    },
+    {
+      "id": "w18_11",
+      "idiom": "grace period",
+      "meaning_en": "extra time allowed to do something without penalty",
+      "meaning_vi": "thời gian ân hạn/thời gian gia hạn thêm",
+      "example": "There is a 10-day grace period for paying your rent.",
+      "context": "There's no grace period?",
+      "week": 18
+    },
+    {
+      "id": "w18_12",
+      "idiom": "good to go",
+      "meaning_en": "ready to leave or start something",
+      "meaning_vi": "sẵn sàng để bắt đầu hoặc đi",
+      "example": "Once you sign these papers, you're good to go.",
+      "context": "You're good to go.",
+      "week": 18
+    }
+  ]
+}

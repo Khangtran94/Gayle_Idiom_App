@@ -1,0 +1,123 @@
+{
+  "title": "Visiting the Dentist",
+  "conversation": "Tina visits her dentist, Dr. Li, for a checkup. After taking X-rays, Dr. Li tells Tina she'll need to replace a filling.\nDr. Li: Have your teeth been <u><b>giving you any trouble</b></u> since your last checkup?\nTina: The back molar on the left has been <u><b>killing me</b></u>.\nDr. Li: Let's see here. It looks like the filling is loose.\nTina: Isn't that the same one you replaced last year?\nDr. Li: I'll need to check. I can't remember <u><b>off the top of my head</b></u>.\nTina: Also, one of my top right teeth is a little sensitive.\nDr. Li: Which one?\nTina: This one.\nDr. Li: Okay, I'll take a look. It looks a little discolored. We'll get a set of X-rays today to <u><b>get to the bottom of it</b></u>.\nTina: X-rays? Will that be an <u><b>out-of-pocket</b></u> expense?\nDr. Li: No, you're <u><b>due for</b></u> a set. It'll be <u><b>covered by</b></u> your insurance.\n(Dr. Li takes the X-rays.)\nDr. Li: (looking at X-rays) Let me <u><b>give these a once over</b></u> . . . It looks like we can <u><b>hold off</b></u> on that top tooth.\nTina: It does hurt, but maybe it's just a <u><b>figment of my imagination</b></u>!\nDr. Li: Call us if it keeps <u><b>acting up</b></u>. <u><b>In the meantime</b></u>, we'll need to replace that filling. Please <u><b>make an appointment</b></u> for that.",
+  "idioms": [
+    {
+      "id": "w12_01",
+      "idiom": "give someone trouble",
+      "meaning_en": "To cause pain, difficulty, or problems for someone",
+      "meaning_vi": "gây rắc rối, làm đau hoặc gây khó khăn",
+      "example": "My old back injury has been giving me trouble all week.",
+      "context": "Have your teeth been giving you any trouble since your last checkup?",
+      "week": 12
+    },
+    {
+      "id": "w12_02",
+      "idiom": "killing me",
+      "meaning_en": "To cause extreme pain or discomfort",
+      "meaning_vi": "đau điếng, đau không chịu nổi",
+      "example": "My feet are killing me after standing for eight hours.",
+      "context": "The back molar on the left has been killing me.",
+      "week": 12
+    },
+    {
+      "id": "w12_03",
+      "idiom": "off the top of my head",
+      "meaning_en": "From memory, without checking facts or records",
+      "meaning_vi": "nhớ mang máng, không cần kiểm tra lại",
+      "example": "I can't tell you the price off the top of my head, but I'll look it up.",
+      "context": "I can't remember off the top of my head.",
+      "week": 12
+    },
+    {
+      "id": "w12_04",
+      "idiom": "get to the bottom of it",
+      "meaning_en": "To find the true cause or source of a problem",
+      "meaning_vi": "tìm ra ngọn ngành, tìm hiểu rõ nguyên nhân",
+      "example": "We need to get to the bottom of why the computer keeps crashing.",
+      "context": "We'll get a set of X-rays today to get to the bottom of it.",
+      "week": 12
+    },
+    {
+      "id": "w12_05",
+      "idiom": "out-of-pocket",
+      "meaning_en": "An expense paid with one's own money, often to be reimbursed later",
+      "meaning_vi": "tiền túi, chi phí tự túc",
+      "example": "I had to pay for the hotel out-of-pocket because I lost my company card.",
+      "context": "Will that be an out-of-pocket expense?",
+      "week": 12
+    },
+    {
+      "id": "w12_06",
+      "idiom": "due for",
+      "meaning_en": "Ready for or needing something at a scheduled or expected time",
+      "meaning_vi": "đến lúc phải làm gì, đến kỳ hạn",
+      "example": "Your car is due for an oil change.",
+      "context": "No, you're due for a set.",
+      "week": 12
+    },
+    {
+      "id": "w12_07",
+      "idiom": "covered by",
+      "meaning_en": "To be paid for by insurance or a specific policy",
+      "meaning_vi": "được chi trả bởi, được bảo hiểm chi trả",
+      "example": "Is dental surgery covered by your health insurance?",
+      "context": "It'll be covered by your insurance.",
+      "week": 12
+    },
+    {
+      "id": "w12_08",
+      "idiom": "give something a once over",
+      "meaning_en": "To examine or look at something quickly",
+      "meaning_vi": "kiểm tra sơ bộ, nhìn lướt qua",
+      "example": "Let me give your essay a once over before you turn it in.",
+      "context": "Let me give these a once over . . .",
+      "week": 12
+    },
+    {
+      "id": "w12_09",
+      "idiom": "hold off",
+      "meaning_en": "To delay or wait before doing something",
+      "meaning_vi": "trì hoãn, chờ đợi",
+      "example": "We should hold off on buying the house until the market improves.",
+      "context": "It looks like we can hold off on that top tooth.",
+      "week": 12
+    },
+    {
+      "id": "w12_10",
+      "idiom": "figment of my imagination",
+      "meaning_en": "Something that is not real and exists only in the mind",
+      "meaning_vi": "điều do tưởng tượng ra, không có thật",
+      "example": "The monster under the bed was just a figment of my imagination.",
+      "context": "It does hurt, but maybe it's just a figment of my imagination!",
+      "week": 12
+    },
+    {
+      "id": "w12_11",
+      "idiom": "acting up",
+      "meaning_en": "To function improperly or cause pain again",
+      "meaning_vi": "giở chứng, tái phát đau",
+      "example": "My printer is acting up and won't connect to the Wi-Fi.",
+      "context": "Call us if it keeps acting up.",
+      "week": 12
+    },
+    {
+      "id": "w12_12",
+      "idiom": "in the meantime",
+      "meaning_en": "During the period of time between two events",
+      "meaning_vi": "trong khi chờ đợi, trong lúc đó",
+      "example": "The pizza will be here in 20 minutes; in the meantime, let's watch TV.",
+      "context": "In the meantime, we'll need to replace that filling.",
+      "week": 12
+    },
+    {
+      "id": "w12_13",
+      "idiom": "make an appointment",
+      "meaning_en": "To arrange a specific time and date for a meeting",
+      "meaning_vi": "đặt lịch hẹn",
+      "example": "I need to call the salon to make an appointment for a haircut.",
+      "context": "Please make an appointment for that.",
+      "week": 12
+    }
+  ]
+}

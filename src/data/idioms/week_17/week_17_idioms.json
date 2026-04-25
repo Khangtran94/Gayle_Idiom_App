@@ -1,0 +1,96 @@
+{
+  "title": "DEALING WITH LOST LUGGAGE",
+  "conversation": "Tom: Excuse me, I just arrived on the flight from Atlanta and my suitcase is missing.\nJim: Did you wait until all the bags were unloaded?\nTom: Yes, I did. My suitcase is not there.\nJim: Here’s a card with various suitcases. Which looks most like your piece of luggage?\nTom: It’s like this one, and it’s green.\nJim: Okay, I’ll just have you <u><b>fill out</b></u> this paperwork.\nTom: I had all my clothes for a meeting this afternoon in that bag. Now I’m <u><b>in a bind</b></u>.\nJim: We’ll reimburse you for clothing you buy today for up to $100.\nTom: I’m really <u><b>pressed for time</b></u>. I won’t have time to go shopping for a new suit now!\nJim: Well, we’ll <u><b>do our best</b></u> to <u><b>track down</b></u> your bag as quickly as possible.\nTom: What if my suitcase is lost <u><b>for good</b></u>?\nJim: Baggage usually <u><b>turns up</b></u>, so let’s <u><b>cross that bridge when we come to it</b></u>.\nTom: I’m really <u><b>up the creek</b></u> now. It <u><b>boggles my mind</b></u> how you can just lose someone’s luggage!\nJim: Let me give you a piece of advice. Next time, wear your suit on the plane.\nTom: Thanks for the advice. Next time I think I’ll fly a different airline!",
+  "idioms": [
+    {
+      "id": "w17_01",
+      "idiom": "fill out",
+      "meaning_en": "to complete a form or document by providing information",
+      "meaning_vi": "điền vào, hoàn tất (tờ khai, đơn từ)",
+      "example": "Please fill out the application form and return it to the front desk.",
+      "context": "Okay, I’ll just have you fill out this paperwork.",
+      "week": 17
+    },
+    {
+      "id": "w17_02",
+      "idiom": "in a bind",
+      "meaning_en": "in a difficult or problematic situation",
+      "meaning_vi": "trong tình thế khó khăn, kẹt vào thế bí",
+      "example": "I'm in a bind because I have two meetings scheduled at the same time.",
+      "context": "Now I’m in a bind.",
+      "week": 17
+    },
+    {
+      "id": "w17_03",
+      "idiom": "pressed for time",
+      "meaning_en": "in a hurry; having very little time available",
+      "meaning_vi": "gấp rút, không có nhiều thời gian",
+      "example": "I'd love to stop and talk, but I'm really pressed for time right now.",
+      "context": "I’m really pressed for time.",
+      "week": 17
+    },
+    {
+      "id": "w17_04",
+      "idiom": "do our best",
+      "meaning_en": "to try as hard as possible to achieve something",
+      "meaning_vi": "làm hết sức mình, cố gắng hết mức",
+      "example": "We will do our best to ensure the event is a success.",
+      "context": "Well, we’ll do our best to track down your bag as quickly as possible.",
+      "week": 17
+    },
+    {
+      "id": "w17_05",
+      "idiom": "track down",
+      "meaning_en": "to find someone or something after a thorough search",
+      "meaning_vi": "truy tìm, tìm ra dấu vết",
+      "example": "It took me months to track down a rare copy of that book.",
+      "context": "Well, we’ll do our best to track down your bag as quickly as possible.",
+      "week": 17
+    },
+    {
+      "id": "w17_06",
+      "idiom": "for good",
+      "meaning_en": "permanently; forever",
+      "meaning_vi": "vĩnh viễn, mãi mãi",
+      "example": "After traveling for years, he decided to move back home for good.",
+      "context": "What if my suitcase is lost for good?",
+      "week": 17
+    },
+    {
+      "id": "w17_07",
+      "idiom": "turns up",
+      "meaning_en": "to be found or appear, especially after being lost",
+      "meaning_vi": "xuất hiện, được tìm thấy lại (sau khi thất lạc)",
+      "example": "Don't worry about your keys; they usually turn up in the most obvious places.",
+      "context": "Baggage usually turns up, so let’s cross that bridge when we come to it.",
+      "week": 17
+    },
+    {
+      "id": "w17_08",
+      "idiom": "cross that bridge when we come to it",
+      "meaning_en": "to deal with a problem only when it actually happens",
+      "meaning_vi": "tới đâu hay tới đó, gặp chuyện rồi hãy lo",
+      "example": "We don't know if the funding will be cut, so let's cross that bridge when we come to it.",
+      "context": "Baggage usually turns up, so let’s cross that bridge when we come to it.",
+      "week": 17
+    },
+    {
+      "id": "w17_09",
+      "idiom": "up the creek",
+      "meaning_en": "in a very difficult situation with no easy way out",
+      "meaning_vi": "gặp rắc rối lớn, lâm vào cảnh khó khăn",
+      "example": "If the bank doesn't approve our loan, we'll be up the creek.",
+      "context": "I’m really up the creek now.",
+      "week": 17
+    },
+    {
+      "id": "w17_10",
+      "idiom": "boggles my mind",
+      "meaning_en": "to be very surprising, confusing, or hard to imagine",
+      "meaning_vi": "làm kinh ngạc, không thể tin nổi, không hiểu nổi",
+      "example": "It boggles my mind how much technology has changed in just ten years.",
+      "context": "It boggles my mind how you can just lose someone’s luggage!",
+      "week": 17
+    }
+  ]
+}

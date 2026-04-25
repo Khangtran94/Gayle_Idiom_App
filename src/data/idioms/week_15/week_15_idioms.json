@@ -1,0 +1,114 @@
+{
+  "title": "Complimenting a Meal",
+  "conversation": "Lori and Jane compliment Lisa on the delicious dinner she prepared. At the end of the evening, Mike and Lori thank her.\n\nJane: Lisa, this shrimp dish is <u><b>out of this world</b></u>!\nLori: Yes, it's delicious. You really <u><b>outdid yourself</b></u>!\nJane: You can always <u><b>count on</b></u> Lisa to serve a great meal.\nLisa: <u><b>Help yourselves</b></u> to more.\nKyle: I don't want to <u><b>make a pig of myself</b></u>.\nLisa: It's going to <u><b>go to waste</b></u> if nobody eats it.\nKyle: I'd hate to see it <u><b>go to waste</b></u>! I'll take a <u><b>second helping</b></u>. (for food)\nJane: Kyle, <u><b>save some room</b></u> for dessert!\nKyle: (patting large stomach) Don't worry, there's still plenty of room in here.\n\n(two hours later)\n\nMike: We'd better <u><b>hit the road</b></u>. Thank you for a lovely time.\nLori: Dinner was delicious. You and Todd really <u><b>knocked yourselves out</b></u>. It was a <u><b>real treat</b></u>.\nLisa: It was our pleasure.\nLori: We look forward to <u><b>having you over</b></u> soon.",
+  "idioms": [
+    {
+      "id": "w15_01",
+      "idiom": "out of this world",
+      "meaning_en": "extraordinary, exceptionally good",
+      "meaning_vi": "tuyệt vời, không gì sánh bằng",
+      "example": "The dessert my mom made was out of this world.",
+      "context": "Lisa, this shrimp dish is out of this world!",
+      "week": 15
+    },
+    {
+      "id": "w15_02",
+      "idiom": "outdid yourself",
+      "meaning_en": "to do something better than you have ever done before",
+      "meaning_vi": "vượt lên chính mình, làm tốt hơn cả mong đợi",
+      "example": "This dinner is amazing, you really outdid yourself this time.",
+      "context": "You really outdid yourself!",
+      "week": 15
+    },
+    {
+      "id": "w15_03",
+      "idiom": "count on",
+      "meaning_en": "to rely or depend on someone",
+      "meaning_vi": "tin tưởng, dựa dẫm vào",
+      "example": "You can always count on him to be on time.",
+      "context": "You can always count on Lisa to serve a great meal.",
+      "week": 15
+    },
+    {
+      "id": "w15_04",
+      "idiom": "help yourselves",
+      "meaning_en": "to serve oneself as much as one wants",
+      "meaning_vi": "tự phục vụ, cứ tự nhiên",
+      "example": "Please help yourselves to the snacks on the table.",
+      "context": "Help yourselves to more.",
+      "week": 15
+    },
+    {
+      "id": "w15_05",
+      "idiom": "make a pig of myself",
+      "meaning_en": "to eat too much food greedily",
+      "meaning_vi": "ăn quá nhiều, ăn như heo",
+      "example": "I made a pig of myself at the buffet and now I feel sick.",
+      "context": "I don't want to make a pig of myself.",
+      "week": 15
+    },
+    {
+      "id": "w15_06",
+      "idiom": "go to waste",
+      "meaning_en": "to be discarded or not used effectively",
+      "meaning_vi": "bị lãng phí",
+      "example": "Don't let that extra food go to waste; put it in the fridge.",
+      "context": "It's going to go to waste if nobody eats it.",
+      "week": 15
+    },
+    {
+      "id": "w15_07",
+      "idiom": "second helping",
+      "meaning_en": "a second portion of the same food",
+      "meaning_vi": "phần ăn thứ hai, lấy thêm đồ ăn",
+      "example": "The pie was so good that I asked for a second helping.",
+      "context": "I'll take a second helping.",
+      "week": 15
+    },
+    {
+      "id": "w15_08",
+      "idiom": "save some room",
+      "meaning_en": "to not eat too much so that you still have an appetite for later",
+      "meaning_vi": "để dành bụng (để ăn món tiếp theo)",
+      "example": "Make sure you save some room for the birthday cake.",
+      "context": "Kyle, save some room for dessert!",
+      "week": 15
+    },
+    {
+      "id": "w15_09",
+      "idiom": "hit the road",
+      "meaning_en": "to leave or depart",
+      "meaning_vi": "lên đường, đi về",
+      "example": "It's getting late, so we should hit the road.",
+      "context": "We'd better hit the road.",
+      "week": 15
+    },
+    {
+      "id": "w15_10",
+      "idiom": "knocked yourselves out",
+      "meaning_en": "to put forth a great deal of effort",
+      "meaning_vi": "vô cùng nỗ lực, làm việc vất vả để chiêu đãi",
+      "example": "They really knocked themselves out to make the party a success.",
+      "context": "You and Todd really knocked yourselves out.",
+      "week": 15
+    },
+    {
+      "id": "w15_11",
+      "idiom": "real treat",
+      "meaning_en": "a special and very enjoyable experience",
+      "meaning_vi": "một sự đãi ngộ/điều tuyệt vời",
+      "example": "Going to the opera was a real treat for her.",
+      "context": "It was a real treat.",
+      "week": 15
+    },
+    {
+      "id": "w15_12",
+      "idiom": "having you over",
+      "meaning_en": "to invite someone to your house",
+      "meaning_vi": "mời ai đó sang nhà chơi",
+      "example": "We enjoyed having you over for dinner last night.",
+      "context": "We look forward to having you over soon.",
+      "week": 15
+    }
+  ]
+}

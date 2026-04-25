@@ -1,0 +1,105 @@
+{
+  "title": "VISITING THE PHARMACY",
+  "conversation": "Ann goes to the pharmacy to get medicine for her husband, who has a rash on his back. She talks to Ken, the pharmacist.\n\nAnn: My husband has a rash on his back. It's <u><b>driving him nuts</b></u>.\nKen: When did the rash <u><b>break out</b></u>?\nAnn: Yesterday morning. What do you think it could be?\nKen: It could be <u><b>any number of</b></u> things.\nAnn: Such as?\nKen: <u><b>For starters</b></u>, it could be an <u><b>allergic reaction</b></u> to something.\nAnn: I recently started using a new brand of laundry detergent. You may have <u><b>hit the nail on the head</b></u>.\nKen: If it is small red dots, it may be hives.\nAnn: What do you recommend he take for it?\nKen: Is he <u><b>on</b></u> anything now?\nAnn: No.\nKen: Try an <u><b>over-the-counter</b></u> anti-itch cream or a pill like Claritin.\nAnn: What if that doesn't work? What if it gets worse?\nKen: If it doesn't <u><b>clear up</b></u>, he should see a doctor. It's probably nothing serious, but <u><b>better safe than sorry</b></u>.\nAnn: Right! We should <u><b>nip this in the bud</b></u>.",
+  "idioms": [
+    {
+      "id": "w11_01",
+      "idiom": "driving him nuts",
+      "meaning_en": "to make someone very annoyed or crazy",
+      "meaning_vi": "làm ai đó phát điên hoặc cực kỳ khó chịu",
+      "example": "The constant sound of the car alarm was driving him nuts.",
+      "context": "It's driving him nuts.",
+      "week": 11
+    },
+    {
+      "id": "w11_02",
+      "idiom": "break out",
+      "meaning_en": "to suddenly develop a skin condition like a rash or pimples",
+      "meaning_vi": "bùng phát, nổi (mụn, phát ban)",
+      "example": "I tend to break out whenever I eat too much chocolate.",
+      "context": "When did the rash break out?",
+      "week": 11
+    },
+    {
+      "id": "w11_03",
+      "idiom": "any number of",
+      "meaning_en": "a large but unspecified quantity; many",
+      "meaning_vi": "rất nhiều; bất kỳ số lượng nào",
+      "example": "There are any number of reasons why the project might fail.",
+      "context": "It could be any number of things.",
+      "week": 11
+    },
+    {
+      "id": "w11_04",
+      "idiom": "For starters",
+      "meaning_en": "as a first point; to begin with",
+      "meaning_vi": "trước tiên; đầu tiên là",
+      "example": "For starters, we need to find a place to stay before we book the flights.",
+      "context": "For starters, it could be an allergic reaction to something.",
+      "week": 11
+    },
+    {
+      "id": "w11_05",
+      "idiom": "allergic reaction",
+      "meaning_en": "a physical response to a substance to which the body is sensitive",
+      "meaning_vi": "phản ứng dị ứng",
+      "example": "He had a severe allergic reaction to the bee sting.",
+      "context": "For starters, it could be an allergic reaction to something.",
+      "week": 11
+    },
+    {
+      "id": "w11_06",
+      "idiom": "hit the nail on the head",
+      "meaning_en": "to describe exactly what is causing a situation or problem",
+      "meaning_vi": "nói đúng trọng tâm; đoán trúng phóc",
+      "example": "She really hit the nail on the head when she said the team lacks leadership.",
+      "context": "You may have hit the nail on the head.",
+      "week": 11
+    },
+    {
+      "id": "w11_07",
+      "idiom": "on",
+      "meaning_en": "taking a specific medicine regularly",
+      "meaning_vi": "đang dùng (thuốc)",
+      "example": "The doctor put her on antibiotics for her ear infection.",
+      "context": "Is he on anything now?",
+      "week": 11
+    },
+    {
+      "id": "w11_08",
+      "idiom": "over-the-counter",
+      "meaning_en": "medicine sold directly to a consumer without a prescription",
+      "meaning_vi": "(thuốc) không kê đơn",
+      "example": "You can buy most pain relievers over-the-counter at any pharmacy.",
+      "context": "Try an over-the-counter anti-itch cream or a pill like Claritin.",
+      "week": 11
+    },
+    {
+      "id": "w11_09",
+      "idiom": "clear up",
+      "meaning_en": "to disappear or go away (referring to a medical condition)",
+      "meaning_vi": "khỏi hẳn; hết sạch (vết ban, mụn, bệnh)",
+      "example": "The doctor said the infection should clear up in about a week.",
+      "context": "If it doesn't clear up, he should see a doctor.",
+      "week": 11
+    },
+    {
+      "id": "w11_10",
+      "idiom": "better safe than sorry",
+      "meaning_en": "it is better to be careful than to take a risk and regret it later",
+      "meaning_vi": "cẩn tắc vô áy náy; thà cẩn thận còn hơn hối hận",
+      "example": "I think I'll bring an extra jacket, better safe than sorry.",
+      "context": "It's probably nothing serious, but better safe than sorry.",
+      "week": 11
+    },
+    {
+      "id": "w11_11",
+      "idiom": "nip this in the bud",
+      "meaning_en": "to stop a problem at an early stage before it becomes serious",
+      "meaning_vi": "ngăn chặn từ trong trứng nước",
+      "example": "The company decided to nip the PR problem in the bud by issuing an immediate apology.",
+      "context": "Right! We should nip this in the bud.",
+      "week": 11
+    }
+  ]
+}

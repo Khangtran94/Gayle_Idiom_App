@@ -218,7 +218,7 @@ export default function ConversationPanel({ week, darkMode: dm }) {
             if (!plain) return null
 
             const isStageDirection = plain.startsWith("(") && plain.endsWith(")")
-            const isSpeaker = line.plain.match(/^(Lisa|Amy|A|B|Man|Woman|Teacher|Student):/i)
+            const isSpeaker = line.plain.match(/^([A-Za-z]+):/)
             const colonIdx = line.plain.indexOf(":")
             const speakerName = isSpeaker ? line.plain.substring(0, colonIdx) : null
             const lineText = isSpeaker
@@ -310,10 +310,10 @@ export default function ConversationPanel({ week, darkMode: dm }) {
                         }`}>
                         <div
                             className={`h-2 rounded-full transition-all duration-200 ${isPlaying && !isPaused
-                                    ? "bg-indigo-500"
-                                    : isPaused
-                                        ? "bg-yellow-400"
-                                        : "bg-indigo-300"
+                                ? "bg-indigo-500"
+                                : isPaused
+                                    ? "bg-yellow-400"
+                                    : "bg-indigo-300"
                                 }`}
                             style={{ width: `${progress}%` }}
                         />
@@ -348,8 +348,8 @@ export default function ConversationPanel({ week, darkMode: dm }) {
                             onClick={handleStop}
                             disabled={!isPlaying && !isPaused}
                             className={`flex-1 py-2 rounded-lg text-sm font-medium transition disabled:opacity-40 ${dm
-                                    ? "bg-gray-600 text-gray-300 hover:bg-gray-500"
-                                    : "bg-gray-200 text-gray-600 hover:bg-gray-300"
+                                ? "bg-gray-600 text-gray-300 hover:bg-gray-500"
+                                : "bg-gray-200 text-gray-600 hover:bg-gray-300"
                                 }`}
                         >
                             ⏹ Stop
@@ -367,10 +367,10 @@ export default function ConversationPanel({ week, darkMode: dm }) {
                                     key={s}
                                     onClick={() => handleSpeedChange(s)}
                                     className={`px-2 py-1 rounded-lg text-xs font-medium transition ${speed === s
-                                            ? "bg-indigo-600 text-white"
-                                            : dm
-                                                ? "bg-gray-600 text-gray-300 hover:bg-gray-500"
-                                                : "bg-gray-200 text-gray-600 hover:bg-gray-300"
+                                        ? "bg-indigo-600 text-white"
+                                        : dm
+                                            ? "bg-gray-600 text-gray-300 hover:bg-gray-500"
+                                            : "bg-gray-200 text-gray-600 hover:bg-gray-300"
                                         }`}
                                 >
                                     {s}x

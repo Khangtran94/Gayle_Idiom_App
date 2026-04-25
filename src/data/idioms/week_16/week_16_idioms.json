@@ -1,0 +1,87 @@
+{
+  "title": "Handling a Delay at the Airport",
+  "conversation": "VOICE: Attention passengers on Flight 394 to Chicago, This flight has been delayed. Please <u><b>stand by</b></u> for more information.\nTom: Excuse me, I'm on the flight to Chicago. When will it depart now?\nMike: It looks like it'll be delayed at least two hours. I'll <u><b>keep you posted</b></u>.\nTom: I have a 4 o'clock meeting in Chicago. If the flight gets in at 3:30, there's <u><b>no way</b></u> I'll make it.\nMike: Sorry, but there's nothing I can do. There are lots of other people here <u><b>in the same boat</b></u>.\nTom: Are there any other flights to Chicago?\nMike: Yes, there's a 1 p.m. departure, but it's <u><b>fully booked</b></u>.\nTom: Can you put me on the waiting list?\nMike: I'll add you to the list, but <u><b>don't hold your breath</b></u>. There are <u><b>quite a few</b></u> people already on the list\nTom: Can I fly another airline?\nMike: Other airlines won't honor your Flyaway Airlines ticket.\nTom: Oh, <u><b>for crying out loud</b></u>! This is so annoying.\nMike: I'm sorry you're annoyed, but there's nothing more I can do.\nTom: Let me <u><b>give you a piece of my mind</b></u>. I won't be using Flyaway Airlines again anytime soon!",
+  "idioms": [
+    {
+      "id": "w16_01",
+      "idiom": "stand by",
+      "meaning_en": "to wait and be ready for further information or instructions",
+      "meaning_vi": "chờ đợi, sẵn sàng đợi lệnh hoặc thông tin tiếp theo",
+      "example": "Please stand by while we try to reconnect the video call.",
+      "context": "Please stand by for more information.",
+      "week": 16
+    },
+    {
+      "id": "w16_02",
+      "idiom": "keep someone posted",
+      "meaning_en": "to regularly give someone the most recent information about a situation",
+      "meaning_vi": "cập nhật tình hình thường xuyên cho ai đó",
+      "example": "I'll keep you posted as soon as the test results come in.",
+      "context": "I'll keep you posted.",
+      "week": 16
+    },
+    {
+      "id": "w16_03",
+      "idiom": "no way",
+      "meaning_en": "used to say that something is definitely not possible",
+      "meaning_vi": "không đời nào, không thể nào",
+      "example": "There is no way we can finish this project by tomorrow morning.",
+      "context": "there's no way I'll make it.",
+      "week": 16
+    },
+    {
+      "id": "w16_04",
+      "idiom": "in the same boat",
+      "meaning_en": "in the same difficult or unfortunate situation as others",
+      "meaning_vi": "cùng hội cùng thuyền, cùng chung cảnh ngộ khó khăn",
+      "example": "We are all in the same boat during this economic downturn.",
+      "context": "There are lots of other people here in the same boat.",
+      "week": 16
+    },
+    {
+      "id": "w16_05",
+      "idiom": "fully booked",
+      "meaning_en": "having no more space or time available; all spots are taken",
+      "meaning_vi": "đã đặt hết chỗ, không còn chỗ trống",
+      "example": "The hotel is fully booked for the entire summer season.",
+      "context": "Yes, there's a 1 p.m. departure, but it's fully booked.",
+      "week": 16
+    },
+    {
+      "id": "w16_06",
+      "idiom": "don't hold your breath",
+      "meaning_en": "used to tell someone not to expect something to happen, as it is unlikely",
+      "meaning_vi": "đừng quá mong đợi (vì điều đó khó có thể xảy ra)",
+      "example": "She said she might come to the party, but don't hold your breath.",
+      "context": "I'll add you to the list, but don't hold your breath.",
+      "week": 16
+    },
+    {
+      "id": "w16_07",
+      "idiom": "quite a few",
+      "meaning_en": "a fairly large number of something",
+      "meaning_vi": "khá nhiều",
+      "example": "I have quite a few chores to finish before I can go out.",
+      "context": "There are quite a few people already on the list",
+      "week": 16
+    },
+    {
+      "id": "w16_08",
+      "idiom": "for crying out loud",
+      "meaning_en": "an exclamation used to express frustration, exasperation, or annoyance",
+      "meaning_vi": "thật là quá quắt, thật là phiền phức (biểu lộ sự bực mình)",
+      "example": "For crying out loud, I've already told you three times!",
+      "context": "Oh, for crying out loud! This is so annoying.",
+      "week": 16
+    },
+    {
+      "id": "w16_09",
+      "idiom": "give someone a piece of one's mind",
+      "meaning_en": "to speak angrily to someone because they have done something wrong",
+      "meaning_vi": "mắng cho một trận, nói cho một trận lôi đình",
+      "example": "I'm going to give that waiter a piece of my mind about the cold food.",
+      "context": "Let me give you a piece of my mind.",
+      "week": 16
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "title": "AT A DINNER PARTY",
+  "conversation": "Delayed by traffic, Lori and Mike arrive late to a dinner party. Their hosts, Lisa and Todd, tell them not to worry and then take their drink order.\n\nLori: I'm sorry we're late. We got <u><b>held up</b></u> in traffic on Route 95.\nMike: There was a <u><b>pile-up</b></u> on the highway involving three cars. A deer ran across the highway.\nLori: We were <u><b>sitting in traffic</b></u> for an hour. We would've been better off walking here!\nLisa: <u><b>What a nightmare!</b></u> Come on in and <u><b>chill out</b></u> now. <u><b>Join the party!</b></u>\nLori: (handing Lisa a bottle of wine) This is for you and Todd.\nLisa: Thank you.\nLori: (handing Lisa a toy car) And this is <u><b>a little something</b></u> for your son.\nLisa: Oh, how kind of you! <u><b>You shouldn't have.</b></u>\nLori: It's our pleasure.\nTodd: Can I get you a drink?\nMike: A drink would <u><b>hit the spot</b></u>. What do you have?\nTodd: <u><b>You name it, we've got it.</b></u>\nLori: I'll take a Bloody Mary.*\nMike: Lori, if you took Tylenol for your toothache, you'd be better off not drinking any alcohol.\nLori: Make that a virgin ** Bloody Mary. <u><b>Hold the</b></u> vodka.\nTodd: And what can I get you, Mike?\nMike: I'll take a vodka <u><b>on the rocks</b></u>.\nTodd: <u><b>Coming right up!</b></u>",
+  "idioms": [
+    {
+      "id": "w13_01",
+      "idiom": "held up",
+      "meaning_en": "to be delayed or stuck",
+      "meaning_vi": "bị chậm trễ, bị kẹt",
+      "example": "I'm sorry I'm late; I was held up at the office by a last-minute meeting.",
+      "context": "We got held up in traffic on Route 95.",
+      "week": 13
+    },
+    {
+      "id": "w13_02",
+      "idiom": "pile-up",
+      "meaning_en": "a traffic accident involving several vehicles",
+      "meaning_vi": "vụ tai nạn liên hoàn (nhiều xe đâm nhau)",
+      "example": "The heavy fog caused a 10-car pile-up on the bridge.",
+      "context": "There was a pile-up on the highway involving three cars.",
+      "week": 13
+    },
+    {
+      "id": "w13_03",
+      "idiom": "sitting in traffic",
+      "meaning_en": "to be stuck in a line of vehicles that are not moving or moving very slowly",
+      "meaning_vi": "kẹt xe, chôn chân trong đám tắc đường",
+      "example": "I hate sitting in traffic when I'm already late for an appointment.",
+      "context": "We were sitting in traffic for an hour.",
+      "week": 13
+    },
+    {
+      "id": "w13_04",
+      "idiom": "What a nightmare!",
+      "meaning_en": "used to describe a very unpleasant or difficult situation",
+      "meaning_vi": "Thật là một cơn ác mộng/thảm họa!",
+      "example": "The hotel lost our reservation and it started raining; what a nightmare!",
+      "context": "What a nightmare! Come on in and chill out now.",
+      "week": 13
+    },
+    {
+      "id": "w13_05",
+      "idiom": "chill out",
+      "meaning_en": "to relax or calm down",
+      "meaning_vi": "thư giãn, xả hơi",
+      "example": "We spent the whole weekend just chilling out by the pool.",
+      "context": "Come on in and chill out now.",
+      "week": 13
+    },
+    {
+      "id": "w13_06",
+      "idiom": "Join the party!",
+      "meaning_en": "an invitation to participate in the social gathering or activity",
+      "meaning_vi": "Cùng tham gia bữa tiệc nào!",
+      "example": "Don't just stand in the hallway, come inside and join the party!",
+      "context": "Join the party!",
+      "week": 13
+    },
+    {
+      "id": "w13_07",
+      "idiom": "a little something",
+      "meaning_en": "a small gift given to someone",
+      "meaning_vi": "một món quà nhỏ, chút quà mọn",
+      "example": "I brought a little something to say thank you for your help.",
+      "context": "And this is a little something for your son.",
+      "week": 13
+    },
+    {
+      "id": "w13_08",
+      "idiom": "You shouldn't have.",
+      "meaning_en": "a polite way to thank someone for a gift, implying it was too generous",
+      "meaning_vi": "Bạn không cần phải làm thế đâu (lời cảm ơn lịch sự khi nhận quà)",
+      "example": "Flowers? Oh, you shouldn't have, but they are beautiful!",
+      "context": "Oh, how kind of you! You shouldn't have.",
+      "week": 13
+    },
+    {
+      "id": "w13_09",
+      "idiom": "hit the spot",
+      "meaning_en": "to be exactly what is needed, especially food or drink",
+      "meaning_vi": "thật đúng lúc, giải tỏa cơn khát/đói",
+      "example": "That cold lemonade really hit the spot after our long walk.",
+      "context": "A drink would hit the spot.",
+      "week": 13
+    },
+    {
+      "id": "w13_10",
+      "idiom": "You name it, we've got it.",
+      "meaning_en": "everything you can think of is available",
+      "meaning_vi": "bất cứ cái gì bạn muốn, chúng tôi đều có",
+      "example": "Our library has books, movies, games—you name it, we've got it.",
+      "context": "You name it, we've got it.",
+      "week": 13
+    },
+    {
+      "id": "w13_11",
+      "idiom": "Hold the",
+      "meaning_en": "to leave something out of a food or drink order",
+      "meaning_vi": "đừng cho... vào (khi gọi món)",
+      "example": "I'll have a cheeseburger, but hold the pickles, please.",
+      "context": "Hold the vodka.",
+      "week": 13
+    },
+    {
+      "id": "w13_12",
+      "idiom": "on the rocks",
+      "meaning_en": "a drink served with ice cubes",
+      "meaning_vi": "uống với đá",
+      "example": "I'll have a Scotch on the rocks, please.",
+      "context": "I'll take a vodka on the rocks.",
+      "week": 13
+    },
+    {
+      "id": "w13_13",
+      "idiom": "Coming right up!",
+      "meaning_en": "the order will be served or finished very quickly",
+      "meaning_vi": "có ngay đây!",
+      "example": "Two cheeseburgers and a large soda? Coming right up!",
+      "context": "Coming right up!",
+      "week": 13
+    }
+  ]
+}

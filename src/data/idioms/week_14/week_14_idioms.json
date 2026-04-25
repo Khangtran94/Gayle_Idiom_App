@@ -1,0 +1,132 @@
+{
+  "title": "MAKING INTRODUCTIONS",
+  "conversation": "At the dinner party, Lisa introduces Lori and Mike to Jane and Kyle Chen. Lori and Jane realize they’ve met previously through work.\n\nLisa: Let me <u><b>make some introductions</b></u>. Lori and Mike Garcia, this is Jane and Kyle Chen.\nLori: Nice to meet you.\nKyle: I’m sorry, I <u><b>didn’t catch your names</b></u>.\nLori: I’m Lori and this is my husband Mike.\nLisa: You guys <u><b>have a lot in common</b></u>, so I’m sure you’ll <u><b>hit it off</b></u>.\nJane: Lori, you <u><b>look familiar</b></u>, but I <u><b>can’t quite place you</b></u>.\nLori: Your name <u><b>rings a bell</b></u>. Do you work at Harco Insurance?\nJane: I used to be <u><b>in sales</b></u> there. I left about a year ago.\nLori: I used to work at Comtek International. You sold us our insurance plan.\nJane: Yes, that’s right! <u><b>It’s a small world</b></u>!\nLori: It sure is. I’m glad we’ve <u><b>crossed paths</b></u> again.\nJane: Me too. <u><b>What have you been up to</b></u> since you left Comtek?\nLori: <u><b>It’s a long story</b></u>. Let’s <u><b>grab some drinks</b></u> and I’ll <u><b>fill you in</b></u>.",
+  "idioms": [
+    {
+      "id": "w14_01",
+      "idiom": "make some introductions",
+      "meaning_en": "To present people to each other by name for the first time",
+      "meaning_vi": "thực hiện việc giới thiệu",
+      "example": "Before we start the meeting, let me make some introductions.",
+      "context": "Let me make some introductions.",
+      "week": 14
+    },
+    {
+      "id": "w14_02",
+      "idiom": "didn’t catch your names",
+      "meaning_en": "To fail to hear or understand what someone's names were when they were spoken",
+      "meaning_vi": "không nghe kịp/rõ tên",
+      "example": "I'm sorry, the room was so loud that I didn't catch your names.",
+      "context": "I’m sorry, I didn’t catch your names.",
+      "week": 14
+    },
+    {
+      "id": "w14_03",
+      "idiom": "have a lot in common",
+      "meaning_en": "To share many of the same interests, attitudes, or characteristics",
+      "meaning_vi": "có nhiều điểm chung",
+      "example": "My best friend and I have a lot in common, especially our love for music.",
+      "context": "You guys have a lot in common, so I’m sure you’ll hit it off.",
+      "week": 14
+    },
+    {
+      "id": "w14_04",
+      "idiom": "hit it off",
+      "meaning_en": "To get along very well with someone from the first time you meet them",
+      "meaning_vi": "tâm đầu ý hợp / nhanh chóng trở nên thân thiết",
+      "example": "I introduced my two cousins, and they really hit it off.",
+      "context": "You guys have a lot in common, so I’m sure you’ll hit it off.",
+      "week": 14
+    },
+    {
+      "id": "w14_05",
+      "idiom": "look familiar",
+      "meaning_en": "To seem like someone or something you have seen or known before",
+      "meaning_vi": "trông quen quen",
+      "example": "You look familiar; did we go to the same high school?",
+      "context": "Lori, you look familiar, but I can’t quite place you.",
+      "week": 14
+    },
+    {
+      "id": "w14_06",
+      "idiom": "can’t quite place you",
+      "meaning_en": "To remember someone's face but be unable to recall exactly who they are or where you met them",
+      "meaning_vi": "không thể nhớ ra chính xác là ai/gặp ở đâu",
+      "example": "I recognize your voice, but I can't quite place you.",
+      "context": "Lori, you look familiar, but I can’t quite place you.",
+      "week": 14
+    },
+    {
+      "id": "w14_07",
+      "idiom": "rings a bell",
+      "meaning_en": "To sound vaguely familiar, or remind you of something you've heard before",
+      "meaning_vi": "nghe quen quen / gợi nhớ đến điều gì",
+      "example": "The name of that restaurant rings a bell, but I don't think I've eaten there.",
+      "context": "Your name rings a bell.",
+      "week": 14
+    },
+    {
+      "id": "w14_08",
+      "idiom": "in sales",
+      "meaning_en": "Working in the department responsible for selling products or services",
+      "meaning_vi": "làm trong bộ phận bán hàng/kinh doanh",
+      "example": "He has been in sales for over ten years.",
+      "context": "I used to be in sales there.",
+      "week": 14
+    },
+    {
+      "id": "w14_09",
+      "idiom": "It’s a small world",
+      "meaning_en": "An expression used when meeting someone unexpectedly or discovering a mutual connection",
+      "meaning_vi": "trái đất thật tròn / thế giới thật nhỏ bé",
+      "example": "I saw my old neighbor in Paris; it's a small world!",
+      "context": "Yes, that’s right! It’s a small world!",
+      "week": 14
+    },
+    {
+      "id": "w14_10",
+      "idiom": "crossed paths",
+      "meaning_en": "To meet someone, usually by chance or accident",
+      "meaning_vi": "tình cờ gặp nhau",
+      "example": "We first crossed paths at a technology conference last year.",
+      "context": "I’m glad we’ve crossed paths again.",
+      "week": 14
+    },
+    {
+      "id": "w14_11",
+      "idiom": "What have you been up to",
+      "meaning_en": "A common way to ask what someone has been doing lately",
+      "meaning_vi": "Dạo này bạn làm gì rồi?",
+      "example": "It's been a long time! What have you been up to?",
+      "context": "What have you been up to since you left Comtek?",
+      "week": 14
+    },
+    {
+      "id": "w14_12",
+      "idiom": "It’s a long story",
+      "meaning_en": "Used to indicate that something is complicated and would take a long time to explain fully",
+      "meaning_vi": "đó là một câu chuyện dài (khó giải thích nhanh)",
+      "example": "Why did I quit my job? It's a long story.",
+      "context": "It’s a long story.",
+      "week": 14
+    },
+    {
+      "id": "w14_13",
+      "idiom": "grab some drinks",
+      "meaning_en": "To go out to have something to drink, usually socially",
+      "meaning_vi": "đi uống nước / đi làm vài ly",
+      "example": "Let's grab some drinks after work on Friday.",
+      "context": "Let’s grab some drinks and I’ll fill you in.",
+      "week": 14
+    },
+    {
+      "id": "w14_14",
+      "idiom": "fill you in",
+      "meaning_en": "To give someone the information or details that they have missed",
+      "meaning_vi": "cung cấp chi tiết/kể cho ai đó nghe thông tin",
+      "example": "I missed the meeting, so could you fill me in on what happened?",
+      "context": "Let’s grab some drinks and I’ll fill you in.",
+      "week": 14
+    }
+  ]
+}

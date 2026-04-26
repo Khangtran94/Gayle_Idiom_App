@@ -4,7 +4,6 @@ import Flashcard from "./components/Flashcard"
 import AdminUpload from "./components/AdminUpload"
 import ConversationPanel from "./components/ConversationPanel"
 import Games from "./components/Games"
-import SyncPanel from "./components/SyncPanel"
 
 const weekModules = import.meta.glob("./data/idioms/week_*/*.json", { eager: true })
 
@@ -31,7 +30,6 @@ export default function App() {
     const [darkMode, setDarkMode] = useState(true)
     const [isAdmin, setIsAdmin] = useState(false)
     const [titleClicks, setTitleClicks] = useState(0)
-    const [showSync, setShowSync] = useState(false)
 
     const dm = darkMode
     const currentWeek = allWeeks[selectedWeek]
@@ -42,7 +40,7 @@ export default function App() {
         setTitleClicks(next)
         if (next >= 5) {
             const pwd = prompt("Enter admin password:")
-            if (pwd === "khang") {
+            if (pwd === "gayle2025") {
                 setIsAdmin(true)
                 setTitleClicks(0)
             } else {
@@ -52,7 +50,7 @@ export default function App() {
         }
     }
 
-    function handleIdiomsExtracted() {
+    function handleIdiomsExtracted(newIdioms, weekNumber) {
         setMode("browse")
     }
 
@@ -61,20 +59,8 @@ export default function App() {
             <div className={`min-h-screen p-6 transition-colors ${dm ? "bg-gray-900" : "bg-gray-50"}`}>
                 <div className="max-w-5xl mx-auto">
 
-                    {/* Top bar */}
-                    <div className="flex justify-end gap-2 mb-2">
-                        {/* Progress / Sync button */}
-                        <button
-                            onClick={() => setShowSync(s => !s)}
-                            className={`px-3 py-1 rounded-full text-sm border transition ${dm
-                                ? "bg-gray-700 text-indigo-300 border-gray-600 hover:border-indigo-500"
-                                : "bg-white text-indigo-500 border-gray-300 hover:border-indigo-400"
-                                }`}
-                        >
-                            📊 My Progress
-                        </button>
-
-                        {/* Dark mode toggle */}
+                    {/* Dark mode toggle */}
+                    <div className="flex justify-end mb-2">
                         <button
                             onClick={() => setDarkMode(d => !d)}
                             className={`px-3 py-1 rounded-full text-sm border transition ${dm
@@ -85,13 +71,6 @@ export default function App() {
                             {dm ? "☀️ Light" : "🌙 Dark"}
                         </button>
                     </div>
-
-                    {/* Sync Panel — inline dropdown below top bar */}
-                    {showSync && (
-                        <div className="flex justify-end mb-4">
-                            <SyncPanel darkMode={dm} onClose={() => setShowSync(false)} />
-                        </div>
-                    )}
 
                     {/* Header */}
                     <h1
@@ -170,7 +149,8 @@ export default function App() {
 
                     {/* Week title */}
                     {mode !== "admin" && currentWeek?.title && (
-                        <h2 className={`text-xl font-bold text-center mb-6 ${dm ? "text-white" : "text-gray-700"}`}>
+                        <h2 className={`text-xl font-bold text-center mb-6 ${dm ? "text-white" : "text-gray-700"
+                            }`}>
                             Week {currentWeek.weekNum} — {currentWeek.title}
                         </h2>
                     )}
@@ -178,11 +158,14 @@ export default function App() {
                     {/* Content */}
                     {mode === "browse" && (
                         <div className="flex flex-col lg:flex-row gap-6">
+                            {/* Left — idiom cards */}
                             <div className="flex flex-col gap-4 lg:w-1/2">
                                 {idioms.map(item => (
                                     <IdiomCard key={item.id} item={item} lang={lang} darkMode={dm} />
                                 ))}
                             </div>
+
+                            {/* Right — conversation panel */}
                             <div className="lg:w-1/2">
                                 <ConversationPanel week={currentWeek} darkMode={dm} />
                             </div>

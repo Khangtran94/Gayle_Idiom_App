@@ -1,39 +1,17 @@
 import { useState, useRef, useEffect } from "react"
-import {
-    recordAnswer,
-    getWeakIdiomIds,
-    getIdiomWeight,
-    flushToFirebase,
-    isFirebaseConfigured,
-} from "../utils/progressStore"
 
 // ── helpers ────────────────────────────────────────────────────────────────
 
 function buildPool(weeks, scope) {
-    // For "weak" scope, caller passes in pre-filtered weeks/idioms — just flatten
-    if (scope === "weak") {
-        return weeks.flatMap(w =>
-            w.data.map(id => ({ ...id, weekNum: w.weekNum, label: w.label, title: w.title }))
+    if (scope === "weighted") {
+        return weeks.flatMap((w, i) =>
+            Array(i + 1).fill(null).flatMap(() =>
+                w.data.map(id => ({ ...id, weekNum: w.weekNum, label: w.label }))
+            )
         )
     }
-
-    if (scope === "weighted") {
-        // Weight by week recency AND by individual error rate
-        return weeks.flatMap((w, i) => {
-            const weekWeight = i + 1
-            return w.data.flatMap(id => {
-                const errWeight = getIdiomWeight(id.id) // 1–5 based on error rate
-                const totalWeight = Math.max(weekWeight, errWeight)
-                return Array(totalWeight).fill(null).map(() => ({
-                    ...id, weekNum: w.weekNum, label: w.label, title: w.title
-                }))
-            })
-        })
-    }
-
-    // equal
     return weeks.flatMap(w =>
-        w.data.map(id => ({ ...id, weekNum: w.weekNum, label: w.label, title: w.title }))
+        w.data.map(id => ({ ...id, weekNum: w.weekNum, label: w.label }))
     )
 }
 
@@ -62,6 +40,7 @@ function makeQuestion(item, allIdioms, gameType, mcStyle) {
     if (gameType === "listening") {
         return { type: "listening", idiom: item.idiom, item }
     }
+    // multiple choice — decoys prefer same week, fill rest from all
     const sameWeek = allIdioms.filter(i => i.idiom !== item.idiom && i.weekNum === item.weekNum)
     const otherWeeks = allIdioms.filter(i => i.idiom !== item.idiom && i.weekNum !== item.weekNum)
     const decoyPool = [...sameWeek.sort(() => Math.random() - 0.5), ...otherWeeks.sort(() => Math.random() - 0.5)]
@@ -74,11 +53,11 @@ function makeQuestion(item, allIdioms, gameType, mcStyle) {
 
 // ── shared ui primitives ───────────────────────────────────────────────────
 
-function Pill({ active, onClick, children, accent = "#6366f1", dm, badge }) {
+function Pill({ active, onClick, children, accent = "#6366f1", dm }) {
     return (
         <button
             onClick={onClick}
-            className="relative px-4 py-2 rounded-full text-sm font-semibold border transition whitespace-nowrap"
+            className={`px-4 py-2 rounded-full text-sm font-semibold border transition whitespace-nowrap`}
             style={{
                 borderColor: active ? accent : dm ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.12)",
                 background: active ? `${accent}22` : dm ? "rgba(255,255,255,0.03)" : "rgba(0,0,0,0.03)",
@@ -86,12 +65,6 @@ function Pill({ active, onClick, children, accent = "#6366f1", dm, badge }) {
             }}
         >
             {children}
-            {badge != null && badge > 0 && (
-                <span className="absolute -top-1.5 -right-1.5 text-xs font-bold rounded-full px-1.5 py-0.5 leading-none"
-                    style={{ background: "#ef4444", color: "white", fontSize: 10 }}>
-                    {badge}
-                </span>
-            )}
         </button>
     )
 }
@@ -116,7 +89,9 @@ function BigBtn({ onClick, disabled, children, color = "#6366f1" }) {
 }
 
 function SectionLabel({ children }) {
-    return <p className="text-xs uppercase tracking-widest text-gray-500 mb-3">{children}</p>
+    return (
+        <p className="text-xs uppercase tracking-widest text-gray-500 mb-3">{children}</p>
+    )
 }
 
 // ── SETUP SCREEN ──────────────────────────────────────────────────────────
@@ -130,37 +105,20 @@ function SetupScreen({ allWeeks, onStart, darkMode: dm }) {
     const [mcStyle, setMcStyle] = useState("en")
     const customInputRef = useRef()
 
-    const weakIds = getWeakIdiomIds()
-    const weakCount = weakIds.length
-
     const toggleWeek = (n) =>
         setSelectedWeeks(prev =>
             prev.includes(n) ? prev.filter(x => x !== n) : [...prev, n]
         )
 
     const finalCount = customQ.trim() ? parseInt(customQ) || 10 : qCount
+
     const canStart = gameType && (scope !== "pick" || selectedWeeks.length > 0)
 
     function handleStart() {
-        let chosenWeeks
-        let effectiveScope = scope
-
-        if (scope === "weak") {
-            // Filter all idioms down to just the weak ones
-            const weakIdSet = new Set(weakIds)
-            chosenWeeks = allWeeks
-                .map(w => ({
-                    ...w,
-                    data: w.data.filter(id => weakIdSet.has(id.id))
-                }))
-                .filter(w => w.data.length > 0)
-        } else if (scope === "pick") {
-            chosenWeeks = allWeeks.filter(w => selectedWeeks.includes(w.weekNum))
-        } else {
-            chosenWeeks = allWeeks
-        }
-
-        const pool = buildPool(chosenWeeks, effectiveScope)
+        const chosenWeeks = scope === "pick"
+            ? allWeeks.filter(w => selectedWeeks.includes(w.weekNum))
+            : allWeeks
+        const pool = buildPool(chosenWeeks, scope)
         const maxPossible = [...new Set(pool.map(i => i.idiom))].length
         const count = Math.min(finalCount, maxPossible)
         const picked = pickUnique(pool, count)
@@ -173,7 +131,9 @@ function SetupScreen({ allWeeks, onStart, darkMode: dm }) {
         onStart(questions)
     }
 
-    const card = dm ? "bg-gray-800 border-gray-700" : "bg-white border-gray-100"
+    const card = dm
+        ? "bg-gray-800 border-gray-700"
+        : "bg-white border-gray-100"
 
     return (
         <div className="flex flex-col gap-6">
@@ -182,45 +142,15 @@ function SetupScreen({ allWeeks, onStart, darkMode: dm }) {
             <div className={`rounded-2xl border p-5 ${card}`}>
                 <SectionLabel>01 — Choose scope</SectionLabel>
                 <div className="flex flex-wrap gap-2 mb-3">
-                    <Pill active={scope === "equal"} onClick={() => setScope("equal")} accent="#6366f1" dm={dm}>
-                        🎲 All Weeks — Equal
-                    </Pill>
-                    <Pill active={scope === "weighted"} onClick={() => setScope("weighted")} accent="#a78bfa" dm={dm}>
-                        ⚡ All Weeks — Weighted
-                    </Pill>
-                    <Pill active={scope === "pick"} onClick={() => setScope("pick")} accent="#34d399" dm={dm}>
-                        📌 Pick Weeks
-                    </Pill>
-                    <Pill
-                        active={scope === "weak"}
-                        onClick={() => setScope("weak")}
-                        accent="#f87171"
-                        dm={dm}
-                        badge={weakCount}
-                    >
-                        🔁 Review Weak
-                    </Pill>
+                    <Pill active={scope === "equal"} onClick={() => setScope("equal")} accent="#6366f1" dm={dm}>🎲 All Weeks — Equal</Pill>
+                    <Pill active={scope === "weighted"} onClick={() => setScope("weighted")} accent="#a78bfa" dm={dm}>⚡ All Weeks — Weighted</Pill>
+                    <Pill active={scope === "pick"} onClick={() => setScope("pick")} accent="#34d399" dm={dm}>📌 Pick Weeks</Pill>
                 </div>
 
                 {scope === "weighted" && (
                     <p className="text-xs text-gray-500 leading-relaxed mt-1 px-1">
-                        ⚡ Newer weeks appear more often. Idioms you get wrong come back more frequently too.
+                        ⚡ Newer weeks appear more often — great for reviewing recent content while keeping older idioms fresh.
                     </p>
-                )}
-
-                {scope === "weak" && weakCount === 0 && (
-                    <div className="mt-3 rounded-xl px-4 py-3 border border-green-800 text-sm text-green-400"
-                        style={{ background: "rgba(52,211,153,0.07)" }}>
-                        🎉 No weak idioms yet! Play some games first and your trouble spots will appear here.
-                    </div>
-                )}
-
-                {scope === "weak" && weakCount > 0 && (
-                    <div className="mt-3 rounded-xl px-4 py-3 border border-red-800 text-sm text-red-400"
-                        style={{ background: "rgba(248,113,113,0.07)" }}>
-                        You have <strong>{weakCount}</strong> weak idiom{weakCount !== 1 ? "s" : ""} (error rate &gt; 50%).
-                        This session will drill only those.
-                    </div>
                 )}
 
                 {scope === "pick" && (
@@ -309,7 +239,9 @@ function SetupScreen({ allWeeks, onStart, darkMode: dm }) {
                                 className="flex items-start gap-3 p-4 rounded-xl border text-left transition"
                                 style={{
                                     borderColor: active ? "#6366f1" : dm ? "rgba(255,255,255,0.07)" : "rgba(0,0,0,0.08)",
-                                    background: active ? "rgba(99,102,241,0.08)" : dm ? "rgba(255,255,255,0.02)" : "rgba(0,0,0,0.02)",
+                                    background: active
+                                        ? "rgba(99,102,241,0.08)"
+                                        : dm ? "rgba(255,255,255,0.02)" : "rgba(0,0,0,0.02)",
                                 }}
                             >
                                 <span className="text-2xl">{g.emoji}</span>
@@ -325,6 +257,7 @@ function SetupScreen({ allWeeks, onStart, darkMode: dm }) {
                     })}
                 </div>
 
+                {/* MC sub-option */}
                 {gameType === "mc" && (
                     <div className="mt-3 p-3 rounded-xl border border-indigo-900"
                         style={{ background: "rgba(99,102,241,0.06)" }}>
@@ -338,17 +271,8 @@ function SetupScreen({ allWeeks, onStart, darkMode: dm }) {
                 )}
             </div>
 
-            <BigBtn
-                onClick={handleStart}
-                disabled={!canStart || (scope === "weak" && weakCount === 0)}
-                color="#6366f1"
-            >
-                {canStart && !(scope === "weak" && weakCount === 0)
-                    ? `▶ Start — ${Math.min(finalCount, scope === "weak" ? weakCount : 9999)} Questions`
-                    : scope === "weak" && weakCount === 0
-                        ? "No weak idioms to review yet"
-                        : "Complete all steps above to start"
-                }
+            <BigBtn onClick={handleStart} disabled={!canStart} color="#6366f1">
+                {canStart ? `▶ Start — ${finalCount} Questions` : "Complete all steps above to start"}
             </BigBtn>
         </div>
     )
@@ -360,12 +284,10 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
     const [qIndex, setQIndex] = useState(0)
     const [input, setInput] = useState("")
     const [selected, setSelected] = useState(null)
-    const [phase, setPhase] = useState("question")
+    const [phase, setPhase] = useState("question") // "question" | "reinforcement"
     const [score, setScore] = useState(0)
     const [speaking, setSpeaking] = useState(false)
     const [hintVisible, setHintVisible] = useState(false)
-    // Track results for each question: array of { idiomId, correct }
-    const resultsRef = useRef([])
     const inputRef = useRef()
 
     const q = questions[qIndex]
@@ -385,14 +307,17 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
         window.speechSynthesis.speak(u)
     }
 
+    // auto-speak on listening questions
     useEffect(() => {
         if (q.type === "listening" && phase === "question") {
             speak()
         }
+        // reset hint on every new question
         setHintVisible(false)
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [qIndex])
 
+    // focus input when question phase starts
     useEffect(() => {
         if (phase === "question" && (q.type === "fill" || q.type === "listening")) {
             setTimeout(() => inputRef.current?.focus(), 80)
@@ -402,11 +327,6 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
     function submit(ans) {
         const correct = checkAnswer(ans)
         if (correct) setScore(s => s + 1)
-
-        // ── Record the answer locally ──
-        recordAnswer(q.item.id, correct)
-        resultsRef.current.push({ idiomId: q.item.id, correct })
-
         setSelected(ans)
         setPhase("reinforcement")
         window.speechSynthesis.cancel()
@@ -414,7 +334,7 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
 
     function next() {
         if (qIndex + 1 >= total) {
-            onEnd(score + (checkAnswer(selected) ? 0 : 0), resultsRef.current)
+            onEnd(score + (checkAnswer(selected) ? 0 : 0))
             return
         }
         setQIndex(i => i + 1)
@@ -425,6 +345,7 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
     }
 
     const isCorrect = selected ? checkAnswer(selected) : false
+
     const card = dm ? "bg-gray-800 border-gray-700" : "bg-white border-gray-100"
     const textMain = dm ? "text-gray-200" : "text-gray-800"
     const textSub = dm ? "text-gray-400" : "text-gray-500"
@@ -440,7 +361,7 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                     </span>
                     <div className="flex gap-3 text-xs font-semibold">
                         <span className="text-green-400">✅ {score}</span>
-                        <span className="text-red-400">❌ {qIndex - score}</span>
+                        <span className="text-red-400">❌ {qIndex - score + (phase === "reinforcement" ? 0 : 0)}</span>
                     </div>
                 </div>
                 <div className="w-full rounded-full h-1.5 overflow-hidden"
@@ -471,12 +392,16 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                     {q.type === "fill" && (
                         <div>
                             <p className={`text-xs uppercase tracking-widest mb-3 ${textSub}`}>Fill in the blank</p>
+
+                            {/* Sentence */}
                             <div className="rounded-xl p-4 mb-4"
                                 style={{ background: dm ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.03)" }}>
                                 <p className={`text-base leading-relaxed italic ${textMain}`}>
                                     "{q.blank}"
                                 </p>
                             </div>
+
+                            {/* Hint toggle */}
                             {!hintVisible ? (
                                 <button
                                     onClick={() => setHintVisible(true)}
@@ -488,9 +413,13 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                                 <div className="rounded-xl px-4 py-3 mb-4 border border-indigo-800"
                                     style={{ background: "rgba(99,102,241,0.07)" }}>
                                     <p className="text-xs uppercase tracking-widest text-indigo-400 mb-1">Hint</p>
-                                    <p className={`text-sm leading-relaxed ${textMain}`}>{q.item.meaning_en}</p>
+                                    <p className={`text-sm leading-relaxed ${textMain}`}>
+                                        {q.item.meaning_en}
+                                    </p>
                                 </div>
                             )}
+
+                            {/* Input */}
                             <input
                                 ref={inputRef}
                                 value={input}
@@ -519,7 +448,9 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                             </p>
                             <div className="rounded-xl p-4 mb-5"
                                 style={{ background: dm ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.03)" }}>
-                                <p className={`text-base leading-relaxed ${textMain}`}>{q.question}</p>
+                                <p className={`text-base leading-relaxed ${textMain}`}>
+                                    {q.question}
+                                </p>
                             </div>
                             <div className="flex flex-col gap-2">
                                 {q.options.map((opt, i) => (
@@ -547,6 +478,7 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                     {q.type === "listening" && (
                         <div>
                             <p className={`text-xs uppercase tracking-widest mb-4 ${textSub}`}>Listen and type what you hear</p>
+
                             <button
                                 onClick={speak}
                                 className="w-full flex items-center justify-center gap-3 py-4 rounded-xl border font-semibold text-sm transition mb-5"
@@ -559,6 +491,7 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                                 <span className="text-xl">{speaking ? "🔊" : "🔇"}</span>
                                 {speaking ? "Playing..." : "Tap to hear again"}
                             </button>
+
                             <input
                                 ref={inputRef}
                                 value={input}
@@ -584,6 +517,8 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
             {/* ── REINFORCEMENT PHASE ── */}
             {phase === "reinforcement" && (
                 <div className="flex flex-col gap-3">
+
+                    {/* Result banner */}
                     <div className="rounded-2xl border p-4"
                         style={{
                             borderColor: isCorrect ? "#34d399" : "#ef4444",
@@ -600,6 +535,7 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                         )}
                     </div>
 
+                    {/* MC options revealed */}
                     {q.type === "mc" && (
                         <div className={`rounded-2xl border p-4 ${card}`}>
                             <p className={`text-xs uppercase tracking-widest mb-3 ${textSub}`}>Options</p>
@@ -615,7 +551,9 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                                                 background: isRight ? "rgba(52,211,153,0.08)" : wasChosen ? "rgba(239,68,68,0.08)" : "transparent",
                                                 color: isRight ? "#34d399" : wasChosen ? "#ef4444" : dm ? "#6B7280" : "#9CA3AF",
                                             }}>
-                                            <span className="text-xs font-bold w-5 shrink-0">{["A", "B", "C", "D"][i]}</span>
+                                            <span className="text-xs font-bold w-5 shrink-0">
+                                                {["A", "B", "C", "D"][i]}
+                                            </span>
                                             <span>{opt.idiom}</span>
                                             {isRight && <span className="ml-auto">✓</span>}
                                         </div>
@@ -625,6 +563,7 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                         </div>
                     )}
 
+                    {/* Idiom reinforcement card */}
                     <div className="rounded-2xl border p-5"
                         style={{
                             borderColor: dm ? "rgba(99,102,241,0.3)" : "rgba(99,102,241,0.2)",
@@ -633,10 +572,12 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                         <p className="text-lg font-bold text-indigo-400 mb-3">"{q.idiom}"</p>
                         <div className="flex flex-col gap-1 mb-3">
                             <p className={`text-sm ${textMain}`}>
-                                <span className="text-xs text-gray-500 mr-2">EN</span>{q.item.meaning_en}
+                                <span className="text-xs text-gray-500 mr-2">EN</span>
+                                {q.item.meaning_en}
                             </p>
                             <p className={`text-sm ${textMain}`}>
-                                <span className="text-xs text-gray-500 mr-2">VI</span>{q.item.meaning_vi}
+                                <span className="text-xs text-gray-500 mr-2">VI</span>
+                                {q.item.meaning_vi}
                             </p>
                         </div>
                         <p className={`text-sm italic ${textSub}`}>"{q.item.example}"</p>
@@ -653,84 +594,51 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
 
 // ── END SCREEN ────────────────────────────────────────────────────────────
 
-function EndScreen({ score, total, results, onRestart, darkMode: dm }) {
-    const [syncStatus, setSyncStatus] = useState(null) // null | "syncing" | "done" | "error"
-    const firebaseReady = isFirebaseConfigured()
-
-    // Auto-flush to Firebase when EndScreen mounts
-    useEffect(() => {
-        if (!firebaseReady) return
-        setSyncStatus("syncing")
-        flushToFirebase().then(result => {
-            setSyncStatus(result.ok ? "done" : "error")
-        })
-    }, [firebaseReady])
-
+function EndScreen({ score, total, onRestart, darkMode: dm }) {
     const pct = Math.round((score / total) * 100)
     const emoji = pct >= 80 ? "🎉" : pct >= 50 ? "👍" : "💪"
     const msg = pct >= 80 ? "Excellent work!" : pct >= 50 ? "Good effort!" : "Keep practicing!"
-
-    // Count newly wrong idioms from this session
-    const wrongThisSession = results.filter(r => !r.correct).length
-    const newWeakCount = getWeakIdiomIds().length
-
     const card = dm ? "bg-gray-800 border-gray-700" : "bg-white border-gray-100"
-    const muted = dm ? "text-gray-400" : "text-gray-500"
 
     return (
         <div className="flex flex-col items-center gap-6 pt-4">
             <div className="text-6xl">{emoji}</div>
             <div className="text-center">
                 <h2 className={`text-2xl font-bold mb-1 ${dm ? "text-white" : "text-gray-800"}`}>{msg}</h2>
-                <p className={`text-sm ${muted}`}>You scored {score} out of {total}</p>
+                <p className="text-gray-500 text-sm">You scored {score} out of {total}</p>
             </div>
 
             {/* Score breakdown */}
             <div className={`w-full rounded-2xl border p-6 ${card}`}>
                 <div className="flex justify-around">
-                    {[
-                        { label: "Correct", value: score, color: "#34d399" },
-                        { label: "Wrong", value: total - score, color: "#f87171" },
-                        { label: "Score", value: `${pct}%`, color: "#6366f1" },
-                    ].map(s => (
-                        <div key={s.label} className="text-center">
-                            <p className="text-3xl font-extrabold" style={{ color: s.color }}>{s.value}</p>
-                            <p className={`text-xs mt-1 ${muted}`}>{s.label}</p>
-                        </div>
-                    ))}
+                    <div className="text-center">
+                        <p className="text-3xl font-extrabold text-green-400">{score}</p>
+                        <p className="text-xs text-gray-500 mt-1">Correct</p>
+                    </div>
+                    <div className="w-px" style={{ background: dm ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.08)" }} />
+                    <div className="text-center">
+                        <p className="text-3xl font-extrabold text-red-400">{total - score}</p>
+                        <p className="text-xs text-gray-500 mt-1">Wrong</p>
+                    </div>
+                    <div className="w-px" style={{ background: dm ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.08)" }} />
+                    <div className="text-center">
+                        <p className="text-3xl font-extrabold text-indigo-400">{pct}%</p>
+                        <p className="text-xs text-gray-500 mt-1">Score</p>
+                    </div>
                 </div>
+
+                {/* Score bar */}
                 <div className="mt-5 rounded-full h-2 overflow-hidden"
                     style={{ background: dm ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.06)" }}>
-                    <div className="h-2 rounded-full transition-all duration-700"
+                    <div
+                        className="h-2 rounded-full transition-all duration-700"
                         style={{
                             width: `${pct}%`,
                             background: pct >= 80 ? "#34d399" : pct >= 50 ? "#f59e0b" : "#ef4444",
-                        }} />
+                        }}
+                    />
                 </div>
             </div>
-
-            {/* Weak idiom update */}
-            {newWeakCount > 0 && (
-                <div className={`w-full rounded-2xl border p-4 ${card}`}
-                    style={{ borderColor: "rgba(248,113,113,0.3)", background: "rgba(248,113,113,0.06)" }}>
-                    <p className="text-sm font-semibold text-red-400 mb-1">
-                        🔁 {newWeakCount} weak idiom{newWeakCount !== 1 ? "s" : ""} to review
-                    </p>
-                    <p className={`text-xs ${muted}`}>
-                        These are idioms where you've gotten more wrong than right.
-                        Use "Review Weak" mode to drill them specifically.
-                    </p>
-                </div>
-            )}
-
-            {/* Sync status */}
-            {firebaseReady && (
-                <p className={`text-xs ${muted}`}>
-                    {syncStatus === "syncing" && "☁️ Saving progress…"}
-                    {syncStatus === "done" && "✅ Progress saved to cloud"}
-                    {syncStatus === "error" && "⚠️ Could not save to cloud (offline?)"}
-                </p>
-            )}
 
             <BigBtn onClick={onRestart} color="#6366f1">🔄 Play Again</BigBtn>
         </div>
@@ -740,21 +648,18 @@ function EndScreen({ score, total, results, onRestart, darkMode: dm }) {
 // ── ROOT EXPORT ───────────────────────────────────────────────────────────
 
 export default function Games({ allWeeks, darkMode }) {
-    const [screen, setScreen] = useState("setup")
+    const [screen, setScreen] = useState("setup") // "setup" | "game" | "end"
     const [questions, setQuestions] = useState([])
     const [score, setScore] = useState(0)
-    const [results, setResults] = useState([])
 
     function handleStart(qs) {
         setQuestions(qs)
         setScore(0)
-        setResults([])
         setScreen("game")
     }
 
-    function handleEnd(finalScore, sessionResults) {
+    function handleEnd(finalScore) {
         setScore(finalScore)
-        setResults(sessionResults)
         setScreen("end")
     }
 
@@ -765,6 +670,7 @@ export default function Games({ allWeeks, darkMode }) {
 
     return (
         <div className="max-w-2xl mx-auto">
+            {/* Back button when in game or end */}
             {screen !== "setup" && (
                 <button
                     onClick={handleRestart}
@@ -775,16 +681,23 @@ export default function Games({ allWeeks, darkMode }) {
             )}
 
             {screen === "setup" && (
-                <SetupScreen allWeeks={allWeeks} onStart={handleStart} darkMode={darkMode} />
+                <SetupScreen
+                    allWeeks={allWeeks}
+                    onStart={handleStart}
+                    darkMode={darkMode}
+                />
             )}
             {screen === "game" && (
-                <GameScreen questions={questions} darkMode={darkMode} onEnd={handleEnd} />
+                <GameScreen
+                    questions={questions}
+                    darkMode={darkMode}
+                    onEnd={handleEnd}
+                />
             )}
             {screen === "end" && (
                 <EndScreen
                     score={score}
                     total={questions.length}
-                    results={results}
                     onRestart={handleRestart}
                     darkMode={darkMode}
                 />

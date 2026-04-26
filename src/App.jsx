@@ -3,6 +3,7 @@ import IdiomCard from "./components/IdiomCard"
 import Flashcard from "./components/Flashcard"
 import AdminUpload from "./components/AdminUpload"
 import ConversationPanel from "./components/ConversationPanel"
+import Games from "./components/Games"
 
 const weekModules = import.meta.glob("./data/idioms/week_*/*.json", { eager: true })
 
@@ -106,6 +107,7 @@ export default function App() {
                         {[
                             { id: "browse", label: "📖 Browse" },
                             { id: "flashcard", label: "🃏 Flashcards" },
+                            { id: "games", label: "🎮 Games" },
                             ...(isAdmin ? [{ id: "admin", label: "⚙️ Admin" }] : [])
                         ].map(m => (
                             <button
@@ -172,6 +174,10 @@ export default function App() {
 
                     {mode === "flashcard" && (
                         <Flashcard idioms={idioms} lang={lang} darkMode={dm} />
+                    )}
+
+                    {mode === "games" && (
+                        <Games allWeeks={allWeeks} darkMode={dm} />
                     )}
 
                     {mode === "admin" && (

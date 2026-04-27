@@ -10,7 +10,6 @@ import {
 // ── helpers ────────────────────────────────────────────────────────────────
 
 function buildPool(weeks, scope) {
-    // For "weak" scope, caller passes in pre-filtered weeks/idioms — just flatten
     if (scope === "weak") {
         return weeks.flatMap(w =>
             w.data.map(id => ({ ...id, weekNum: w.weekNum, label: w.label, title: w.title }))
@@ -18,11 +17,10 @@ function buildPool(weeks, scope) {
     }
 
     if (scope === "weighted") {
-        // Weight by week recency AND by individual error rate
         return weeks.flatMap((w, i) => {
             const weekWeight = i + 1
             return w.data.flatMap(id => {
-                const errWeight = getIdiomWeight(id.id) // 1–5 based on error rate
+                const errWeight = getIdiomWeight(id.id)
                 const totalWeight = Math.max(weekWeight, errWeight)
                 return Array(totalWeight).fill(null).map(() => ({
                     ...id, weekNum: w.weekNum, label: w.label, title: w.title
@@ -31,7 +29,6 @@ function buildPool(weeks, scope) {
         })
     }
 
-    // equal
     return weeks.flatMap(w =>
         w.data.map(id => ({ ...id, weekNum: w.weekNum, label: w.label, title: w.title }))
     )
@@ -146,7 +143,6 @@ function SetupScreen({ allWeeks, onStart, darkMode: dm }) {
         let effectiveScope = scope
 
         if (scope === "weak") {
-            // Filter all idioms down to just the weak ones
             const weakIdSet = new Set(weakIds)
             chosenWeeks = allWeeks
                 .map(w => ({
@@ -364,9 +360,12 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
     const [score, setScore] = useState(0)
     const [speaking, setSpeaking] = useState(false)
     const [hintVisible, setHintVisible] = useState(false)
-    // Track results for each question: array of { idiomId, correct }
+    // ── NEW: speed state for listening questions ──
+    const [listeningSpeed, setListeningSpeed] = useState(1)
     const resultsRef = useRef([])
     const inputRef = useRef()
+
+    const LISTENING_SPEEDS = [0.5, 0.75, 1, 1.25, 1.5]
 
     const q = questions[qIndex]
     const total = questions.length
@@ -375,11 +374,12 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
         return normalise(ans) === normalise(q.idiom)
     }
 
-    function speak() {
+    function speak(speedOverride) {
+        const rate = speedOverride ?? listeningSpeed
         setSpeaking(true)
         const u = new SpeechSynthesisUtterance(q.idiom)
         u.lang = "en-US"
-        u.rate = 0.85
+        u.rate = rate
         u.onend = () => setSpeaking(false)
         window.speechSynthesis.cancel()
         window.speechSynthesis.speak(u)
@@ -403,7 +403,6 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
         const correct = checkAnswer(ans)
         if (correct) setScore(s => s + 1)
 
-        // ── Record the answer locally ──
         recordAnswer(q.item.id, correct)
         resultsRef.current.push({ idiomId: q.item.id, correct })
 
@@ -547,9 +546,11 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                     {q.type === "listening" && (
                         <div>
                             <p className={`text-xs uppercase tracking-widest mb-4 ${textSub}`}>Listen and type what you hear</p>
+
+                            {/* Play button */}
                             <button
-                                onClick={speak}
-                                className="w-full flex items-center justify-center gap-3 py-4 rounded-xl border font-semibold text-sm transition mb-5"
+                                onClick={() => speak()}
+                                className="w-full flex items-center justify-center gap-3 py-4 rounded-xl border font-semibold text-sm transition mb-4"
                                 style={{
                                     borderColor: speaking ? "#6366f1" : dm ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.1)",
                                     background: speaking ? "rgba(99,102,241,0.12)" : dm ? "rgba(255,255,255,0.03)" : "rgba(0,0,0,0.03)",
@@ -559,6 +560,36 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                                 <span className="text-xl">{speaking ? "🔊" : "🔇"}</span>
                                 {speaking ? "Playing..." : "Tap to hear again"}
                             </button>
+
+                            {/* ── Speed controls ── */}
+                            <div className="flex items-center gap-2 mb-5">
+                                <span className={`text-xs shrink-0 ${dm ? "text-gray-400" : "text-gray-500"}`}>Speed:</span>
+                                <div className="flex gap-1 flex-wrap">
+                                    {LISTENING_SPEEDS.map(s => (
+                                        <button
+                                            key={s}
+                                            onClick={() => {
+                                                setListeningSpeed(s)
+                                                // Play immediately at new speed
+                                                speak(s)
+                                            }}
+                                            className="px-2 py-1 rounded-lg text-xs font-medium transition"
+                                            style={{
+                                                background: listeningSpeed === s
+                                                    ? "rgba(99,102,241,0.9)"
+                                                    : dm ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)",
+                                                color: listeningSpeed === s
+                                                    ? "white"
+                                                    : dm ? "#9CA3AF" : "#6B7280",
+                                                border: `1px solid ${listeningSpeed === s ? "#6366f1" : dm ? "rgba(255,255,255,0.1)" : "rgba(0,0,0,0.1)"}`,
+                                            }}
+                                        >
+                                            {s}x
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+
                             <input
                                 ref={inputRef}
                                 value={input}
@@ -589,11 +620,48 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                             borderColor: isCorrect ? "#34d399" : "#ef4444",
                             background: isCorrect ? "rgba(52,211,153,0.08)" : "rgba(239,68,68,0.08)",
                         }}>
-                        <p className="text-base font-bold mb-1"
+                        <p className="text-base font-bold mb-2"
                             style={{ color: isCorrect ? "#34d399" : "#ef4444" }}>
                             {isCorrect ? "✅ Correct!" : "❌ Not quite"}
                         </p>
-                        {!isCorrect && (
+
+                        {/* ── Show user's typed answer for text-input questions ── */}
+                        {!isCorrect && (q.type === "fill" || q.type === "listening") && (
+                            <div className="flex flex-col gap-1.5">
+                                {/* What you typed */}
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-xs font-semibold shrink-0"
+                                        style={{ color: "#f87171" }}>
+                                        You typed:
+                                    </span>
+                                    <span className="text-sm font-mono px-2 py-0.5 rounded"
+                                        style={{
+                                            background: "rgba(239,68,68,0.15)",
+                                            color: dm ? "#fca5a5" : "#dc2626",
+                                            textDecoration: "line-through",
+                                        }}>
+                                        {selected}
+                                    </span>
+                                </div>
+                                {/* Correct answer */}
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-xs font-semibold shrink-0"
+                                        style={{ color: "#34d399" }}>
+                                        Correct:
+                                    </span>
+                                    <span className="text-sm font-mono px-2 py-0.5 rounded font-bold"
+                                        style={{
+                                            background: "rgba(52,211,153,0.15)",
+                                            color: dm ? "#6ee7b7" : "#059669",
+                                        }}>
+                                        {q.idiom}
+                                    </span>
+                                </div>
+                            </div>
+                        )}
+
+                        {/* MC wrong answer — just show correct, no typed answer to display */}
+                        {!isCorrect && q.type === "mc" && (
                             <p className="text-sm text-gray-400">
                                 Answer: <span className="text-indigo-400 font-semibold">"{q.idiom}"</span>
                             </p>
@@ -654,10 +722,9 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
 // ── END SCREEN ────────────────────────────────────────────────────────────
 
 function EndScreen({ score, total, results, onRestart, darkMode: dm }) {
-    const [syncStatus, setSyncStatus] = useState(null) // null | "syncing" | "done" | "error"
+    const [syncStatus, setSyncStatus] = useState(null)
     const firebaseReady = isFirebaseConfigured()
 
-    // Auto-flush to Firebase when EndScreen mounts
     useEffect(() => {
         if (!firebaseReady) return
         setSyncStatus("syncing")
@@ -670,7 +737,6 @@ function EndScreen({ score, total, results, onRestart, darkMode: dm }) {
     const emoji = pct >= 80 ? "🎉" : pct >= 50 ? "👍" : "💪"
     const msg = pct >= 80 ? "Excellent work!" : pct >= 50 ? "Good effort!" : "Keep practicing!"
 
-    // Count newly wrong idioms from this session
     const wrongThisSession = results.filter(r => !r.correct).length
     const newWeakCount = getWeakIdiomIds().length
 
@@ -685,7 +751,6 @@ function EndScreen({ score, total, results, onRestart, darkMode: dm }) {
                 <p className={`text-sm ${muted}`}>You scored {score} out of {total}</p>
             </div>
 
-            {/* Score breakdown */}
             <div className={`w-full rounded-2xl border p-6 ${card}`}>
                 <div className="flex justify-around">
                     {[
@@ -709,7 +774,6 @@ function EndScreen({ score, total, results, onRestart, darkMode: dm }) {
                 </div>
             </div>
 
-            {/* Weak idiom update */}
             {newWeakCount > 0 && (
                 <div className={`w-full rounded-2xl border p-4 ${card}`}
                     style={{ borderColor: "rgba(248,113,113,0.3)", background: "rgba(248,113,113,0.06)" }}>
@@ -723,7 +787,6 @@ function EndScreen({ score, total, results, onRestart, darkMode: dm }) {
                 </div>
             )}
 
-            {/* Sync status */}
             {firebaseReady && (
                 <p className={`text-xs ${muted}`}>
                     {syncStatus === "syncing" && "☁️ Saving progress…"}

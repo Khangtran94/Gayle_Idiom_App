@@ -1,5 +1,5 @@
 {
-  "title": "Handling a Delay at the Airport",
+  "title": "HANDLING A DELAY AT THE AIRPORT",
   "conversation": "VOICE: Attention passengers on Flight 394 to Chicago, This flight has been delayed. Please <u><b>stand by</b></u> for more information.\nTom: Excuse me, I'm on the flight to Chicago. When will it depart now?\nMike: It looks like it'll be delayed at least two hours. I'll <u><b>keep you posted</b></u>.\nTom: I have a 4 o'clock meeting in Chicago. If the flight gets in at 3:30, there's <u><b>no way</b></u> I'll make it.\nMike: Sorry, but there's nothing I can do. There are lots of other people here <u><b>in the same boat</b></u>.\nTom: Are there any other flights to Chicago?\nMike: Yes, there's a 1 p.m. departure, but it's <u><b>fully booked</b></u>.\nTom: Can you put me on the waiting list?\nMike: I'll add you to the list, but <u><b>don't hold your breath</b></u>. There are <u><b>quite a few</b></u> people already on the list\nTom: Can I fly another airline?\nMike: Other airlines won't honor your Flyaway Airlines ticket.\nTom: Oh, <u><b>for crying out loud</b></u>! This is so annoying.\nMike: I'm sorry you're annoyed, but there's nothing more I can do.\nTom: Let me <u><b>give you a piece of my mind</b></u>. I won't be using Flyaway Airlines again anytime soon!",
   "idioms": [
     {
@@ -14,9 +14,9 @@
     {
       "id": "w16_02",
       "idiom": "keep someone posted",
-      "meaning_en": "to regularly give someone the most recent information about a situation",
-      "meaning_vi": "cập nhật tình hình thường xuyên cho ai đó",
-      "example": "I'll keep you posted as soon as the test results come in.",
+      "meaning_en": "to update someone; to give someone the latest information",
+      "meaning_vi": "cập nhật tình hình cho ai đó",
+      "example": "I'll keep you posted as soon as I know more.",
       "context": "I'll keep you posted.",
       "week": 16
     },
@@ -32,9 +32,9 @@
     {
       "id": "w16_04",
       "idiom": "in the same boat",
-      "meaning_en": "in the same difficult or unfortunate situation as others",
+      "meaning_en": "in the same bad situation; sharing the same negative experience",
       "meaning_vi": "cùng hội cùng thuyền, cùng chung cảnh ngộ khó khăn",
-      "example": "We are all in the same boat during this economic downturn.",
+      "example": "We're all in the same boat - no one can leave until the storm passes.",
       "context": "There are lots of other people here in the same boat.",
       "week": 16
     },
@@ -49,15 +49,24 @@
     },
     {
       "id": "w16_06",
-      "idiom": "don't hold your breath",
-      "meaning_en": "used to tell someone not to expect something to happen, as it is unlikely",
-      "meaning_vi": "đừng quá mong đợi (vì điều đó khó có thể xảy ra)",
-      "example": "She said she might come to the party, but don't hold your breath.",
-      "context": "I'll add you to the list, but don't hold your breath.",
+      "idiom": "put someone on the waiting list",
+      "meaning_en": "to add someone's name to a list of people who want to buy or do something, because it is not immediately available",
+      "meaning_vi": "đưa ai đó vào danh sách chờ",
+      "example": "I put my name on the waiting list for the new iPhone.",
+      "context": "Can you put me on the waiting list?",
       "week": 16
     },
     {
       "id": "w16_07",
+      "idiom": "don't hold your breath",
+      "meaning_en": "used to tell someone not to expect something to happen, as it is unlikely",
+      "meaning_vi": "đừng quá mong đợi (vì điều đó khó có thể xảy ra)",
+      "example": "He promised to pay me back next week, but I'm not holding my breath.",
+      "context": "I'll add you to the list, but don't hold your breath.",
+      "week": 16
+    },
+    {
+      "id": "w16_08",
       "idiom": "quite a few",
       "meaning_en": "a fairly large number of something",
       "meaning_vi": "khá nhiều",
@@ -66,7 +75,16 @@
       "week": 16
     },
     {
-      "id": "w16_08",
+      "id": "w16_09",
+      "idiom": "honor a ticket",
+      "meaning_en": "to accept a ticket issued by another company as valid",
+      "meaning_vi": "chấp nhận vé do một công ty khác phát hành như hợp lệ",
+      "example": "Other airlines won't honor your ticket from the other airline.",
+      "context": "Other airlines won't honor your Flyaway Airlines ticket.",
+      "week": 16
+    },
+    {
+      "id": "w16_10",
       "idiom": "for crying out loud",
       "meaning_en": "an exclamation used to express frustration, exasperation, or annoyance",
       "meaning_vi": "thật là quá quắt, thật là phiền phức (biểu lộ sự bực mình)",
@@ -75,7 +93,7 @@
       "week": 16
     },
     {
-      "id": "w16_09",
+      "id": "w16_11",
       "idiom": "give someone a piece of one's mind",
       "meaning_en": "to speak angrily to someone because they have done something wrong",
       "meaning_vi": "mắng cho một trận, nói cho một trận lôi đình",

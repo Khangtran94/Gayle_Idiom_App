@@ -4,19 +4,19 @@
   "idioms": [
     {
       "id": "w17_01",
-      "idiom": "fill out",
+      "idiom": "fill out paperwork",
       "meaning_en": "to complete a form or document by providing information",
       "meaning_vi": "điền vào, hoàn tất (tờ khai, đơn từ)",
-      "example": "Please fill out the application form and return it to the front desk.",
+      "example": "Please fill out this form before your appointment.",
       "context": "Okay, I’ll just have you fill out this paperwork.",
       "week": 17
     },
     {
       "id": "w17_02",
       "idiom": "in a bind",
-      "meaning_en": "in a difficult or problematic situation",
+      "meaning_en": "in a difficult or problematic situation that is not easy to resolve; in need of help",
       "meaning_vi": "trong tình thế khó khăn, kẹt vào thế bí",
-      "example": "I'm in a bind because I have two meetings scheduled at the same time.",
+      "example": "My car broke down and I don't have money for a tow truck. I'm really in a bind.",
       "context": "Now I’m in a bind.",
       "week": 17
     },
@@ -25,24 +25,24 @@
       "idiom": "pressed for time",
       "meaning_en": "in a hurry; having very little time available",
       "meaning_vi": "gấp rút, không có nhiều thời gian",
-      "example": "I'd love to stop and talk, but I'm really pressed for time right now.",
+      "example": "I'd love to chat, but I'm really pressed for time right now.",
       "context": "I’m really pressed for time.",
       "week": 17
     },
     {
       "id": "w17_04",
-      "idiom": "do our best",
-      "meaning_en": "to try as hard as possible to achieve something",
-      "meaning_vi": "làm hết sức mình, cố gắng hết mức",
-      "example": "We will do our best to ensure the event is a success.",
+      "idiom": "do one's best",
+      "meaning_en": "to try very hard without guaranteeing a specific result",
+      "meaning_vi": "làm hết sức mình, cố gắng hết mức dù không chắc chắn về kết quả",
+      "example": "I'll do my best to help you, but I can't promise anything.",
       "context": "Well, we’ll do our best to track down your bag as quickly as possible.",
       "week": 17
     },
     {
       "id": "w17_05",
       "idiom": "track down",
-      "meaning_en": "to find someone or something after a thorough search",
-      "meaning_vi": "truy tìm, tìm ra dấu vết",
+      "meaning_en": "to locate or find a person or object after a long search",
+      "meaning_vi": "truy tìm, tìm ra (thường sau một hồi tìm kiếm)",
       "example": "It took me months to track down a rare copy of that book.",
       "context": "Well, we’ll do our best to track down your bag as quickly as possible.",
       "week": 17
@@ -58,16 +58,16 @@
     },
     {
       "id": "w17_07",
-      "idiom": "turns up",
-      "meaning_en": "to be found or appear, especially after being lost",
-      "meaning_vi": "xuất hiện, được tìm thấy lại (sau khi thất lạc)",
+      "idiom": "turn up",
+      "meaning_en": "to find something lost; to arrive or appear often unexpectedly",
+      "meaning_vi": "tìm thấy lại (vật đã mất), xuất hiện",
       "example": "Don't worry about your keys; they usually turn up in the most obvious places.",
       "context": "Baggage usually turns up, so let’s cross that bridge when we come to it.",
       "week": 17
     },
     {
       "id": "w17_08",
-      "idiom": "cross that bridge when we come to it",
+      "idiom": "let's cross that bridge when we come to it",
       "meaning_en": "to deal with a problem only when it actually happens",
       "meaning_vi": "tới đâu hay tới đó, gặp chuyện rồi hãy lo",
       "example": "We don't know if the funding will be cut, so let's cross that bridge when we come to it.",
@@ -77,7 +77,7 @@
     {
       "id": "w17_09",
       "idiom": "up the creek",
-      "meaning_en": "in a very difficult situation with no easy way out",
+      "meaning_en": "in trouble; in a very difficult situation with no easy way out",
       "meaning_vi": "gặp rắc rối lớn, lâm vào cảnh khó khăn",
       "example": "If the bank doesn't approve our loan, we'll be up the creek.",
       "context": "I’m really up the creek now.",
@@ -86,7 +86,7 @@
     {
       "id": "w17_10",
       "idiom": "boggles my mind",
-      "meaning_en": "to be very surprising, confusing, or hard to imagine",
+      "meaning_en": "To be very surprised by; something so strange or amazing that it is difficult to understand or believe",
       "meaning_vi": "làm kinh ngạc, không thể tin nổi, không hiểu nổi",
       "example": "It boggles my mind how much technology has changed in just ten years.",
       "context": "It boggles my mind how you can just lose someone’s luggage!",

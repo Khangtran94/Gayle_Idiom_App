@@ -23,7 +23,7 @@
     {
       "id": "w02_03",
       "idiom": "Be my guest",
-      "meaning_en": "a polite way of telling someone to go ahead and do something",
+      "meaning_en": "please go ahead; try it yourself",
       "meaning_vi": "cứ tự nhiên, xin cứ việc",
       "example": "If you want to use my phone, be my guest.",
       "context": "Be my guest.",
@@ -32,8 +32,8 @@
     {
       "id": "w02_04",
       "idiom": "have the magic touch",
-      "meaning_en": "to have a special ability to make something successful or work well",
-      "meaning_vi": "có bàn tay phù thủy, có biệt tài làm mọi thứ thành công",
+      "meaning_en": "to have a special ability to make something successful or work well; be very good at doing something difficult",
+      "meaning_vi": "có biệt tài làm mọi việc suôn sẻ; rất giỏi trong việc làm những việc khó",
       "example": "Everything she plants grows well; she really has the magic touch in the garden.",
       "context": "I usually have the magic touch . . .",
       "week": 2
@@ -41,8 +41,8 @@
     {
       "id": "w02_05",
       "idiom": "steer clear of",
-      "meaning_en": "to avoid someone or something because they are unpleasant or dangerous",
-      "meaning_vi": "tránh xa cái gì hoặc ai đó",
+      "meaning_en": "to avoid someone or something because they are unpleasant or dangerous, usually due to a bad experience",
+      "meaning_vi": "tránh xa ai/cái gì (thường vì có trải nghiệm không tốt)",
       "example": "You should steer clear of that neighborhood at night.",
       "context": "I think I'll steer clear of this model.",
       "week": 2
@@ -51,7 +51,7 @@
       "id": "w02_06",
       "idiom": "I hear what you're saying",
       "meaning_en": "to understand or empathize with someone's point of view",
-      "meaning_vi": "Tôi hiểu những gì bạn đang nói/chia sẻ",
+      "meaning_vi": "Tôi hiểu những gì bạn đang nói / chia sẻ",
       "example": "I hear what you're saying about the price, but the quality is much better.",
       "context": "I hear what you're saying.",
       "week": 2
@@ -77,7 +77,7 @@
     {
       "id": "w02_09",
       "idiom": "issue a credit",
-      "meaning_en": "to refund money back to a customer's account",
+      "meaning_en": "to refund money back to a customer's account / to give money back to",
       "meaning_vi": "hoàn tiền, cấp một khoản tín dụng hoàn trả",
       "example": "The store will issue a credit to your account within five business days.",
       "context": "If you give me your receipt, I'll issue a credit to your credit card.",
@@ -86,15 +86,15 @@
     {
       "id": "w02_10",
       "idiom": "even exchange",
-      "meaning_en": "trading one item for another of equal value",
+      "meaning_en": "a trade of equal value; when you return something and take something else that costs the same price",
       "meaning_vi": "đổi ngang giá, đổi đồng giá",
-      "example": "Since the two shirts cost the same, it was an even exchange.",
+      "example": "Since the two cameras cost the same, it was an even exchange.",
       "context": "It would be an even exchange.",
       "week": 2
     },
     {
       "id": "w02_11",
-      "idiom": "works out",
+      "idiom": "work out",
       "meaning_en": "to happen or develop in a satisfactory or successful way",
       "meaning_vi": "diễn ra tốt đẹp, có kết quả tốt",
       "example": "I hope your new job works out for you.",
@@ -103,9 +103,9 @@
     },
     {
       "id": "w02_12",
-      "idiom": "don't hesitate",
-      "meaning_en": "do not wait or be worried about doing something; feel free to do it",
-      "meaning_vi": "đừng ngần ngại",
+      "idiom": "don't hesitate to",
+      "meaning_en": "feel free to do something; do it without worrying or waiting",
+      "meaning_vi": "đừng ngần ngại làm gì đó",
       "example": "If you have any questions, please don't hesitate to ask.",
       "context": "If you're not happy with it, don't hesitate to bring it back.",
       "week": 2

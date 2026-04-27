@@ -1,96 +1,120 @@
 # Gayle's Idiom App
 
-Gayle's Idiom App is a React-based web application designed to help learners study, practice, and memorize English idioms efficiently. It offers multiple modes of learning, bilingual support (English/Vietnamese), and an AI-powered admin dashboard for easy idiom extraction from class materials.
+A React-based web app for learning and memorizing everyday English idioms, organized by weekly lessons. Built for bilingual learners (English / Vietnamese), it combines browsing, flashcards, games, and conversation practice into one place.
 
-## 🎉 V0 — What's Complete
-
-### Core Learning
-
-* Browse idioms by week with auto-detected week folders — never need to touch `App.jsx` to add new weeks
-* Idiom cards showing the phrase, English meaning, Vietnamese meaning, and example sentence
-* EN / VI / Both language toggle
-* Text-to-speech per idiom and per example sentence
-* Week title displayed when selecting a week (e.g. "Going Shopping")
-
-### 🃏 Flashcard Mode
-
-* Flip card to reveal meaning
-* Mark each idiom as ✅ Got it or 😅 Still learning
-* Progress bar through the deck
-* Results screen at the end with score
-* Auto-reads idiom aloud when flipped
-
-### 🗣️ Conversation Panel (Split Screen)
-
-* Right side shows the full conversation text for the selected week
-* Idioms appear **bold and underlined** directly in the conversation
-* Audio player with Play / Pause / Resume / Stop controls
-* Progress visualizer bar (turns yellow when paused)
-* Speed control: 0.5x → 1.5x with tooltip warning ("changes apply on next play")
-* Word highlight effect — the current spoken word lights up in real time
-
-### ⚙️ Admin Tool (Hidden)
-
-* Unlocked by clicking the app title 5 times + entering the password
-* Upload a photo or PDF of Gayle's paper
-* Gemini AI automatically extracts all idioms with EN meaning, VI meaning, example, context, and the full conversation text
-* Review extracted idioms on screen before saving
-* Export as a JSON file — drop it into the project folder and the app updates automatically
-
-### 🎨 UI & Polish
-
-* Dark mode / Light mode toggle
-* Fully responsive — works on mobile and desktop
-* Deployed on Vercel — shareable link, works on any device
+**Live demo →** Deployed on Vercel — works on any device.
 
 ---
 
-## 🚀 V1 — What's Coming
+## What You Can Do
 
-### 🎮 Games & Memory Testing
+### 📖 Browse Idioms
 
-* **Fill in the blank** — sentence with idiom removed, type or pick the answer
-* **Multiple choice** — "which idiom means X?" with wrong decoys
-* **Listening quiz** — hear the idiom, type what you heard
+Pick a week from the top bar. The left panel shows idiom cards, each with:
 
-suggest:
-### 🧠 Smart Review System
+- The idiom phrase (with 🔊 text-to-speech)
+- English and/or Vietnamese meaning (switch with the **EN / VI / Both** toggle)
+- An example sentence (also with 🔊)
 
-* **Weak idiom tracker** — logs every idiom you get wrong
-* **"Review weak idioms" mode** — pulls your trouble spots across all weeks
-* **Spaced repetition** — idioms you got wrong come back more often
+### 🗣️ Read & Listen to Conversations
 
-### 📈 Progress & Motivation
+The right panel shows the full conversation for that week's topic (e.g. "Going Shopping", "Ordering at a Restaurant"). Idioms appear **bold and underlined** inside the dialogue so you can see how they're used in context.
 
-* Mastery progress bar per week — shows % of idioms you've "learned"
-* Overall progress across all weeks
-* Streak tracker — how many days in a row you've studied
+**Audio player features:**
 
-### 🔊 Audio Upgrade *(requires paid TTS)*
+- ▶ Play / ⏸ Pause / ⏹ Stop controls
+- Speed selector: 0.5x → 1.5x
+- Progress bar (turns yellow when paused)
+- Word-by-word highlight — the current spoken word lights up in real time
+- Two distinct voices for different speakers
 
-* Real audio file generation from conversation text (ElevenLabs or Google TTS)
-* Proper seek bar — click any position to jump there
-* Speed change without restarting playback
+### 🃏 Flashcards
 
-### 📚 Content Improvements
+Tap a card to flip it and reveal the meaning. Then mark it:
 
-* AI-generated illustration per idiom to visualize the meaning
-* Related idioms suggestions — "if you know this one, try these"
+- ✅ **Got it** — you know this one
+- 😅 **Still learning** — needs more practice
+
+At the end you see your score (how many you got vs. how many you're still learning).
+
+### 🎮 Games
+
+Three game types to test your memory:
+
+| Game | How it works |
+|---|---|
+| ✏️ **Fill in the Blank** | Read a sentence with the idiom removed. Type the missing idiom. A 💡 Hint button shows the English meaning if you're stuck. |
+| 🔤 **Multiple Choice** | See a meaning (English, Vietnamese, or random mix), pick the correct idiom from 4 options. |
+| 🎧 **Listening Quiz** | Hear the idiom spoken aloud. Type what you heard. |
+
+**Before starting**, you configure the session:
+
+1. **Scope** — All weeks (equal or weighted), pick specific weeks, or review only your weak idioms
+2. **Number of questions** — 10, 20, 30, 40, or a custom number
+3. **Game type** — Fill in the Blank, Multiple Choice, or Listening Quiz
+
+After each question, you see a **reinforcement card** with the correct answer, English meaning, Vietnamese meaning, and example sentence — so you learn even when you get it wrong.
+
+At the end, you see your score breakdown (correct / wrong / percentage) and any weak idioms flagged for review.
+
+### 📊 My Progress
+
+Click **📊 My Progress** in the top-right corner to see:
+
+- **Practiced** — how many unique idioms you've answered
+- **Answers** — total questions answered across all sessions
+- **Weak** — idioms where your error rate is above 50%
+
+**Cloud sync** — Your progress is saved to Firebase. You get a unique sync code (e.g. `sunny-apple-42`) that you can use to load your stats on another device or browser.
+
+### 🌙 Dark / Light Mode
+
+Toggle dark mode with the ☀️/🌙 button in the top-right corner. Dark mode is the default.
+
+---
+
+## Weekly Topics (18 weeks)
+
+| Week | Topic |
+|---|---|
+| 1 | Going Shopping |
+| 2 | Returning & Exchanging |
+| 3 | Buying a Car |
+| 4 | Opening a Bank Account |
+| 5 | Ordering at a Restaurant |
+| 6 | Restaurant Complaints |
+| 7 | Picking Up the Tab |
+| 8 | Fast Food Ordering |
+| 9 | Making a Doctor's Appointment |
+| 10 | Visiting the Doctor |
+| 11 | Discussing Symptoms |
+| 12 | Visiting the Dentist |
+| 13 | House Party |
+| 14 | Making Introductions |
+| 15 | Complimenting a Meal |
+| 16 | Handling a Delay at the Airport |
+| 17 | Lost Luggage |
+| 18 | Renting a Car |
+
+Each week contains 10–16 idioms with a full conversation dialogue.
 
 ---
 
 ## Tech Stack
 
-* **Frontend Framework**: React 19
-* **Build Tool**: Vite
-* **Styling**: Tailwind CSS 4
-* **AI Integration**: Google Generative AI (Gemini Flash)
-* **Text-to-Speech**: Web Speech API
-* **Deployment**: Vercel
+| Layer | Tool |
+|---|---|
+| Frontend | React 19 |
+| Build | Vite 8 |
+| Styling | Tailwind CSS 4 |
+| Text-to-Speech | Web Speech API (browser built-in) |
+| Progress sync | Firebase Firestore |
+| AI (admin only) | Google Generative AI (Gemini) |
+| Deployment | Vercel |
+
+---
 
 ## Getting Started
-
-Follow these steps to run the application locally:
 
 ### 1. Clone the repository
 
@@ -105,37 +129,40 @@ cd Gayle_Idiom_App
 npm install
 ```
 
-### 3. Set up environment variables
-
-Create a `.env` file in the root directory and add your Google Gemini API key to enable the Admin Upload extraction feature:
-
-```env
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-### 4. Run the development server
+### 3. Run the development server
 
 ```bash
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173` (or another port specified by Vite).
+The app will be available at `http://localhost:5173`.
+
+---
 
 ## Project Structure
 
 ```
 src/
 ├── components/
-│   ├── IdiomCard.jsx         # Individual idiom display card
-│   ├── Flashcard.jsx         # Flashcard practice mode
-│   ├── ConversationPanel.jsx # Conversation reader with TTS audio player
-│   └── AdminUpload.jsx       # AI-powered admin tool for extracting idioms
+│   ├── IdiomCard.jsx          # Individual idiom display card with TTS
+│   ├── Flashcard.jsx          # Flashcard practice mode
+│   ├── ConversationPanel.jsx  # Conversation reader with TTS audio player
+│   ├── Games.jsx              # Game setup, gameplay, and results screens
+│   ├── SyncPanel.jsx          # Progress stats + cloud sync panel
+│   └── AdminUpload.jsx        # AI-powered admin tool for extracting idioms
 ├── data/
 │   └── idioms/
-│       └── week_XX/          # One folder per week, auto-scanned by the app
+│       └── week_XX/           # One folder per week, auto-scanned
 │           └── week_XX_idioms.json
-└── App.jsx                   # Main app — routing, state, layout
+├── utils/
+│   └── progressStore.js       # Progress tracking + Firebase sync logic
+├── App.jsx                    # Main app — routing, state, layout
+└── main.jsx                   # Entry point
 ```
+
+Adding a new week is as simple as dropping a `week_XX_idioms.json` file into a new `week_XX/` folder — the app picks it up automatically.
+
+---
 
 ## License
 

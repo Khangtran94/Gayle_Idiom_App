@@ -5,7 +5,7 @@
     {
       "id": "w03_01",
       "idiom": "swing by",
-      "meaning_en": "to visit a place briefly on your way to somewhere else",
+      "meaning_en": "to visit a place briefly on your way to somewhere else, to make a quick visit",
       "meaning_vi": "ghé qua nhanh",
       "example": "I'll swing by your office this afternoon to pick up the documents.",
       "context": "How about if I swing by at 5:30?",
@@ -14,17 +14,17 @@
     {
       "id": "w03_02",
       "idiom": "take a test drive",
-      "meaning_en": "to drive a motor vehicle to test its condition before buying it",
-      "meaning_vi": "lái thử xe",
+      "meaning_en": "to drive a vehicle to test its condition before buying it",
+      "meaning_vi": "lái thử (xe) để kiểm tra tình trạng xe",
       "example": "Always take a test drive before you sign any car purchase papers.",
       "context": "Would you like to take a test drive?",
       "week": 3
     },
     {
       "id": "w03_03",
-      "idiom": "The last thing I need",
-      "meaning_en": "something that you do not want at all",
-      "meaning_vi": "điều cuối cùng tôi muốn (điều tôi thực sự không muốn)",
+      "idiom": "The last thing I need is",
+      "meaning_en": "I definitely don't need; I really don't want",
+      "meaning_vi": "điều cuối cùng tôi cần là",
       "example": "The last thing I need right now is more work.",
       "context": "The last thing I need is another lemon!",
       "week": 3
@@ -50,7 +50,7 @@
     {
       "id": "w03_06",
       "idiom": "a steal",
-      "meaning_en": "a bargain; something bought at a very low price",
+      "meaning_en": "a bargain; something bought at a very low price, a very good price",
       "meaning_vi": "một món hời (giá rất rẻ)",
       "example": "At only twenty dollars, this designer jacket is a steal.",
       "context": "Yes, it's a steal.",
@@ -68,8 +68,8 @@
     {
       "id": "w03_08",
       "idiom": "split the difference",
-      "meaning_en": "to agree on an amount halfway between two proposed amounts",
-      "meaning_vi": "chia đôi phần chênh lệch (lấy mức giá ở giữa)",
+      "meaning_en": "to share a difference in cost 50-50",
+      "meaning_vi": "chia đôi phần chênh lệch, lấy mức giá ở giữa",
       "example": "You want $100 and I want $80, so let's split the difference and say $90.",
       "context": "Let's split the difference.",
       "week": 3
@@ -77,7 +77,7 @@
     {
       "id": "w03_09",
       "idiom": "you've got a deal",
-      "meaning_en": "I accept your offer or proposal",
+      "meaning_en": "I agree; I agree to your terms",
       "meaning_vi": "chốt đơn, đồng ý thỏa thuận",
       "example": "If you can finish the project by Friday, you've got a deal.",
       "context": "If you can make it $7,500, you've got a deal.",
@@ -87,16 +87,16 @@
       "id": "w03_10",
       "idiom": "sleep on it",
       "meaning_en": "to wait until the next day before making a decision",
-      "meaning_vi": "suy nghĩ thêm qua đêm",
+      "meaning_vi": "suy nghĩ thêm, hôm sau trả lời",
       "example": "I'm not sure about the job offer yet; I need to sleep on it.",
       "context": "I'd like to sleep on it.",
       "week": 3
     },
     {
       "id": "w03_11",
-      "idiom": "give you a ring",
+      "idiom": "give someone a ring",
       "meaning_en": "to call someone on the telephone",
-      "meaning_vi": "gọi điện thoại cho bạn",
+      "meaning_vi": "gọi điện thoại cho ai đó",
       "example": "I'll give you a ring when I arrive at the airport.",
       "context": "Can I give you a ring in the morning?",
       "week": 3
@@ -140,8 +140,8 @@
     {
       "id": "w03_16",
       "idiom": "close the deal",
-      "meaning_en": "to finalize a business transaction or agreement",
-      "meaning_vi": "chốt giao dịch, hoàn tất thỏa thuận",
+      "meaning_en": "to finalize a business transaction or agreement during a negotiation",
+      "meaning_vi": "chốt giao dịch, hoàn tất thỏa thuận (trong đàm phán)",
       "example": "The salesman was happy to finally close the deal and sign the contract.",
       "context": "Okay, let's close the deal.",
       "week": 3

@@ -5,7 +5,7 @@
     {
       "id": "w01_01",
       "idiom": "just browsing",
-      "meaning_en": "Looking at goods in a store without the immediate intention of buying anything.",
+      "meaning_en": "shopping, without necessarily buying anything; only looking.",
       "meaning_vi": "chỉ đang xem qua (không có ý định mua ngay)",
       "example": "The clerk asked if I needed help, but I told her I was just browsing.",
       "context": "I'm just browsing.",
@@ -14,7 +14,7 @@
     {
       "id": "w01_02",
       "idiom": "come in",
-      "meaning_en": "To be produced or available in a specific color, size, or style.",
+      "meaning_en": "To be produced or available in a certain color, size, or style.",
       "meaning_vi": "có sẵn (theo màu sắc, kích cỡ, kiểu dáng)",
       "example": "Does this dress come in a smaller size?",
       "context": "Do these pants come in black?",
@@ -23,7 +23,7 @@
     {
       "id": "w01_03",
       "idiom": "sold out",
-      "meaning_en": "Having all of a particular item sold; no longer available.",
+      "meaning_en": "Completely sold, no longer available.",
       "meaning_vi": "hết hàng",
       "example": "I wanted to buy the new iPhone, but the store was completely sold out.",
       "context": "Yes, but we're sold out.",
@@ -41,7 +41,7 @@
     {
       "id": "w01_05",
       "idiom": "on sale",
-      "meaning_en": "Offered at a lower price than usual.",
+      "meaning_en": "Offered at a lower price than usual / at a reduced price",
       "meaning_vi": "đang giảm giá",
       "example": "I bought these jeans while they were on sale for 50% off.",
       "context": "Do you have any black pants on sale?",
@@ -50,7 +50,7 @@
     {
       "id": "w01_06",
       "idiom": "marked down",
-      "meaning_en": "Reduced in price.",
+      "meaning_en": "Reduced in price, lowered in price",
       "meaning_vi": "được hạ giá",
       "example": "All winter coats have been marked down to make room for spring clothes.",
       "context": "Yes, these are marked down from $69.95 to $24.95.",
@@ -59,16 +59,16 @@
     {
       "id": "w01_07",
       "idiom": "a good buy",
-      "meaning_en": "Something that is worth the price; a bargain.",
-      "meaning_vi": "một món hời/đáng mua",
+      "meaning_en": "a good price; a bargain",
+      "meaning_vi": "một món hời/ đáng mua",
       "example": "At only $10, that shirt is definitely a good buy.",
       "context": "That's a good buy, but I'm not crazy about the fabric.",
       "week": 1
     },
     {
       "id": "w01_08",
-      "idiom": "not crazy about",
-      "meaning_en": "To not like or enjoy something very much.",
+      "idiom": "not be crazy about",
+      "meaning_en": "To not like or enjoy something very much; to not be enthusiastic about.",
       "meaning_vi": "không thích lắm",
       "example": "I'm not crazy about spicy food, so let's eat somewhere else.",
       "context": "That's a good buy, but I'm not crazy about the fabric.",
@@ -76,17 +76,17 @@
     },
     {
       "id": "w01_09",
-      "idiom": "a little pricey",
-      "meaning_en": "Somewhat expensive.",
-      "meaning_vi": "hơi đắt",
+      "idiom": "pricey",
+      "meaning_en": "Expensive",
+      "meaning_vi": "đắt",
       "example": "The food was delicious, but the restaurant was a little pricey.",
       "context": "That's a little pricey, but I'll try them on.",
       "week": 1
     },
     {
       "id": "w01_10",
-      "idiom": "try them on",
-      "meaning_en": "To put on a piece of clothing to see if it fits or looks good.",
+      "idiom": "try something on",
+      "meaning_en": "To put on clothing to see if it fits.",
       "meaning_vi": "thử đồ",
       "example": "You should try them on before you buy them.",
       "context": "That's a little pricey, but I'll try them on.",
@@ -103,8 +103,8 @@
     },
     {
       "id": "w01_12",
-      "idiom": "run small",
-      "meaning_en": "To be smaller in size than is typical for that item of clothing.",
+      "idiom": "run small / run big",
+      "meaning_en": "to fit small / to fit large (a cut or style of clothing that is smaller or bigger than expected)",
       "meaning_vi": "cỡ hơi nhỏ (so với tiêu chuẩn thông thường)",
       "example": "Italian designer clothes often run small.",
       "context": "That style does run small.",
@@ -113,7 +113,7 @@
     {
       "id": "w01_13",
       "idiom": "take my word for it",
-      "meaning_en": "To believe someone's statement without requiring further proof.",
+      "meaning_en": "Believe me; trust what I say.",
       "meaning_vi": "hãy tin lời tôi",
       "example": "It's a great movie, just take my word for it.",
       "context": "No, they're perfect. Take my word for it.",

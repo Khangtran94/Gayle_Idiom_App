@@ -5,17 +5,17 @@
     {
       "id": "w18_01",
       "idiom": "have in mind",
-      "meaning_en": "to be thinking of something or have a plan/idea",
-      "meaning_vi": "đang suy nghĩ về cái gì đó/đang cân nhắc",
+      "meaning_en": "to be thinking about as a possibility",
+      "meaning_vi": "đang suy nghĩ về cái gì đó",
       "example": "What kind of color do you have in mind for the bedroom?",
       "context": "What size do you have in mind?",
       "week": 18
     },
     {
       "id": "w18_02",
-      "idiom": "running a special",
-      "meaning_en": "offering a lower price or a special deal for a limited time",
-      "meaning_vi": "đang có chương trình khuyến mãi đặc biệt",
+      "idiom": "run a special",
+      "meaning_en": "offer a lower price or a special deal for a limited time",
+      "meaning_vi": "có chương trình khuyến mãi đặc biệt",
       "example": "The grocery store is running a special on strawberries this week.",
       "context": "We're running a special right now.",
       "week": 18
@@ -23,7 +23,7 @@
     {
       "id": "w18_03",
       "idiom": "inclusive of",
-      "meaning_en": "including everything listed",
+      "meaning_en": "including; already included in the amount",
       "meaning_vi": "bao gồm cả",
       "example": "The price of the hotel room is inclusive of breakfast.",
       "context": "It's $55 a day inclusive of tax, plus insurance.",
@@ -31,18 +31,18 @@
     },
     {
       "id": "w18_04",
-      "idiom": "read that over",
-      "meaning_en": "to read something carefully from beginning to end",
-      "meaning_vi": "đọc kỹ lại toàn bộ",
+      "idiom": "read over",
+      "meaning_en": "to read something carefully, to review; to take a look at, often with the goal of making edits or making sure everything is okay",
+      "meaning_vi": "đọc kỹ lại, xem xét lại",
       "example": "You should read the contract over before you sign it.",
       "context": "Here you go, read that over, please.",
       "week": 18
     },
     {
       "id": "w18_05",
-      "idiom": "can't make heads or tails of",
-      "meaning_en": "to be unable to understand something at all",
-      "meaning_vi": "không hiểu đầu đuôi tai nheo gì cả/không hiểu chút nào",
+      "idiom": "not be able to make heads or tails of",
+      "meaning_en": "Unable to understand or make sense of something at all, often due to extreme confusion or lack of clarity",
+      "meaning_vi": "không thể hiểu rõ/không thể giải thích được",
       "example": "I can't make heads or tails of these assembly instructions.",
       "context": "I can't make heads or tails of this information.",
       "week": 18
@@ -59,7 +59,7 @@
     {
       "id": "w18_07",
       "idiom": "bang up",
-      "meaning_en": "to damage something (especially a vehicle) in a minor accident",
+      "meaning_en": "to damage, injure or smash something (often a vehicle)",
       "meaning_vi": "làm hư hỏng, va quẹt (thường là xe cộ)",
       "example": "He banged up his car when he hit a pole in the parking lot.",
       "context": "That way, if you bang up the car, you won't owe us anything.",
@@ -85,10 +85,10 @@
     },
     {
       "id": "w18_10",
-      "idiom": "cutting it close",
-      "meaning_en": "to allow very little time for something to happen",
-      "meaning_vi": "sát nút/suýt soát thời gian",
-      "example": "We're cutting it close; the flight leaves in 30 minutes and we're still in traffic.",
+      "idiom": "cut it close",
+      "meaning_en": "to do something with almost no margin for error, particularly regarding time or space",
+      "meaning_vi": "sát nút, suýt soát",
+      "example": "Arriving at the airport just 30 minutes before the flight means you are cutting it close.",
       "context": "That's going to be cutting it close.",
       "week": 18
     },
@@ -96,7 +96,7 @@
       "id": "w18_11",
       "idiom": "grace period",
       "meaning_en": "extra time allowed to do something without penalty",
-      "meaning_vi": "thời gian ân hạn/thời gian gia hạn thêm",
+      "meaning_vi": "thời gian gia hạn thêm",
       "example": "There is a 10-day grace period for paying your rent.",
       "context": "There's no grace period?",
       "week": 18

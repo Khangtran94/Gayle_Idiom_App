@@ -4,8 +4,8 @@
   "idioms": [
     {
       "id": "w11_01",
-      "idiom": "driving him nuts",
-      "meaning_en": "to make someone very annoyed or crazy",
+      "idiom": "driving one nuts",
+      "meaning_en": "to annoy someone very much",
       "meaning_vi": "làm ai đó phát điên hoặc cực kỳ khó chịu",
       "example": "The constant sound of the car alarm was driving him nuts.",
       "context": "It's driving him nuts.",
@@ -13,18 +13,18 @@
     },
     {
       "id": "w11_02",
-      "idiom": "break out",
-      "meaning_en": "to suddenly develop a skin condition like a rash or pimples",
-      "meaning_vi": "bùng phát, nổi (mụn, phát ban)",
+      "idiom": "break out (in)",
+      "meaning_en": "to appear; to occur (often suddenly)",
+      "meaning_vi": "phát ra, bùng phát, nổi lên (thường dùng cho mẩn ngứa, mụn, bệnh ngoài da)",
       "example": "I tend to break out whenever I eat too much chocolate.",
       "context": "When did the rash break out?",
       "week": 11
     },
     {
       "id": "w11_03",
-      "idiom": "any number of",
-      "meaning_en": "a large but unspecified quantity; many",
-      "meaning_vi": "rất nhiều; bất kỳ số lượng nào",
+      "idiom": "any number of things",
+      "meaning_en": "one of many possibilities",
+      "meaning_vi": "có thể là rất nhiều khả năng; bất kì điều gì",
       "example": "There are any number of reasons why the project might fail.",
       "context": "It could be any number of things.",
       "week": 11
@@ -32,8 +32,8 @@
     {
       "id": "w11_04",
       "idiom": "For starters",
-      "meaning_en": "as a first point; to begin with",
-      "meaning_vi": "trước tiên; đầu tiên là",
+      "meaning_en": "to name just one problem or example",
+      "meaning_vi": "trước tiên; để kể ra một ví dụ",
       "example": "For starters, we need to find a place to stay before we book the flights.",
       "context": "For starters, it could be an allergic reaction to something.",
       "week": 11
@@ -50,15 +50,15 @@
     {
       "id": "w11_06",
       "idiom": "hit the nail on the head",
-      "meaning_en": "to describe exactly what is causing a situation or problem",
-      "meaning_vi": "nói đúng trọng tâm; đoán trúng phóc",
+      "meaning_en": "to be exactly right about something; to say or guess something precisely",
+      "meaning_vi": "nói đúng vấn đề; đoán đúng",
       "example": "She really hit the nail on the head when she said the team lacks leadership.",
       "context": "You may have hit the nail on the head.",
       "week": 11
     },
     {
       "id": "w11_07",
-      "idiom": "on",
+      "idiom": "on something",
       "meaning_en": "taking a specific medicine regularly",
       "meaning_vi": "đang dùng (thuốc)",
       "example": "The doctor put her on antibiotics for her ear infection.",
@@ -77,8 +77,8 @@
     {
       "id": "w11_09",
       "idiom": "clear up",
-      "meaning_en": "to disappear or go away (referring to a medical condition)",
-      "meaning_vi": "khỏi hẳn; hết sạch (vết ban, mụn, bệnh)",
+      "meaning_en": "to go away or get better (used for illnesses, skin conditions, or confusion)",
+      "meaning_vi": "khỏi hẳn, hết (dùng cho bệnh tật, vết mẩn ngứa, hoặc tình trạng bối rối)",
       "example": "The doctor said the infection should clear up in about a week.",
       "context": "If it doesn't clear up, he should see a doctor.",
       "week": 11
@@ -86,15 +86,15 @@
     {
       "id": "w11_10",
       "idiom": "better safe than sorry",
-      "meaning_en": "it is better to be careful than to take a risk and regret it later",
-      "meaning_vi": "cẩn tắc vô áy náy; thà cẩn thận còn hơn hối hận",
+      "meaning_en": "it's good to be extra careful (to avoid trouble or disaster)",
+      "meaning_vi": "thà cẩn thận còn hơn hối hận",
       "example": "I think I'll bring an extra jacket, better safe than sorry.",
       "context": "It's probably nothing serious, but better safe than sorry.",
       "week": 11
     },
     {
       "id": "w11_11",
-      "idiom": "nip this in the bud",
+      "idiom": "nip (this, that or it) in the bud",
       "meaning_en": "to stop a problem at an early stage before it becomes serious",
       "meaning_vi": "ngăn chặn từ trong trứng nước",
       "example": "The company decided to nip the PR problem in the bud by issuing an immediate apology.",

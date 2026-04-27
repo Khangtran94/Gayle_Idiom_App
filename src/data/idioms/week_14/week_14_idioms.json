@@ -5,17 +5,17 @@
     {
       "id": "w14_01",
       "idiom": "make some introductions",
-      "meaning_en": "To present people to each other by name for the first time",
-      "meaning_vi": "thực hiện việc giới thiệu",
+      "meaning_en": "To introduce people to each other by name for the first time",
+      "meaning_vi": "giới thiệu ai đó với ai đó",
       "example": "Before we start the meeting, let me make some introductions.",
       "context": "Let me make some introductions.",
       "week": 14
     },
     {
       "id": "w14_02",
-      "idiom": "didn’t catch your names",
-      "meaning_en": "To fail to hear or understand what someone's names were when they were spoken",
-      "meaning_vi": "không nghe kịp/rõ tên",
+      "idiom": "I didn’t catch your names",
+      "meaning_en": "I didn't hear your name when you were introduced",
+      "meaning_vi": "tôi đã không nghe rõ tên bạn",
       "example": "I'm sorry, the room was so loud that I didn't catch your names.",
       "context": "I’m sorry, I didn’t catch your names.",
       "week": 14
@@ -23,7 +23,7 @@
     {
       "id": "w14_03",
       "idiom": "have a lot in common",
-      "meaning_en": "To share many of the same interests, attitudes, or characteristics",
+      "meaning_en": "- to share similar interests or have similar backgrounds",
       "meaning_vi": "có nhiều điểm chung",
       "example": "My best friend and I have a lot in common, especially our love for music.",
       "context": "You guys have a lot in common, so I’m sure you’ll hit it off.",
@@ -49,17 +49,17 @@
     },
     {
       "id": "w14_06",
-      "idiom": "can’t quite place you",
-      "meaning_en": "To remember someone's face but be unable to recall exactly who they are or where you met them",
-      "meaning_vi": "không thể nhớ ra chính xác là ai/gặp ở đâu",
+      "idiom": "I can’t quite place you",
+      "meaning_en": "I've seen (or met) you before, but I can't remember where or when",
+      "meaning_vi": "Tôi đã gặp bạn ở đâu đó, nhưng tôi không thể nhớ chính xác là ở đâu hoặc khi nào",
       "example": "I recognize your voice, but I can't quite place you.",
       "context": "Lori, you look familiar, but I can’t quite place you.",
       "week": 14
     },
     {
       "id": "w14_07",
-      "idiom": "rings a bell",
-      "meaning_en": "To sound vaguely familiar, or remind you of something you've heard before",
+      "idiom": "ring a bell",
+      "meaning_en": "To sound familiar, or remind you of something you've heard before",
       "meaning_vi": "nghe quen quen / gợi nhớ đến điều gì",
       "example": "The name of that restaurant rings a bell, but I don't think I've eaten there.",
       "context": "Your name rings a bell.",
@@ -68,24 +68,24 @@
     {
       "id": "w14_08",
       "idiom": "in sales",
-      "meaning_en": "Working in the department responsible for selling products or services",
+      "meaning_en": "to work in a sales position",
       "meaning_vi": "làm trong bộ phận bán hàng/kinh doanh",
-      "example": "He has been in sales for over ten years.",
+      "example": "She has been in sales for over ten years.",
       "context": "I used to be in sales there.",
       "week": 14
     },
     {
       "id": "w14_09",
       "idiom": "It’s a small world",
-      "meaning_en": "An expression used when meeting someone unexpectedly or discovering a mutual connection",
-      "meaning_vi": "trái đất thật tròn / thế giới thật nhỏ bé",
+      "meaning_en": "This expression is used when people are surprised to find out they know each other from some past experience",
+      "meaning_vi": "Thế giới quả thật nhỏ bé! (Tình cờ gặp lại nhau)",
       "example": "I saw my old neighbor in Paris; it's a small world!",
       "context": "Yes, that’s right! It’s a small world!",
       "week": 14
     },
     {
       "id": "w14_10",
-      "idiom": "crossed paths",
+      "idiom": "cross paths",
       "meaning_en": "To meet someone, usually by chance or accident",
       "meaning_vi": "tình cờ gặp nhau",
       "example": "We first crossed paths at a technology conference last year.",
@@ -113,17 +113,17 @@
     {
       "id": "w14_13",
       "idiom": "grab some drinks",
-      "meaning_en": "To go out to have something to drink, usually socially",
-      "meaning_vi": "đi uống nước / đi làm vài ly",
+      "meaning_en": "To get something to drink; to go out for a drink",
+      "meaning_vi": "đi mua đồ uống / đi uống nước",
       "example": "Let's grab some drinks after work on Friday.",
       "context": "Let’s grab some drinks and I’ll fill you in.",
       "week": 14
     },
     {
       "id": "w14_14",
-      "idiom": "fill you in",
-      "meaning_en": "To give someone the information or details that they have missed",
-      "meaning_vi": "cung cấp chi tiết/kể cho ai đó nghe thông tin",
+      "idiom": "fill someone in (on something)",
+      "meaning_en": "To update someone; to tell somebody what's been going on",
+      "meaning_vi": "cập nhật cho ai đó; kể cho ai đó nghe chuyện đã xảy ra",
       "example": "I missed the meeting, so could you fill me in on what happened?",
       "context": "Let’s grab some drinks and I’ll fill you in.",
       "week": 14

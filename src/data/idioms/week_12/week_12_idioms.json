@@ -1,5 +1,5 @@
 {
-  "title": "Visiting the Dentist",
+  "title": "VISITING THE DENTIST",
   "conversation": "Tina visits her dentist, Dr. Li, for a checkup. After taking X-rays, Dr. Li tells Tina she'll need to replace a filling.\nDr. Li: Have your teeth been <u><b>giving you any trouble</b></u> since your last checkup?\nTina: The back molar on the left has been <u><b>killing me</b></u>.\nDr. Li: Let's see here. It looks like the filling is loose.\nTina: Isn't that the same one you replaced last year?\nDr. Li: I'll need to check. I can't remember <u><b>off the top of my head</b></u>.\nTina: Also, one of my top right teeth is a little sensitive.\nDr. Li: Which one?\nTina: This one.\nDr. Li: Okay, I'll take a look. It looks a little discolored. We'll get a set of X-rays today to <u><b>get to the bottom of it</b></u>.\nTina: X-rays? Will that be an <u><b>out-of-pocket</b></u> expense?\nDr. Li: No, you're <u><b>due for</b></u> a set. It'll be <u><b>covered by</b></u> your insurance.\n(Dr. Li takes the X-rays.)\nDr. Li: (looking at X-rays) Let me <u><b>give these a once over</b></u> . . . It looks like we can <u><b>hold off</b></u> on that top tooth.\nTina: It does hurt, but maybe it's just a <u><b>figment of my imagination</b></u>!\nDr. Li: Call us if it keeps <u><b>acting up</b></u>. <u><b>In the meantime</b></u>, we'll need to replace that filling. Please <u><b>make an appointment</b></u> for that.",
   "idioms": [
     {
@@ -40,7 +40,7 @@
     },
     {
       "id": "w12_05",
-      "idiom": "out-of-pocket",
+      "idiom": "out-of-pocket expense",
       "meaning_en": "An expense paid with one's own money, often to be reimbursed later",
       "meaning_vi": "tiền túi, chi phí tự túc",
       "example": "I had to pay for the hotel out-of-pocket because I lost my company card.",
@@ -49,7 +49,7 @@
     },
     {
       "id": "w12_06",
-      "idiom": "due for",
+      "idiom": "due for (something)",
       "meaning_en": "Ready for or needing something at a scheduled or expected time",
       "meaning_vi": "đến lúc phải làm gì, đến kỳ hạn",
       "example": "Your car is due for an oil change.",
@@ -69,7 +69,7 @@
       "id": "w12_08",
       "idiom": "give something a once over",
       "meaning_en": "To examine or look at something quickly",
-      "meaning_vi": "kiểm tra sơ bộ, nhìn lướt qua",
+      "meaning_vi": "nhìn lướt qua, xem xét nhanh",
       "example": "Let me give your essay a once over before you turn it in.",
       "context": "Let me give these a once over . . .",
       "week": 12

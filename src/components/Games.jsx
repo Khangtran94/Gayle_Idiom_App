@@ -50,10 +50,39 @@ function normalise(s) {
     return s.toLowerCase().trim().replace(/[^a-z\s]/g, "")
 }
 
+function makeBlank(item) {
+    const escapedIdiom = item.idiom.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    const regex = new RegExp(escapedIdiom, "gi")
+
+    // 1. Try context first — the idiom is always present in the original conversation line
+    const source = item.context || ""
+    if (source) {
+        const attempted = source.replace(regex, "_____")
+        if (attempted !== source) return attempted
+    }
+
+    // 2. Try the example sentence
+    const exAttempt = item.example.replace(regex, "_____")
+    if (exAttempt !== item.example) return exAttempt
+
+    // 3. Some idioms have extra words in their id vs actual usage (e.g. "on something" → "on")
+    // Try matching just the core words by building a looser regex from each word
+    const words = item.idiom.split(/\s+/).filter(Boolean)
+    const looseRegex = new RegExp(
+        words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\s+"),
+        "gi"
+    )
+    const looseSrc = item.context || item.example
+    const looseAttempt = looseSrc.replace(looseRegex, "_____")
+    if (looseAttempt !== looseSrc) return looseAttempt
+
+    // 4. Absolute fallback: show meaning as the "sentence" to avoid blank confusion
+    return `Complete the expression (meaning: ${item.meaning_en}): "_____"`
+}
+
 function makeQuestion(item, allIdioms, gameType, mcStyle) {
     if (gameType === "fill") {
-        const regex = new RegExp(item.idiom.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi")
-        const blank = item.example.replace(regex, "_____")
+        const blank = makeBlank(item)
         return { type: "fill", idiom: item.idiom, blank, item }
     }
     if (gameType === "listening") {

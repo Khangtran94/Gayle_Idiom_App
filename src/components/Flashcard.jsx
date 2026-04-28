@@ -119,23 +119,33 @@ export default function Flashcard({ idioms, lang }) {
 
             <p className="text-xs text-gray-400 mt-3">Tap card to flip</p>
 
-            {/* Action buttons — only show after flipping */}
-            {flipped && (
-                <div className="flex gap-4 mt-6">
-                    <button
-                        onClick={() => handleMark("learning")}
-                        className="px-6 py-3 bg-orange-100 text-orange-600 rounded-xl font-medium hover:bg-orange-200 transition"
-                    >
-                        😅 Still learning
-                    </button>
+            <div className="flex gap-4 mt-6">
+                {!flipped ? (
+                    // BEFORE reveal
                     <button
                         onClick={() => handleMark("known")}
-                        className="px-6 py-3 bg-green-100 text-green-700 rounded-xl font-medium hover:bg-green-200 transition"
+                        className="px-6 py-3 bg-indigo-100 text-indigo-700 rounded-xl font-medium hover:bg-indigo-200 transition"
                     >
-                        ✅ Got it!
+                        ⏭️ I know it
                     </button>
-                </div>
-            )}
+                ) : (
+                    // AFTER reveal
+                    <>
+                        <button
+                            onClick={() => handleMark("learning")}
+                            className="px-6 py-3 bg-orange-100 text-orange-600 rounded-xl font-medium hover:bg-orange-200 transition"
+                        >
+                            😅 Still learning
+                        </button>
+                        <button
+                            onClick={() => handleMark("known")}
+                            className="px-6 py-3 bg-green-100 text-green-700 rounded-xl font-medium hover:bg-green-200 transition"
+                        >
+                            ✅ Got it
+                        </button>
+                    </>
+                )}
+            </div>
         </div>
     )
 }

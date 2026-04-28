@@ -615,62 +615,61 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
             {/* ── REINFORCEMENT PHASE ── */}
             {phase === "reinforcement" && (
                 <div className="flex flex-col gap-3">
-                    <div className="rounded-2xl border p-4"
-                        style={{
-                            borderColor: isCorrect ? "#34d399" : "#ef4444",
-                            background: isCorrect ? "rgba(52,211,153,0.08)" : "rgba(239,68,68,0.08)",
-                        }}>
-                        <p className="text-base font-bold mb-2"
-                            style={{ color: isCorrect ? "#34d399" : "#ef4444" }}>
-                            {isCorrect ? "✅ Correct!" : "❌ Not quite"}
-                        </p>
 
-                        {/* ── Show user's typed answer for text-input questions ── */}
-                        {!isCorrect && (q.type === "fill" || q.type === "listening") && (
+                    {/* ── FILL: show sentence with answer filled in ── */}
+                    {q.type === "fill" && (
+                        <div className={`rounded-2xl border p-5 ${card}`}>
+                            <p className={`text-xs uppercase tracking-widest mb-3 ${textSub}`}>Fill in the blank</p>
+                            <div className="rounded-xl p-4 mb-4"
+                                style={{ background: dm ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.03)" }}>
+                                <p className={`text-base leading-relaxed italic ${textMain}`}>
+                                    "{q.blank.replace("_____",
+                                        `[${selected}]`
+                                    )}"
+                                </p>
+                            </div>
                             <div className="flex flex-col gap-1.5">
-                                {/* What you typed */}
                                 <div className="flex items-baseline gap-2">
-                                    <span className="text-xs font-semibold shrink-0"
-                                        style={{ color: "#f87171" }}>
+                                    <span className="text-xs font-semibold shrink-0" style={{ color: isCorrect ? "#34d399" : "#f87171" }}>
                                         You typed:
                                     </span>
                                     <span className="text-sm font-mono px-2 py-0.5 rounded"
                                         style={{
-                                            background: "rgba(239,68,68,0.15)",
-                                            color: dm ? "#fca5a5" : "#dc2626",
-                                            textDecoration: "line-through",
+                                            background: isCorrect ? "rgba(52,211,153,0.15)" : "rgba(239,68,68,0.15)",
+                                            color: isCorrect ? (dm ? "#6ee7b7" : "#059669") : (dm ? "#fca5a5" : "#dc2626"),
+                                            textDecoration: isCorrect ? "none" : "line-through",
                                         }}>
                                         {selected}
                                     </span>
                                 </div>
-                                {/* Correct answer */}
-                                <div className="flex items-baseline gap-2">
-                                    <span className="text-xs font-semibold shrink-0"
-                                        style={{ color: "#34d399" }}>
-                                        Correct:
-                                    </span>
-                                    <span className="text-sm font-mono px-2 py-0.5 rounded font-bold"
-                                        style={{
-                                            background: "rgba(52,211,153,0.15)",
-                                            color: dm ? "#6ee7b7" : "#059669",
-                                        }}>
-                                        {q.idiom}
-                                    </span>
-                                </div>
+                                {!isCorrect && (
+                                    <div className="flex items-baseline gap-2">
+                                        <span className="text-xs font-semibold shrink-0" style={{ color: "#34d399" }}>
+                                            Correct:
+                                        </span>
+                                        <span className="text-sm font-mono px-2 py-0.5 rounded font-bold"
+                                            style={{
+                                                background: "rgba(52,211,153,0.15)",
+                                                color: dm ? "#6ee7b7" : "#059669",
+                                            }}>
+                                            {q.idiom}
+                                        </span>
+                                    </div>
+                                )}
                             </div>
-                        )}
+                        </div>
+                    )}
 
-                        {/* MC wrong answer — just show correct, no typed answer to display */}
-                        {!isCorrect && q.type === "mc" && (
-                            <p className="text-sm text-gray-400">
-                                Answer: <span className="text-indigo-400 font-semibold">"{q.idiom}"</span>
-                            </p>
-                        )}
-                    </div>
-
+                    {/* ── MC: show the meaning prompt + all options with highlights ── */}
                     {q.type === "mc" && (
-                        <div className={`rounded-2xl border p-4 ${card}`}>
-                            <p className={`text-xs uppercase tracking-widest mb-3 ${textSub}`}>Options</p>
+                        <div className={`rounded-2xl border p-5 ${card}`}>
+                            <p className={`text-xs uppercase tracking-widest mb-3 ${textSub}`}>
+                                Which idiom means{q.qStyle === "vi" ? " (Vietnamese clue)" : ""}:
+                            </p>
+                            <div className="rounded-xl p-4 mb-4"
+                                style={{ background: dm ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.03)" }}>
+                                <p className={`text-base leading-relaxed ${textMain}`}>{q.question}</p>
+                            </div>
                             <div className="flex flex-col gap-2">
                                 {q.options.map((opt, i) => {
                                     const isRight = normalise(opt.idiom) === normalise(q.idiom)
@@ -686,12 +685,61 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
                                             <span className="text-xs font-bold w-5 shrink-0">{["A", "B", "C", "D"][i]}</span>
                                             <span>{opt.idiom}</span>
                                             {isRight && <span className="ml-auto">✓</span>}
+                                            {wasChosen && !isRight && <span className="ml-auto">✗</span>}
                                         </div>
                                     )
                                 })}
                             </div>
                         </div>
                     )}
+
+                    {/* ── Listening: show you typed / correct ── */}
+                    {q.type === "listening" && (
+                        <div className={`rounded-2xl border p-5 ${card}`}>
+                            <p className={`text-xs uppercase tracking-widest mb-3 ${textSub}`}>Your answer</p>
+                            <div className="flex flex-col gap-1.5">
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-xs font-semibold shrink-0" style={{ color: isCorrect ? "#34d399" : "#f87171" }}>
+                                        You typed:
+                                    </span>
+                                    <span className="text-sm font-mono px-2 py-0.5 rounded"
+                                        style={{
+                                            background: isCorrect ? "rgba(52,211,153,0.15)" : "rgba(239,68,68,0.15)",
+                                            color: isCorrect ? (dm ? "#6ee7b7" : "#059669") : (dm ? "#fca5a5" : "#dc2626"),
+                                            textDecoration: isCorrect ? "none" : "line-through",
+                                        }}>
+                                        {selected}
+                                    </span>
+                                </div>
+                                {!isCorrect && (
+                                    <div className="flex items-baseline gap-2">
+                                        <span className="text-xs font-semibold shrink-0" style={{ color: "#34d399" }}>
+                                            Correct:
+                                        </span>
+                                        <span className="text-sm font-mono px-2 py-0.5 rounded font-bold"
+                                            style={{
+                                                background: "rgba(52,211,153,0.15)",
+                                                color: dm ? "#6ee7b7" : "#059669",
+                                            }}>
+                                            {q.idiom}
+                                        </span>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* ── Result banner ── */}
+                    <div className="rounded-2xl border p-4"
+                        style={{
+                            borderColor: isCorrect ? "#34d399" : "#ef4444",
+                            background: isCorrect ? "rgba(52,211,153,0.08)" : "rgba(239,68,68,0.08)",
+                        }}>
+                        <p className="text-base font-bold"
+                            style={{ color: isCorrect ? "#34d399" : "#ef4444" }}>
+                            {isCorrect ? "✅ Correct!" : "❌ Not quite"}
+                        </p>
+                    </div>
 
                     <div className="rounded-2xl border p-5"
                         style={{

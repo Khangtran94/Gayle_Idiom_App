@@ -12,7 +12,8 @@ Every learner receives a unique **"Sync Code"**. Think of it as your personal ID
 
 > 🖼️ **Picture Suggestion:** *(Insert a screenshot highlighting the Sync Code button and input field here)*
 > ![Sync Code](images/sync_code.png)
-
+> ![Screenshot Sync Code](images/screenshot_sync_code.png)
+> ![My progress](images/my_progress.png)
 ---
 
 ### 2. Choosing Your Learning Scope 📅

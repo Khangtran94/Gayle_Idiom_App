@@ -12,6 +12,8 @@ Mỗi người sử dụng sẽ có một **"Mã Đồng Bộ" (Sync Code)** ri�
 
 > 🖼️ **Gợi ý Hình ảnh:** *(Hãy chèn một hình chụp màn hình có khoanh đỏ vào nút "Sync Code" và ô nhập mã ở đây để dễ nhìn nhé)*
 > ![Mã Đồng Bộ](images/sync_code.png)
+> ![Screenshot Sync Code](images/screenshot_sync_code.png)
+> ![My progress](images/my_progress.png)
 
 ---
 

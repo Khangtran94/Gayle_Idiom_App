@@ -82,13 +82,7 @@ function makeBlank(item) {
 
 function makeQuestion(item, allIdioms, gameType, mcStyle) {
     if (gameType === "fill") {
-        // Use fill_sentence if available, fall back to example
-        const source = item.fill_sentence || item.example
-        const regex = new RegExp(
-            item.idiom.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
-            "gi"
-        )
-        const blank = source.replace(regex, "_____")
+        const blank = makeBlank(item)
         return { type: "fill", idiom: item.idiom, blank, item }
     }
     if (gameType === "listening") {
@@ -406,14 +400,7 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
     const total = questions.length
 
     function checkAnswer(ans) {
-        const normalized = normalise(ans)
-        // Check primary answer
-        if (normalized === normalise(q.idiom)) return true
-        // Check also_correct if it exists
-        if (q.item.also_correct?.length) {
-            return q.item.also_correct.some(a => normalise(a) === normalized)
-        }
-        return false
+        return normalise(ans) === normalise(q.idiom)
     }
 
     function speak(speedOverride) {

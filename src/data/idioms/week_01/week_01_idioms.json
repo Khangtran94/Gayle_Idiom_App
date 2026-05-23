@@ -9,7 +9,8 @@
       "meaning_vi": "chỉ đang xem qua (không có ý định mua ngay)",
       "example": "The clerk asked if I needed help, but I told her I was just browsing.",
       "context": "I'm just browsing.",
-      "week": 1
+      "week": 1,
+      "fill_sentence": "Sarah loved visiting the local artisan market on weekends. She wasn't looking for anything specific to buy, but simply enjoyed seeing all the unique handmade items. When a vendor asked if she needed assistance, Sarah cheerfully replied, \"I'm just browsing, thank you!\" She moved from stall to stall, admiring the pottery, textiles, and jewelry, content to simply appreciate the craftsmanship without making a purchase."
     },
     {
       "id": "w01_02",
@@ -18,7 +19,8 @@
       "meaning_vi": "có sẵn (theo màu sắc, kích cỡ, kiểu dáng)",
       "example": "Does this dress come in a smaller size?",
       "context": "Do these pants come in black?",
-      "week": 1
+      "week": 1,
+      "fill_sentence": "I'm really interested in the new electric car model. I love its sleek design and the reported battery range. Does it come in any other colors besides the metallic blue? I'd really prefer a classic black or a deep red if possible. I should check the manufacturer's website for all available options."
     },
     {
       "id": "w01_03",
@@ -27,7 +29,8 @@
       "meaning_vi": "hết hàng",
       "example": "I wanted to buy the new iPhone, but the store was completely sold out.",
       "context": "Yes, but we're sold out.",
-      "week": 1
+      "week": 1,
+      "fill_sentence": "My favorite band announced a new tour, and I was so excited to get tickets. I logged on right when they went on sale, but within minutes, all the tickets were completely gone. It seems the show was already sold out, so I'll have to wait for another opportunity."
     },
     {
       "id": "w01_04",
@@ -36,7 +39,8 @@
       "meaning_vi": "còn hàng (trong kho/cửa hàng)",
       "example": "We don't have any more of these shoes in stock right now.",
       "context": "They're so popular, we can't keep them in stock.",
-      "week": 1
+      "week": 1,
+      "fill_sentence": "Maria went to the electronics store hoping to buy the new smartphone. She asked the sales associate if they had any left. The associate quickly checked their system and confirmed that the phone was still in stock, much to Maria's relief. She was glad she wouldn't have to wait for a new shipment."
     },
     {
       "id": "w01_05",
@@ -45,7 +49,8 @@
       "meaning_vi": "đang giảm giá",
       "example": "I bought these jeans while they were on sale for 50% off.",
       "context": "Do you have any black pants on sale?",
-      "week": 1
+      "week": 1,
+      "fill_sentence": "I've been eyeing that new coffee machine for weeks, but its original price was just too high for my budget. My patience paid off, however, because I just saw an advertisement. Starting tomorrow, the exact model I want will be on sale, saving me a significant amount of money."
     },
     {
       "id": "w01_06",
@@ -54,7 +59,8 @@
       "meaning_vi": "được hạ giá",
       "example": "All winter coats have been marked down to make room for spring clothes.",
       "context": "Yes, these are marked down from $69.95 to $24.95.",
-      "week": 1
+      "week": 1,
+      "fill_sentence": "David had been eyeing a new drone for months, but the original price was far too steep for his budget. He decided to wait until after the holiday rush, hoping for some post-season discounts. To his delight, a week later, the exact model he wanted was clearly marked down by 30% on the store's website. He quickly added it to his cart, thrilled to finally afford it at a reduced cost."
     },
     {
       "id": "w01_07",
@@ -63,7 +69,8 @@
       "meaning_vi": "một món hời/ đáng mua",
       "example": "At only $10, that shirt is definitely a good buy.",
       "context": "That's a good buy, but I'm not crazy about the fabric.",
-      "week": 1
+      "week": 1,
+      "fill_sentence": "My old car was on its last legs, so I'd been saving up for a replacement. I spent weeks comparing prices and features, hoping to find a great deal. When the dealership offered a significant discount on the model I wanted, I knew instantly it was a good buy. I drove it home feeling incredibly satisfied with the bargain."
     },
     {
       "id": "w01_08",
@@ -72,7 +79,8 @@
       "meaning_vi": "không thích lắm",
       "example": "I'm not crazy about spicy food, so let's eat somewhere else.",
       "context": "That's a good buy, but I'm not crazy about the fabric.",
-      "week": 1
+      "week": 1,
+      "fill_sentence": "The company picnic always features a lively karaoke competition, and everyone gets really enthusiastic. While I enjoy the camaraderie, I'm not crazy about performing in front of a big crowd. I prefer to clap along from the back rather than grab the microphone myself and risk sounding terrible."
     },
     {
       "id": "w01_09",

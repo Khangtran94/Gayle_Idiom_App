@@ -36,7 +36,8 @@
       "meaning_vi": "Đã kín lịch, không còn chỗ trống.",
       "example": "The hotel is booked solid for the holiday weekend.",
       "context": "Dr. Feinberg is booked solid today.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "My favorite massage therapist is incredibly popular, especially around the holidays. I tried to schedule an appointment for next week, but her calendar is completely booked solid until after the New Year. It looks like I'll have to wait a while for some relaxation."
     },
     {
       "id": "w09_05",
@@ -45,7 +46,8 @@
       "meaning_vi": "chút nào, tí nào, một chút nào",
       "example": "I don't mind at all if you stay a bit longer.",
       "context": "If he were free at all, I would squeeze you in.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "The new art exhibit was highly anticipated, advertised as a groundbreaking collection of modern sculptures. However, when we arrived at the gallery, the rooms were mostly bare, with just a few small paintings on the walls. There wasn't a single sculpture visible at all, which completely contradicted the promotions. We left feeling thoroughly disappointed and confused by the misleading advertisements."
     },
     {
       "id": "w09_06",

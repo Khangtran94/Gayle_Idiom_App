@@ -63,7 +63,8 @@
       "meaning_vi": "tổng số tiền bạn phải trả là",
       "example": "The repair bill comes to two hundred dollars.",
       "context": "Your total comes to $6.99.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "After enjoying their lattes and pastries, Sarah and Tom headed to the counter. The barista scanned their items, then looked up with a smile. 'Alright,' she said, 'your total comes to $17.50 today.' Sarah pulled out her wallet, ready to pay the amount."
     },
     {
       "id": "w08_08",
@@ -72,7 +73,8 @@
       "meaning_vi": "sau khi suy nghĩ lại, tôi đã thay đổi ý kiến",
       "example": "I was going to buy the red shirt, but on second thought, I'll take the blue one.",
       "context": "On second thought, I will take you up on that meal deal.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "Sarah told the waiter, \"I'll have the pasta primavera, please.\" Just as he was about to write it down, she added, \"Actually, on second thought, I think I'll go with the salmon. I had pasta for lunch today, so something different would be nice.\""
     },
     {
       "id": "w08_09",
@@ -81,7 +83,8 @@
       "meaning_vi": "chấp nhận lời đề nghị của ai đó",
       "example": "I’ll take you up on your offer to drive me to the airport.",
       "context": "I will take you up on that meal deal.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "My neighbor, Sarah, offered to lend me her fancy stand mixer when she heard I was attempting a complicated new baking recipe. I've always wanted one but couldn't justify the cost, so I quickly decided to take her up on her kind offer. It will make preparing the dough so much easier this weekend!"
     },
     {
       "id": "w08_10",
@@ -90,7 +93,8 @@
       "meaning_vi": "không tính thêm phí, miễn phí thêm",
       "example": "They will deliver the furniture to your house at no extra charge.",
       "context": "Sure, then you’ll get a soda at no extra charge.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I bought a new smartphone last week, and the salesperson told me I could get a protective case along with it. She confirmed that the case would be included at no extra charge. I was happy to receive it as a bonus without paying anything more."
     },
     {
       "id": "w08_11",

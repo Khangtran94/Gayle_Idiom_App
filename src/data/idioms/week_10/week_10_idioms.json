@@ -90,7 +90,8 @@
       "meaning_vi": "kéo dài lê thê, kéo dài không dứt",
       "example": "The meeting dragged on for three hours.",
       "context": "Grace: How long do you think this is going to drag on?",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "The quarterly budget meeting began promptly at nine. However, with endless discussions about trivial expenditures and no clear agenda, it quickly became apparent this session was going nowhere fast. Everyone just wanted to go home; the whole process began to drag on interminably, making us all wish we were anywhere else. By lunchtime, several members were visibly nodding off, still with no resolution in sight."
     },
     {
       "id": "w10_11",

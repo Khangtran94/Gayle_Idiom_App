@@ -18,7 +18,8 @@
       "meaning_vi": "trong tình thế khó khăn, kẹt vào thế bí",
       "example": "My car broke down and I don't have money for a tow truck. I'm really in a bind.",
       "context": "Now I’m in a bind.",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "Our main supplier just unexpectedly declared bankruptcy, leaving us with a massive client order due next week and no way to source the critical components. We've called every other manufacturer in the region, but none can meet our volume or quality standards on such short notice. If we can't fulfill this order, we stand to lose our biggest contract and possibly even go out of business; we are truly in a bind."
     },
     {
       "id": "w17_03",
@@ -27,7 +28,8 @@
       "meaning_vi": "gấp rút, không có nhiều thời gian",
       "example": "I'd love to chat, but I'm really pressed for time right now.",
       "context": "I’m really pressed for time.",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "I had a huge project due Friday morning, and it was already Thursday afternoon. I still had several sections to write and all the data to compile. I couldn't even stop for dinner; I was so pressed for time, I just worked straight through the evening."
     },
     {
       "id": "w17_04",
@@ -36,7 +38,8 @@
       "meaning_vi": "làm hết sức mình, cố gắng hết mức dù không chắc chắn về kết quả",
       "example": "I'll do my best to help you, but I can't promise anything.",
       "context": "Well, we’ll do our best to track down your bag as quickly as possible.",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "When preparing for a challenging endeavor, it's natural to feel pressure about the outcome. However, it's important for one to remember that the ultimate goal isn't always victory itself. Instead, the most important thing is simply to do one's best, focusing on every detail and giving maximal effort without dwelling on potential failure. By doing so, one can ensure that no matter the result, they performed to their highest potential."
     },
     {
       "id": "w17_05",
@@ -45,7 +48,8 @@
       "meaning_vi": "truy tìm, tìm ra (thường sau một hồi tìm kiếm)",
       "example": "It took me months to track down a rare copy of that book.",
       "context": "Well, we’ll do our best to track down your bag as quickly as possible.",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "The police had very little information on the runaway suspect, just an old address and a grainy photograph. Detective Miller spent months tirelessly following every faint lead, from abandoned hideouts to anonymous tips across state lines. Despite the slim chances, his dedication eventually allowed him to track down the elusive man hiding in a remote mountain cabin. The arrest finally brought closure to the long-standing case."
     },
     {
       "id": "w17_06",
@@ -63,7 +67,8 @@
       "meaning_vi": "tìm thấy lại (vật đã mất), xuất hiện",
       "example": "Don't worry about your keys; they usually turn up in the most obvious places.",
       "context": "Baggage usually turns up, so let’s cross that bridge when we come to it.",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "I've been looking for my lucky pen all morning; I need it for this important exam later. I usually keep it right on my desk, but it's vanished! I've searched all my drawers and even checked under the bed. I'm starting to panic, but I always hold onto a little hope. I really hope it will turn up somewhere before I leave, or I'll be in trouble."
     },
     {
       "id": "w17_08",

@@ -1,0 +1,213 @@
+{
+  "title": "Checking Into a Hotel",
+  "conversation": "When Maria goes to check into her hotel, Chad, at reception, informs her that he doesn't have her reservation. He finds a room for her, which ends up being too noisy.\n\nChad: How can I help you?\nMaria: I'm checking in. I've got a reservation under the name Baker.\nChad: Okay, let me <u><b>pull up</b></u> your reservation. You said, \"Baker.\"\nMaria: Yes, Maria Baker.\nChad: Unfortunately, I have no record of your reservation. It must have gotten lost in our system.\nMaria: Great. <u><b>Just my luck</b></u>!\nChad: Don't worry. We've got plenty of rooms. Are you a member of our rewards program yet?\nMaria: No, I don't travel that much so it's not <u><b>worth my while</b></u>.\nChad: You can start earning points with this stay. Then you can get discounts on future stays and special offers by mail.\nMaria: <u><b>As a rule</b></u>, I don't join these programs. I get enough <u><b>junk mail</b></u> already.\n\n(ten minutes later)\n\nMaria: I just checked my room, and I'll need a different room.\nChad: What's the problem?\nMaria: The 12th floor is <u><b>a zoo</b></u>. There's some kind of convention going on up there and people are <u><b>making a racket</b></u>.\nChad: I'm sorry about that. Let's see what else we have.\nMaria: Also, you must have given me a smoking room because it <u><b>reeks of</b></u> cigarette smoke!\nChad: I do apologize for that. Let me give you room 1485. It should be quiet and smoke free.",
+  "idioms": [
+    {
+      "id": "w19_01",
+      "idiom": "checking in",
+      "meaning_en": "to report your arrival or register at a hotel, airport, or event",
+      "meaning_vi": "làm thủ tục nhận phòng, báo danh",
+      "example": "She is checking in at the hotel counter.",
+      "context": "I'm checking in.",
+      "week": 19,
+      "fill_sentence": "We arrived at the hotel lobby right at 2:00 PM to begin our vacation. The receptionist asked for our passports while we were checking in at the front desk. After receiving our room keys, we finally headed upstairs to drop off our heavy suitcases.",
+      "tags": [
+        "travel",
+        "formal",
+        "arrival-process",
+        "registration"
+      ]
+    },
+    {
+      "id": "w19_02",
+      "idiom": "pull up your reservation",
+      "meaning_en": "to retrieve information from a computer system",
+      "meaning_vi": "truy xuất thông tin từ hệ thống máy tính",
+      "example": "Can you pull up my order details on your computer, please?",
+      "context": "Okay, let me pull up your reservation.",
+      "week": 19,
+      "fill_sentence": "I arrived at the hotel front desk after a long flight and gave the receptionist my last name. She tapped on her keyboard to __________ so she could confirm my check-in time. Once she found my details on the screen, she handed me the room key.",
+      "tags": [
+        "work",
+        "formal",
+        "data-retrieval",
+        "computer-systems"
+      ]
+    },
+    {
+      "id": "w19_03",
+      "idiom": "just my luck",
+      "meaning_en": "An expression used to say that one is always unlucky or that a bad situation is typical of one's bad fortune.",
+      "meaning_vi": "Thật là xui xẻo (đúng là số của tôi)!",
+      "example": "My flight was cancelled and then I lost my wallet. Just my luck!",
+      "context": "Great. Just my luck!",
+      "week": 19,
+      "fill_sentence": "I arrived at the station five minutes early, only to see my train pulling away from the platform. It is just my luck that this happens every time I am in a hurry for an important meeting.",
+      "tags": [
+        "frustration",
+        "casual",
+        "sarcastic",
+        "misfortune"
+      ]
+    },
+    {
+      "id": "w19_04",
+      "idiom": "rewards program",
+      "meaning_en": "a loyalty program in which customers receive points for purchases that can be redeemed for discounts or free items",
+      "meaning_vi": "chương trình khách hàng thân thiết",
+      "example": "I signed up for the hotel's rewards program to earn points on my stay.",
+      "context": "Are you a member of our rewards program yet?",
+      "week": 19,
+      "fill_sentence": "I buy my morning coffee at this cafe every single day because I want to earn enough points for a free drink. By joining their rewards program, I get a discount after every ten purchases. It is a great way to save money since I am already a loyal customer.",
+      "tags": [
+        "shopping",
+        "money",
+        "casual",
+        "loyalty-rewards"
+      ]
+    },
+    {
+      "id": "w19_05",
+      "idiom": "worth one's while",
+      "meaning_en": "Important, useful, or satisfying enough to be worth the time, money, or effort spent on it.",
+      "meaning_vi": "Đáng thời gian, tiền bạc hoặc công sức bỏ ra.",
+      "example": "It's a long drive, but the beautiful view makes it worth your while.",
+      "context": "No, I don't travel that much so it's not worth my while.",
+      "week": 19,
+      "fill_sentence": "I was hesitant to attend the three-hour career seminar on my day off. However, the expert advice I received on salary negotiation made the event truly worth one's while. I am so glad I decided to go instead of staying home.",
+      "tags": [
+        "work",
+        "advice",
+        "casual",
+        "value-assessment"
+      ]
+    },
+    {
+      "id": "w19_06",
+      "idiom": "earning points",
+      "meaning_en": "Accumulating points or credits through purchases or activities, typically in a loyalty program.",
+      "meaning_vi": "Tích lũy điểm.",
+      "example": "You'll earn points on every purchase and get discounts later.",
+      "context": "You can start earning points with this stay.",
+      "week": 19,
+      "fill_sentence": "Every time I buy a coffee at my local cafe, the barista scans my loyalty card on my phone. I enjoy earning points with every purchase because they eventually lead to a free drink. It is a great way to save money while getting my daily caffeine fix.",
+      "tags": [
+        "shopping",
+        "money",
+        "casual",
+        "loyalty-rewards"
+      ]
+    },
+    {
+      "id": "w19_07",
+      "idiom": "special offers",
+      "meaning_en": "promotional deals or discounts given to customers",
+      "meaning_vi": "ưu đãi đặc biệt, giảm giá",
+      "example": "You'll receive special offers and discounts by mail.",
+      "context": "...and special offers by mail.",
+      "week": 19,
+      "fill_sentence": "I always check the store's website before going shopping to see if there are any current special offers available. These limited-time price reductions help me save a significant amount of money on my monthly groceries. Finding such great deals makes the trip much more rewarding.",
+      "tags": [
+        "shopping",
+        "casual",
+        "cost-and-price",
+        "promotions"
+      ]
+    },
+    {
+      "id": "w19_08",
+      "idiom": "as a rule",
+      "meaning_en": "Usually; as a general habit or practice.",
+      "meaning_vi": "Như một thói quen thường lệ, thông thường.",
+      "example": "As a rule, I don't eat after 8 PM.",
+      "context": "As a rule, I don't join these programs.",
+      "week": 19,
+      "fill_sentence": "I try to keep my desk organized before leaving the office each evening. As a rule, I never leave any documents on my chair, as it helps me start the next morning with a clear mind.",
+      "tags": [
+        "formal",
+        "general-practice",
+        "habitual-actions"
+      ]
+    },
+    {
+      "id": "w19_09",
+      "idiom": "junk mail",
+      "meaning_en": "Unwanted promotional letters, circulars, or emails.",
+      "meaning_vi": "Thư rác, thư quảng cáo không mong muốn.",
+      "example": "My physical mailbox is always full of junk mail from local supermarkets.",
+      "context": "I get enough junk mail already.",
+      "week": 19,
+      "fill_sentence": "I opened my inbox this morning only to find thirty unread messages advertising discounts and products I never signed up for. It takes me forever to delete all this junk mail just to find the important messages from my boss. My inbox is constantly cluttered with these annoying promotional offers.",
+      "tags": [
+        "shopping",
+        "casual",
+        "unwanted-content",
+        "marketing-spam"
+      ]
+    },
+    {
+      "id": "w19_10",
+      "idiom": "a zoo",
+      "meaning_en": "A place or situation that is extremely noisy, chaotic, or crowded.",
+      "meaning_vi": "Nơi cực kỳ hỗn loạn, ồn ào náo nhiệt.",
+      "example": "The shopping mall was a zoo the day before Christmas.",
+      "context": "The 12th floor is a zoo.",
+      "week": 19,
+      "fill_sentence": "The kindergarten classroom was completely out of control, with children screaming, running into walls, and throwing toys everywhere. I have never seen such a chaotic and noisy environment in my life; it was absolutely a zoo.",
+      "tags": [
+        "conflict",
+        "frustration",
+        "casual",
+        "chaotic-environment"
+      ]
+    },
+    {
+      "id": "w19_11",
+      "idiom": "make a racket",
+      "meaning_en": "To make a lot of loud, annoying noise.",
+      "meaning_vi": "Làm ồn ào, gây ra tiếng động lớn khó chịu.",
+      "example": "The kids upstairs were making a racket all afternoon.",
+      "context": "There's some kind of convention going on up there and people are making a racket.",
+      "week": 19,
+      "fill_sentence": "My neighbors held a wild party that lasted until three in the morning. They continued to play loud music and shout at the top of their lungs, making it impossible for me to sleep. I eventually had to call the police because they refused to stop trying to make a racket.",
+      "tags": [
+        "conflict",
+        "frustration",
+        "casual",
+        "noise-nuisance"
+      ]
+    },
+    {
+      "id": "w19_12",
+      "idiom": "reek of",
+      "meaning_en": "To smell very strongly and unpleasantly of something.",
+      "meaning_vi": "Nồng nặc, bốc mùi hôi thối hoặc khó chịu của cái gì.",
+      "example": "His clothes reeked of cheap cologne.",
+      "context": "Also, you must have given me a smoking room because it reeks of cigarette smoke!",
+      "week": 19,
+      "fill_sentence": "After playing soccer in the rain for two hours, my sports bag was completely soaked and neglected. When I finally opened it in my bedroom, the entire room started to reek of damp socks and mud. I immediately had to throw everything into the washing machine to get rid of the terrible odor.",
+      "tags": [
+        "food",
+        "embarrassment",
+        "casual",
+        "unpleasant-smell"
+      ]
+    },
+    {
+      "id": "w19_13",
+      "idiom": "I do apologize for that",
+      "meaning_en": "I am very sorry for that.",
+      "meaning_vi": "Tôi thành thật xin lỗi vì điều đó.",
+      "example": "I do apologize for the delay in processing your request.",
+      "context": "I do apologize for that.",
+      "week": 19,
+      "fill_sentence": "I accidentally knocked over your coffee during the meeting and ruined your documents. I feel terrible about my carelessness, so please let me pay for the cleaning. I do apologize for that.",
+      "tags": [
+        "polite",
+        "formal",
+        "apology",
+        "social-etiquette"
+      ]
+    }
+  ]
+}

@@ -95,6 +95,7 @@ Toggle dark mode with the ☀️/🌙 button in the top-right corner. Dark mode 
 | 16 | Handling a Delay at the Airport |
 | 17 | Lost Luggage |
 | 18 | Renting a Car |
+| 19 | Checking Into a Hotel |
 
 Each week contains 10–16 idioms with a full conversation dialogue.
 
@@ -148,9 +149,11 @@ src/
 │   ├── Flashcard.jsx          # Flashcard practice mode
 │   ├── ConversationPanel.jsx  # Conversation reader with TTS audio player
 │   ├── Games.jsx              # Game setup, gameplay, and results screens
+│   ├── SyncCodeModal.jsx      # Modal for entering the sync code
 │   ├── SyncPanel.jsx          # Progress stats + cloud sync panel
 │   └── AdminUpload.jsx        # AI-powered admin tool for extracting idioms
 ├── data/
+│   ├── Images/                # Application image assets
 │   └── idioms/
 │       └── week_XX/           # One folder per week, auto-scanned
 │           └── week_XX_idioms.json
@@ -164,6 +167,18 @@ Adding a new week is as simple as dropping a `week_XX_idioms.json` file into a n
 
 ---
 
-## License
+## License & Contact
 
 This project is created for personal learning and educational purposes.
+
+**English:**
+Created by Khang Tran - by vibecode so I cannot avoid the lack of idioms
+If someone in the tech field also wants to contribute, or if anyone has feedback or suggestions, please contact me:
+- Email: tranhoangngockhang1994@gmail.com
+- Phone / Zalo: 0972286699
+
+**Tiếng Việt:**
+Được tạo bởi Khang Trần - by vibecode nên không tránh thể thiếu sót. 
+Nếu bạn làm trong lĩnh vực công nghệ và muốn đóng góp, hoặc nếu ai có phản hồi, góp ý, vui lòng liên hệ với tôi:
+- Email: tranhoangngockhang1994@gmail.com
+- Điện thoại / Zalo: 0972286699

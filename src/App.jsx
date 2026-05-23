@@ -212,6 +212,27 @@ export default function App() {
                     )}
 
                 </div>
+
+                {/* Footer */}
+                <div className={`mt-16 pt-8 pb-4 text-center text-sm border-t ${dm ? "border-gray-800 text-gray-500" : "border-gray-200 text-gray-500"}`}>
+                    <p className="mb-2">
+                        {lang === "vi" ? "Được tạo bởi" : "Created by"}{" "}
+                        <span className="font-semibold text-indigo-500">Khang Tran</span> — by vibecode
+                    </p>
+                    <p className="mb-3">
+                        {lang === "vi" 
+                            ? "Nếu bạn muốn đóng góp dự án hoặc có góp ý, phản hồi, vui lòng liên hệ:" 
+                            : "If you're in the tech field and want to contribute, or if you have any feedback/suggestions, please contact me:"}
+                    </p>
+                    <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-6">
+                        <a href="mailto:tranhoangngockhang1994@gmail.com" className={`transition-colors ${dm ? "hover:text-indigo-400" : "hover:text-indigo-600"}`}>
+                            📧 tranhoangngockhang1994@gmail.com
+                        </a>
+                        <span className={`transition-colors cursor-pointer ${dm ? "hover:text-indigo-400" : "hover:text-indigo-600"}`}>
+                            📱 0972 286 699 (Zalo / Phone)
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     )

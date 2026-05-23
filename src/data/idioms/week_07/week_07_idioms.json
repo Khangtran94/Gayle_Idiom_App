@@ -9,7 +9,15 @@
       "meaning_vi": "trả tiền hóa đơn, thanh toán",
       "example": "My father always picks up the tab when we eat out as a family.",
       "context": "Let me pick up the tab.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "After the long business dinner, my boss noticed the waiter approaching with the final bill. He smiled and signaled for the waiter to come over so he could pick up the tab. I really appreciated his generosity since the meal was quite expensive.",
+      "tags": [
+        "money",
+        "social",
+        "casual",
+        "cost-and-price",
+        "financial-responsibility"
+      ]
     },
     {
       "id": "w07_02",
@@ -18,7 +26,15 @@
       "meaning_vi": "tôi mời, tôi sẽ trả tiền",
       "example": "Let's go for coffee; it's my treat.",
       "context": "No, it's my treat.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "I really appreciate you helping me finish this difficult project on time today. Please let me buy you a coffee at the cafe downstairs because it's my treat.",
+      "tags": [
+        "money",
+        "social",
+        "polite",
+        "cost-and-price",
+        "generosity"
+      ]
     },
     {
       "id": "w07_03",
@@ -27,7 +43,15 @@
       "meaning_vi": "chia tiền, tiền ai nấy trả",
       "example": "We decided to go Dutch on our first date so neither of us felt awkward.",
       "context": "Let's go Dutch this time.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "My friends and I decided to grab dinner at a nice restaurant tonight to celebrate finishing our final exams. Since we all have different budgets, we agreed to go Dutch so that no one would feel obligated to cover anyone else's meal. It made the night much less stressful knowing everyone was responsible for their own bill.",
+      "tags": [
+        "money",
+        "social",
+        "casual",
+        "cost-and-price",
+        "splitting-costs"
+      ]
     },
     {
       "id": "w07_04",
@@ -36,7 +60,15 @@
       "meaning_vi": "Tôi sẽ trả (nói điều này khi bạn không muốn tranh cãi nữa về việc ai sẽ trả tiền - đó thường là lời cuối cùng)",
       "example": "Dinner is my treat. — No, you paid last time. I'm paying tonight. I insist.",
       "context": "I insist.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "After we finished our dinner at the restaurant, I reached for my wallet to cover the cost of the meal. My friend tried to stop me, but I firmly told him, \"I insist,\" and placed my card on the table so he wouldn't try to pay.",
+      "tags": [
+        "money",
+        "social",
+        "polite",
+        "cost-and-price",
+        "firm-agreement"
+      ]
     },
     {
       "id": "w07_05",
@@ -45,7 +77,15 @@
       "meaning_vi": "để tôi trả tiền, tôi khao",
       "example": "Don't worry about the drinks; they are on me.",
       "context": "Okay, but next time it's on me.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "We had a great time celebrating your promotion at this restaurant tonight. Please put your wallet away because I want to cover the bill for this special occasion; this dinner is on me.",
+      "tags": [
+        "money",
+        "social",
+        "casual",
+        "cost-and-price",
+        "financial-responsibility"
+      ]
     },
     {
       "id": "w07_06",
@@ -54,7 +94,15 @@
       "meaning_vi": "tàm tạm, bình thường",
       "example": "The concert was just so-so; I expected much more from them.",
       "context": "The service was so-so.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "I asked my brother how his new job was going after the first week. He shrugged and told me it was just so-so, as the pay is decent but the tasks are quite boring. He feels neither excited nor unhappy about his daily routine.",
+      "tags": [
+        "social",
+        "casual",
+        "difficulty",
+        "quality-evaluation",
+        "mediocrity"
+      ]
     },
     {
       "id": "w07_07",
@@ -63,7 +111,15 @@
       "meaning_vi": "không có gì đặc biệt, không giỏi lắm",
       "example": "He's a nice guy, but as a cook, he's no great shakes.",
       "context": "Our waiter was no great shakes.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "I was really excited to try the new pizza place downtown because of all the hype on social media. Honestly, the crust was soggy and the toppings were bland, so it was definitely no great shakes compared to the local joint I usually visit. I probably won't be ordering from there again anytime soon.",
+      "tags": [
+        "social",
+        "casual",
+        "difficulty",
+        "quality-evaluation",
+        "mediocrity"
+      ]
     },
     {
       "id": "w07_08",
@@ -72,7 +128,15 @@
       "meaning_vi": "bực bội, khó chịu, phật lòng",
       "example": "She was clearly put out by his rude comments.",
       "context": "He seemed put out when we complained about our food.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "I asked my coworker to cover my shift on such short notice, and I could tell by his cold expression that he felt quite put out by the request. He sighed heavily and muttered that he had already made other plans for the evening. It was clear that my sudden change of schedule had really inconvenienced him.",
+      "tags": [
+        "emotion",
+        "frustration",
+        "social",
+        "conflict",
+        "negative-feeling"
+      ]
     },
     {
       "id": "w07_09",
@@ -81,7 +145,15 @@
       "meaning_vi": "còn nhiều thiếu sót, không tốt như mong đợi",
       "example": "The cleanliness of the hotel left a lot to be desired.",
       "context": "The food left a lot to be desired!",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "I was really excited to stay at this fancy hotel, but the cleanliness of my room was absolutely shocking. Honestly, the quality of the service provided by the staff seemed to leave a lot to be desired. I will definitely be looking for a different place to stay next time.",
+      "tags": [
+        "social",
+        "formal",
+        "difficulty",
+        "quality-evaluation",
+        "dissatisfaction"
+      ]
     },
     {
       "id": "w07_10",
@@ -90,7 +162,15 @@
       "meaning_vi": "đi xuống dốc, trở nên tồi tệ hơn",
       "example": "That bakery used to be great, but it has really gone downhill lately.",
       "context": "I guess it's gone downhill.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "Ever since the manager resigned, the quality of our team's performance has started to go downhill. Without proper leadership, our productivity has dropped significantly and missed deadlines have become a common occurrence.",
+      "tags": [
+        "health",
+        "work",
+        "difficulty",
+        "deterioration",
+        "declining-state"
+      ]
     },
     {
       "id": "w07_11",
@@ -99,7 +179,15 @@
       "meaning_vi": "người keo kiệt, bủn xỉn",
       "example": "He's such a cheapskate that he never leaves a tip.",
       "context": "I could leave less, but I don't want to be a cheapskate.",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "My friend refuses to tip at restaurants and always avoids paying his fair share when we go out for coffee. Everyone in our group finds it incredibly annoying to deal with such a notorious cheapskate. He definitely has the money, but he just hates parting with a single cent.",
+      "tags": [
+        "money",
+        "social",
+        "casual",
+        "cost-and-price",
+        "stinginess"
+      ]
     },
     {
       "id": "w07_12",
@@ -108,7 +196,15 @@
       "meaning_vi": "không bao giờ, không đời nào",
       "example": "I'll go back to that store when hell freezes over!",
       "context": "Come back here? When hell freezes over!",
-      "week": 7
+      "week": 7,
+      "fill_sentence": "My boss asked me if I would ever agree to work overtime every single weekend without any extra pay. I told him that I would accept such an unfair deal only when hell freezes over. There is absolutely no chance I will sacrifice my personal life for no compensation.",
+      "tags": [
+        "surprise",
+        "impossibility",
+        "casual",
+        "refusal",
+        "never-happening"
+      ]
     }
   ]
 }

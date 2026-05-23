@@ -5,6 +5,7 @@ import AdminUpload from "./components/AdminUpload"
 import ConversationPanel from "./components/ConversationPanel"
 import Games from "./components/Games"
 import SyncPanel from "./components/SyncPanel"
+import SyncCodeModal from "./components/SyncCodeModal"
 
 const weekModules = import.meta.glob("./data/idioms/week_*/*.json", { eager: true })
 
@@ -32,6 +33,14 @@ export default function App() {
     const [isAdmin, setIsAdmin] = useState(false)
     const [titleClicks, setTitleClicks] = useState(0)
     const [showSync, setShowSync] = useState(false)
+    const [showSyncModal, setShowSyncModal] = useState(() => {
+        return !localStorage.getItem("gayle_sync_code_seen")
+    })
+
+    function handleSyncModalClose() {
+        localStorage.setItem("gayle_sync_code_seen", "1")
+        setShowSyncModal(false)
+    }
 
     const dm = darkMode
     const currentWeek = allWeeks[selectedWeek]
@@ -58,6 +67,7 @@ export default function App() {
 
     return (
         <div className={dm ? "dark" : ""}>
+            {showSyncModal && <SyncCodeModal onClose={handleSyncModalClose} />}
             <div className={`min-h-screen p-6 transition-colors ${dm ? "bg-gray-900" : "bg-gray-50"}`}>
                 <div className="max-w-5xl mx-auto">
 

@@ -9,7 +9,15 @@
       "meaning_vi": "ngon tuyệt vời / tuyệt vời",
       "example": "The dessert my mom made was out of this world.",
       "context": "Lisa, this shrimp dish is out of this world!",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "I finally tried the handmade chocolate cake from that new bakery downtown for my sister's birthday. The taste was absolutely out of this world, making it the most delicious dessert I have ever had in my life. Everyone at the party agreed that we have never experienced such incredible quality before.",
+      "tags": [
+        "happiness",
+        "compliment",
+        "casual",
+        "positive-feedback",
+        "quality"
+      ]
     },
     {
       "id": "w15_02",
@@ -18,7 +26,15 @@
       "meaning_vi": "vượt lên chính mình, làm tốt hơn cả mong đợi",
       "example": "This dinner is amazing, you really outdid yourself this time.",
       "context": "You really outdid yourself!",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "Every year, Sarah creates impressive birthday cakes for her children, but she always manages to outdo oneself with even more elaborate designs. This time, she spent three days crafting a realistic castle cake that surpassed every previous masterpiece she had ever baked.",
+      "tags": [
+        "work",
+        "compliment",
+        "casual",
+        "self-improvement",
+        "performance"
+      ]
     },
     {
       "id": "w15_03",
@@ -27,7 +43,15 @@
       "meaning_vi": "tin tưởng, dựa dẫm vào",
       "example": "You can always count on him to be on time.",
       "context": "You can always count on Lisa to serve a great meal.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "I always have a tight deadline for my monthly reports, but my partner is incredibly reliable. Whenever I face a technical problem, I know I can count on him to fix it quickly. His support makes my job much easier.",
+      "tags": [
+        "social",
+        "agreement",
+        "casual",
+        "trust",
+        "reliability"
+      ]
     },
     {
       "id": "w15_04",
@@ -36,7 +60,15 @@
       "meaning_vi": "tự phục vụ, cứ tự nhiên",
       "example": "Please help yourselves to the snacks on the table.",
       "context": "Help yourselves to more.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "We arrived at the buffet party and saw a large table filled with delicious cakes and fruits. The host smiled and told us to help oneself to any food we wanted. My friends and I immediately grabbed plates to start picking our favorite treats.",
+      "tags": [
+        "food",
+        "social",
+        "polite",
+        "hospitality",
+        "eating"
+      ]
     },
     {
       "id": "w15_05",
@@ -45,7 +77,15 @@
       "meaning_vi": "ăn quá nhiều, ăn như heo",
       "example": "I made a pig of myself at the buffet and now I feel sick.",
       "context": "I don't want to make a pig of myself.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "I told myself I would only have a small slice of cake, but the dessert was so delicious that I couldn't stop. I ended up eating almost the entire box and completely made a pig of oneself by the time dinner was over. My stomach was so full afterward that I had to skip my evening workout.",
+      "tags": [
+        "food",
+        "embarrassment",
+        "casual",
+        "eating-habits",
+        "gluttony"
+      ]
     },
     {
       "id": "w15_06",
@@ -54,7 +94,15 @@
       "meaning_vi": "bị lãng phí",
       "example": "Don't let that extra food go to waste; put it in the fridge.",
       "context": "It's going to go to waste if nobody eats it.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "We ordered far too much food for the office party, and nobody finished their plates. It is a shame to see all this delicious leftover pizza go to waste, so please take some home with you.",
+      "tags": [
+        "food",
+        "difficulty",
+        "formal",
+        "resource-management",
+        "waste-prevention"
+      ]
     },
     {
       "id": "w15_07",
@@ -63,7 +111,15 @@
       "meaning_vi": "phần ăn thứ hai, lấy thêm đồ ăn",
       "example": "The pie was so good that I asked for a second helping.",
       "context": "I'll take a second helping.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "My grandmother's homemade lasagna was so incredibly delicious that everyone at the dinner table finished their plates within minutes. Seeing how much we enjoyed it, she happily offered everyone a second helping before we even had a chance to ask for more.",
+      "tags": [
+        "food",
+        "social",
+        "casual",
+        "eating",
+        "meal-portions"
+      ]
     },
     {
       "id": "w15_08",
@@ -72,7 +128,15 @@
       "meaning_vi": "để dành bụng (để ăn món tiếp theo)",
       "example": "Save some room for dessert, it's my favorite!",
       "context": "Kyle, save some room for dessert!",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "We are currently having a delicious appetizer before the main course arrives. Please make sure to save some room for something sweet because the chef is preparing a special chocolate cake for dessert.",
+      "tags": [
+        "food",
+        "advice",
+        "casual",
+        "eating",
+        "meal-planning"
+      ]
     },
     {
       "id": "w15_09",
@@ -81,7 +145,15 @@
       "meaning_vi": "lên đường, đi về",
       "example": "It's getting late, so we should hit the road.",
       "context": "We'd better hit the road.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "We have finished packing all our suitcases and checked out of the hotel. It is time to hit the road if we want to reach the beach before sunset. Let's start the car and begin our long drive.",
+      "tags": [
+        "travel",
+        "casual",
+        "advice",
+        "departure",
+        "starting-journey"
+      ]
     },
     {
       "id": "w15_10",
@@ -90,7 +162,15 @@
       "meaning_vi": "cám ơn vì một buổi tối vui vẻ",
       "example": "Thank you for a lovely time, the food was delicious!",
       "context": "Thank you for a lovely time.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "After enjoying a delicious dinner party at my friend's house, I stood by the front door to say goodbye. I looked at the host and said, \"thank you for a lovely time,\" before walking out into the night. It was the perfect way to show my appreciation for their hospitality.",
+      "tags": [
+        "social",
+        "polite",
+        "formal",
+        "hospitality",
+        "expressing-gratitude"
+      ]
     },
     {
       "id": "w15_11",
@@ -99,7 +179,15 @@
       "meaning_vi": "vô cùng nỗ lực, làm việc vất vả",
       "example": "I knocked myself out cooking for the party.",
       "context": "You and Todd really knocked yourselves out.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "I told my brother that he could borrow my gaming console for the weekend, but I warned him not to break it. If he really wants to spend forty-eight hours straight playing games, he can knock oneself out. I just expect the controller to be returned in perfect condition.",
+      "tags": [
+        "work",
+        "difficulty",
+        "casual",
+        "effort",
+        "hard-work"
+      ]
     },
     {
       "id": "w15_12",
@@ -108,7 +196,15 @@
       "meaning_vi": "một sự đãi ngộ/điều tuyệt vời",
       "example": "Going to the opera was a real treat for her.",
       "context": "It was a real treat.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "I rarely have time to cook elaborate meals because of my busy work schedule. Last night, my brother surprised me with a homemade five-course dinner, which was a real treat after a long week. I felt completely relaxed as I enjoyed every bite of his delicious cooking.",
+      "tags": [
+        "happiness",
+        "compliment",
+        "casual",
+        "positive-feedback",
+        "enjoyment"
+      ]
     },
     {
       "id": "w15_13",
@@ -117,7 +213,15 @@
       "meaning_vi": "mời ai đó sang nhà chơi",
       "example": "We enjoyed having you over for dinner last night.",
       "context": "We look forward to having you over soon.",
-      "week": 15
+      "week": 15,
+      "fill_sentence": "My apartment is finally clean and organized after moving in last week. I am excited to have someone over this Saturday to show them my new living space for the first time.",
+      "tags": [
+        "social",
+        "casual",
+        "polite",
+        "hospitality",
+        "hosting"
+      ]
     }
   ]
 }

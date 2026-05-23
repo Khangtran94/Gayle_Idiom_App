@@ -9,7 +9,14 @@
       "meaning_vi": "đang suy nghĩ về cái gì đó",
       "example": "What kind of color do you have in mind for the bedroom?",
       "context": "What size do you have in mind?",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I am looking for a quiet place to host our team meeting next Friday. I __________ a small coffee shop downtown, but I am open to your suggestions if you know somewhere better.",
+      "tags": [
+        "social",
+        "casual",
+        "thought-process",
+        "planning"
+      ]
     },
     {
       "id": "w18_02",
@@ -18,7 +25,14 @@
       "meaning_vi": "có chương trình khuyến mãi đặc biệt",
       "example": "The grocery store is running a special on strawberries this week.",
       "context": "We're running a special right now.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "Our favorite local bookstore is struggling to clear out their older stock before the summer season begins. To attract more customers, the manager decided to run a special on all hardback novels for the next three days only. We should head over there soon to take advantage of these discounted prices before the promotion expires.",
+      "tags": [
+        "shopping",
+        "money",
+        "casual",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w18_03",
@@ -27,7 +41,14 @@
       "meaning_vi": "bao gồm cả",
       "example": "The price of the hotel room is inclusive of breakfast.",
       "context": "It's $55 a day inclusive of tax, plus insurance.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "We booked a full-board resort package for our upcoming summer vacation in Da Nang. The final price we paid online was inclusive of all taxes, service fees, and three meals a day, so we do not have to worry about any extra costs once we arrive.",
+      "tags": [
+        "formal",
+        "negotiation",
+        "money",
+        "payment-terms"
+      ]
     },
     {
       "id": "w18_04",
@@ -36,7 +57,14 @@
       "meaning_vi": "đọc kỹ lại, xem xét lại",
       "example": "You should read the contract over before you sign it.",
       "context": "Here you go, read that over, please.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I finished writing my essay for the English class, but I am worried about minor spelling errors. Before I submit the assignment to the teacher, I need to read over the document one last time to ensure everything is perfect.",
+      "tags": [
+        "work",
+        "casual",
+        "advice",
+        "review-process"
+      ]
     },
     {
       "id": "w18_05",
@@ -45,7 +73,14 @@
       "meaning_vi": "không thể hiểu rõ/không thể giải thích được",
       "example": "I can't make heads or tails of these assembly instructions.",
       "context": "I can't make heads or tails of this information.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I stared at the medical report for over an hour, but the complex jargon and messy handwriting were completely confusing. Even after reading the document several times, I was simply not be able to make heads or tails of the doctor's diagnosis. It felt like I was trying to decipher an ancient, coded language.",
+      "tags": [
+        "frustration",
+        "difficulty",
+        "casual",
+        "confusion"
+      ]
     },
     {
       "id": "w18_06",
@@ -54,7 +89,14 @@
       "meaning_vi": "đã chuẩn bị xong/sẵn sàng/xong xuôi",
       "example": "We are all set for our trip to Japan.",
       "context": "Then you're probably all set.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I have finished packing my suitcase, double-checked my flight tickets, and confirmed the hotel reservation for our upcoming trip. Now that everything is packed and organized, I am all set to leave for the airport early tomorrow morning.",
+      "tags": [
+        "casual",
+        "work",
+        "preparedness",
+        "status-update"
+      ]
     },
     {
       "id": "w18_07",
@@ -63,7 +105,14 @@
       "meaning_vi": "làm hư hỏng, va quẹt (thường là xe cộ)",
       "example": "He banged up his car when he hit a pole in the parking lot.",
       "context": "That way, if you bang up the car, you won't owe us anything.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I was devastated when I saw my brand-new car after the heavy hailstorm yesterday. The golf-ball-sized ice completely managed to bang up the hood and the roof of the vehicle. Now, I have to take it to the repair shop to fix all the dents.",
+      "tags": [
+        "conflict",
+        "casual",
+        "damage",
+        "accident"
+      ]
     },
     {
       "id": "w18_08",
@@ -72,7 +121,14 @@
       "meaning_vi": "để phòng hờ/phòng khi",
       "example": "Take an umbrella just in case it rains.",
       "context": "I'm sure I won't have an accident, but I'll take it just in case.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I checked the weather report this morning and it predicted a high chance of heavy rain later today. Even though the sky looks clear right now, I decided to pack my umbrella just in case.",
+      "tags": [
+        "time-pressure",
+        "advice",
+        "preparedness",
+        "safety"
+      ]
     },
     {
       "id": "w18_09",
@@ -81,7 +137,14 @@
       "meaning_vi": "giá quá đắt/đắt cắt cổ (như là ăn cướp)",
       "example": "Charging $10 for a bottle of water is highway robbery.",
       "context": "It's highway robbery!",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I wanted to buy a bottle of water at the airport, but they charged me ten dollars for it. That is absolute highway robbery considering how cheap it is everywhere else. I refused to pay such an outrageous price and walked away.",
+      "tags": [
+        "shopping",
+        "money",
+        "sarcastic",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w18_10",
@@ -90,7 +153,14 @@
       "meaning_vi": "sát nút, suýt soát",
       "example": "Arriving at the airport just 30 minutes before the flight means you are cutting it close.",
       "context": "That's going to be cutting it close.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I woke up thirty minutes after my alarm and realized my train was scheduled to depart in less than an hour. I only arrived at the platform a few seconds before the doors locked, so I definitely cut it close today. Next time, I really need to set multiple alarms to ensure I am not rushing.",
+      "tags": [
+        "time-pressure",
+        "warning",
+        "casual",
+        "deadline"
+      ]
     },
     {
       "id": "w18_11",
@@ -99,7 +169,14 @@
       "meaning_vi": "thời gian gia hạn thêm",
       "example": "There is a 10-day grace period for paying your rent.",
       "context": "There's no grace period?",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I missed the deadline for my electricity bill payment by two days, but the company did not charge me a late fee. Fortunately, they offer a three-day grace period for all customers to settle their accounts without any financial penalty. This extra time saved me from paying an unnecessary extra charge.",
+      "tags": [
+        "time-pressure",
+        "delay",
+        "formal",
+        "deadline"
+      ]
     },
     {
       "id": "w18_12",
@@ -108,7 +185,14 @@
       "meaning_vi": "sẵn sàng để bắt đầu hoặc đi",
       "example": "Once you sign these papers, you're good to go.",
       "context": "You're good to go.",
-      "week": 18
+      "week": 18,
+      "fill_sentence": "I have finished packing my suitcase and checked that I have my passport and boarding pass. Everything is finally organized and I am good to go for my flight to London tomorrow morning.",
+      "tags": [
+        "casual",
+        "travel",
+        "preparedness",
+        "status-update"
+      ]
     }
   ]
 }

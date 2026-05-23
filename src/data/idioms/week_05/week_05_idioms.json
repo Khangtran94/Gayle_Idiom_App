@@ -9,7 +9,14 @@
       "meaning_vi": "đang rất đói",
       "example": "I haven't eaten all day, so I'm starving.",
       "context": "I hope the waiter comes soon. I'm starving!",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "I have been working in the garden since six in the morning without taking a single break for breakfast or lunch. My stomach is growling loudly and I feel like I could eat an entire horse right now. I'm starving, so please tell me that dinner is almost ready.",
+      "tags": [
+        "food",
+        "casual",
+        "physical-state",
+        "hunger"
+      ]
     },
     {
       "id": "w05_02",
@@ -18,7 +25,13 @@
       "meaning_vi": "vẫy tay ra hiệu cho ai đó",
       "example": "We need to flag down a taxi if we want to get to the airport on time.",
       "context": "Why don't we flag him down?",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "I was running late for my important job interview and desperately needed a ride. Since there were no buses nearby, I had to stand on the curb and wave my arms to flag down a passing taxi. Thankfully, the driver saw me and pulled over immediately.",
+      "tags": [
+        "travel",
+        "casual",
+        "getting-attention"
+      ]
     },
     {
       "id": "w05_03",
@@ -27,7 +40,14 @@
       "meaning_vi": "Tôi sẽ phục vụ/hỗ trợ bạn ngay đây",
       "example": "Finish your phone call, and I'll be right with you to help with those bags.",
       "context": "I'll be right with you!",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "A customer walks into a busy bakery and approaches the counter while the baker is finishing a large cake order. The baker glances up, smiles at the newcomer, and says, \"I'll be right with you\" as he puts the final decoration on the cake. He then quickly washes his hands to prepare for the customer's request.",
+      "tags": [
+        "work",
+        "polite",
+        "time-pressure",
+        "waiting"
+      ]
     },
     {
       "id": "w05_04",
@@ -36,7 +56,14 @@
       "meaning_vi": "sự trì hoãn, chậm trễ",
       "example": "There was a major hold up on the highway due to an accident.",
       "context": "Sorry for the hold up.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "We were supposed to start the important meeting at nine o'clock sharp. However, a technical issue with the projector caused a major hold up, so we had to wait twenty minutes for the IT staff to fix it.",
+      "tags": [
+        "difficulty",
+        "time-pressure",
+        "delay",
+        "being-stuck"
+      ]
     },
     {
       "id": "w05_05",
@@ -45,7 +72,14 @@
       "meaning_vi": "chật kín người, không còn chỗ trống",
       "example": "The stadium was packed to the rafters for the final game of the season.",
       "context": "We're packed to the rafters tonight.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "We arrived at the concert venue ten minutes before the show started. Every seat and standing area was already packed to the rafters with excited fans. There was simply no room left for anyone else to squeeze in.",
+      "tags": [
+        "social",
+        "casual",
+        "fullness",
+        "crowded-places"
+      ]
     },
     {
       "id": "w05_06",
@@ -54,7 +88,14 @@
       "meaning_vi": "Tôi có thể bắt đầu phục vụ bạn món... không?",
       "example": "Can I start you off with some fresh bread and water?",
       "context": "Can I start you off with some drinks?",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "After I sat down at the restaurant table, the waiter handed me a menu and pulled out a notepad. He smiled politely and asked, \"Can I start you off with something to drink while you look over the food options?\" I replied that I would like a glass of iced water before ordering my main course.",
+      "tags": [
+        "food",
+        "work",
+        "polite",
+        "ordering"
+      ]
     },
     {
       "id": "w05_07",
@@ -63,7 +104,14 @@
       "meaning_vi": "Cho tôi hai phần giống vậy (hoặc cho tôi phần giống người vừa gọi)",
       "example": "If he's having the chocolate cake, make it two!",
       "context": "Make it two.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "My friend just ordered a large iced latte at the busy cafe counter. I looked at the barista and said, 'Make it two,' because I wanted the exact same drink.",
+      "tags": [
+        "food",
+        "casual",
+        "ordering",
+        "agreement"
+      ]
     },
     {
       "id": "w05_08",
@@ -72,7 +120,14 @@
       "meaning_vi": "quyết định chọn cái gì",
       "example": "It took a while, but we finally decided on the blue paint for the kitchen.",
       "context": "And did you decide on some appetizers?",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "We spent three hours looking at all the different university brochures in the library. After carefully comparing the tuition fees and the location of each campus, we finally managed to decide on the best option for my future studies.",
+      "tags": [
+        "work",
+        "formal",
+        "difficulty",
+        "decision-making"
+      ]
     },
     {
       "id": "w05_09",
@@ -81,7 +136,14 @@
       "meaning_vi": "không gọi món khai vị",
       "example": "I think I'll skip dessert today; I'm too full.",
       "context": "We're going to skip the appetizers tonight.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "We were in a huge hurry to make it to our movie on time, so we decided to order our main courses immediately. Since the kitchen was very busy, we chose to skip the appetizers to ensure we finished our meal before the trailers started.",
+      "tags": [
+        "food",
+        "casual",
+        "refusal",
+        "ordering"
+      ]
     },
     {
       "id": "w05_10",
@@ -90,7 +152,13 @@
       "meaning_vi": "nổi tiếng về điều gì",
       "example": "This region is known for its beautiful vineyards.",
       "context": "We're known for our seafood.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "My hometown attracts thousands of tourists every single year because of its beautiful beaches. It is widely known for its crystal-clear water and golden sand. People travel from all over the world just to experience this specific scenery.",
+      "tags": [
+        "social",
+        "formal",
+        "reputation"
+      ]
     },
     {
       "id": "w05_11",
@@ -99,7 +167,14 @@
       "meaning_vi": "đang muốn/có hứng thú với cái gì",
       "example": "Are you in the mood for Italian food tonight?",
       "context": "I'm in the mood for steak, but I know you pride yourselves on your seafood.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "I have been working hard all day and now I finally have a break. I am really in the mood for a hot slice of pizza to relax. It sounds like the perfect way to end this exhausting shift.",
+      "tags": [
+        "food",
+        "casual",
+        "emotion",
+        "desire"
+      ]
     },
     {
       "id": "w05_12",
@@ -108,7 +183,14 @@
       "meaning_vi": "tự hào về điều gì đó của bản thân/cửa hàng mình",
       "example": "They pride themselves on their excellent customer service.",
       "context": "I know you pride yourselves on your seafood.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "Our local bakery is famous throughout the city for its fresh sourdough bread. The owner likes to pride oneself on using a traditional recipe that has been passed down through three generations. Customers travel from miles away specifically to experience this unique, authentic taste.",
+      "tags": [
+        "work",
+        "formal",
+        "pride",
+        "reputation"
+      ]
     },
     {
       "id": "w05_13",
@@ -117,7 +199,13 @@
       "meaning_vi": "món ăn kết hợp hải sản và thịt",
       "example": "I couldn't decide between lobster and steak, so I ordered the surf and turf.",
       "context": "How about trying the surf and turf?",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "My parents are celebrating their anniversary tonight and cannot decide between steak or lobster for dinner. To please everyone, they chose a classic surf and turf platter that includes both a juicy filet mignon and a grilled lobster tail. It is the perfect meal for someone who loves both meat and seafood.",
+      "tags": [
+        "food",
+        "casual",
+        "culinary-terms"
+      ]
     },
     {
       "id": "w05_14",
@@ -126,7 +214,14 @@
       "meaning_vi": "vẹn cả đôi đường, có được cả hai thứ",
       "example": "Living in the suburbs gives her the best of both worlds: peace and quiet, but close to the city.",
       "context": "That way, you get the best of both worlds!",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "I recently decided to work from home three days a week while visiting the office on the other two. By combining the flexibility of remote work with the social benefits of face-to-face meetings, I finally have the best of both worlds. This arrangement allows me to enjoy my home life while still staying connected with my colleagues.",
+      "tags": [
+        "social",
+        "casual",
+        "advantage",
+        "best-outcome"
+      ]
     },
     {
       "id": "w05_15",
@@ -135,7 +230,14 @@
       "meaning_vi": "chốt luôn/hãy chọn phương án đó",
       "example": "The red dress looks better on you, let's go with that.",
       "context": "Okay, let's go with that.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "After reviewing all three designs for the company logo, the marketing team finally narrowed their search down to the blue one. Since everyone agreed it looked the most professional, the manager said, \"I think it is the best fit, so let's go with this option for our final presentation.\"",
+      "tags": [
+        "food",
+        "casual",
+        "agreement",
+        "decision-making"
+      ]
     },
     {
       "id": "w05_16",
@@ -144,7 +246,14 @@
       "meaning_vi": "miễn phí (do cửa hàng mời/đãi)",
       "example": "The manager said the drinks are on the house since it's our anniversary.",
       "context": "They're on the house because you had to wait so long to order.",
-      "week": 5
+      "week": 5,
+      "fill_sentence": "We had a wonderful dinner at the restaurant to celebrate our anniversary. When the waiter brought the bill, he told us our bottle of expensive wine was on the house. We were so surprised by this generous gift from the manager.",
+      "tags": [
+        "money",
+        "casual",
+        "cost-and-price",
+        "free-stuff"
+      ]
     }
   ]
 }

@@ -9,7 +9,14 @@
       "meaning_vi": "Tôi có thể lấy gì cho bạn?",
       "example": "Please go light on the salt when you cook the soup.",
       "context": "Mustard. But please go light on it.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I walked up to the counter at the busy coffee shop during my morning commute. The barista smiled at me and asked, \"What can I get for you?\" I quickly ordered a large latte so I would not be late for my meeting.",
+      "tags": [
+        "food",
+        "casual",
+        "polite",
+        "ordering-food"
+      ]
     },
     {
       "id": "w08_02",
@@ -18,7 +25,14 @@
       "meaning_vi": "Ăn ở đây hay mang đi?",
       "example": "I'll just get a coffee to go. I'm in a hurry.",
       "context": "For here or to go?",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I walked up to the counter at the coffee shop to order my morning latte. The barista looked at me and asked, \"Is your order for here or to go?\" Since I was already late for my meeting, I told her I needed a paper cup to carry it with me.",
+      "tags": [
+        "food",
+        "casual",
+        "polite",
+        "ordering-food"
+      ]
     },
     {
       "id": "w08_03",
@@ -27,7 +41,14 @@
       "meaning_vi": "dùng ít cái gì đó",
       "example": "Please go light on the salt when you cook the soup.",
       "context": "Mustard. But please go light on it.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I am trying to follow a healthier diet this month by cutting back on sugar and processed foods. When I make my morning coffee, I always go light on the cream and sweetener to keep the calorie count low. It has really helped me feel more energetic throughout the day.",
+      "tags": [
+        "food",
+        "casual",
+        "advice",
+        "diet-habits"
+      ]
     },
     {
       "id": "w08_04",
@@ -36,7 +57,14 @@
       "meaning_vi": "suất ăn trọn gói, combo món ăn giá rẻ",
       "example": "The burger shop has a great meal deal that includes a drink and fries.",
       "context": "Would you like to make that a meal deal?",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I was running late for my shift at the office and did not have time to pack a lunch. I stopped at the convenience store and grabbed a sandwich, chips, and a soda as part of a convenient meal deal to save some money. It was much cheaper than buying each item individually.",
+      "tags": [
+        "food",
+        "money",
+        "shopping",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w08_05",
@@ -45,7 +73,14 @@
       "meaning_vi": "từ chối một lời đề nghị, từ chối, khước từ",
       "example": "I think I'll pass on the invitation to the party tonight; I'm too tired.",
       "context": "I’m going to pass on that.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "My coworkers are heading out for a greasy burger to celebrate the end of the week. I am trying to stick to my healthy meal plan, so I decided to pass on their invitation today. I will just eat my salad at my desk instead.",
+      "tags": [
+        "refusal",
+        "casual",
+        "social",
+        "decision-making"
+      ]
     },
     {
       "id": "w08_06",
@@ -54,7 +89,13 @@
       "meaning_vi": "món ăn kèm, món ăn gọi thêm",
       "example": "I'd like a side order of onion rings with my steak.",
       "context": "But I’d like a side order of fries.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I ordered a large grilled chicken breast as my main meal at the restaurant. Because I was still a bit hungry, I decided to request a small serving of fries as a side order. The waiter brought them out on a separate, smaller plate just before my chicken arrived.",
+      "tags": [
+        "food",
+        "casual",
+        "ordering-food"
+      ]
     },
     {
       "id": "w08_07",
@@ -64,7 +105,13 @@
       "example": "The repair bill comes to two hundred dollars.",
       "context": "Your total comes to $6.99.",
       "week": 8,
-      "fill_sentence": "After enjoying their lattes and pastries, Sarah and Tom headed to the counter. The barista scanned their items, then looked up with a smile. 'Alright,' she said, 'your total comes to $17.50 today.' Sarah pulled out her wallet, ready to pay the amount."
+      "fill_sentence": "After enjoying their lattes and pastries, Sarah and Tom headed to the counter. The barista scanned their items, then looked up with a smile. 'Alright,' she said, 'your total comes to $17.50 today.' Sarah pulled out her wallet, ready to pay the amount.",
+      "tags": [
+        "money",
+        "food",
+        "casual",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w08_08",
@@ -74,7 +121,12 @@
       "example": "I was going to buy the red shirt, but on second thought, I'll take the blue one.",
       "context": "On second thought, I will take you up on that meal deal.",
       "week": 8,
-      "fill_sentence": "Sarah told the waiter, \"I'll have the pasta primavera, please.\" Just as he was about to write it down, she added, \"Actually, on second thought, I think I'll go with the salmon. I had pasta for lunch today, so something different would be nice.\""
+      "fill_sentence": "Sarah told the waiter, \"I'll have the pasta primavera, please.\" Just as he was about to write it down, she added, \"Actually, on second thought, I think I'll go with the salmon. I had pasta for lunch today, so something different would be nice.\"",
+      "tags": [
+        "casual",
+        "social",
+        "decision-making"
+      ]
     },
     {
       "id": "w08_09",
@@ -84,7 +136,13 @@
       "example": "I’ll take you up on your offer to drive me to the airport.",
       "context": "I will take you up on that meal deal.",
       "week": 8,
-      "fill_sentence": "My neighbor, Sarah, offered to lend me her fancy stand mixer when she heard I was attempting a complicated new baking recipe. I've always wanted one but couldn't justify the cost, so I quickly decided to take her up on her kind offer. It will make preparing the dough so much easier this weekend!"
+      "fill_sentence": "My neighbor, Sarah, offered to lend me her fancy stand mixer when she heard I was attempting a complicated new baking recipe. I've always wanted one but couldn't justify the cost, so I quickly decided to take her up on her kind offer. It will make preparing the dough so much easier this weekend!",
+      "tags": [
+        "agreement",
+        "casual",
+        "social",
+        "decision-making"
+      ]
     },
     {
       "id": "w08_10",
@@ -94,7 +152,12 @@
       "example": "They will deliver the furniture to your house at no extra charge.",
       "context": "Sure, then you’ll get a soda at no extra charge.",
       "week": 8,
-      "fill_sentence": "I bought a new smartphone last week, and the salesperson told me I could get a protective case along with it. She confirmed that the case would be included at no extra charge. I was happy to receive it as a bonus without paying anything more."
+      "fill_sentence": "I bought a new smartphone last week, and the salesperson told me I could get a protective case along with it. She confirmed that the case would be included at no extra charge. I was happy to receive it as a bonus without paying anything more.",
+      "tags": [
+        "money",
+        "shopping",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w08_11",
@@ -103,7 +166,14 @@
       "meaning_vi": "không sao đâu, đừng lo",
       "example": "No worries, I can finish the report for you.",
       "context": "No worries.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I accidentally spilled coffee on your report during the meeting, but I am so sorry about the mess. Please, no worries; it was just a minor stain and the data is still perfectly readable.",
+      "tags": [
+        "happiness",
+        "polite",
+        "casual",
+        "reassurance"
+      ]
     },
     {
       "id": "w08_12",
@@ -112,7 +182,13 @@
       "meaning_vi": "đổi tiền lẻ, phá tiền chẵn",
       "example": "I need to buy a ticket; can you break a fifty-dollar bill?",
       "context": "We can break it.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I reached the front of the line at the coffee shop and realized I only had a fifty-dollar bill in my wallet. The barista sighed and told me she did not have enough cash in the register to break it. I ended up having to use my credit card to pay for my small latte instead.",
+      "tags": [
+        "money",
+        "casual",
+        "cost-and-price"
+      ]
     }
   ]
 }

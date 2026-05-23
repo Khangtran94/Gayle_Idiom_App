@@ -9,7 +9,15 @@
       "meaning_vi": "làm theo đúng từng li từng tí, tuân thủ nghiêm ngặt",
       "example": "He followed the recipe to the letter, so the cake turned out perfectly.",
       "context": "Yes. I followed the directions to the letter.",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "When baking French macarons, you cannot afford to make any mistakes or guess the measurements. Chef An told his students to follow the recipe to the letter, weighing every gram of flour and matching the oven temperature exactly. By obeying every written detail of the instructions, their pastries turned out perfectly.",
+      "tags": [
+        "work",
+        "formal",
+        "agreement",
+        "following-rules",
+        "precision"
+      ]
     },
     {
       "id": "w02_02",
@@ -18,7 +26,14 @@
       "meaning_vi": "thử làm việc gì đó",
       "example": "I've never fixed a car before, but I'll take a crack at it.",
       "context": "Do you mind if I take a crack at it?",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "I have never baked anything in my life, as I usually just buy store-bought desserts. However, my sister's birthday is tomorrow, and she loves homemade treats. Armed with a detailed recipe, I decided to take a crack at making a complicated three-tier chocolate cake from scratch.",
+      "tags": [
+        "casual",
+        "difficulty",
+        "attempting",
+        "trying-something"
+      ]
     },
     {
       "id": "w02_03",
@@ -27,7 +42,14 @@
       "meaning_vi": "cứ tự nhiên, xin cứ việc",
       "example": "If you want to use my phone, be my guest.",
       "context": "Be my guest.",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "You think my grandmother's traditional beef pho recipe looks easy to cook? Be my guest; the kitchen is all yours and the apron is hanging by the door. Just don't blame me if the broth doesn't taste quite right on your first attempt!",
+      "tags": [
+        "social",
+        "polite",
+        "agreement",
+        "giving-permission"
+      ]
     },
     {
       "id": "w02_04",
@@ -36,7 +58,15 @@
       "meaning_vi": "có biệt tài làm mọi việc suôn sẻ; rất giỏi trong việc làm những việc khó",
       "example": "Everything she plants grows well; she really has the magic touch in the garden.",
       "context": "I usually have the magic touch . . .",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "Whenever our office printer jams or the computers freeze, we always call Minh to fix them. He just taps the machine once, and it instantly starts working perfectly again. Our boss always laughs and says that some people just have the magic touch with technology.",
+      "tags": [
+        "happiness",
+        "work",
+        "compliment",
+        "skill-level",
+        "talent"
+      ]
     },
     {
       "id": "w02_05",
@@ -45,7 +75,14 @@
       "meaning_vi": "tránh xa ai/cái gì (thường vì có trải nghiệm không tốt)",
       "example": "You should steer clear of that neighborhood at night.",
       "context": "I think I'll steer clear of this model.",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "When riding your motorbike through the flooded streets of Saigon, navigating around deep potholes is crucial for your safety. To keep your vehicle undamaged and avoid getting stuck, you must steer clear of the heavily submerged areas near the canal.",
+      "tags": [
+        "warning",
+        "casual",
+        "avoidance",
+        "safety-first"
+      ]
     },
     {
       "id": "w02_06",
@@ -54,7 +91,14 @@
       "meaning_vi": "Tôi hiểu những gì bạn đang nói / chia sẻ",
       "example": "I hear what you're saying about the price, but the quality is much better.",
       "context": "I hear what you're saying.",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "I can hear the frustration in your voice, so please don't think I am ignoring your complaints. I hear what you're saying, and I completely agree that the workload is unfair.",
+      "tags": [
+        "social",
+        "negotiation",
+        "agreement",
+        "active-listening"
+      ]
     },
     {
       "id": "w02_07",
@@ -63,7 +107,13 @@
       "meaning_vi": "huống hồ, nói chi đến",
       "example": "I can't afford a new bike, let alone a new car.",
       "context": "It's frustrating when you get one bad unit, let alone, two!",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "After paying my university tuition fees this month, I barely have enough money to buy a cheap bowl of instant noodles, let alone eat out at a fancy restaurant. I will have to borrow some cash from my roommate just to survive until next week.",
+      "tags": [
+        "difficulty",
+        "impossibility",
+        "logic-emphasis"
+      ]
     },
     {
       "id": "w02_08",
@@ -72,7 +122,14 @@
       "meaning_vi": "một sự thất vọng, điều đáng tiếc, điều xui xẻo",
       "example": "It's a real bummer that the concert was canceled because of rain.",
       "context": "Yeah, it's a bummer!",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "My weekend plans to go camping were completely ruined when a heavy storm hit our town. It was a huge bummer because we had already packed all our gear and bought the food. Now, we are stuck indoors watching the rain wash away our holiday.",
+      "tags": [
+        "frustration",
+        "casual",
+        "disappointment",
+        "negative-feelings"
+      ]
     },
     {
       "id": "w02_09",
@@ -81,7 +138,15 @@
       "meaning_vi": "hoàn tiền, cấp một khoản tín dụng hoàn trả",
       "example": "The store will issue a credit to your account within five business days.",
       "context": "If you give me your receipt, I'll issue a credit to your credit card.",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "I returned the defective shoes to the department store, but since I had lost the original paper receipt, they could not give me a cash refund. Instead, the friendly store manager offered to issue a credit to my membership account, allowing me to use that exact amount on my next purchase.",
+      "tags": [
+        "money",
+        "shopping",
+        "formal",
+        "cost-and-price",
+        "financial-transaction"
+      ]
     },
     {
       "id": "w02_10",
@@ -90,7 +155,15 @@
       "meaning_vi": "đổi ngang giá, đổi đồng giá",
       "example": "Since the two cameras cost the same, it was an even exchange.",
       "context": "It would be an even exchange.",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "I bought a blue sweater for fifty dollars yesterday, but when I tried it on at home, it was too tight. I went back to the clothing store today to swap it for the exact same design in a larger size. Since both items cost the same amount, the cashier processed it as an even exchange without charging me any extra money.",
+      "tags": [
+        "money",
+        "shopping",
+        "formal",
+        "cost-and-price",
+        "exchange-value"
+      ]
     },
     {
       "id": "w02_11",
@@ -99,7 +172,14 @@
       "meaning_vi": "diễn ra tốt đẹp, có kết quả tốt",
       "example": "I hope your new job works out for you.",
       "context": "I hope this one works out.",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "Our group had a terrible time scheduling the project meeting because everyone had different part-time jobs and classes. We finally decided to meet online at midnight, hoping this difficult plan would actually work out. Fortunately, everyone joined on time, we finished the slides quickly, and we got an A grade.",
+      "tags": [
+        "work",
+        "casual",
+        "success",
+        "problem-solving"
+      ]
     },
     {
       "id": "w02_12",
@@ -108,7 +188,14 @@
       "meaning_vi": "đừng ngần ngại làm gì đó",
       "example": "If you have any questions, please don't hesitate to ask.",
       "context": "If you're not happy with it, don't hesitate to bring it back.",
-      "week": 2
+      "week": 2,
+      "fill_sentence": "As a new intern, you might feel shy about asking for help when you get stuck. However, please don't hesitate to contact me at any time of the day. I would much prefer you ask immediately rather than wasting hours worrying and waiting for the weekly meeting.",
+      "tags": [
+        "polite",
+        "formal",
+        "advice",
+        "encouragement"
+      ]
     }
   ]
 }

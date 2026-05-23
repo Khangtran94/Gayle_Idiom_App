@@ -9,7 +9,15 @@
       "meaning_vi": "làm ai đó phát điên hoặc cực kỳ khó chịu",
       "example": "The constant sound of the car alarm was driving him nuts.",
       "context": "It's driving him nuts.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "I have been trying to finish this report for three hours, but my neighbor's dog will not stop barking. The constant, high-pitched noise is really driving one nuts. I just cannot concentrate on my work with this non-stop disruption.",
+      "tags": [
+        "frustration",
+        "work",
+        "casual",
+        "annoyance",
+        "negative-feelings"
+      ]
     },
     {
       "id": "w11_02",
@@ -18,7 +26,14 @@
       "meaning_vi": "phát ra, bùng phát, nổi lên (thường dùng cho mẩn ngứa, mụn, bệnh ngoài da)",
       "example": "I tend to break out whenever I eat too much chocolate.",
       "context": "When did the rash break out?",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "After eating the strange shellfish at the restaurant, I noticed my skin started to turn bright red and itchy. Within minutes, I began to break out (in) a severe rash all over my arms. I had to rush to the clinic immediately to get some allergy medication.",
+      "tags": [
+        "surprise",
+        "casual",
+        "sudden-event",
+        "occurring"
+      ]
     },
     {
       "id": "w11_03",
@@ -27,7 +42,14 @@
       "meaning_vi": "có thể là rất nhiều khả năng; bất kì điều gì",
       "example": "There are any number of reasons why the project might fail.",
       "context": "It could be any number of things.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "I have been feeling exhausted and dizzy for the past few weeks, but my doctor says it could be caused by any number of things, from simple stress to a lack of vitamins. We will have to run several blood tests to narrow down which of those many possibilities is actually making me sick.",
+      "tags": [
+        "casual",
+        "possibility",
+        "variety",
+        "many-options"
+      ]
     },
     {
       "id": "w11_04",
@@ -36,7 +58,14 @@
       "meaning_vi": "trước tiên; để kể ra một ví dụ",
       "example": "For starters, we need to find a place to stay before we book the flights.",
       "context": "For starters, it could be an allergic reaction to something.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "I am having a terrible day at my new office. For starters, my computer crashed immediately, and the printer is broken as well.",
+      "tags": [
+        "formal",
+        "advice",
+        "first-step",
+        "listing-examples"
+      ]
     },
     {
       "id": "w11_05",
@@ -45,7 +74,14 @@
       "meaning_vi": "phản ứng dị ứng",
       "example": "He had a severe allergic reaction to the bee sting.",
       "context": "For starters, it could be an allergic reaction to something.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "After eating a piece of cake containing hidden walnuts, Linh immediately felt her throat swell up and her skin turn red. She rushed to the hospital because she knew she was having a severe allergic reaction. The doctors confirmed that her body was overreacting to the nut proteins.",
+      "tags": [
+        "health",
+        "difficulty",
+        "physical-symptom",
+        "medical-issue"
+      ]
     },
     {
       "id": "w11_06",
@@ -54,7 +90,15 @@
       "meaning_vi": "nói đúng vấn đề; đoán đúng",
       "example": "She really hit the nail on the head when she said the team lacks leadership.",
       "context": "You may have hit the nail on the head.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "During the team meeting, everyone was confused about why our sales were dropping until Sarah suggested that our marketing message felt outdated. Our manager nodded and told her she had hit the nail on the head, as that was exactly the core issue we had been struggling to identify. Her precise observation finally gave us a clear direction for our next project.",
+      "tags": [
+        "casual",
+        "agreement",
+        "compliment",
+        "accuracy",
+        "being-precise"
+      ]
     },
     {
       "id": "w11_07",
@@ -63,7 +107,14 @@
       "meaning_vi": "đang dùng (thuốc)",
       "example": "The doctor put her on antibiotics for her ear infection.",
       "context": "Is he on anything now?",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "My colleague has been struggling with chronic migraines for the past few months. She is finally on something that keeps the pain away during our long meetings. She says she feels much more focused now that she has the right medication.",
+      "tags": [
+        "health",
+        "casual",
+        "medication",
+        "medical-status"
+      ]
     },
     {
       "id": "w11_08",
@@ -72,7 +123,15 @@
       "meaning_vi": "(thuốc) không kê đơn",
       "example": "You can buy most pain relievers over-the-counter at any pharmacy.",
       "context": "Try an over-the-counter anti-itch cream or a pill like Claritin.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "I have a mild headache and do not want to wait hours at the doctor's office for a consultation. I decided to visit the local pharmacy to purchase some over-the-counter pain relievers instead. It is much more convenient since I do not need a doctor's prescription for these basic medications.",
+      "tags": [
+        "health",
+        "shopping",
+        "casual",
+        "medical-supplies",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w11_09",
@@ -81,7 +140,15 @@
       "meaning_vi": "khỏi hẳn, hết (dùng cho bệnh tật, vết mẩn ngứa, hoặc tình trạng bối rối)",
       "example": "The doctor said the infection should clear up in about a week.",
       "context": "If it doesn't clear up, he should see a doctor.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "I have been using this medicated cream for my acne for over a week now. I am happy to see that the red spots finally started to ________, and my skin is looking much healthier. I hope it stays this way so I can feel more confident at the party tomorrow.",
+      "tags": [
+        "health",
+        "advice",
+        "casual",
+        "recovery",
+        "improving-state"
+      ]
     },
     {
       "id": "w11_10",
@@ -90,7 +157,15 @@
       "meaning_vi": "thà cẩn thận còn hơn hối hận",
       "example": "I think I'll bring an extra jacket, better safe than sorry.",
       "context": "It's probably nothing serious, but better safe than sorry.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "I always double-check that I have locked the front door and turned off the stove before I leave for a long vacation. Even if it takes an extra five minutes, I truly believe it is better safe than sorry when it comes to preventing a house fire or a break-in.",
+      "tags": [
+        "warning",
+        "advice",
+        "casual",
+        "cautiousness",
+        "safety-first"
+      ]
     },
     {
       "id": "w11_11",
@@ -99,7 +174,15 @@
       "meaning_vi": "ngăn chặn từ trong trứng nước",
       "example": "The company decided to nip the PR problem in the bud by issuing an immediate apology.",
       "context": "Right! We should nip this in the bud.",
-      "week": 11
+      "week": 11,
+      "fill_sentence": "My manager noticed a small conflict brewing between two team members during our morning meeting. She intervened immediately to resolve the tension and nip it in the bud before it escalated into a major workplace dispute. Her quick action saved our project from unnecessary drama.",
+      "tags": [
+        "warning",
+        "difficulty",
+        "conflict",
+        "prevention",
+        "stopping-problems"
+      ]
     }
   ]
 }

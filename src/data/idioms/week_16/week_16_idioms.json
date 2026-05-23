@@ -9,7 +9,15 @@
       "meaning_vi": "chờ đợi, sẵn sàng đợi lệnh hoặc thông tin tiếp theo",
       "example": "Please stand by while we try to reconnect the video call.",
       "context": "Please stand by for more information.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "The emergency responders are currently on high alert for the approaching storm. Please stand by for further instructions while we monitor the weather conditions. Do not move from your designated safe area until you hear the signal to evacuate.",
+      "tags": [
+        "work",
+        "casual",
+        "time-pressure",
+        "readiness",
+        "waiting"
+      ]
     },
     {
       "id": "w16_02",
@@ -18,7 +26,14 @@
       "meaning_vi": "cập nhật tình hình cho ai đó",
       "example": "I'll keep you posted as soon as I know more.",
       "context": "I'll keep you posted.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "I am waiting to hear back from the hiring manager about my job interview results. Please keep someone posted as soon as you receive any news from their office.",
+      "tags": [
+        "work",
+        "casual",
+        "communication",
+        "updating-others"
+      ]
     },
     {
       "id": "w16_03",
@@ -27,7 +42,14 @@
       "meaning_vi": "không đời nào, không thể nào",
       "example": "There is no way we can finish this project by tomorrow morning.",
       "context": "there's no way I'll make it.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "My friend asked me if I could finish this fifty-page report by tomorrow morning. I looked at the massive pile of documents and told him, \"No way.\" It is impossible to complete that much work in only a few hours.",
+      "tags": [
+        "casual",
+        "impossibility",
+        "refusal",
+        "strong-denial"
+      ]
     },
     {
       "id": "w16_04",
@@ -36,7 +58,14 @@
       "meaning_vi": "cùng hội cùng thuyền, cùng chung cảnh ngộ khó khăn",
       "example": "We're all in the same boat - no one can leave until the storm passes.",
       "context": "There are lots of other people here in the same boat.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "Our final project deadline was moved up by two days, and none of us have finished our research yet. We are all struggling to complete the work on time because we are stuck in the same boat. It is stressful for everyone in our study group.",
+      "tags": [
+        "social",
+        "difficulty",
+        "shared-experience",
+        "in-trouble"
+      ]
     },
     {
       "id": "w16_05",
@@ -45,7 +74,14 @@
       "meaning_vi": "đã đặt hết chỗ, không còn chỗ trống",
       "example": "The hotel is fully booked for the entire summer season.",
       "context": "Yes, there's a 1 p.m. departure, but it's fully booked.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "I tried to reserve a table at the popular Italian restaurant for our anniversary dinner this Saturday. Unfortunately, the manager told me they are already fully booked and cannot accept any more customers for the entire evening. We will have to choose a different place to eat.",
+      "tags": [
+        "shopping",
+        "travel",
+        "time-pressure",
+        "no-availability"
+      ]
     },
     {
       "id": "w16_06",
@@ -54,7 +90,15 @@
       "meaning_vi": "đưa ai đó vào danh sách chờ",
       "example": "I put my name on the waiting list for the new iPhone.",
       "context": "Can you put me on the waiting list?",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "The popular dance class at the community center is already completely full for this semester. Since you really want to join, the instructor offered to put someone on the waiting list in case a current student drops out before next week. Please provide your contact information so she can notify you if a spot opens up.",
+      "tags": [
+        "work",
+        "formal",
+        "difficulty",
+        "waiting-list",
+        "no-availability"
+      ]
     },
     {
       "id": "w16_07",
@@ -63,7 +107,14 @@
       "meaning_vi": "đừng quá mong đợi (vì điều đó khó có thể xảy ra)",
       "example": "He promised to pay me back next week, but I'm not holding my breath.",
       "context": "I'll add you to the list, but don't hold your breath.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "I asked my boss for a month-long vacation next summer to travel across Europe. He just laughed and said that given our busy project schedule, I probably shouldn't hold your breath waiting for an approval. I guess I will have to start looking for a different time to go.",
+      "tags": [
+        "casual",
+        "warning",
+        "impossibility",
+        "low-expectations"
+      ]
     },
     {
       "id": "w16_08",
@@ -72,7 +123,13 @@
       "meaning_vi": "khá nhiều",
       "example": "I have quite a few chores to finish before I can go out.",
       "context": "There are quite a few people already on the list",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "I was surprised by how many people showed up to the surprise party last night. There were quite a few of my classmates crowded into the living room, so we barely had enough chairs for everyone. It was much louder and more packed than I had originally anticipated.",
+      "tags": [
+        "casual",
+        "large-quantity",
+        "frequent-amount"
+      ]
     },
     {
       "id": "w16_09",
@@ -81,7 +138,14 @@
       "meaning_vi": "chấp nhận vé do một công ty khác phát hành như hợp lệ",
       "example": "Other airlines won't honor your ticket from the other airline.",
       "context": "Other airlines won't honor your Flyaway Airlines ticket.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "My train was unexpectedly canceled due to severe weather, leaving me stranded at the station with a valid pass from a different rail provider. Fortunately, the station manager agreed to honor a ticket issued by the competing company so that I could board the next available departure without paying extra.",
+      "tags": [
+        "formal",
+        "travel",
+        "agreement",
+        "service-policy"
+      ]
     },
     {
       "id": "w16_10",
@@ -90,7 +154,14 @@
       "meaning_vi": "thật là quá quắt, thật là phiền phức (biểu lộ sự bực mình)",
       "example": "For crying out loud, I've already told you three times!",
       "context": "Oh, for crying out loud! This is so annoying.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "I have explained how to submit this assignment to you five times already today. For crying out loud, just follow the instructions on the screen so we can finally finish this project! I am losing my patience with these repeated simple mistakes.",
+      "tags": [
+        "frustration",
+        "casual",
+        "anger",
+        "exasperation"
+      ]
     },
     {
       "id": "w16_11",
@@ -99,7 +170,14 @@
       "meaning_vi": "mắng cho một trận, nói cho một trận lôi đình",
       "example": "I'm going to give that waiter a piece of my mind about the cold food.",
       "context": "Let me give you a piece of my mind.",
-      "week": 16
+      "week": 16,
+      "fill_sentence": "My neighbor constantly plays loud music at midnight, making it impossible for me to sleep. After three sleepless nights in a row, I finally decided to go to his door and give someone a piece of one's mind about his disrespectful behavior. He looked shocked when I finished shouting at him.",
+      "tags": [
+        "anger",
+        "conflict",
+        "casual",
+        "confrontation"
+      ]
     }
   ]
 }

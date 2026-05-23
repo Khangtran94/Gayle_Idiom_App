@@ -9,7 +9,14 @@
       "meaning_vi": "ghé qua nhanh",
       "example": "I'll swing by your office this afternoon to pick up the documents.",
       "context": "How about if I swing by at 5:30?",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I am on my way to the supermarket to buy groceries for dinner. Since your apartment is directly on my route, I can swing by for just five minutes to drop off the book I borrowed from you. I won't even need to park the car; I'll just hand it to you at the gate and keep driving.",
+      "tags": [
+        "travel",
+        "casual",
+        "quick-visit",
+        "short-stay"
+      ]
     },
     {
       "id": "w03_02",
@@ -18,7 +25,14 @@
       "meaning_vi": "lái thử (xe) để kiểm tra tình trạng xe",
       "example": "Always take a test drive before you sign any car purchase papers.",
       "context": "Would you like to take a test drive?",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "Nam went to the car dealership yesterday because he was finally ready to buy his first sedan. The salesperson handed him the keys and invited him to take a test drive around the block to see how the vehicle handled. After feeling how smooth the steering and brakes were on the actual road, he felt confident enough to make the purchase.",
+      "tags": [
+        "shopping",
+        "travel",
+        "casual",
+        "product-testing"
+      ]
     },
     {
       "id": "w03_03",
@@ -27,7 +41,14 @@
       "meaning_vi": "điều cuối cùng tôi cần là",
       "example": "The last thing I need right now is more work.",
       "context": "The last thing I need is another lemon!",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I have a major job interview in thirty minutes, and my head is already throbbing with a terrible headache. As I run to my car, I notice dark rain clouds quickly filling the sky. The last thing I need is a heavy downpour to ruin my only professional suit before I even arrive.",
+      "tags": [
+        "frustration",
+        "refusal",
+        "casual",
+        "unwanted-situation"
+      ]
     },
     {
       "id": "w03_04",
@@ -36,7 +57,14 @@
       "meaning_vi": "chiếc xe bị lỗi, xe rác (không đáng tiền)",
       "example": "I realized the car was a lemon when the engine failed after just one week.",
       "context": "The last thing I need is another lemon!",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I thought I got a great deal on a shiny blue sedan from the local used car dealership last week. However, the engine overheated on my first drive, the brakes started squeaking, and now the transmission is completely shot. It turns out the salesman tricked me into buying a total lemon, and now I have to pay thousands of dollars for repairs.",
+      "tags": [
+        "shopping",
+        "difficulty",
+        "sarcastic",
+        "defective-item"
+      ]
     },
     {
       "id": "w03_05",
@@ -45,7 +73,14 @@
       "meaning_vi": "trong tình trạng hoàn hảo, như mới",
       "example": "He keeps his old comic book collection in mint condition.",
       "context": "And it's in mint condition!",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "My grandfather has kept his 1960s classic car in his garage for over fifty years, never driving it in the rain or letting it gather dust. Because he has maintained every original part so meticulously, the vehicle remains in mint condition today. You would think it had just rolled off the assembly line yesterday.",
+      "tags": [
+        "shopping",
+        "compliment",
+        "casual",
+        "perfect-condition"
+      ]
     },
     {
       "id": "w03_06",
@@ -54,7 +89,14 @@
       "meaning_vi": "một món hời (giá rất rẻ)",
       "example": "At only twenty dollars, this designer jacket is a steal.",
       "context": "Yes, it's a steal.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I managed to buy this brand-new laptop for only fifty dollars at the garage sale. My friend could not believe I paid so little for such high quality, so he told me it was a steal. I am incredibly happy with my purchase.",
+      "tags": [
+        "shopping",
+        "money",
+        "compliment",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w03_07",
@@ -63,7 +105,13 @@
       "meaning_vi": "bỏ lỡ cơ hội",
       "example": "Don't miss out on the early-bird discount; book your tickets now.",
       "context": "I'd hate for you to miss out.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "My friends all booked tickets for the concert months ago, but I waited too long to make a decision. Now that the event is completely sold out, I really regret that I will miss out on the experience of seeing my favorite band live.",
+      "tags": [
+        "frustration",
+        "casual",
+        "lost-opportunity"
+      ]
     },
     {
       "id": "w03_08",
@@ -72,7 +120,14 @@
       "meaning_vi": "chia đôi phần chênh lệch, lấy mức giá ở giữa",
       "example": "You want $100 and I want $80, so let's split the difference and say $90.",
       "context": "Let's split the difference.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I wanted to sell my old bicycle for $100, but the buyer only offered $60. Since we could not agree on a price, we decided to split the difference and settled on $80.",
+      "tags": [
+        "money",
+        "negotiation",
+        "agreement",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w03_09",
@@ -81,7 +136,14 @@
       "meaning_vi": "chốt đơn, đồng ý thỏa thuận",
       "example": "If you can finish the project by Friday, you've got a deal.",
       "context": "If you can make it $7,500, you've got a deal.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "If you finish cleaning the garage by this afternoon, I will take you to the cinema tonight as a reward. I think that sounds fair, so you've got a deal. Let's shake hands to make the agreement official.",
+      "tags": [
+        "negotiation",
+        "agreement",
+        "casual",
+        "closing-deals"
+      ]
     },
     {
       "id": "w03_10",
@@ -90,7 +152,14 @@
       "meaning_vi": "suy nghĩ thêm, hôm sau trả lời",
       "example": "I'm not sure about the job offer yet; I need to sleep on it.",
       "context": "I'd like to sleep on it.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I have received a very tempting job offer, but the decision is quite difficult to make right now. I decided to sleep on it so that I can look at the contract with a fresh mind tomorrow morning. I hope that a good night of rest will give me the clarity I need to choose the right path.",
+      "tags": [
+        "time-pressure",
+        "advice",
+        "casual",
+        "decision-making"
+      ]
     },
     {
       "id": "w03_11",
@@ -99,7 +168,13 @@
       "meaning_vi": "gọi điện thoại cho ai đó",
       "example": "I'll give you a ring when I arrive at the airport.",
       "context": "Can I give you a ring in the morning?",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I just checked my phone and saw that your flight was delayed until tomorrow morning. Please give someone a ring at the hotel front desk so they know you will be checking in late. It is important to update them before their reservation system closes for the night.",
+      "tags": [
+        "social",
+        "casual",
+        "communication"
+      ]
     },
     {
       "id": "w03_12",
@@ -108,7 +183,14 @@
       "meaning_vi": "đạt được thỏa thuận",
       "example": "After hours of negotiation, both sides finally reached an agreement.",
       "context": "I'd like to reach an agreement now.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "After three hours of intense negotiation, both the buyer and the seller finally managed to settle their differences and reach an agreement. This successful discussion allowed them to sign the contract and finalize the property sale immediately.",
+      "tags": [
+        "negotiation",
+        "agreement",
+        "formal",
+        "closing-deals"
+      ]
     },
     {
       "id": "w03_13",
@@ -117,7 +199,14 @@
       "meaning_vi": "mặc cả, trả giá",
       "example": "In many street markets, it's expected that customers will haggle.",
       "context": "I don't want to haggle.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "When shopping at the traditional outdoor markets in Vietnam, the vendors rarely list fixed prices on their goods. If you want to get a better deal, you should always try to haggle with the seller until you both agree on a fair amount.",
+      "tags": [
+        "money",
+        "negotiation",
+        "conflict",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w03_14",
@@ -126,7 +215,14 @@
       "meaning_vi": "kèo nèo, chi li từng đồng",
       "example": "The airline will nickel and dime you for every little thing, from bags to water.",
       "context": "I'm sorry to nickel and dime you, but money is tight for me right now.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I really enjoy working with my new business partner, but his obsession with tracking every single penny is becoming quite exhausting. He constantly tries to nickel and dime me over minor office supply costs like staples and paperclips. It makes it very difficult to focus on our major projects when he is constantly arguing about such insignificant expenses.",
+      "tags": [
+        "money",
+        "frustration",
+        "conflict",
+        "small-expenses"
+      ]
     },
     {
       "id": "w03_15",
@@ -135,7 +231,14 @@
       "meaning_vi": "tiền bạc eo hẹp, đang kẹt tiền",
       "example": "Money is tight this month, so we can't afford to go out for dinner.",
       "context": "I'm sorry to nickel and dime you, but money is tight for me right now.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "I have been working overtime every weekend just to cover my rent and basic groceries. Since I cannot afford to go out with my friends lately, I have to explain to them that money is tight. I hope my financial situation improves by next month.",
+      "tags": [
+        "money",
+        "worry",
+        "difficulty",
+        "financial-struggle"
+      ]
     },
     {
       "id": "w03_16",
@@ -144,7 +247,14 @@
       "meaning_vi": "chốt giao dịch, hoàn tất thỏa thuận (trong đàm phán)",
       "example": "The salesman was happy to finally close the deal and sign the contract.",
       "context": "Okay, let's close the deal.",
-      "week": 3
+      "week": 3,
+      "fill_sentence": "After weeks of intense negotiations and multiple meetings with the client, our sales team finally offered a final discount. We were thrilled when the client signed the contract to close the deal, ensuring our company hit its quarterly goal. All the hard work and preparation finally paid off.",
+      "tags": [
+        "negotiation",
+        "agreement",
+        "work",
+        "closing-deals"
+      ]
     }
   ]
 }

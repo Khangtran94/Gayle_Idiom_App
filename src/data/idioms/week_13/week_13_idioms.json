@@ -9,7 +9,15 @@
       "meaning_vi": "bị chậm trễ, bị kẹt",
       "example": "I'm sorry I'm late; I was held up at the office by a last-minute meeting.",
       "context": "We got held up in traffic on Route 95.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "I was planning to arrive at the meeting by nine o'clock, but a massive traffic accident on the highway caused a complete standstill. Because I was held up for over an hour, I missed the important presentation at the office.",
+      "tags": [
+        "travel",
+        "delay",
+        "time-pressure",
+        "being-stuck",
+        "casual"
+      ]
     },
     {
       "id": "w13_02",
@@ -18,7 +26,15 @@
       "meaning_vi": "vụ tai nạn liên hoàn (nhiều xe đâm nhau)",
       "example": "The heavy fog caused a 10-car pile-up on the bridge.",
       "context": "There was a pile-up on the highway involving three cars.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "Heavy snow on the highway caused a massive pile-up involving ten cars and a truck. All lanes were closed for hours while emergency services cleared the wreckage and debris from the road.",
+      "tags": [
+        "travel",
+        "difficulty",
+        "worry",
+        "being-stuck",
+        "casual"
+      ]
     },
     {
       "id": "w13_03",
@@ -27,7 +43,15 @@
       "meaning_vi": "kẹt xe, chôn chân trong đám tắc đường",
       "example": "I hate sitting in traffic when I'm already late for an appointment.",
       "context": "We were sitting in traffic for an hour.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "I left for work early, but I still ended up being late for my meeting. I had to sit in traffic for over an hour because of an accident on the highway. My car didn't move an inch while I watched the clock tick by.",
+      "tags": [
+        "travel",
+        "delay",
+        "frustration",
+        "being-stuck",
+        "casual"
+      ]
     },
     {
       "id": "w13_04",
@@ -36,7 +60,15 @@
       "meaning_vi": "Thật là một cơn ác mộng/thảm họa!",
       "example": "The hotel lost our reservation and it started raining; what a nightmare!",
       "context": "What a nightmare! Come on in and chill out now.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "I spent three hours finishing my project, but my computer crashed and deleted every single file right before the deadline. I have to start the whole assignment over from scratch. What a nightmare!",
+      "tags": [
+        "frustration",
+        "difficulty",
+        "casual",
+        "sarcastic",
+        "negative-experience"
+      ]
     },
     {
       "id": "w13_05",
@@ -45,7 +77,15 @@
       "meaning_vi": "thư giãn, xả hơi",
       "example": "We spent the whole weekend just chilling out by the pool.",
       "context": "Come on in and chill out now.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "After finishing a stressful eight-hour shift at the office, I really needed to sit on the sofa and listen to some soft music. It was the only way for me to finally chill out before starting my evening chores. My mind was racing, but resting helped me feel completely peaceful again.",
+      "tags": [
+        "happiness",
+        "work",
+        "casual",
+        "stress-relief",
+        "mental-wellbeing"
+      ]
     },
     {
       "id": "w13_06",
@@ -54,7 +94,14 @@
       "meaning_vi": "Cùng tham gia bữa tiệc nào!",
       "example": "Don't just stand in the hallway, come inside and join the party!",
       "context": "Join the party!",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "We noticed you have been sitting alone in the corner watching everyone dance for the last hour. The music is great and everyone is having a wonderful time, so please come over and Join the party! Don't be shy because we would love for you to get involved with the group.",
+      "tags": [
+        "social",
+        "casual",
+        "invitation",
+        "party-time"
+      ]
     },
     {
       "id": "w13_07",
@@ -63,7 +110,14 @@
       "meaning_vi": "một món quà nhỏ, chút quà mọn",
       "example": "I brought a little something to say thank you for your help.",
       "context": "And this is a little something for your son.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "I know you have been working incredibly hard on this project, so I brought a little something to show my appreciation. Please accept this small box of chocolates as a token of my gratitude for all your extra effort.",
+      "tags": [
+        "social",
+        "polite",
+        "gift-giving",
+        "thoughtful-gesture"
+      ]
     },
     {
       "id": "w13_08",
@@ -72,7 +126,15 @@
       "meaning_vi": "Bạn không cần phải làm thế đâu (lời cảm ơn lịch sự khi nhận quà)",
       "example": "Flowers? Oh, you shouldn't have, but they are beautiful!",
       "context": "Oh, how kind of you! You shouldn't have.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "I was so surprised when my colleague handed me a beautifully wrapped birthday present at the office today. It was such an unexpected and generous gesture that I felt truly touched. I smiled and said, \"You shouldn't have.\" as I opened the gift.",
+      "tags": [
+        "polite",
+        "compliment",
+        "formal",
+        "gift-giving",
+        "gratitude"
+      ]
     },
     {
       "id": "w13_09",
@@ -81,7 +143,14 @@
       "meaning_vi": "thật đúng lúc, giải tỏa cơn khát/đói",
       "example": "That cold lemonade really hit the spot after our long walk.",
       "context": "A drink would hit the spot.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "I had been working in the hot sun for hours and was feeling completely exhausted and dehydrated. When I finally took a sip of that ice-cold lemonade, it really hit the spot. I immediately felt refreshed and energized enough to finish my chores.",
+      "tags": [
+        "food",
+        "happiness",
+        "compliment",
+        "satisfaction"
+      ]
     },
     {
       "id": "w13_10",
@@ -90,7 +159,14 @@
       "meaning_vi": "bất cứ cái gì bạn muốn, chúng tôi đều có",
       "example": "Our library has books, movies, games—you name it, we've got it.",
       "context": "You name it, we've got it.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "Our local superstore is truly incredible because it stocks every product imaginable, from rare tropical fruits to specialized hardware tools. Whatever item you might be looking for, you name it, we've got it. It is the only place in town where you never leave empty-handed.",
+      "tags": [
+        "shopping",
+        "casual",
+        "variety",
+        "abundant-choice"
+      ]
     },
     {
       "id": "w13_11",
@@ -99,7 +175,14 @@
       "meaning_vi": "đừng cho... vào (khi gọi món)",
       "example": "I'll have a cheeseburger, but hold the pickles, please.",
       "context": "Hold the vodka.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "I am allergic to onions and always feel nervous when ordering at a new restaurant. When the waiter came to take my order, I made sure to say, \"Please hold the onions on my burger.\" Thankfully, they listened, and I was able to enjoy my meal without any health issues.",
+      "tags": [
+        "food",
+        "negotiation",
+        "refusal",
+        "ordering-food"
+      ]
     },
     {
       "id": "w13_12",
@@ -108,7 +191,14 @@
       "meaning_vi": "uống với đá",
       "example": "I'll have a Scotch on the rocks, please.",
       "context": "I'll take a vodka on the rocks.",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "After a long and stressful day at the office, Mark walked into his favorite bar to relax. He asked the bartender for a glass of premium whiskey on the rocks to enjoy the cool, melting ice cubes. The refreshing drink was exactly what he needed to unwind.",
+      "tags": [
+        "food",
+        "casual",
+        "drinks",
+        "bar-culture"
+      ]
     },
     {
       "id": "w13_13",
@@ -117,7 +207,14 @@
       "meaning_vi": "có ngay đây!",
       "example": "Two cheeseburgers and a large soda? Coming right up!",
       "context": "Coming right up!",
-      "week": 13
+      "week": 13,
+      "fill_sentence": "I sat down at the busy cafe and ordered a double espresso. When I asked the waiter how long it would take, he smiled and said, \"Coming right up!\" Moments later, he returned with a hot cup of coffee.",
+      "tags": [
+        "food",
+        "polite",
+        "time-pressure",
+        "service-industry"
+      ]
     }
   ]
 }

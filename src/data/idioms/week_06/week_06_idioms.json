@@ -9,7 +9,13 @@
       "meaning_vi": "tái vừa",
       "example": "I'd like my steak medium rare, please.",
       "context": "I ordered my steak medium rare, and it’s burnt to a crisp.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "I was ordering dinner at the steakhouse and the waiter asked how I wanted my beef prepared. I told him I prefer my steak medium rare because I enjoy it when the center is still warm and pink. It is the perfect balance between raw and fully cooked for me.",
+      "tags": [
+        "food",
+        "casual",
+        "cooking-terms"
+      ]
     },
     {
       "id": "w06_02",
@@ -18,7 +24,14 @@
       "meaning_vi": "cháy đen, cháy thành than",
       "example": "The toast was left in the toaster too long and was burnt to a crisp.",
       "context": "I ordered my steak medium rare, and it’s burnt to a crisp.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "I was so busy checking my emails that I completely forgot about the pizza I had placed in the oven. When I finally remembered to check on it, the crust was black and smoking because it had been burnt to a crisp. I ended up having to order takeout since dinner was ruined.",
+      "tags": [
+        "food",
+        "casual",
+        "cooking-terms",
+        "difficulty"
+      ]
     },
     {
       "id": "w06_03",
@@ -27,7 +40,14 @@
       "meaning_vi": "chắc chắn rồi, không có gì",
       "example": "\"Can you help me with this?\" \"You bet!\"",
       "context": "Kevin: You bet. And how’s your fish, ma’am?",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "My friend asked me if I would be willing to help her move into her new apartment this weekend. I immediately replied, \"You bet,\" because I am always happy to support her when she needs a hand.",
+      "tags": [
+        "agreement",
+        "casual",
+        "polite",
+        "social"
+      ]
     },
     {
       "id": "w06_04",
@@ -36,7 +56,13 @@
       "meaning_vi": "mất cảm giác ngon miệng, không muốn ăn nữa vì trải nghiệm không tốt",
       "example": "After seeing a fly in the soup, I completely lost my appetite.",
       "context": "No, I’ve lost my appetite for fish.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "I was really looking forward to my favorite spicy noodles for lunch today. However, after seeing a cockroach crawl across the kitchen floor, I completely lost my appetite. I had to push the bowl away because I could not take another bite.",
+      "tags": [
+        "food",
+        "frustration",
+        "emotion-shift"
+      ]
     },
     {
       "id": "w06_05",
@@ -45,7 +71,13 @@
       "meaning_vi": "vặn nhỏ lại, giảm âm lượng",
       "example": "Could you please turn down the radio? It's too loud.",
       "context": "I was wondering if you could turn down the music.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "My neighbor was blasting loud music late at night while I was trying to study for my final exam. I went to his door and politely asked him to turn down the volume so I could focus. Thankfully, he immediately quieted the music and apologized for the noise.",
+      "tags": [
+        "work",
+        "casual",
+        "control-settings"
+      ]
     },
     {
       "id": "w06_06",
@@ -54,7 +86,14 @@
       "meaning_vi": "điều gây khó chịu hoặc phiền toái cá nhân",
       "example": "One of my pet peeves is people who chew with their mouths open.",
       "context": "Loud music in restaurants is a pet peeve of mine.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "My roommate constantly leaves dirty dishes in the kitchen sink for days at a time. This behavior is my biggest pet peeve because I value having a clean space to cook. I wish he understood how much his messy habits irritate me.",
+      "tags": [
+        "frustration",
+        "social",
+        "annoyance",
+        "personal-quirks"
+      ]
     },
     {
       "id": "w06_07",
@@ -63,7 +102,14 @@
       "meaning_vi": "một lượt đồ uống cho cả bàn",
       "example": "The host ordered a round of drinks for everyone at the table.",
       "context": "Can I get you another round of drinks?",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "After finishing a long and stressful week at the office, the team decided to head to the local pub to celebrate. Since everyone had been working hard, Mark kindly offered to pay for a round of drinks so that every single person could have a glass of beer at the same time. The colleagues toasted their success and felt much more relaxed.",
+      "tags": [
+        "social",
+        "casual",
+        "food",
+        "dining-out"
+      ]
     },
     {
       "id": "w06_08",
@@ -72,7 +118,14 @@
       "meaning_vi": "xong rồi, chuẩn bị xong, đủ rồi",
       "example": "I don't need any more help, I'm all set.",
       "context": "No, we’re all set for now.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "I have packed my suitcase, printed my boarding pass, and checked that I have my passport in my bag. Since I have double-checked everything on my list, I am all set for my flight tomorrow morning.",
+      "tags": [
+        "casual",
+        "agreement",
+        "preparedness",
+        "readiness"
+      ]
     },
     {
       "id": "w06_09",
@@ -81,7 +134,13 @@
       "meaning_vi": "vẫn đang dùng, vẫn đang ăn",
       "example": "Are you still working on that salad, or can I take the plate?",
       "context": "Are you still working on your meals?",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "I still have a large stack of reports to finish before the deadline this afternoon. I am currently trying to work on the final budget proposal while drinking my morning coffee. Please do not disturb me until I have completed this task.",
+      "tags": [
+        "work",
+        "casual",
+        "time-pressure"
+      ]
     },
     {
       "id": "w06_10",
@@ -90,7 +149,14 @@
       "meaning_vi": "túi/hộp đựng thức ăn thừa mang về",
       "example": "The portions were huge, so I asked for a doggy bag.",
       "context": "I’ll need a doggy bag.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "We ordered way too much food at the restaurant tonight and could not finish our steaks. Since we did not want to waste such an expensive meal, we asked the waiter for a doggy bag to bring the leftovers home. It is a great way to save money and avoid throwing away perfectly good food.",
+      "tags": [
+        "food",
+        "casual",
+        "leftovers",
+        "dining-out"
+      ]
     },
     {
       "id": "w06_11",
@@ -99,7 +165,14 @@
       "meaning_vi": "gói đồ ăn vào hộp/túi để mang về",
       "example": "Since we can't finish the pizza, could you wrap it up for us?",
       "context": "Would you mind wrapping this up, too?",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "We had a wonderful dinner at the restaurant, but the portions were far too large for us to finish. Since we didn't want to waste the delicious leftovers, we asked the server to wrap up the remaining food so we could take it home. It was the perfect meal to reheat for lunch the next day.",
+      "tags": [
+        "food",
+        "casual",
+        "leftovers",
+        "dining-out"
+      ]
     },
     {
       "id": "w06_12",
@@ -108,7 +181,14 @@
       "meaning_vi": "đóng hộp (đồ ăn thừa)",
       "example": "I'll box up the rest of the cake so you can take it home.",
       "context": "I’ll bring you some containers and you can box up your leftovers.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "We had such a huge meal at the restaurant that we couldn't finish everything on our plates. Since the waiter offered us some containers, we decided to box up the remaining chicken to eat for lunch tomorrow.",
+      "tags": [
+        "food",
+        "casual",
+        "leftovers",
+        "dining-out"
+      ]
     },
     {
       "id": "w06_13",
@@ -117,7 +197,13 @@
       "meaning_vi": "thức ăn thừa",
       "example": "We had pizza leftovers for breakfast the next morning.",
       "context": "I’ll bring you some containers and you can box up your leftovers.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "I cooked way too much spaghetti for dinner last night, so I have plenty of food for my lunch today. Instead of buying a sandwich, I decided to pack the leftovers in a container to take to the office.",
+      "tags": [
+        "food",
+        "casual",
+        "leftovers"
+      ]
     },
     {
       "id": "w06_14",
@@ -126,7 +212,14 @@
       "meaning_vi": "Tôi có thể mời bạn dùng... không?",
       "example": "Can I interest you in a cup of coffee after dinner?",
       "context": "Can I interest you in dessert?",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "I noticed you were looking for a snack while we finish this report. Can I interest you in a cup of coffee and a chocolate bar to keep your energy up? I am heading to the breakroom now and would be happy to bring you some.",
+      "tags": [
+        "polite",
+        "social",
+        "negotiation",
+        "customer-service"
+      ]
     },
     {
       "id": "w06_15",
@@ -135,7 +228,13 @@
       "meaning_vi": "no căng, no ứ hự",
       "example": "I've eaten so much turkey that I'm absolutely stuffed.",
       "context": "Tanya: I’m stuffed.",
-      "week": 6
+      "week": 6,
+      "fill_sentence": "After finishing the entire three-course meal at the buffet, I could not even take one more bite of dessert. I am completely stuffed and really need to sit down for a while. I definitely should not have ordered that extra side dish.",
+      "tags": [
+        "food",
+        "casual",
+        "feeling-full"
+      ]
     }
   ]
 }

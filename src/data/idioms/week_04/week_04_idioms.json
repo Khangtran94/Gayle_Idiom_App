@@ -9,7 +9,13 @@
       "meaning_vi": "có nhu cầu mua cái gì đó",
       "example": "I'm in the market for a new laptop since my old one broke.",
       "context": "Hi, I'm in the market for a new cell phone plan.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "My old laptop just stopped working right before my final exams, so I definitely need a reliable replacement soon. Since I have saved up enough money from my part-time job, I am officially in the market for a new computer that can handle heavy software. I plan to visit the electronics store this weekend to compare prices and models.",
+      "tags": [
+        "shopping",
+        "casual",
+        "buying-interest"
+      ]
     },
     {
       "id": "w04_02",
@@ -18,7 +24,13 @@
       "meaning_vi": "tín hiệu bị chập chờn, nghe không rõ",
       "example": "Can you hear me? You're breaking up because the signal is weak.",
       "context": "My calls are always breaking up.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I tried to call my manager to explain why I was late, but I could barely hear a word he said because his voice kept cutting out. Since the connection was so poor, I had to tell him that he was breaking up and call him back later. I hope he realizes that the bad reception caused the misunderstanding.",
+      "tags": [
+        "travel",
+        "difficulty",
+        "tech-issue"
+      ]
     },
     {
       "id": "w04_03",
@@ -27,7 +39,13 @@
       "meaning_vi": "chất lượng hàng đầu, tuyệt vời",
       "example": "The service at this hotel is absolutely first rate.",
       "context": "Cellular Star's service is first rate.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "We stayed at a luxury hotel during our vacation in Da Nang last summer. The service and amenities were truly first rate, making it the best accommodation experience I have ever had. Everything was absolutely perfect from start to finish.",
+      "tags": [
+        "compliment",
+        "casual",
+        "high-quality"
+      ]
     },
     {
       "id": "w04_04",
@@ -36,7 +54,13 @@
       "meaning_vi": "những tính năng phụ trợ hào nhoáng (không quá cần thiết)",
       "example": "I just want a simple phone without all the expensive bells and whistles.",
       "context": "I don't need any of those bells and whistles.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I bought a basic laptop for my studies because I only need to write documents and check emails. I did not want to pay extra for all the bells and whistles that come with expensive gaming computers, as those flashy features are not necessary for my work.",
+      "tags": [
+        "shopping",
+        "casual",
+        "product-features"
+      ]
     },
     {
       "id": "w04_05",
@@ -45,7 +69,13 @@
       "meaning_vi": "dịch vụ cơ bản, không có tiện ích dư thừa",
       "example": "We stayed at a no-frills hotel to save money on our trip.",
       "context": "The Choice 450 is our no-frills plan.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I chose the cheapest airline ticket because I only needed to get to my destination safely. It was a strict no-frills service that did not include meals, checked bags, or seat selection. I was perfectly happy saving money since I didn't require any extra comforts for such a short flight.",
+      "tags": [
+        "shopping",
+        "casual",
+        "product-features"
+      ]
     },
     {
       "id": "w04_06",
@@ -54,7 +84,13 @@
       "meaning_vi": "tiêu tốn của bạn (bao nhiêu tiền)",
       "example": "A new engine for that car will run you about two thousand dollars.",
       "context": "That'll run you $39.99 a month, plus tax.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I am thinking about buying that new laptop for my graphic design project. The salesman told me the high-end model will run you about two thousand dollars. That is a lot of money, but I need it for my work.",
+      "tags": [
+        "money",
+        "casual",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w04_07",
@@ -63,7 +99,13 @@
       "meaning_vi": "phí đóng một lần duy nhất",
       "example": "There is a small one-time fee to join the club.",
       "context": "Yes, and there's a one-time fee of $35.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I was worried that my gym membership would require monthly payments, but the manager confirmed it is a one-time fee. I paid the full amount at registration, so I never have to worry about recurring bills again. This makes the membership much more affordable for my budget.",
+      "tags": [
+        "money",
+        "formal",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w04_08",
@@ -72,7 +114,13 @@
       "meaning_vi": "thiết lập, cài đặt",
       "example": "He spent the whole afternoon setting up his new computer.",
       "context": "That's for setting up the account.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "We spent the entire morning moving desks and installing the new software on all our computers. This process of setting up our new office space was exhausting but necessary for the team to begin working.",
+      "tags": [
+        "work",
+        "casual",
+        "establishment"
+      ]
     },
     {
       "id": "w04_09",
@@ -81,7 +129,13 @@
       "meaning_vi": "các loại chi phí ngầm",
       "example": "Make sure to check the contract for any hidden fees before signing.",
       "context": "Any hidden fees?",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I was excited to book a cheap flight online, but the final price increased significantly during the checkout process. I realized too late that the airline had added several hidden fees for seat selection and luggage that weren't mentioned earlier. I should have read the fine print more carefully before paying.",
+      "tags": [
+        "money",
+        "warning",
+        "hidden-costs"
+      ]
     },
     {
       "id": "w04_10",
@@ -90,7 +144,13 @@
       "meaning_vi": "điều khoản in chữ nhỏ (thường chứa thông tin quan trọng/bất lợi)",
       "example": "Always read the fine print before you sign a loan agreement.",
       "context": "Of course, you'll want to read the fine print of your contract.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I was excited to sign the contract for my new apartment until I noticed several hidden fees listed at the bottom. My lawyer advised me to carefully read the fine print before agreeing to anything, as those small details often contain unexpected costs.",
+      "tags": [
+        "negotiation",
+        "formal",
+        "hidden-costs"
+      ]
     },
     {
       "id": "w04_11",
@@ -99,7 +159,13 @@
       "meaning_vi": "bị mắc kẹt với, phải chịu đựng (điều gì đó không mong muốn)",
       "example": "I got stuck with the bill because my friends forgot their wallets.",
       "context": "I don't want to get stuck with a plan that only lets me make long-distance calls between midnight and 3 a.m.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "My manager assigned the most tedious, repetitive data entry project to the team before the holiday weekend. Since I was the last one to arrive at the office that morning, I unfortunately had to get stuck with the entire workload while everyone else left early. I tried to protest, but I ended up working until midnight while my colleagues enjoyed their vacation.",
+      "tags": [
+        "frustration",
+        "difficulty",
+        "being-stuck"
+      ]
     },
     {
       "id": "w04_12",
@@ -108,7 +174,13 @@
       "meaning_vi": "tặng kèm, đưa thêm vào (miễn phí)",
       "example": "If you buy the sofa today, we'll throw in two matching cushions.",
       "context": "Did I mention that if you sign up for this plan by Friday, we'll throw in a free phone?",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I was hesitant to buy the laptop at the original price, but the salesman finally offered a better deal. He agreed to throw in a protective carrying case and a wireless mouse for free. I quickly accepted his generous offer because I needed those accessories anyway.",
+      "tags": [
+        "negotiation",
+        "casual",
+        "deal-perks"
+      ]
     },
     {
       "id": "w04_13",
@@ -117,7 +189,13 @@
       "meaning_vi": "cần hoặc có thể tận dụng điều gì đó",
       "example": "I'm exhausted; I could use a cup of strong coffee.",
       "context": "I could use a new phone.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I have been staring at this complex spreadsheet for six hours straight and my head is spinning. I really feel like I could use a long break and a strong cup of coffee right now to help me focus again.",
+      "tags": [
+        "advice",
+        "casual",
+        "personal-need"
+      ]
     },
     {
       "id": "w04_14",
@@ -126,7 +204,13 @@
       "meaning_vi": "không có điều kiện ràng buộc, không kèm theo yêu cầu gì",
       "example": "They offered me a free trial with no strings attached.",
       "context": "It's a great offer, with no strings attached.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "My uncle offered to pay for my entire university tuition because he wants to support my future. He emphasized that it is a completely free gift with no strings attached, so I do not owe him any work or repayment later.",
+      "tags": [
+        "negotiation",
+        "casual",
+        "deal-perks"
+      ]
     },
     {
       "id": "w04_15",
@@ -135,7 +219,13 @@
       "meaning_vi": "đã sẵn sàng để làm gì đó",
       "example": "Are you all set to leave for the airport?",
       "context": "All set to sign up?",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I have packed my suitcase, checked my passport, and confirmed my flight details. Now that I have finally printed my boarding pass, I am all set to leave for the airport.",
+      "tags": [
+        "work",
+        "casual",
+        "readiness"
+      ]
     },
     {
       "id": "w04_16",
@@ -144,7 +234,13 @@
       "meaning_vi": "ký tên vào hợp đồng chính thức",
       "example": "Once you sign on the dotted line, the house is officially yours.",
       "context": "Before I sign on the dotted line, I'd better make sure I know what I'm getting into.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "After weeks of negotiating the terms of my new employment contract, I finally met with the hiring manager today. Everything was officially prepared, so I was ready to sign on the dotted line to finalize my job offer. I felt relieved to officially start my career with the company.",
+      "tags": [
+        "negotiation",
+        "formal",
+        "agreement"
+      ]
     },
     {
       "id": "w04_17",
@@ -153,7 +249,13 @@
       "meaning_vi": "tham gia vào, vướng vào (tình huống hoặc thỏa thuận)",
       "example": "He didn't realize how much work he was getting into when he volunteered.",
       "context": "I'd better make sure I know what I'm getting into.",
-      "week": 4
+      "week": 4,
+      "fill_sentence": "I told my younger brother to stop hanging out with those dishonest people at school. I am worried that he is getting into serious trouble by following their bad advice.",
+      "tags": [
+        "conflict",
+        "casual",
+        "being-stuck"
+      ]
     }
   ]
 }

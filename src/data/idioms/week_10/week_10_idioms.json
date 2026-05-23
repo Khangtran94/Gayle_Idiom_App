@@ -9,7 +9,14 @@
       "meaning_vi": "Có chuyện gì vậy? (câu hỏi về tình trạng bệnh lý)",
       "example": "The doctor entered the room and asked, 'What seems to be the trouble?'",
       "context": "Doctor: Hi, I’m Dr. Wilson. What seems to be the trouble?",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "I walked into the doctor's office feeling very dizzy and weak. After sitting down, the physician looked at my chart and asked, \"What seems to be the trouble?\" I explained my symptoms so he could begin the examination.",
+      "tags": [
+        "worry",
+        "health",
+        "polite",
+        "seeking-information"
+      ]
     },
     {
       "id": "w10_02",
@@ -18,7 +25,14 @@
       "meaning_vi": "cảm thấy không khỏe, bị ốm",
       "example": "I'm feeling a bit under the weather, so I'm going to stay home today.",
       "context": "Grace: I’ve been under the weather for days.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "I was really looking forward to our hike today, but I woke up with a bad headache and a fever. I think I am feeling a bit under the weather, so I will have to stay home and rest instead. Hopefully, I will feel better by tomorrow.",
+      "tags": [
+        "worry",
+        "health",
+        "casual",
+        "feeling-unwell"
+      ]
     },
     {
       "id": "w10_03",
@@ -27,7 +41,13 @@
       "meaning_vi": "đang lây lan, đang có dịch",
       "example": "There is a nasty stomach bug going around the school.",
       "context": "Doctor: The flu is going around.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "Half of my team called in sick this morning with a high fever and a bad cough. Everyone is talking about the nasty flu that is currently going around the office. I really hope I do not catch it before our big presentation on Friday.",
+      "tags": [
+        "health",
+        "casual",
+        "illness-spreading"
+      ]
     },
     {
       "id": "w10_04",
@@ -36,7 +56,14 @@
       "meaning_vi": "có thời gian/thu xếp được thời gian để làm việc gì đó",
       "example": "I meant to fix the sink, but I never got around to it.",
       "context": "Grace: No, this year I didn’t get around to it.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "I have been meaning to organize my messy bookshelf for several weeks now, but I have been too busy with my final exams. Hopefully, I will finally get around to it this coming weekend once I have finished all my assignments.",
+      "tags": [
+        "time-pressure",
+        "delay",
+        "casual",
+        "task-management"
+      ]
     },
     {
       "id": "w10_05",
@@ -45,7 +72,13 @@
       "meaning_vi": "đau đầu như búa đổ",
       "example": "Turn down the music; I have a splitting headache.",
       "context": "Grace: I’ve had a splitting headache since yesterday morning.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "I spent the entire afternoon working under the harsh fluorescent lights of the office without taking a single break. By the time I finally finished my project, I had developed such a splitting headache that I had to lie down in a dark room immediately. The throbbing pain was so intense that I could barely keep my eyes open.",
+      "tags": [
+        "health",
+        "frustration",
+        "feeling-unwell"
+      ]
     },
     {
       "id": "w10_06",
@@ -54,7 +87,13 @@
       "meaning_vi": "dấu hiệu rõ rệt, dấu hiệu cho biết điều gì đó",
       "example": "Weight loss and fatigue are telltale signs of the illness.",
       "context": "Doctor: You have all the telltale signs of the flu.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "My younger brother claimed he had been studying all afternoon in his room. However, the empty snack bags under his bed and the fact that his gaming console was still warm were the telltale signs that he had been playing video games the entire time.",
+      "tags": [
+        "formal",
+        "warning",
+        "obvious-clues"
+      ]
     },
     {
       "id": "w10_07",
@@ -63,7 +102,13 @@
       "meaning_vi": "hơi cao so với mức bình thường",
       "example": "The price for the car is a bit on the high side.",
       "context": "That’s on the high side.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "I really love this leather jacket, but the price is a bit on the high side for my monthly budget. Since it costs much more than the other options I saw today, I think I will keep looking for a cheaper alternative.",
+      "tags": [
+        "money",
+        "formal",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w10_08",
@@ -72,7 +117,13 @@
       "meaning_vi": "nhìn lướt qua, xem qua",
       "example": "Let me take a peek at your notes before the exam starts.",
       "context": "Doctor: Let me take a peek.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "I heard my surprise birthday party was being set up in the living room while I was in the kitchen. I could not resist the urge to take a peek through the door crack to see if my friends had arrived yet.",
+      "tags": [
+        "casual",
+        "social",
+        "quick-look"
+      ]
     },
     {
       "id": "w10_09",
@@ -81,7 +132,13 @@
       "meaning_vi": "loại thường, không có gì đặc biệt",
       "example": "It wasn't a rare disease, just a garden-variety cold.",
       "context": "It looks like a garden-variety flu.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "I was worried my cough was a serious illness, but the doctor assured me it was just a garden-variety cold. He explained that there is no need for antibiotics since it is nothing special or out of the ordinary. I felt much better knowing it would go away on its own.",
+      "tags": [
+        "formal",
+        "casual",
+        "ordinary-things"
+      ]
     },
     {
       "id": "w10_10",
@@ -91,7 +148,13 @@
       "example": "The meeting dragged on for three hours.",
       "context": "Grace: How long do you think this is going to drag on?",
       "week": 10,
-      "fill_sentence": "The quarterly budget meeting began promptly at nine. However, with endless discussions about trivial expenditures and no clear agenda, it quickly became apparent this session was going nowhere fast. Everyone just wanted to go home; the whole process began to drag on interminably, making us all wish we were anywhere else. By lunchtime, several members were visibly nodding off, still with no resolution in sight."
+      "fill_sentence": "The quarterly budget meeting began promptly at nine. However, with endless discussions about trivial expenditures and no clear agenda, it quickly became apparent this session was going nowhere fast. Everyone just wanted to go home; the whole process began to drag on interminably, making us all wish we were anywhere else. By lunchtime, several members were visibly nodding off, still with no resolution in sight.",
+      "tags": [
+        "time-pressure",
+        "difficulty",
+        "delay",
+        "boredom"
+      ]
     },
     {
       "id": "w10_11",
@@ -100,7 +163,13 @@
       "meaning_vi": "hồi phục, khỏe lại (sau khi ốm)",
       "example": "After a week in bed, she was finally back on her feet.",
       "context": "Doctor: You should be back on your feet in a week or so.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "After suffering from a severe case of the flu that kept him bedridden for over a week, Mark finally returned to the office today. He is happy to be back on one's feet and ready to tackle the pile of work waiting for him. It feels great to be healthy enough to leave the house again.",
+      "tags": [
+        "health",
+        "happiness",
+        "feeling-unwell"
+      ]
     },
     {
       "id": "w10_12",
@@ -109,7 +178,13 @@
       "meaning_vi": "khoảng, chừng (dùng để chỉ số lượng hoặc thời gian)",
       "example": "There were about ten people or so at the meeting.",
       "context": "You should be back on your feet in a week or so.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "I usually spend about thirty minutes traveling to the office each morning. It takes me 30 minutes or so to get there by bus depending on the traffic conditions. My commute is quite predictable most days.",
+      "tags": [
+        "casual",
+        "time-pressure",
+        "approximation"
+      ]
     },
     {
       "id": "w10_13",
@@ -118,7 +193,14 @@
       "meaning_vi": "phương thuốc thần kì/giải pháp tức thời",
       "example": "There is no magic bullet for weight loss; it takes exercise and diet.",
       "context": "Doctor: Well, there’s no magic bullet.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "Many employees believe that a new software update is the magic bullet that will instantly solve all of our company's productivity issues. However, our manager warned us that no single tool can replace the hard work and complex strategy required to actually fix our problems.",
+      "tags": [
+        "health",
+        "impossibility",
+        "sarcastic",
+        "simple-solution"
+      ]
     },
     {
       "id": "w10_14",
@@ -127,7 +209,14 @@
       "meaning_vi": "để bệnh tự khỏi, để mọi việc diễn ra tự nhiên và kết thúc mà không can thiệp",
       "example": "There's no medicine for this virus; you just have to let it run its course.",
       "context": "You’re going to have to let this run its course.",
-      "week": 10
+      "week": 10,
+      "fill_sentence": "My doctor advised me not to take antibiotics for this mild cold since it is not a serious infection. He suggested that I simply rest and let the illness run its course naturally. I am confident that I will feel much better in a few days without any medical intervention.",
+      "tags": [
+        "health",
+        "advice",
+        "formal",
+        "letting-finish"
+      ]
     }
   ]
 }

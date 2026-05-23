@@ -9,7 +9,14 @@
       "meaning_vi": "giới thiệu ai đó với ai đó",
       "example": "Before we start the meeting, let me make some introductions.",
       "context": "Let me make some introductions.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I noticed that most of the new team members hadn't met each other yet when they arrived at the meeting. I decided to step in and make some introductions so that everyone felt comfortable working together. Once everyone knew each other's names, the project discussion became much more productive.",
+      "tags": [
+        "social",
+        "polite",
+        "meeting people",
+        "social interaction"
+      ]
     },
     {
       "id": "w14_02",
@@ -18,7 +25,14 @@
       "meaning_vi": "tôi đã không nghe rõ tên bạn",
       "example": "I'm sorry, the room was so loud that I didn't catch your names.",
       "context": "I’m sorry, I didn’t catch your names.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I am so sorry, but I didn’t catch your names when you were introduced earlier at the meeting. Could you please introduce yourselves again so I can make sure I have the correct spelling for my notes?",
+      "tags": [
+        "social",
+        "polite",
+        "embarrassment",
+        "meeting people"
+      ]
     },
     {
       "id": "w14_03",
@@ -27,7 +41,14 @@
       "meaning_vi": "có nhiều điểm chung",
       "example": "My best friend and I have a lot in common, especially our love for music.",
       "context": "You guys have a lot in common, so I’m sure you’ll hit it off.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "When Mai and Lan first met at the university club, they discovered they both loved classical music and grew up in the same small town. Because they share so many similar hobbies and life experiences, it is clear that they have a lot in common. They decided to become roommates shortly after.",
+      "tags": [
+        "social",
+        "casual",
+        "shared interests",
+        "connection"
+      ]
     },
     {
       "id": "w14_04",
@@ -36,7 +57,15 @@
       "meaning_vi": "tâm đầu ý hợp / nhanh chóng trở nên thân thiết",
       "example": "I introduced my two cousins, and they really hit it off.",
       "context": "You guys have a lot in common, so I’m sure you’ll hit it off.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I was nervous about meeting my new roommate today, but we started talking about our shared love for jazz music immediately. We really hit it off within the first ten minutes and decided to go get dinner together. It feels like we have been friends for years already.",
+      "tags": [
+        "social",
+        "happiness",
+        "casual",
+        "making friends",
+        "good rapport"
+      ]
     },
     {
       "id": "w14_05",
@@ -45,7 +74,14 @@
       "meaning_vi": "trông quen quen",
       "example": "You look familiar; did we go to the same high school?",
       "context": "Lori, you look familiar, but I can’t quite place you.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I was walking through the crowded airport when I spotted a man waving at me. His face seemed to look familiar, but I could not recall his name until I remembered he was my old roommate from college.",
+      "tags": [
+        "surprise",
+        "social",
+        "memory",
+        "recognition"
+      ]
     },
     {
       "id": "w14_06",
@@ -54,7 +90,15 @@
       "meaning_vi": "Tôi đã gặp bạn ở đâu đó, nhưng tôi không thể nhớ chính xác là ở đâu hoặc khi nào",
       "example": "I recognize your voice, but I can't quite place you.",
       "context": "Lori, you look familiar, but I can’t quite place you.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I was walking through the supermarket yesterday when a friendly man approached me and started a casual conversation. I recognized his face from somewhere, but despite staring at him for a moment, I had to admit, \"I can’t quite place you.\" Could you remind me where we have met before?",
+      "tags": [
+        "embarrassment",
+        "social",
+        "difficulty",
+        "memory",
+        "recognition"
+      ]
     },
     {
       "id": "w14_07",
@@ -63,7 +107,14 @@
       "meaning_vi": "nghe quen quen / gợi nhớ đến điều gì",
       "example": "The name of that restaurant rings a bell, but I don't think I've eaten there.",
       "context": "Your name rings a bell.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I looked at the stranger's face for a long time, trying to remember where we had met before. Although I could not recall his name, his smile seemed to ring a bell. I felt certain that we had been classmates in primary school many years ago.",
+      "tags": [
+        "surprise",
+        "casual",
+        "memory",
+        "recognition"
+      ]
     },
     {
       "id": "w14_08",
@@ -72,7 +123,14 @@
       "meaning_vi": "làm trong bộ phận bán hàng/kinh doanh",
       "example": "She has been in sales for over ten years.",
       "context": "I used to be in sales there.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "My brother just landed a new position at a large tech company. He spends his entire day calling potential clients to convince them to buy the software. He is really enjoying his new job in sales.",
+      "tags": [
+        "work",
+        "formal",
+        "professional",
+        "career-info"
+      ]
     },
     {
       "id": "w14_09",
@@ -81,7 +139,14 @@
       "meaning_vi": "Thế giới quả thật nhỏ bé! (Tình cờ gặp lại nhau)",
       "example": "I saw my old neighbor in Paris; it's a small world!",
       "context": "Yes, that’s right! It’s a small world!",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I was attending a business conference in Tokyo when I suddenly bumped into my former high school teacher from Hanoi. I had no idea he was even in Japan, let alone at the same event. I told him, \"It’s a small world,\" as we both laughed at the incredible coincidence.",
+      "tags": [
+        "surprise",
+        "social",
+        "coincidence",
+        "social coincidence"
+      ]
     },
     {
       "id": "w14_10",
@@ -90,7 +155,14 @@
       "meaning_vi": "tình cờ gặp nhau",
       "example": "We first crossed paths at a technology conference last year.",
       "context": "I’m glad we’ve crossed paths again.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I have lived in this busy city for five years and never expected to see my childhood friend again. It was purely a coincidence that we managed to cross paths at the local grocery store yesterday. We were both shocked to bump into each other in the produce aisle after all this time.",
+      "tags": [
+        "social",
+        "casual",
+        "coincidence",
+        "chance meeting"
+      ]
     },
     {
       "id": "w14_11",
@@ -99,7 +171,14 @@
       "meaning_vi": "Dạo này bạn làm gì rồi?",
       "example": "It's been a long time! What have you been up to?",
       "context": "What have you been up to since you left Comtek?",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I haven't seen you at the library since the semester started last month. It has been such a long time, so tell me, what have you been up to lately? I really want to hear all about what you have been doing with your free time.",
+      "tags": [
+        "social",
+        "casual",
+        "small talk",
+        "catch up"
+      ]
     },
     {
       "id": "w14_12",
@@ -108,7 +187,14 @@
       "meaning_vi": "đó là một câu chuyện dài (khó giải thích nhanh)",
       "example": "Why did I quit my job? It's a long story.",
       "context": "It’s a long story.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "My friend asked me why I ended up missing the final exam and having to walk home in the rain. I sighed because there were too many complex details to cover about the bus breakdown and my lost bag. I told him, \"It’s a long story,\" and suggested we talk about it later over coffee.",
+      "tags": [
+        "casual",
+        "difficulty",
+        "time-pressure",
+        "complex info"
+      ]
     },
     {
       "id": "w14_13",
@@ -117,7 +203,15 @@
       "meaning_vi": "đi mua đồ uống / đi uống nước",
       "example": "Let's grab some drinks after work on Friday.",
       "context": "Let’s grab some drinks and I’ll fill you in.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "We finally finished that exhausting project after working late hours at the office. Everyone is tired and wants to unwind, so we decided to head to the bar nearby to grab some drinks together. It will be nice to relax and chat before we head home for the night.",
+      "tags": [
+        "social",
+        "food",
+        "casual",
+        "leisure",
+        "meeting up"
+      ]
     },
     {
       "id": "w14_14",
@@ -126,7 +220,14 @@
       "meaning_vi": "cập nhật cho ai đó; kể cho ai đó nghe chuyện đã xảy ra",
       "example": "I missed the meeting, so could you fill me in on what happened?",
       "context": "Let’s grab some drinks and I’ll fill you in.",
-      "week": 14
+      "week": 14,
+      "fill_sentence": "I missed the entire team meeting this morning because I was stuck in a dentist appointment. Could you please fill me in on what was discussed during the project briefing?",
+      "tags": [
+        "social",
+        "casual",
+        "work",
+        "update info"
+      ]
     }
   ]
 }

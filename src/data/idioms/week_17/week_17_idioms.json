@@ -9,7 +9,14 @@
       "meaning_vi": "điền vào, hoàn tất (tờ khai, đơn từ)",
       "example": "Please fill out this form before your appointment.",
       "context": "Okay, I’ll just have you fill out this paperwork.",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "I arrived at the doctor's office early for my appointment today. The receptionist handed me a clipboard and asked me to fill out paperwork regarding my medical history. I spent ten minutes writing down my details before they finally called my name.",
+      "tags": [
+        "work",
+        "formal",
+        "administrative-tasks",
+        "document-completion"
+      ]
     },
     {
       "id": "w17_02",
@@ -19,7 +26,14 @@
       "example": "My car broke down and I don't have money for a tow truck. I'm really in a bind.",
       "context": "Now I’m in a bind.",
       "week": 17,
-      "fill_sentence": "Our main supplier just unexpectedly declared bankruptcy, leaving us with a massive client order due next week and no way to source the critical components. We've called every other manufacturer in the region, but none can meet our volume or quality standards on such short notice. If we can't fulfill this order, we stand to lose our biggest contract and possibly even go out of business; we are truly in a bind."
+      "fill_sentence": "Our main supplier just unexpectedly declared bankruptcy, leaving us with a massive client order due next week and no way to source the critical components. We've called every other manufacturer in the region, but none can meet our volume or quality standards on such short notice. If we can't fulfill this order, we stand to lose our biggest contract and possibly even go out of business; we are truly in a bind.",
+      "tags": [
+        "difficulty",
+        "social",
+        "conflict",
+        "being-stuck",
+        "trouble"
+      ]
     },
     {
       "id": "w17_03",
@@ -29,7 +43,13 @@
       "example": "I'd love to chat, but I'm really pressed for time right now.",
       "context": "I’m really pressed for time.",
       "week": 17,
-      "fill_sentence": "I had a huge project due Friday morning, and it was already Thursday afternoon. I still had several sections to write and all the data to compile. I couldn't even stop for dinner; I was so pressed for time, I just worked straight through the evening."
+      "fill_sentence": "I had a huge project due Friday morning, and it was already Thursday afternoon. I still had several sections to write and all the data to compile. I couldn't even stop for dinner; I was so pressed for time, I just worked straight through the evening.",
+      "tags": [
+        "time-pressure",
+        "work",
+        "casual",
+        "urgent-deadlines"
+      ]
     },
     {
       "id": "w17_04",
@@ -39,7 +59,13 @@
       "example": "I'll do my best to help you, but I can't promise anything.",
       "context": "Well, we’ll do our best to track down your bag as quickly as possible.",
       "week": 17,
-      "fill_sentence": "When preparing for a challenging endeavor, it's natural to feel pressure about the outcome. However, it's important for one to remember that the ultimate goal isn't always victory itself. Instead, the most important thing is simply to do one's best, focusing on every detail and giving maximal effort without dwelling on potential failure. By doing so, one can ensure that no matter the result, they performed to their highest potential."
+      "fill_sentence": "When preparing for a challenging endeavor, it's natural to feel pressure about the outcome. However, it's important for one to remember that the ultimate goal isn't always victory itself. Instead, the most important thing is simply to do one's best, focusing on every detail and giving maximal effort without dwelling on potential failure. By doing so, one can ensure that no matter the result, they performed to their highest potential.",
+      "tags": [
+        "work",
+        "casual",
+        "advice",
+        "effort-and-striving"
+      ]
     },
     {
       "id": "w17_05",
@@ -49,7 +75,13 @@
       "example": "It took me months to track down a rare copy of that book.",
       "context": "Well, we’ll do our best to track down your bag as quickly as possible.",
       "week": 17,
-      "fill_sentence": "The police had very little information on the runaway suspect, just an old address and a grainy photograph. Detective Miller spent months tirelessly following every faint lead, from abandoned hideouts to anonymous tips across state lines. Despite the slim chances, his dedication eventually allowed him to track down the elusive man hiding in a remote mountain cabin. The arrest finally brought closure to the long-standing case."
+      "fill_sentence": "The police had very little information on the runaway suspect, just an old address and a grainy photograph. Detective Miller spent months tirelessly following every faint lead, from abandoned hideouts to anonymous tips across state lines. Despite the slim chances, his dedication eventually allowed him to track down the elusive man hiding in a remote mountain cabin. The arrest finally brought closure to the long-standing case.",
+      "tags": [
+        "work",
+        "casual",
+        "difficulty",
+        "searching-for"
+      ]
     },
     {
       "id": "w17_06",
@@ -58,7 +90,14 @@
       "meaning_vi": "vĩnh viễn, mãi mãi",
       "example": "After traveling for years, he decided to move back home for good.",
       "context": "What if my suitcase is lost for good?",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "After working abroad for many years, Minh finally packed all his belongings and moved back to his hometown to settle down with his family. He has no intention of returning to the city, as he has decided to leave his corporate job for good. He is now enjoying a quiet life running a small coffee shop.",
+      "tags": [
+        "time-pressure",
+        "formal",
+        "permanence",
+        "finality"
+      ]
     },
     {
       "id": "w17_07",
@@ -68,7 +107,13 @@
       "example": "Don't worry about your keys; they usually turn up in the most obvious places.",
       "context": "Baggage usually turns up, so let’s cross that bridge when we come to it.",
       "week": 17,
-      "fill_sentence": "I've been looking for my lucky pen all morning; I need it for this important exam later. I usually keep it right on my desk, but it's vanished! I've searched all my drawers and even checked under the bed. I'm starting to panic, but I always hold onto a little hope. I really hope it will turn up somewhere before I leave, or I'll be in trouble."
+      "fill_sentence": "I've been looking for my lucky pen all morning; I need it for this important exam later. I usually keep it right on my desk, but it's vanished! I've searched all my drawers and even checked under the bed. I'm starting to panic, but I always hold onto a little hope. I really hope it will turn up somewhere before I leave, or I'll be in trouble.",
+      "tags": [
+        "surprise",
+        "casual",
+        "finding-things",
+        "sudden-appearance"
+      ]
     },
     {
       "id": "w17_08",
@@ -77,7 +122,15 @@
       "meaning_vi": "tới đâu hay tới đó, gặp chuyện rồi hãy lo",
       "example": "We don't know if the funding will be cut, so let's cross that bridge when we come to it.",
       "context": "Baggage usually turns up, so let’s cross that bridge when we come to it.",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "We are currently focusing only on finalizing our project proposal for next week's presentation. I know you are worried about what might happen if the client asks us about budget cuts later, but let's cross that bridge when we come to it. There is no point in stressing over potential problems that have not occurred yet.",
+      "tags": [
+        "conflict",
+        "advice",
+        "time-pressure",
+        "problem-solving",
+        "postponing-issues"
+      ]
     },
     {
       "id": "w17_09",
@@ -86,7 +139,15 @@
       "meaning_vi": "gặp rắc rối lớn, lâm vào cảnh khó khăn",
       "example": "If the bank doesn't approve our loan, we'll be up the creek.",
       "context": "I’m really up the creek now.",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "I realized halfway through my final presentation that I had left my flash drive at home and my laptop battery was dying. Without my notes or the slides, I was completely up the creek. I had no choice but to apologize to my professor and ask for an extension.",
+      "tags": [
+        "difficulty",
+        "conflict",
+        "sarcastic",
+        "being-stuck",
+        "trouble"
+      ]
     },
     {
       "id": "w17_10",
@@ -95,7 +156,15 @@
       "meaning_vi": "làm kinh ngạc, không thể tin nổi, không hiểu nổi",
       "example": "It boggles my mind how much technology has changed in just ten years.",
       "context": "It boggles my mind how you can just lose someone’s luggage!",
-      "week": 17
+      "week": 17,
+      "fill_sentence": "I just saw a video of a toddler solving a complex calculus problem in seconds. It truly boggles my mind how someone so young can grasp such difficult mathematical concepts. I have been studying these formulas for weeks and still struggle to understand them.",
+      "tags": [
+        "surprise",
+        "casual",
+        "impossibility",
+        "confusion",
+        "intellectual-shock"
+      ]
     }
   ]
 }

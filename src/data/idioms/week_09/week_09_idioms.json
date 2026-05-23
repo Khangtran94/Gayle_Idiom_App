@@ -9,7 +9,15 @@
       "meaning_vi": "Lý do hay mục đích của (buổi khám/cuộc gặp) là gì.",
       "example": "What's the nature of your business with the director?",
       "context": "What's the nature of your visit?",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I arrived at the immigration counter after my long international flight. The officer looked at my passport, scanned my documents, and asked, \"What's the nature of your visit?\" I explained that I was simply here for a two-week vacation to see the local sights.",
+      "tags": [
+        "travel",
+        "health",
+        "formal",
+        "inquiry",
+        "information-gathering"
+      ]
     },
     {
       "id": "w09_02",
@@ -18,7 +26,15 @@
       "meaning_vi": "Bị mắc bệnh, đổ bệnh.",
       "example": "I think I'm coming down with a cold because my throat is sore.",
       "context": "I think I've come down with the flu.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I have been feeling quite tired and achy since yesterday afternoon. I am worried that I might come down with the flu before our big exam tomorrow. I really hope I feel better after getting some sleep tonight.",
+      "tags": [
+        "health",
+        "casual",
+        "difficulty",
+        "illness",
+        "feeling-unwell"
+      ]
     },
     {
       "id": "w09_03",
@@ -27,7 +43,15 @@
       "meaning_vi": "Có lịch trống, có chỗ trống.",
       "example": "Does the dentist have an opening for a cleaning next Tuesday?",
       "context": "We have an opening tomorrow at three.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I have been trying to schedule an appointment with my dentist for weeks because his calendar is completely full. Finally, the receptionist called to tell me they have an opening at 10:00 AM next Tuesday. I immediately accepted the spot so I would not miss my chance.",
+      "tags": [
+        "work",
+        "time-pressure",
+        "formal",
+        "scheduling",
+        "appointment-availability"
+      ]
     },
     {
       "id": "w09_04",
@@ -37,7 +61,14 @@
       "example": "The hotel is booked solid for the holiday weekend.",
       "context": "Dr. Feinberg is booked solid today.",
       "week": 8,
-      "fill_sentence": "My favorite massage therapist is incredibly popular, especially around the holidays. I tried to schedule an appointment for next week, but her calendar is completely booked solid until after the New Year. It looks like I'll have to wait a while for some relaxation."
+      "fill_sentence": "My favorite massage therapist is incredibly popular, especially around the holidays. I tried to schedule an appointment for next week, but her calendar is completely booked solid until after the New Year. It looks like I'll have to wait a while for some relaxation.",
+      "tags": [
+        "work",
+        "time-pressure",
+        "formal",
+        "difficulty",
+        "schedule-full"
+      ]
     },
     {
       "id": "w09_05",
@@ -47,7 +78,13 @@
       "example": "I don't mind at all if you stay a bit longer.",
       "context": "If he were free at all, I would squeeze you in.",
       "week": 8,
-      "fill_sentence": "The new art exhibit was highly anticipated, advertised as a groundbreaking collection of modern sculptures. However, when we arrived at the gallery, the rooms were mostly bare, with just a few small paintings on the walls. There wasn't a single sculpture visible at all, which completely contradicted the promotions. We left feeling thoroughly disappointed and confused by the misleading advertisements."
+      "fill_sentence": "The new art exhibit was highly anticipated, advertised as a groundbreaking collection of modern sculptures. However, when we arrived at the gallery, the rooms were mostly bare, with just a few small paintings on the walls. There wasn't a single sculpture visible at all, which completely contradicted the promotions. We left feeling thoroughly disappointed and confused by the misleading advertisements.",
+      "tags": [
+        "casual",
+        "polite",
+        "emphasis",
+        "degree-measurement"
+      ]
     },
     {
       "id": "w09_06",
@@ -56,7 +93,15 @@
       "meaning_vi": "Cố gắng sắp xếp thời gian để tiếp ai đó.",
       "example": "The manager is very busy, but she can squeeze you in for ten minutes.",
       "context": "I would squeeze you in.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "My dentist's appointment book is completely full for the entire month due to high demand. However, because I am in extreme pain, he promised to __________ between his other patients tomorrow morning. I am so relieved that he found a gap in his tight schedule to help me.",
+      "tags": [
+        "work",
+        "time-pressure",
+        "casual",
+        "negotiation",
+        "fitting-in"
+      ]
     },
     {
       "id": "w09_07",
@@ -65,7 +110,14 @@
       "meaning_vi": "Chờ một chút.",
       "example": "Hang on a second, I forgot my wallet upstairs.",
       "context": "Hang on. Let me check . . .",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I was just about to leave the office when my manager called out to me from his desk. \"Hang on, I need you to sign these documents before you go,\" he requested. I stopped in my tracks and turned around to wait for him.",
+      "tags": [
+        "time-pressure",
+        "casual",
+        "delay",
+        "wait-time"
+      ]
     },
     {
       "id": "w09_08",
@@ -74,7 +126,14 @@
       "meaning_vi": "May mắn.",
       "example": "You're in luck! We just had one cancellation for tonight.",
       "context": "You're in luck.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I arrived at the station just as the last train was pulling away. Fortunately, a taxi driver appeared right at that moment to pick me up. I was really in luck because I made it to my important job interview exactly on time.",
+      "tags": [
+        "happiness",
+        "social",
+        "casual",
+        "good-fortune"
+      ]
     },
     {
       "id": "w09_09",
@@ -83,7 +142,15 @@
       "meaning_vi": "Tôi e là không (cách từ chối lịch sự).",
       "example": "Is there any dessert left? I'm afraid not.",
       "context": "No, I'm afraid not.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I asked my manager if I could take next Friday off for a long weekend trip. He checked the company schedule and shook his head, saying, \"I'm afraid not,\" because we have a major deadline that day.",
+      "tags": [
+        "polite",
+        "refusal",
+        "formal",
+        "disappointment",
+        "polite-denial"
+      ]
     },
     {
       "id": "w09_10",
@@ -92,7 +159,14 @@
       "meaning_vi": "Thiếu nhân sự, thiếu nhân viên.",
       "example": "Service is slow today because the restaurant is short-staffed.",
       "context": "We're short-staffed this week.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "Our local restaurant is struggling to keep up with the lunch rush today because several waiters called in sick. Since the manager cannot find any replacements, the kitchen is completely short-staffed and service is extremely slow. We have been waiting over forty minutes just for our drinks.",
+      "tags": [
+        "work",
+        "difficulty",
+        "formal",
+        "staffing-issues"
+      ]
     },
     {
       "id": "w09_11",
@@ -101,7 +175,15 @@
       "meaning_vi": "bó tay, không thể làm gì khác được",
       "example": "I'd like to give you a refund, but my hands are tied by the store's policy.",
       "context": "I'd like to help you, but my hands are tied.",
-      "week": 8
+      "week": 8,
+      "fill_sentence": "I really want to help you get an extension on this project, but the company policy is very strict regarding deadlines. Unfortunately, my hands are tied because I do not have the authority to change the rules.",
+      "tags": [
+        "conflict",
+        "impossibility",
+        "formal",
+        "powerless",
+        "lack-of-control"
+      ]
     }
   ]
 }

@@ -9,7 +9,14 @@
       "meaning_vi": "gây rắc rối, làm đau hoặc gây khó khăn",
       "example": "My old back injury has been giving me trouble all week.",
       "context": "Have your teeth been giving you any trouble since your last checkup?",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "My old laptop is constantly crashing and losing my files right before deadlines. It really likes to give someone trouble whenever I am trying to finish an important project. I think it is finally time for me to buy a new computer.",
+      "tags": [
+        "frustration",
+        "work",
+        "difficulty",
+        "causing-trouble"
+      ]
     },
     {
       "id": "w12_02",
@@ -18,7 +25,14 @@
       "meaning_vi": "đau điếng, đau không chịu nổi",
       "example": "My feet are killing me after standing for eight hours.",
       "context": "The back molar on the left has been killing me.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "I have been wearing these brand-new leather shoes all day at the conference. My feet are throbbing with pain and this tight heel is absolutely killing me. I can barely take another step toward the exit.",
+      "tags": [
+        "frustration",
+        "health",
+        "difficulty",
+        "physical-pain"
+      ]
     },
     {
       "id": "w12_03",
@@ -27,7 +41,14 @@
       "meaning_vi": "nhớ mang máng, không cần kiểm tra lại",
       "example": "I can't tell you the price off the top of my head, but I'll look it up.",
       "context": "I can't remember off the top of my head.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "My boss just asked me for the exact total of last month's sales during our coffee break. I do not have the spreadsheet in front of me, so I can only give him an estimate off the top of my head. I will double-check the official records once I get back to my desk.",
+      "tags": [
+        "casual",
+        "social",
+        "memory",
+        "quick-thought"
+      ]
     },
     {
       "id": "w12_04",
@@ -36,7 +57,14 @@
       "meaning_vi": "tìm ra ngọn ngành, tìm hiểu rõ nguyên nhân",
       "example": "We need to get to the bottom of why the computer keeps crashing.",
       "context": "We'll get a set of X-rays today to get to the bottom of it.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "My internet connection has been cutting out every single day for the past week, and no one seems to know why. I have contacted the service provider multiple times because I am determined to get to the bottom of it. I refuse to keep paying for a service that does not work properly.",
+      "tags": [
+        "work",
+        "difficulty",
+        "investigation",
+        "problem-solving"
+      ]
     },
     {
       "id": "w12_05",
@@ -45,7 +73,14 @@
       "meaning_vi": "tiền túi, chi phí tự túc",
       "example": "I had to pay for the hotel out-of-pocket because I lost my company card.",
       "context": "Will that be an out-of-pocket expense?",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "I had to pay for the client's lunch and taxi using my personal credit card because the company account was temporarily locked. My manager promised that this out-of-pocket expense will be fully refunded once I submit my receipt to the accounting department.",
+      "tags": [
+        "money",
+        "work",
+        "cost-and-price",
+        "financial-terms"
+      ]
     },
     {
       "id": "w12_06",
@@ -54,7 +89,14 @@
       "meaning_vi": "đến lúc phải làm gì, đến kỳ hạn",
       "example": "Your car is due for an oil change.",
       "context": "No, you're due for a set.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "My car has been making a strange rattling sound whenever I accelerate on the highway. I haven't taken it to the mechanic in over a year, so it is definitely due for a maintenance check-up soon. I should call the repair shop before the engine breaks down completely.",
+      "tags": [
+        "time-pressure",
+        "health",
+        "advice",
+        "scheduled-events"
+      ]
     },
     {
       "id": "w12_07",
@@ -63,7 +105,14 @@
       "meaning_vi": "được chi trả bởi, được bảo hiểm chi trả",
       "example": "Is dental surgery covered by your health insurance?",
       "context": "It'll be covered by your insurance.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "I was worried about the high cost of my dental surgery last week. Thankfully, the entire procedure was covered by my company's health insurance policy, so I did not have to pay anything out of pocket.",
+      "tags": [
+        "money",
+        "formal",
+        "negotiation",
+        "cost-and-price"
+      ]
     },
     {
       "id": "w12_08",
@@ -72,7 +121,14 @@
       "meaning_vi": "nhìn lướt qua, xem xét nhanh",
       "example": "Let me give your essay a once over before you turn it in.",
       "context": "Let me give these a once over . . .",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "I was rushing to leave for the airport when I realized I hadn't checked my suitcase for my passport. I decided to give something a once over before locking the door, just to make sure I hadn't left anything important behind. It was only a quick glance, but it saved me from a major disaster.",
+      "tags": [
+        "casual",
+        "work",
+        "advice",
+        "quick-check"
+      ]
     },
     {
       "id": "w12_09",
@@ -81,7 +137,14 @@
       "meaning_vi": "trì hoãn, chờ đợi",
       "example": "We should hold off on buying the house until the market improves.",
       "context": "It looks like we can hold off on that top tooth.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "We were planning to buy a new car this month, but the sales manager suggested we wait until the end-of-year clearance event. Since the prices will drop significantly in December, we decided to hold off on our purchase until then.",
+      "tags": [
+        "time-pressure",
+        "delay",
+        "negotiation",
+        "procrastination"
+      ]
     },
     {
       "id": "w12_10",
@@ -90,7 +153,14 @@
       "meaning_vi": "điều do tưởng tượng ra, không có thật",
       "example": "The monster under the bed was just a figment of my imagination.",
       "context": "It does hurt, but maybe it's just a figment of my imagination!",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "I thought I heard my name whispered in the empty hallway, but when I turned around, there was absolutely no one there. I realized it must have been a figment of my imagination caused by the late hours of studying. Everything in that room was completely silent and still.",
+      "tags": [
+        "surprise",
+        "impossibility",
+        "mental-state",
+        "unreal-concepts"
+      ]
     },
     {
       "id": "w12_11",
@@ -99,7 +169,14 @@
       "meaning_vi": "giở chứng, tái phát đau",
       "example": "My printer is acting up and won't connect to the Wi-Fi.",
       "context": "Call us if it keeps acting up.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "My old laptop has been extremely slow and keeps freezing during my video meetings. It started acting up again right when I needed to share my screen for the presentation. I think it is finally time to get a new computer because this one is no longer reliable.",
+      "tags": [
+        "frustration",
+        "health",
+        "difficulty",
+        "malfunction"
+      ]
     },
     {
       "id": "w12_12",
@@ -108,7 +185,14 @@
       "meaning_vi": "trong khi chờ đợi, trong lúc đó",
       "example": "The pizza will be here in 20 minutes; in the meantime, let's watch TV.",
       "context": "In the meantime, we'll need to replace that filling.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "My manager will be back from his business trip on Friday to sign the official contract. In the meantime, please prepare all the necessary documents so we are ready to start as soon as he arrives.",
+      "tags": [
+        "time-pressure",
+        "delay",
+        "casual",
+        "time-intervals"
+      ]
     },
     {
       "id": "w12_13",
@@ -117,7 +201,14 @@
       "meaning_vi": "đặt lịch hẹn",
       "example": "I need to call the salon to make an appointment for a haircut.",
       "context": "Please make an appointment for that.",
-      "week": 12
+      "week": 12,
+      "fill_sentence": "I have been feeling quite sick lately and need to see a specialist for a check-up. I called the clinic this morning to make an appointment so that I can secure a specific time slot with the doctor. Hopefully, I can get this sorted out by the end of the week.",
+      "tags": [
+        "polite",
+        "work",
+        "social",
+        "scheduling"
+      ]
     }
   ]
 }

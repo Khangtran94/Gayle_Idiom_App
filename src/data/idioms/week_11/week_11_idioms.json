@@ -1,10 +1,10 @@
 {
   "title": "VISITING THE PHARMACY",
-  "conversation": "Ann goes to the pharmacy to get medicine for her husband, who has a rash on his back. She talks to Ken, the pharmacist.\n\nAnn: My husband has a rash on his back. It's <u><b>driving him nuts</b></u>.\nKen: When did the rash <u><b>break out</b></u>?\nAnn: Yesterday morning. What do you think it could be?\nKen: It could be <u><b>any number of</b></u> things.\nAnn: Such as?\nKen: <u><b>For starters</b></u>, it could be an <u><b>allergic reaction</b></u> to something.\nAnn: I recently started using a new brand of laundry detergent. You may have <u><b>hit the nail on the head</b></u>.\nKen: If it is small red dots, it may be hives.\nAnn: What do you recommend he take for it?\nKen: Is he <u><b>on</b></u> anything now?\nAnn: No.\nKen: Try an <u><b>over-the-counter</b></u> anti-itch cream or a pill like Claritin.\nAnn: What if that doesn't work? What if it gets worse?\nKen: If it doesn't <u><b>clear up</b></u>, he should see a doctor. It's probably nothing serious, but <u><b>better safe than sorry</b></u>.\nAnn: Right! We should <u><b>nip this in the bud</b></u>.",
+  "conversation": "Ann goes to the pharmacy to get medicine for her husband, who has a rash on his back. She talks to Ken, the pharmacist.\n\nAnn: My husband has a rash on his back. It's <u><b>driving him nuts</b></u>.\nKen: When did the rash <u><b>break out</b></u>?\nAnn: Yesterday morning. What do you think it could be?\nKen: It could be <u><b>any number of things</b></u>.\nAnn: Such as?\nKen: <u><b>For starters</b></u>, it could be an <u><b>allergic reaction</b></u> to something.\nAnn: I recently started using a new brand of laundry detergent. You may have <u><b>hit the nail on the head</b></u>.\nKen: If it is small red dots, it may be hives.\nAnn: What do you recommend he take for it?\nKen: Is he <u><b>on something</b></u> now?\nAnn: No.\nKen: Try an <u><b>over-the-counter</b></u> anti-itch cream or a pill like Claritin.\nAnn: What if that doesn't work? What if it gets worse?\nKen: If it doesn't <u><b>clear up</b></u>, he should see a doctor. It's probably nothing serious, but <u><b>better safe than sorry</b></u>.\nAnn: Right! We should <u><b>nip this in the bud</b></u>.",
   "idioms": [
     {
       "id": "w11_01",
-      "idiom": "driving one nuts",
+      "idiom": "drive someone nuts",
       "meaning_en": "to annoy someone very much",
       "meaning_vi": "làm ai đó phát điên hoặc cực kỳ khó chịu",
       "example": "The constant sound of the car alarm was driving him nuts.",
@@ -21,7 +21,7 @@
     },
     {
       "id": "w11_02",
-      "idiom": "break out (in)",
+      "idiom": "break out",
       "meaning_en": "to appear; to occur (often suddenly)",
       "meaning_vi": "phát ra, bùng phát, nổi lên (thường dùng cho mẩn ngứa, mụn, bệnh ngoài da)",
       "example": "I tend to break out whenever I eat too much chocolate.",
@@ -53,7 +53,7 @@
     },
     {
       "id": "w11_04",
-      "idiom": "For starters",
+      "idiom": "for starters",
       "meaning_en": "to name just one problem or example",
       "meaning_vi": "trước tiên; để kể ra một ví dụ",
       "example": "For starters, we need to find a place to stay before we book the flights.",
@@ -102,7 +102,7 @@
     },
     {
       "id": "w11_07",
-      "idiom": "on something",
+      "idiom": "be on something",
       "meaning_en": "taking a specific medicine regularly",
       "meaning_vi": "đang dùng (thuốc)",
       "example": "The doctor put her on antibiotics for her ear infection.",
@@ -169,7 +169,7 @@
     },
     {
       "id": "w11_11",
-      "idiom": "nip (this, that or it) in the bud",
+      "idiom": "nip something in the bud",
       "meaning_en": "to stop a problem at an early stage before it becomes serious",
       "meaning_vi": "ngăn chặn từ trong trứng nước",
       "example": "The company decided to nip the PR problem in the bud by issuing an immediate apology.",

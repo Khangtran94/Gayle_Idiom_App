@@ -67,11 +67,11 @@ Format:
   "idioms": [
     {
       "id": "w${weekNumber.padStart(2, "0")}_01",
-      "idiom": "the idiom phrase",
+      "idiom": "the idiom phrase in its bare infinitive (base) form (e.g. 'check in' instead of 'checking in', 'reek of' instead of 'reeks of', 'earn points' instead of 'earning points', 'pull up' instead of 'pull up your reservation')",
       "meaning_en": "clear English explanation",
       "meaning_vi": "giải thích bằng tiếng Việt",
-      "example": "a natural example sentence",
-      "context": "original sentence from the paper",
+      "example": "a natural example sentence using the base form of the idiom",
+      "context": "original sentence from the paper containing the idiom",
       "week": ${parseInt(weekNumber)}
     }
   ]
@@ -79,7 +79,8 @@ Format:
 
 Rules:
 - Identify all idioms in the conversation.
-- Wrap each idiom EXACTLY as: <u><b>idiom</b></u>
+- In the "idioms" list, always store the idiom in its bare infinitive (base) form.
+- In the "conversation" string, wrap the actual matched idiom text (even if inflected/conjugated, e.g. "checking in") EXACTLY as: <u><b>idiom</b></u>
 - Always close tags in the correct order: </b></u>
 - Do NOT repeat opening tags
 - Do NOT leave tags unclosed

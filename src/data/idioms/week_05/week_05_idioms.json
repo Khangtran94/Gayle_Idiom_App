@@ -1,10 +1,10 @@
 {
   "title": "ORDERING AT A RESTAURANT",
-  "conversation": "Tanya: I hope the waiter comes soon. <u><b>I'm starving</b></u>!\nJohn: Me too!\nTanya: Why don't we <u><b>flag him down</b></u>?\nJohn: Waiter, waiter!\nKevin: <u><b>I'll be right with you</b></u>! . . . Sorry for the <u><b>hold up</b></u>. We're <u><b>packed to the rafters</b></u> tonight.\nJohn: We noticed!\nKevin: I'm Kevin, and I'll be your server tonight. <u><b>Can I start you off with</b></u> some drinks?\nJohn: I'd like the Sam Adams Summer Ale.\nTanya: <u><b>Make it two</b></u>.\nKevin: And did you <u><b>decide on</b></u> some appetizers?\nJohn: We're going <u><b>to skip</b></u> the appetizers tonight. What do you recommend for a main course?\nKevin: We're <u><b>known for</b></u> our seafood. The salmon with black bean sauce is our most popular dish.\nTanya: Okay, I'll try that.\nKevin: Excellent choice. And for you, sir?\nJohn: I'm having trouble deciding. I'm <u><b>in the mood for</b></u> steak, but I know you <u><b>pride yourselves on</b></u> your seafood.\nKevin: How about trying the <u><b>surf and turf</b></u>? That way, you get <u><b>the best of both worlds</b></u>!\nJohn: Okay, <u><b>let's go with that</b></u>.\nKevin: I'll be right back with your drinks. They're <u><b>on the house</b></u> because you had to wait so long to order.",
+  "conversation": "Tanya: I hope the waiter comes soon. <u><b>I'm starving</b></u>!\nJohn: Me too!\nTanya: Why don't we <u><b>flag him down</b></u>?\nJohn: Waiter, waiter!\nKevin: <u><b>I'll be right with you</b></u>! . . . Sorry for the <u><b>hold up</b></u>. We're <u><b>packed to the rafters</b></u> tonight.\nJohn: We noticed!\nKevin: I'm Kevin, and I'll be your server tonight. <u><b>Can I start you off with</b></u> some drinks?\nJohn: I'd like the Sam Adams Summer Ale.\nTanya: <u><b>Make it two</b></u>.\nKevin: And did you <u><b>decide on</b></u> some appetizers?\nJohn: We're going to <u><b>skip the appetizers</b></u> tonight. What do you recommend for a main course?\nKevin: We're <u><b>known for</b></u> our seafood. The salmon with black bean sauce is our most popular dish.\nTanya: Okay, I'll try that.\nKevin: Excellent choice. And for you, sir?\nJohn: I'm having trouble deciding. I'm <u><b>in the mood for</b></u> steak, but I know you <u><b>pride yourselves on</b></u> your seafood.\nKevin: How about trying the <u><b>surf and turf</b></u>? That way, you get <u><b>the best of both worlds</b></u>!\nJohn: Okay, <u><b>let's go with</b></u> that.\nKevin: I'll be right back with your drinks. They're <u><b>on the house</b></u> because you had to wait so long to order.",
   "idioms": [
     {
       "id": "w05_01",
-      "idiom": "I'm starving",
+      "idiom": "be starving",
       "meaning_en": "extremely hungry",
       "meaning_vi": "đang rất đói",
       "example": "I haven't eaten all day, so I'm starving.",
@@ -20,7 +20,7 @@
     },
     {
       "id": "w05_02",
-      "idiom": "flag down",
+      "idiom": "flag someone down",
       "meaning_en": "to get the attention of someone",
       "meaning_vi": "vẫy tay ra hiệu cho ai đó",
       "example": "We need to flag down a taxi if we want to get to the airport on time.",
@@ -35,7 +35,7 @@
     },
     {
       "id": "w05_03",
-      "idiom": "I'll be right with you",
+      "idiom": "be right with someone",
       "meaning_en": "I will help or serve you in a moment",
       "meaning_vi": "Tôi sẽ phục vụ/hỗ trợ bạn ngay đây",
       "example": "Finish your phone call, and I'll be right with you to help with those bags.",
@@ -67,7 +67,7 @@
     },
     {
       "id": "w05_05",
-      "idiom": "packed to the rafters",
+      "idiom": "be packed to the rafters",
       "meaning_en": "extremely crowded; full to capacity",
       "meaning_vi": "chật kín người, không còn chỗ trống",
       "example": "The stadium was packed to the rafters for the final game of the season.",
@@ -83,7 +83,7 @@
     },
     {
       "id": "w05_06",
-      "idiom": "Can I start you off with",
+      "idiom": "start someone off with",
       "meaning_en": "a phrase used by servers to ask for an initial order (usually drinks or appetizers)",
       "meaning_vi": "Tôi có thể bắt đầu phục vụ bạn món... không?",
       "example": "Can I start you off with some fresh bread and water?",
@@ -99,7 +99,7 @@
     },
     {
       "id": "w05_07",
-      "idiom": "Make it two",
+      "idiom": "make it two",
       "meaning_en": "I would like the same thing as the person who just ordered",
       "meaning_vi": "Cho tôi hai phần giống vậy (hoặc cho tôi phần giống người vừa gọi)",
       "example": "If he's having the chocolate cake, make it two!",
@@ -131,7 +131,7 @@
     },
     {
       "id": "w05_09",
-      "idiom": "skip the appetizers",
+      "idiom": "skip",
       "meaning_en": "to not order appetizers",
       "meaning_vi": "không gọi món khai vị",
       "example": "I think I'll skip dessert today; I'm too full.",
@@ -147,7 +147,7 @@
     },
     {
       "id": "w05_10",
-      "idiom": "known for",
+      "idiom": "be known for",
       "meaning_en": "famous for; having a reputation for",
       "meaning_vi": "nổi tiếng về điều gì",
       "example": "This region is known for its beautiful vineyards.",
@@ -162,7 +162,7 @@
     },
     {
       "id": "w05_11",
-      "idiom": "in the mood for",
+      "idiom": "be in the mood for",
       "meaning_en": "to want, to have an appetite for, feeling like doing or having something specific",
       "meaning_vi": "đang muốn/có hứng thú với cái gì",
       "example": "Are you in the mood for Italian food tonight?",
@@ -225,7 +225,7 @@
     },
     {
       "id": "w05_15",
-      "idiom": "let's go with",
+      "idiom": "go with",
       "meaning_en": "let's choose that option or make that decision",
       "meaning_vi": "chốt luôn/hãy chọn phương án đó",
       "example": "The red dress looks better on you, let's go with that.",

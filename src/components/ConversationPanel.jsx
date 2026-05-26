@@ -30,7 +30,7 @@ export default function ConversationPanel({ week, darkMode: dm }) {
         return week.conversation.split("\n").map(line => {
             const plain = line.replace(/<[^>]*>/g, "").trim()
             const isStageDirection = plain.startsWith("(") && plain.endsWith(")")
-            const speakerMatch = plain.match(/^([A-Za-z]+):\s*(.*)/)
+            const speakerMatch = plain.match(/^([A-Za-z0-9\s.-]+):\s*(.*)/)
             return {
                 raw: line,
                 plain,
@@ -218,7 +218,7 @@ export default function ConversationPanel({ week, darkMode: dm }) {
             if (!plain) return null
 
             const isStageDirection = plain.startsWith("(") && plain.endsWith(")")
-            const isSpeaker = line.plain.match(/^([A-Za-z]+):/)
+            const isSpeaker = line.plain.match(/^([A-Za-z0-9\s.-]+):/)
             const colonIdx = line.plain.indexOf(":")
             const speakerName = isSpeaker ? line.plain.substring(0, colonIdx) : null
             const lineText = isSpeaker
@@ -262,7 +262,7 @@ export default function ConversationPanel({ week, darkMode: dm }) {
                 // Color-code speaker name
                 const speakers = []
                 lines.forEach(l => {
-                    const m = l.plain.match(/^([A-Za-z]+):/)
+                    const m = l.plain.match(/^([A-Za-z0-9\s.-]+):/)
                     if (m && !speakers.includes(m[1])) speakers.push(m[1])
                 })
                 const speakerIdx = speakers.indexOf(speakerName)

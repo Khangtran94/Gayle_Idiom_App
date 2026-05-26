@@ -1,6 +1,6 @@
 {
   "title": "HANDLING A DELAY AT THE AIRPORT",
-  "conversation": "VOICE: Attention passengers on Flight 394 to Chicago, This flight has been delayed. Please <u><b>stand by</b></u> for more information.\nTom: Excuse me, I'm on the flight to Chicago. When will it depart now?\nMike: It looks like it'll be delayed at least two hours. I'll <u><b>keep you posted</b></u>.\nTom: I have a 4 o'clock meeting in Chicago. If the flight gets in at 3:30, there's <u><b>no way</b></u> I'll make it.\nMike: Sorry, but there's nothing I can do. There are lots of other people here <u><b>in the same boat</b></u>.\nTom: Are there any other flights to Chicago?\nMike: Yes, there's a 1 p.m. departure, but it's <u><b>fully booked</b></u>.\nTom: Can you put me on the waiting list?\nMike: I'll add you to the list, but <u><b>don't hold your breath</b></u>. There are <u><b>quite a few</b></u> people already on the list\nTom: Can I fly another airline?\nMike: Other airlines won't honor your Flyaway Airlines ticket.\nTom: Oh, <u><b>for crying out loud</b></u>! This is so annoying.\nMike: I'm sorry you're annoyed, but there's nothing more I can do.\nTom: Let me <u><b>give you a piece of my mind</b></u>. I won't be using Flyaway Airlines again anytime soon!",
+  "conversation": "VOICE: Attention passengers on Flight 394 to Chicago, This flight has been delayed. Please <u><b>stand by</b></u> for more information.\nTom: Excuse me, I'm on the flight to Chicago. When will it depart now?\nMike: It looks like it'll be delayed at least two hours. I'll <u><b>keep you posted</b></u>.\nTom: I have a 4 o'clock meeting in Chicago. If the flight gets in at 3:30, there's <u><b>no way</b></u> I'll make it.\nMike: Sorry, but there's nothing I can do. There are lots of other people here <u><b>in the same boat</b></u>.\nTom: Are there any other flights to Chicago?\nMike: Yes, there's a 1 p.m. departure, but it's <u><b>fully booked</b></u>.\nTom: Can you <u><b>put me on the waiting list</b></u>?\nMike: I'll add you to the list, but <u><b>don't hold your breath</b></u>. There are <u><b>quite a few</b></u> people already on the list\nTom: Can I fly another airline?\nMike: Other airlines won't <u><b>honor your</b></u> Flyaway Airlines <u><b>ticket</b></u>.\nTom: Oh, <u><b>for crying out loud</b></u>! This is so annoying.\nMike: I'm sorry you're annoyed, but there's nothing more I can do.\nTom: Let me <u><b>give you a piece of my mind</b></u>. I won't be using Flyaway Airlines again anytime soon!",
   "idioms": [
     {
       "id": "w16_01",
@@ -69,7 +69,7 @@
     },
     {
       "id": "w16_05",
-      "idiom": "fully booked",
+      "idiom": "be fully booked",
       "meaning_en": "having no more space or time available; all spots are taken",
       "meaning_vi": "đã đặt hết chỗ, không còn chỗ trống",
       "example": "The hotel is fully booked for the entire summer season.",
@@ -102,7 +102,7 @@
     },
     {
       "id": "w16_07",
-      "idiom": "don't hold your breath",
+      "idiom": "not hold one's breath",
       "meaning_en": "used to tell someone not to expect something to happen, as it is unlikely",
       "meaning_vi": "đừng quá mong đợi (vì điều đó khó có thể xảy ra)",
       "example": "He promised to pay me back next week, but I'm not holding my breath.",

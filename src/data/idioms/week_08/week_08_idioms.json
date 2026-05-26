@@ -1,10 +1,10 @@
 {
   "title": "ORDERING LUNCH TO GO",
-  "conversation": "Tim: Welcome to Angelo’s. What can I get for you?\nJoe: A chicken salad sandwich.\nTim: For here or to go?\nJoe: To go.\nTim: Would you like that on white, wheat, or pumpernickel?\nJoe: What’s pumpernickel?\nTim: It’s a dark brown bread, similar to rye bread.\nJoe: Let me try that.\nTim: And would you like that with mustard, mayonnaise, or oil?\nJoe: Mustard. But please <u><b>go light on</b></u> it.\nTim: Would you like to make that a <u><b>meal deal</b></u>? Our special this month is a sandwich, an order of French fries, and a large soda for $6.99.\nJoe: I’m going to <u><b>pass on</b></u> that. But I’d like a <u><b>side order</b></u> of fries.\nTim: Your total <u><b>comes to</b></u> $6.99.\nJoe: <u><b>On second thought</b></u>, I will <u><b>take you up on</b></u> that <u><b>meal deal</b></u>.\nTim: Sure, then you’ll get a soda at <u><b>no extra charge</b></u>. That’ll be $6.99.\nJoe: Sorry, but I’ve only got a $100 bill.\nTim: <u><b>No worries</b></u>. We can <u><b>break</b></u> it.",
+  "conversation": "Tim: Welcome to Angelo’s. <u><b>What can I get for you</b></u>?\nJoe: A chicken salad sandwich.\nTim: <u><b>For here or to go</b></u>?\nJoe: To go.\nTim: Would you like that on white, wheat, or pumpernickel?\nJoe: What’s pumpernickel?\nTim: It’s a dark brown bread, similar to rye bread.\nJoe: Let me try that.\nTim: And would you like that with mustard, mayonnaise, or oil?\nJoe: Mustard. But please <u><b>go light on</b></u> it.\nTim: Would you like to make that a <u><b>meal deal</b></u>? Our special this month is a sandwich, an order of French fries, and a large soda for $6.99.\nJoe: I’m going to <u><b>pass on</b></u> that. But I’d like a <u><b>side order</b></u> of fries.\nTim: <u><b>Your total comes to</b></u> $6.99.\nJoe: <u><b>On second thought</b></u>, I will <u><b>take you up on</b></u> that <u><b>meal deal</b></u>.\nTim: Sure, then you’ll get a soda <u><b>at no extra charge</b></u>. That’ll be $6.99.\nJoe: Sorry, but I’ve only got a $100 bill.\nTim: <u><b>No worries</b></u>. We can <u><b>break</b></u> it.",
   "idioms": [
     {
       "id": "w08_01",
-      "idiom": "What can I get for you",
+      "idiom": "get something for someone",
       "meaning_en": "What would you like to order?",
       "meaning_vi": "Tôi có thể lấy gì cho bạn?",
       "example": "Please go light on the salt when you cook the soup.",
@@ -52,7 +52,7 @@
     },
     {
       "id": "w08_04",
-      "idiom": "meal deal",
+      "idiom": "make something a meal deal",
       "meaning_en": "a combination of food items sold together at a lower price than if bought separately",
       "meaning_vi": "suất ăn trọn gói, combo món ăn giá rẻ",
       "example": "The burger shop has a great meal deal that includes a drink and fries.",
@@ -99,7 +99,7 @@
     },
     {
       "id": "w08_07",
-      "idiom": "your total comes to",
+      "idiom": "one's total come to",
       "meaning_en": "the bill is; the amount you owe is",
       "meaning_vi": "tổng số tiền bạn phải trả là",
       "example": "The repair bill comes to two hundred dollars.",

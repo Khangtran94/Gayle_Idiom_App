@@ -200,7 +200,7 @@ export default function App() {
                     )}
 
                     {mode === "flashcard" && (
-                        <Flashcard idioms={idioms} lang={lang} darkMode={dm} />
+                        <Flashcard key={selectedWeek} idioms={idioms} lang={lang} darkMode={dm} />
                     )}
 
                     {mode === "games" && (

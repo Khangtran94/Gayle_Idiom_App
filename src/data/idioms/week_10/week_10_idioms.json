@@ -1,10 +1,10 @@
 {
   "title": "VISITING THE DOCTOR",
-  "conversation": "Doctor: Hi, I’m Dr. Wilson. <u><b>What seems to be the trouble?</b></u>\nGrace: I’ve been <u><b>under the weather</b></u> for days.\nDoctor: The flu is <u><b>going around</b></u>. Did you get the vaccine?\nGrace: No, this year I didn’t <u><b>get around to it</b></u>.\nDoctor: What are your symptoms?\nGrace: I’ve had a <u><b>splitting headache</b></u> since yesterday morning. My whole body hurts.\nDoctor: You have all the <u><b>telltale signs</b></u> of the flu. Let me take your temperature . . . 101. That’s <u><b>on the high side</b></u>.\nGrace: My throat hurts, too.\nDoctor: Let me <u><b>take a peek</b></u>. Yes, your throat is very red. It looks like a <u><b>garden-variety</b></u> flu.\nGrace: Are you going to prescribe some medicine for it?\nDoctor: You can take Tylenol for your headache. Also, be sure to get plenty of rest and drink lots of water.\nGrace: How long do you think this is going to <u><b>drag on</b></u>?\nDoctor: You should be <u><b>back on your feet</b></u> in a week or so.\nGrace: I have to get better quickly. I’m needed at the office.\nDoctor: Well, there’s <u><b>no magic bullet</b></u>. You’re going to have to let this <u><b>run its course</b></u>.",
+  "conversation": "Doctor: Hi, I’m Dr. Wilson. <u><b>What seems to be the trouble?</b></u>\nGrace: I’ve been <u><b>under the weather</b></u> for days.\nDoctor: The flu is <u><b>going around</b></u>. Did you get the vaccine?\nGrace: No, this year I didn’t <u><b>get around to it</b></u>.\nDoctor: What are your symptoms?\nGrace: I’ve had a <u><b>splitting headache</b></u> since yesterday morning. My whole body hurts.\nDoctor: You have all the <u><b>telltale signs</b></u> of the flu. Let me <u><b>take a peek</b></u> at your temperature . . . 101. That’s <u><b>on the high side</b></u>.\nGrace: My throat hurts, too.\nDoctor: Let me <u><b>take a peek</b></u>. Yes, your throat is very red. It looks like a <u><b>garden-variety</b></u> flu.\nGrace: Are you going to prescribe some medicine for it?\nDoctor: You can take Tylenol for your headache. Also, be sure to get plenty of rest and drink lots of water.\nGrace: How long do you think this is going to <u><b>drag on</b></u>?\nDoctor: You should be <u><b>back on your feet</b></u> in a week <u><b>or so</b></u>.\nGrace: I have to get better quickly. I’m needed at the office.\nDoctor: Well, there’s no <u><b>magic bullet</b></u>. You’re going to have to let this <u><b>run its course</b></u>.",
   "idioms": [
     {
       "id": "w10_01",
-      "idiom": "What seems to be the trouble?",
+      "idiom": "what seem to be the trouble",
       "meaning_en": "a phrase used to ask what is wrong or what medical problem someone has",
       "meaning_vi": "Có chuyện gì vậy? (câu hỏi về tình trạng bệnh lý)",
       "example": "The doctor entered the room and asked, 'What seems to be the trouble?'",
@@ -20,7 +20,7 @@
     },
     {
       "id": "w10_02",
-      "idiom": "under the weather",
+      "idiom": "be under the weather",
       "meaning_en": "feeling sick or not well",
       "meaning_vi": "cảm thấy không khỏe, bị ốm",
       "example": "I'm feeling a bit under the weather, so I'm going to stay home today.",
@@ -36,7 +36,7 @@
     },
     {
       "id": "w10_03",
-      "idiom": "going around",
+      "idiom": "go around",
       "meaning_en": "spreading from person to person (usually referring to an illness)",
       "meaning_vi": "đang lây lan, đang có dịch",
       "example": "There is a nasty stomach bug going around the school.",
@@ -51,7 +51,7 @@
     },
     {
       "id": "w10_04",
-      "idiom": "get around to it",
+      "idiom": "get around to something",
       "meaning_en": "to have a chance to do something; to have time to do something",
       "meaning_vi": "có thời gian/thu xếp được thời gian để làm việc gì đó",
       "example": "I meant to fix the sink, but I never got around to it.",
@@ -67,7 +67,7 @@
     },
     {
       "id": "w10_05",
-      "idiom": "splitting headache",
+      "idiom": "have a splitting headache",
       "meaning_en": "a very severe or intense headache",
       "meaning_vi": "đau đầu như búa đổ",
       "example": "Turn down the music; I have a splitting headache.",
@@ -97,7 +97,7 @@
     },
     {
       "id": "w10_07",
-      "idiom": "on the high side",
+      "idiom": "be on the high side",
       "meaning_en": "slightly higher than what is considered normal or average",
       "meaning_vi": "hơi cao so với mức bình thường",
       "example": "The price for the car is a bit on the high side.",
@@ -158,7 +158,7 @@
     },
     {
       "id": "w10_11",
-      "idiom": "back on one's feet",
+      "idiom": "be back on one's feet",
       "meaning_en": "healthy again; returned to good health",
       "meaning_vi": "hồi phục, khỏe lại (sau khi ốm)",
       "example": "After a week in bed, she was finally back on her feet.",

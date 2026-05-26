@@ -1,10 +1,10 @@
 {
   "title": "MAKING A DOCTOR’S APPOINTMENT",
-  "conversation": "Grace is sick. She calls her doctor's office to make an appointment for today.\n\nLaura: Primary Medical Group. How may I help you?\nGrace: I'd like to make an appointment with Dr. Feinberg.\nLaura: Your name?\nGrace: Grace Lee\nLaura: <u><b>What's the nature of</b></u> your visit?\nGrace: I think I've <u><b>come down with</b></u> the flu.\nLaura: We <u><b>have an opening</b></u> tomorrow at three.\nGrace: I can't wait that long. I'm really sick!\nLaura: Well, unfortunately, Dr. Feinberg is <u><b>booked solid</b></u> today. If he were free <u><b>at all</b></u>, I would <u><b>squeeze you in</b></u>.\nGrace: Can anybody else see me?\nLaura: <u><b>Hang on</b></u>. Let me check . . . You're <u><b>in luck</b></u>. Dr. Wilson can see you at four o'clock this afternoon.\nGrace: Don't you have anything earlier today?\nLaura: No, <u><b>I'm afraid not</b></u>. We're <u><b>short-staffed</b></u> this week.\nGrace: So there's no way I can come in before four today?\nLaura: I'd like to help you, but <u><b>my hands are tied</b></u>. If I were you, I would grab this four o'clock appointment.\nGrace: Okay. I'll take it.",
+  "conversation": "Grace is sick. She calls her doctor's office to make an appointment for today.\n\nLaura: Primary Medical Group. How may I help you?\nGrace: I'd like to make an appointment with Dr. Feinberg.\nLaura: Your name?\nGrace: Grace Lee\nLaura: <u><b>What's the nature of your visit</b></u>?\nGrace: I think I've <u><b>come down with</b></u> the flu.\nLaura: We <u><b>have an opening</b></u> tomorrow at three.\nGrace: I can't wait that long. I'm really sick!\nLaura: Well, unfortunately, Dr. Feinberg is <u><b>booked solid</b></u> today. If he were free <u><b>at all</b></u>, I would <u><b>squeeze you in</b></u>.\nGrace: Can anybody else see me?\nLaura: <u><b>Hang on</b></u>. Let me check . . . You're <u><b>in luck</b></u>. Dr. Wilson can see you at four o'clock this afternoon.\nGrace: Don't you have anything earlier today?\nLaura: No, <u><b>I'm afraid not</b></u>. We're <u><b>short-staffed</b></u> this week.\nGrace: So there's no way I can come in before four today?\nLaura: I'd like to help you, but <u><b>my hands are tied</b></u>. If I were you, I would grab this four o'clock appointment.\nGrace: Okay. I'll take it.",
   "idioms": [
     {
       "id": "w09_01",
-      "idiom": "What's the nature of your visit",
+      "idiom": "what is the nature of one's visit",
       "meaning_en": "Why are you coming?; Why do you need to see the doctor?",
       "meaning_vi": "Lý do hay mục đích của (buổi khám/cuộc gặp) là gì.",
       "example": "What's the nature of your business with the director?",
@@ -55,7 +55,7 @@
     },
     {
       "id": "w09_04",
-      "idiom": "booked solid",
+      "idiom": "be booked solid",
       "meaning_en": "Completely full; having no available appointments or space.",
       "meaning_vi": "Đã kín lịch, không còn chỗ trống.",
       "example": "The hotel is booked solid for the holiday weekend.",
@@ -105,7 +105,7 @@
     },
     {
       "id": "w09_07",
-      "idiom": "Hang on",
+      "idiom": "hang on",
       "meaning_en": "wait; give me some time",
       "meaning_vi": "Chờ một chút.",
       "example": "Hang on a second, I forgot my wallet upstairs.",
@@ -121,7 +121,7 @@
     },
     {
       "id": "w09_08",
-      "idiom": "in luck",
+      "idiom": "be in luck",
       "meaning_en": "Experiencing good fortune; fortunate.",
       "meaning_vi": "May mắn.",
       "example": "You're in luck! We just had one cancellation for tonight.",
@@ -137,7 +137,7 @@
     },
     {
       "id": "w09_09",
-      "idiom": "I'm afraid not",
+      "idiom": "be afraid not",
       "meaning_en": "A polite way of saying no or giving disappointing news.",
       "meaning_vi": "Tôi e là không (cách từ chối lịch sự).",
       "example": "Is there any dessert left? I'm afraid not.",
@@ -154,7 +154,7 @@
     },
     {
       "id": "w09_10",
-      "idiom": "short-staffed",
+      "idiom": "be short-staffed",
       "meaning_en": "Not having enough workers or employees to operate efficiently.",
       "meaning_vi": "Thiếu nhân sự, thiếu nhân viên.",
       "example": "Service is slow today because the restaurant is short-staffed.",
@@ -170,7 +170,7 @@
     },
     {
       "id": "w09_11",
-      "idiom": "my hands are tied",
+      "idiom": "one's hands are tied",
       "meaning_en": "there's nothing I can do",
       "meaning_vi": "bó tay, không thể làm gì khác được",
       "example": "I'd like to give you a refund, but my hands are tied by the store's policy.",

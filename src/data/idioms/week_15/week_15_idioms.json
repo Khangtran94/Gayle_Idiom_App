@@ -1,6 +1,6 @@
 {
   "title": "COMPLIMENTING A MEAL",
-  "conversation": "Lori and Jane compliment Lisa on the delicious dinner she prepared. At the end of the evening, Mike and Lori thank her.\n\nJane: Lisa, this shrimp dish is <u><b>out of this world</b></u>!\nLori: Yes, it's delicious. You really <u><b>outdid yourself</b></u>!\nJane: You can always <u><b>count on</b></u> Lisa to serve a great meal.\nLisa: <u><b>Help yourselves</b></u> to more.\nKyle: I don't want to <u><b>make a pig of myself</b></u>.\nLisa: It's going to <u><b>go to waste</b></u> if nobody eats it.\nKyle: I'd hate to see it <u><b>go to waste</b></u>! I'll take a <u><b>second helping</b></u>. (for food)\nJane: Kyle, <u><b>save some room</b></u> for dessert!\nKyle: (patting large stomach) Don't worry, there's still plenty of room in here.\n\n(two hours later)\n\nMike: We'd better <u><b>hit the road</b></u>. Thank you for a lovely time.\nLori: Dinner was delicious. You and Todd really <u><b>knocked yourselves out</b></u>. It was a <u><b>real treat</b></u>.\nLisa: It was our pleasure.\nLori: We look forward to <u><b>having you over</b></u> soon.",
+  "conversation": "Lori and Jane compliment Lisa on the delicious dinner she prepared. At the end of the evening, Mike and Lori thank her.\n\nJane: Lisa, this shrimp dish is <u><b>out of this world</b></u>!\nLori: Yes, it's delicious. You really <u><b>outdid yourself</b></u>!\nJane: You can always <u><b>count on</b></u> Lisa to serve a great meal.\nLisa: <u><b>Help yourselves</b></u> to more.\nKyle: I don't want to <u><b>make a pig of myself</b></u>.\nLisa: It's going to <u><b>go to waste</b></u> if nobody eats it.\nKyle: I'd hate to see it <u><b>go to waste</b></u>! I'll take a <u><b>second helping</b></u>. (for food)\nJane: Kyle, <u><b>save some room for</b></u> dessert!\nKyle: (patting large stomach) Don't worry, there's still plenty of room in here.\n\n(two hours later)\n\nMike: We'd better <u><b>hit the road</b></u>. <u><b>Thank you for a lovely time</b></u>.\nLori: Dinner was delicious. You and Todd really <u><b>knocked yourselves out</b></u>. It was <u><b>a real treat</b></u>.\nLisa: It was our pleasure.\nLori: We look forward to <u><b>having you over</b></u> soon.",
   "idioms": [
     {
       "id": "w15_01",
@@ -123,7 +123,7 @@
     },
     {
       "id": "w15_08",
-      "idiom": "save some room for something",
+      "idiom": "save room for something",
       "meaning_en": "to not eat too much so that you still have an appetite for later",
       "meaning_vi": "để dành bụng (để ăn món tiếp theo)",
       "example": "Save some room for dessert, it's my favorite!",
@@ -157,7 +157,7 @@
     },
     {
       "id": "w15_10",
-      "idiom": "thank you for a lovely time",
+      "idiom": "thank someone for a lovely time",
       "meaning_en": "a polite phrase said to the host before leaving a party or dinner (used by guests as they leave)",
       "meaning_vi": "cám ơn vì một buổi tối vui vẻ",
       "example": "Thank you for a lovely time, the food was delicious!",

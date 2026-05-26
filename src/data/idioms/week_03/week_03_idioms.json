@@ -1,6 +1,6 @@
 {
   "title": "NEGOTIATING A PURCHASE",
-  "conversation": "Max is shopping for a used car. He goes to see Jim who's selling his used Honda. After a test drive, Max negotiates with Jim and gets him to reduce the price by $800.\n\nJim: Hello. Jim Harris speaking.\nMax: Hello, Jim. My name is Max Taylor. I'm shopping for a used car, and I saw your ad for a 2008 Honda Civic.\nJim: The car is still available, but I'm getting lots of calls for it.\nMax: How about if I <u><b>swing by</b></u> at 5:30?\nJim: Okay. I'm on 433 Main Avenue, across the street from Arroyo High School.\n(Max comes over to Jim's house.)\nMax: Hi, I'm Max. I'm here to see the car.\nJim: Good to meet you, Max. I'm Jim. Would you like to <u><b>take a test drive</b></u>?\nMax: Yes, thanks. <u><b>The last thing I need</b></u> is another <u><b>lemon</b></u>!\nJim: You don't have to worry about that. This is a great car.\n(They return from the drive.)\nMax: It does drive well.\nJim: And it's <u><b>in mint condition</b></u>!\nMax: You're asking $8000 for it?\nJim: Yes, it's <u><b>a steal</b></u>.\nMax: It's a nice car, but it's a two-door car and I was hoping to buy a four-door.\nJim: A car like this is going to sell quickly. I'd hate for you to <u><b>miss out</b></u>.\nMax: I'll give you $7,000.\nJim: Let's <u><b>split the difference</b></u>. If you can make it $7,500, <u><b>you've got a deal</b></u>.\nMax: I'd like to <u><b>sleep on it</b></u>. Can I <u><b>give you a ring</b></u> in the morning?\nJim: I'd like to <u><b>reach an agreement</b></u> now. How about $7,300?\nMax: Would you take $7,200?\nJim: I don't want to <u><b>haggle</b></u>.\nMax: I'm sorry to <u><b>nickel and dime</b></u> you, but <u><b>money is tight</b></u> for me right now.\nJim: Okay, let's <u><b>close the deal</b></u>. I'll take $7,200.",
+  "conversation": "Max is shopping for a used car. He goes to see Jim who's selling his used Honda. After a test drive, Max negotiates with Jim and gets him to reduce the price by $800.\n\nJim: Hello. Jim Harris speaking.\nMax: Hello, Jim. My name is Max Taylor. I'm shopping for a used car, and I saw your ad for a 2008 Honda Civic.\nJim: The car is still available, but I'm getting lots of calls for it.\nMax: How about if I <u><b>swing by</b></u> at 5:30?\nJim: Okay. I'm on 433 Main Avenue, across the street from Arroyo High School.\n(Max comes over to Jim's house.)\nMax: Hi, I'm Max. I'm here to see the car.\nJim: Good to meet you, Max. I'm Jim. Would you like to <u><b>take a test drive</b></u>?\nMax: Yes, thanks. <u><b>The last thing I need is</b></u> another <u><b>lemon</b></u>!\nJim: You don't have to worry about that. This is a great car.\n(They return from the drive.)\nMax: It does drive well.\nJim: And it's <u><b>in mint condition</b></u>!\nMax: You're asking $8000 for it?\nJim: Yes, it's <u><b>a steal</b></u>.\nMax: It's a nice car, but it's a two-door car and I was hoping to buy a four-door.\nJim: A car like this is going to sell quickly. I'd hate for you to <u><b>miss out</b></u>.\nMax: I'll give you $7,000.\nJim: Let's <u><b>split the difference</b></u>. If you can make it $7,500, <u><b>you've got a deal</b></u>.\nMax: I'd like to <u><b>sleep on it</b></u>. Can I <u><b>give you a ring</b></u> in the morning?\nJim: I'd like to <u><b>reach an agreement</b></u> now. How about $7,300?\nMax: Would you take $7,200?\nJim: I don't want to <u><b>haggle</b></u>.\nMax: I'm sorry to <u><b>nickel and dime</b></u> you, but <u><b>money is tight</b></u> for me right now.\nJim: Okay, let's <u><b>close the deal</b></u>. I'll take $7,200.",
   "idioms": [
     {
       "id": "w03_01",
@@ -36,7 +36,7 @@
     },
     {
       "id": "w03_03",
-      "idiom": "The last thing I need is",
+      "idiom": "the last thing one needs is",
       "meaning_en": "I definitely don't need; I really don't want",
       "meaning_vi": "điều cuối cùng tôi cần là",
       "example": "The last thing I need right now is more work.",
@@ -131,7 +131,7 @@
     },
     {
       "id": "w03_09",
-      "idiom": "you've got a deal",
+      "idiom": "have a deal",
       "meaning_en": "I agree; I agree to your terms",
       "meaning_vi": "chốt đơn, đồng ý thỏa thuận",
       "example": "If you can finish the project by Friday, you've got a deal.",
@@ -226,7 +226,7 @@
     },
     {
       "id": "w03_15",
-      "idiom": "money is tight",
+      "idiom": "money be tight",
       "meaning_en": "having very little money; experiencing financial difficulty",
       "meaning_vi": "tiền bạc eo hẹp, đang kẹt tiền",
       "example": "Money is tight this month, so we can't afford to go out for dinner.",

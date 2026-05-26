@@ -10,6 +10,98 @@ export default function Flashcard({ idioms, lang }) {
     const current = idioms[index]
     const total = idioms.length
     const progress = Math.round((index / total) * 100)
+    const bareIdiom = current ? getBareForm(current.idiom) : ""
+
+    function getBareForm(idiom) {
+        if (!idiom) return ""
+        const words = idiom.trim().split(/\s+/)
+        if (words.length === 0) return ""
+
+        let firstWord = words[0].toLowerCase()
+
+        const irregularMap = {
+            // -ing forms
+            "checking": "check",
+            "pulling": "pull",
+            "earning": "earn",
+            "making": "make",
+            "returning": "return",
+            "exchanging": "exchange",
+            "renting": "rent",
+            "ordering": "order",
+            "visiting": "visit",
+            "discussing": "discuss",
+            "handling": "handle",
+            "apologizing": "apologize",
+            "killing": "kill",
+            "acting": "act",
+            "driving": "drive",
+            "breaking": "break",
+            "starving": "starve",
+            "browsing": "browse",
+            "buying": "buy",
+            "selling": "sell",
+            "paying": "pay",
+
+            // Past / 3rd person / other forms
+            "held": "hold",
+            "made": "make",
+            "got": "get",
+            "came": "come",
+            "went": "go",
+            "bought": "buy",
+            "sold": "sell",
+            "took": "take",
+            "reeks": "reek",
+            "runs": "run",
+            "kills": "kill",
+            "boggles": "boggle",
+            "seems": "seem",
+            "insists": "insist",
+            "booked": "book",
+            "packed": "pack",
+            "reeked": "reek",
+            "insisted": "insist",
+
+            // Be verbs
+            "is": "be",
+            "was": "be",
+            "are": "be",
+            "were": "be",
+            "am": "be",
+            "been": "be"
+        }
+
+        if (irregularMap[firstWord]) {
+            firstWord = irregularMap[firstWord]
+        } else {
+            if (firstWord.endsWith("ing")) {
+                firstWord = firstWord.slice(0, -3)
+            } else if (firstWord.endsWith("s") && !firstWord.endsWith("ss") && firstWord.length > 3) {
+                firstWord = firstWord.slice(0, -1)
+            } else if (firstWord.endsWith("ed") && firstWord.length > 4) {
+                firstWord = firstWord.slice(0, -2)
+            }
+        }
+
+        const originalFirst = words[0]
+        if (originalFirst[0] === originalFirst[0].toUpperCase()) {
+            firstWord = firstWord.charAt(0).toUpperCase() + firstWord.slice(1)
+        }
+
+        words[0] = firstWord
+
+        let result = words.join(" ")
+        result = result
+            .replace(/\b(my|your|his|her|its|their|our)\b/gi, (match) => {
+                return match[0] === match[0].toUpperCase() ? "One's" : "one's"
+            })
+            .replace(/\b(me|him|her|them|us)\b/gi, (match) => {
+                return match[0] === match[0].toUpperCase() ? "Someone" : "someone"
+            })
+
+        return result
+    }
 
     function speakText(text) {
         const u = new SpeechSynthesisUtterance(text)
@@ -88,14 +180,14 @@ export default function Flashcard({ idioms, lang }) {
             <div
                 onClick={() => {
                     setFlipped(f => !f)
-                    if (!flipped) speakText(current.idiom)
+                    if (!flipped) speakText(bareIdiom)
                 }}
                 className="w-full max-w-md min-h-56 bg-white rounded-3xl shadow-md border border-gray-100 p-8 flex flex-col items-center justify-center cursor-pointer hover:shadow-lg transition select-none"
             >
                 {!flipped ? (
                     <>
                         <p className="text-xs text-gray-400 uppercase tracking-widest mb-4">Tap to reveal</p>
-                        <h2 className="text-2xl font-bold text-indigo-700 text-center">"{current.idiom}"</h2>
+                        <h2 className="text-2xl font-bold text-indigo-700 text-center">"{bareIdiom}"</h2>
                     </>
                 ) : (
                     <>

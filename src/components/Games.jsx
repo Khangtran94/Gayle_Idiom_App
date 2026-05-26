@@ -50,45 +50,109 @@ function normalise(s) {
     return s.toLowerCase().trim().replace(/[^a-z\s]/g, "")
 }
 
-function makeBlank(item) {
-    const escapedIdiom = item.idiom.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-    const regex = new RegExp(escapedIdiom, "gi")
+function createFlexibleRegex(idiom) {
+    const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 
-    // 1. Try context first — the idiom is always present in the original conversation line
-    const source = item.context || ""
-    if (source) {
-        const attempted = source.replace(regex, "_____")
-        if (attempted !== source) return attempted
+    const placeholders = {
+        "someone's": "(\\w+'s|\\w+)",
+        "somebody's": "(\\w+'s|\\w+)",
+        "one's": "(\\w+'s|\\w+)",
+        "someone": "(\\w+(?:\\s+\\w+)?)",
+        "somebody": "(\\w+(?:\\s+\\w+)?)",
+        "something": "(\\w+(?:\\s+\\w+)?)",
+        "one": "(\\w+)",
+        "it": "(\\w+)"
     }
 
-    // 2. Try the example sentence
-    const exAttempt = item.example.replace(regex, "_____")
-    if (exAttempt !== item.example) return exAttempt
+    const verbInflections = {
+        "take": "(take|takes|taking|took|taken)",
+        "pull": "(pull|pulls|pulling|pulled)",
+        "earn": "(earn|earns|earning|earned)",
+        "make": "(make|makes|making|made)",
+        "return": "(return|returns|returning|returned)",
+        "exchange": "(exchange|exchanges|exchanging|exchanged)",
+        "rent": "(rent|rents|renting|rented)",
+        "order": "(order|orders|ordering|ordered)",
+        "visit": "(visit|visits|visiting|visited)",
+        "discuss": "(discuss|discusses|discussing|discussed)",
+        "handle": "(handle|handles|handling|handled)",
+        "apologize": "(apologize|apologizes|apologizing|apologized)",
+        "kill": "(kill|kills|killing|killed)",
+        "act": "(act|acts|acting|acted)",
+        "drive": "(drive|drives|driving|drove|driven)",
+        "break": "(break|breaks|breaking|broke|broken)",
+        "starve": "(starve|starves|starving|starved)",
+        "browse": "(browse|browses|browsing|browsed)",
+        "buy": "(buy|buys|buying|bought)",
+        "sell": "(sell|sells|selling|sold)",
+        "pay": "(pay|pays|paying|paid)",
+        "hold": "(hold|holds|holding|held)",
+        "come": "(come|comes|coming|came)",
+        "go": "(go|goes|going|went|gone)",
+        "run": "(run|runs|running|ran)",
+        "reek": "(reek|reeks|reeking|reeked)",
+        "seem": "(seem|seems|seeming|seemed)",
+        "insist": "(insist|insists|insisting|insisted)",
+        "book": "(book|books|booking|booked)",
+        "pack": "(pack|packs|packing|packed)",
+        "boggle": "(boggle|boggles|boggling|boggled)",
+        "cross": "(cross|crosses|crossing|crossed)",
+        "give": "(give|gives|giving|gave|given)",
+        "keep": "(keep|keeps|keeping|kept)",
+        "get": "(get|gets|getting|got|gotten)",
+        "be": "(be|is|was|are|were|am|been|being)",
+        "have": "(have|has|having|had)"
+    }
 
-    // 3. Some idioms have extra words in their id vs actual usage (e.g. "on something" → "on")
-    // Try matching just the core words by building a looser regex from each word
-    const words = item.idiom.split(/\s+/).filter(Boolean)
-    const looseRegex = new RegExp(
-        words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\s+"),
-        "gi"
-    )
-    const looseSrc = item.context || item.example
-    const looseAttempt = looseSrc.replace(looseRegex, "_____")
-    if (looseAttempt !== looseSrc) return looseAttempt
+    const words = idiom.toLowerCase().trim().split(/\s+/)
+    const regexParts = words.map(word => {
+        const cleanWord = word.replace(/[^a-z']/g, "")
 
-    // 4. Absolute fallback: show meaning as the "sentence" to avoid blank confusion
-    return `Complete the expression (meaning: ${item.meaning_en}): "_____"`
+        if (placeholders[cleanWord]) {
+            return placeholders[cleanWord]
+        }
+
+        if (verbInflections[cleanWord]) {
+            return verbInflections[cleanWord]
+        }
+
+        return `\\b${escape(word)}[a-z]*\\b`
+    })
+
+    return new RegExp(regexParts.join("[\\s,.'\"()!-]+"), "gi")
 }
 
 function makeQuestion(item, allIdioms, gameType, mcStyle) {
     if (gameType === "fill") {
         // Use fill_sentence if available, fall back to example
         const source = item.fill_sentence || item.example
-        const regex = new RegExp(
-            item.idiom.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
-            "gi"
-        )
-        const blank = source.replace(regex, "_____")
+
+        // 0. If the source already contains a blank, use it directly
+        if (source.includes("___") || source.includes("---") || source.includes("___")) {
+            return { type: "fill", idiom: item.idiom, blank: source, item }
+        }
+
+        // 1. Try our smart flexible regex
+        const flexRegex = createFlexibleRegex(item.idiom)
+        let blank = source.replace(flexRegex, "_____")
+
+        // 2. If no replacement occurred, try the literal idiom search
+        if (blank === source) {
+            const regex = new RegExp(
+                item.idiom.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
+                "gi"
+            )
+            blank = source.replace(regex, "_____")
+        }
+
+        // 3. Fallback: if it STILL has no blank (no replacements at all),
+        // replace the first word of the idiom in the sentence
+        if (blank === source) {
+            const firstWord = item.idiom.split(/\s+/)[0]
+            const fallbackRegex = new RegExp(`\\b${firstWord}[a-z]*\\b`, "gi")
+            blank = source.replace(fallbackRegex, "_____")
+        }
+
         return { type: "fill", idiom: item.idiom, blank, item }
     }
     if (gameType === "listening") {
@@ -387,6 +451,85 @@ function SetupScreen({ allWeeks, onStart, darkMode: dm }) {
 
 // ── GAME SCREEN ───────────────────────────────────────────────────────────
 
+function getBareFormForGames(idiom) {
+    if (!idiom) return ""
+    const words = idiom.trim().split(/\s+/)
+    if (words.length === 0) return ""
+
+    let firstWord = words[0].toLowerCase()
+
+    const irregularMap = {
+        // -ing forms
+        "checking": "check", "pulling": "pull", "earning": "earn", "making": "make",
+        "returning": "return", "exchanging": "exchange", "renting": "rent", "ordering": "order",
+        "visiting": "visit", "discussing": "discuss", "handling": "handle", "apologizing": "apologize",
+        "killing": "kill", "acting": "act", "driving": "drive", "breaking": "break",
+        "starving": "starve", "browsing": "browse", "buying": "buy", "selling": "sell", "paying": "pay",
+
+        // Past / 3rd person / other forms
+        "held": "hold", "made": "make", "got": "get", "came": "come", "went": "go",
+        "bought": "buy", "sold": "sell", "took": "take", "reeks": "reek", "runs": "run",
+        "kills": "kill", "boggles": "boggle", "seems": "seem", "insists": "insist",
+        "booked": "book", "packed": "pack", "reeked": "reek", "insisted": "insist",
+
+        // Be verbs
+        "is": "be", "was": "be", "are": "be", "were": "be", "am": "be", "been": "be"
+    }
+
+    if (irregularMap[firstWord]) {
+        firstWord = irregularMap[firstWord]
+    } else {
+        if (firstWord.endsWith("ing")) {
+            firstWord = firstWord.slice(0, -3)
+        } else if (firstWord.endsWith("s") && !firstWord.endsWith("ss") && firstWord.length > 3) {
+            firstWord = firstWord.slice(0, -1)
+        } else if (firstWord.endsWith("ed") && firstWord.length > 4) {
+            firstWord = firstWord.slice(0, -2)
+        }
+    }
+
+    const originalFirst = words[0]
+    if (originalFirst[0] === originalFirst[0].toUpperCase()) {
+        firstWord = firstWord.charAt(0).toUpperCase() + firstWord.slice(1)
+    }
+
+    words[0] = firstWord
+
+    let result = words.join(" ")
+    result = result
+        .replace(/\b(my|your|his|her|its|their|our)\b/gi, "one's")
+        .replace(/\b(me|him|her|them|us)\b/gi, "someone")
+
+    return result
+}
+
+function cleanForComparison(str) {
+    const baseStr = getBareFormForGames(str)
+    return baseStr
+        .toLowerCase()
+        .replace(/[^a-z\s]/g, "")
+        .replace(/\b(my|your|his|her|its|their|our|ones|someone|somebody|something|one|it|me|him|us|them)\b/g, "")
+        .replace(/\s+/g, " ")
+        .trim()
+}
+
+function isAnswerCorrect(userInput, correctIdiom) {
+    const normalInput = normalise(userInput)
+    const normalCorrect = normalise(correctIdiom)
+
+    if (normalInput === normalCorrect) return true
+
+    const baseInput = normalise(getBareFormForGames(userInput))
+    const baseCorrect = normalise(getBareFormForGames(correctIdiom))
+    if (baseInput === baseCorrect) return true
+
+    const strippedInput = cleanForComparison(userInput)
+    const strippedCorrect = cleanForComparison(correctIdiom)
+    if (strippedInput === strippedCorrect && strippedInput.length > 0) return true
+
+    return false
+}
+
 function GameScreen({ questions, darkMode: dm, onEnd }) {
     const [qIndex, setQIndex] = useState(0)
     const [input, setInput] = useState("")
@@ -406,12 +549,10 @@ function GameScreen({ questions, darkMode: dm, onEnd }) {
     const total = questions.length
 
     function checkAnswer(ans) {
-        const normalized = normalise(ans)
-        // Check primary answer
-        if (normalized === normalise(q.idiom)) return true
-        // Check also_correct if it exists
+        if (isAnswerCorrect(ans, q.idiom)) return true
+
         if (q.item.also_correct?.length) {
-            return q.item.also_correct.some(a => normalise(a) === normalized)
+            return q.item.also_correct.some(a => isAnswerCorrect(ans, a))
         }
         return false
     }

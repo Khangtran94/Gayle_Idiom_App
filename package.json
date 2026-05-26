@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "add-fill-sentences": "node --env-file=.env scripts/add-fill-sentences.mjs",
-    "add-tags": "node --env-file=.env scripts/add-tags.mjs"
+    "add-tags": "node --env-file=.env scripts/add-tags.mjs",
+    "rehighlight": "node --env-file=.env scripts/rehighlight-conversations.mjs",
+    "convert-base": "node --env-file=.env scripts/convert-idioms-to-base.mjs"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

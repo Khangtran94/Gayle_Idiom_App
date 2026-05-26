@@ -1,10 +1,10 @@
 {
   "title": "GOING SHOPPING",
-  "conversation": "Amy is at a clothing store shopping for a new pair of pants. Lisa, a saleswoman, asks her if she needs any help.\n\nLisa: May I help you?\nAmy: I'm <u><b>just browsing</b></u>.\nLisa: Let me know if I can help. My name is Lisa.\nAmy: Do these pants <u><b>come in</b></u> black?\nLisa: Yes, but we're <u><b>sold out</b></u>. They're so popular, we can't keep them <u><b>in stock</b></u>.\nAmy: Do you have any black pants <u><b>on sale</b></u>?\nLisa: Yes, these are <u><b>marked down</b></u> from $69.95 to $24.95.\nAmy: That's <u><b>a good buy</b></u>, but I'm <u><b>not crazy about</b></u> the fabric.\nLisa: What about these pants? These are <u><b>on sale</b></u> for $49.\nAmy: That's <u><b>a little pricey</b></u>, but I'll <u><b>try them on</b></u>.\n(Amy enters the fitting room with the pants. A few minutes later, Lisa comes to check on her.)\nLisa: How are the pants?\nAmy: <u><b>A little snug</b></u>.\nLisa: That style does <u><b>run small</b></u>. Let me bring you the next size up.\n(Lisa hands Amy the pants and Amy puts them on.)\nAmy: These pants are a little big, aren't they?\nLisa: No, they fit nicely!\nAmy: They're baggy in the back, don't you think?\nLisa: No, they're perfect. <u><b>Take my word for it</b></u>.\nAmy: I'm just not sure. I think I'd better <u><b>hold off</b></u> for now.",
+  "conversation": "Amy is at a clothing store shopping for a new pair of pants. Lisa, a saleswoman, asks her if she needs any help.\n\nLisa: May I help you?\nAmy: I'm <u><b>just browsing</b></u>.\nLisa: Let me know if I can help. My name is Lisa.\nAmy: Do these pants <u><b>come in</b></u> black?\nLisa: Yes, but we're <u><b>sold out</b></u>. They're so popular, we can't keep them <u><b>in stock</b></u>.\nAmy: Do you have any black pants <u><b>on sale</b></u>?\nLisa: Yes, these are <u><b>marked down</b></u> from $69.95 to $24.95.\nAmy: That's <u><b>a good buy</b></u>, but I'm <u><b>not crazy about</b></u> the fabric.\nLisa: What about these pants? These are <u><b>on sale</b></u> for $49.\nAmy: That's a little <u><b>pricey</b></u>, but I'll <u><b>try them on</b></u>.\n(Amy enters the fitting room with the pants. A few minutes later, Lisa comes to check on her.)\nLisa: How are the pants?\nAmy: <u><b>A little snug</b></u>.\nLisa: That style does <u><b>run small</b></u>. Let me bring you the next size up.\n(Lisa hands Amy the pants and Amy puts them on.)\nAmy: These pants are a little big, aren't they?\nLisa: No, they fit nicely!\nAmy: They're baggy in the back, don't you think?\nLisa: No, they're perfect. <u><b>Take my word for it</b></u>.\nAmy: I'm just not sure. I think I'd better <u><b>hold off</b></u> for now.",
   "idioms": [
     {
       "id": "w01_01",
-      "idiom": "just browsing",
+      "idiom": "just browse",
       "meaning_en": "shopping, without necessarily buying anything; only looking.",
       "meaning_vi": "chỉ đang xem qua (không có ý định mua ngay)",
       "example": "The clerk asked if I needed help, but I told her I was just browsing.",
@@ -34,7 +34,7 @@
     },
     {
       "id": "w01_03",
-      "idiom": "sold out",
+      "idiom": "be sold out",
       "meaning_en": "Completely sold, no longer available.",
       "meaning_vi": "hết hàng",
       "example": "I wanted to buy the new iPhone, but the store was completely sold out.",
@@ -79,7 +79,7 @@
     },
     {
       "id": "w01_06",
-      "idiom": "marked down",
+      "idiom": "mark down",
       "meaning_en": "Reduced in price, lowered in price",
       "meaning_vi": "được hạ giá",
       "example": "All winter coats have been marked down to make room for spring clothes.",
@@ -184,7 +184,7 @@
     },
     {
       "id": "w01_13",
-      "idiom": "take my word for it",
+      "idiom": "take one's word for it",
       "meaning_en": "Believe me; trust what I say.",
       "meaning_vi": "hãy tin lời tôi",
       "example": "It's a great movie, just take my word for it.",

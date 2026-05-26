@@ -1,6 +1,6 @@
 {
   "title": "PICKING UP THE TAB AT A RESTAURANT",
-  "conversation": "Tanya: Let me <u><b>pick up the tab</b></u>.\nJohn: No, <u><b>it's my treat</b></u>. The guy is supposed to pay on a date!\nTanya: Says who? I don't want you to pay for me every time we go out! Let's <u><b>go Dutch</b></u> this time.\nJohn: No, I'll get it. I insist.\nTanya: Okay, but next time <u><b>it's on me</b></u>.\nJohn: Let's see . . . The total without tax is $74.75.\nTanya: Do you think we should leave 15 percent or more?\nJohn: The service was <u><b>so-so</b></u>. Our waiter was <u><b>no great shakes</b></u>. He seemed <u><b>put out</b></u> when we complained about our food.\nTanya: What did he expect? The food <u><b>left a lot to be desired</b></u>! This is supposed to be such a great restaurant. I don't know what happened.\nJohn: I guess it's <u><b>gone downhill</b></u>. I'll leave 15 percent. I could leave less, but I don't want to be a <u><b>cheapskate</b></u>.\nTanya: Yeah, we may want to come back here someday.\nJohn: Come back here? <u><b>When hell freezes over</b></u>!",
+  "conversation": "Tanya: Let me <u><b>pick up the tab</b></u>.\nJohn: No, <u><b>it's my treat</b></u>. The guy is supposed to pay on a date!\nTanya: Says who? I don't want you to pay for me every time we go out! Let's <u><b>go Dutch</b></u> this time.\nJohn: No, I'll get it. <u><b>I insist</b></u>.\nTanya: Okay, but next time <u><b>it's on me</b></u>.\nJohn: Let's see . . . The total without tax is $74.75.\nTanya: Do you think we should leave 15 percent or more?\nJohn: The service was <u><b>so-so</b></u>. Our waiter was <u><b>no great shakes</b></u>. He seemed <u><b>put out</b></u> when we complained about our food.\nTanya: What did he expect? The food <u><b>left a lot to be desired</b></u>! This is supposed to be such a great restaurant. I don't know what happened.\nJohn: I guess it's <u><b>gone downhill</b></u>. I'll leave 15 percent. I could leave less, but I don't want to be a <u><b>cheapskate</b></u>.\nTanya: Yeah, we may want to come back here someday.\nJohn: Come back here? <u><b>When hell freezes over</b></u>!",
   "idioms": [
     {
       "id": "w07_01",
@@ -21,7 +21,7 @@
     },
     {
       "id": "w07_02",
-      "idiom": "it's my treat",
+      "idiom": "be one's treat",
       "meaning_en": "used to tell someone that you will pay for them",
       "meaning_vi": "tôi mời, tôi sẽ trả tiền",
       "example": "Let's go for coffee; it's my treat.",
@@ -55,7 +55,7 @@
     },
     {
       "id": "w07_04",
-      "idiom": "I insist",
+      "idiom": "insist",
       "meaning_en": "I will pay (say this when you do not want to argue anymore over who will pay the bill — it's usually the last word)",
       "meaning_vi": "Tôi sẽ trả (nói điều này khi bạn không muốn tranh cãi nữa về việc ai sẽ trả tiền - đó thường là lời cuối cùng)",
       "example": "Dinner is my treat. — No, you paid last time. I'm paying tonight. I insist.",
@@ -72,7 +72,7 @@
     },
     {
       "id": "w07_05",
-      "idiom": "it's on me",
+      "idiom": "be on someone",
       "meaning_en": "used to indicate that you will pay for the item or service",
       "meaning_vi": "để tôi trả tiền, tôi khao",
       "example": "Don't worry about the drinks; they are on me.",
@@ -106,7 +106,7 @@
     },
     {
       "id": "w07_07",
-      "idiom": "no great shakes",
+      "idiom": "be no great shakes",
       "meaning_en": "not particularly good, clever, or skillful",
       "meaning_vi": "không có gì đặc biệt, không giỏi lắm",
       "example": "He's a nice guy, but as a cook, he's no great shakes.",
@@ -123,7 +123,7 @@
     },
     {
       "id": "w07_08",
-      "idiom": "put out",
+      "idiom": "be put out",
       "meaning_en": "annoyed, offended, or inconvenienced",
       "meaning_vi": "bực bội, khó chịu, phật lòng",
       "example": "She was clearly put out by his rude comments.",
@@ -191,7 +191,7 @@
     },
     {
       "id": "w07_12",
-      "idiom": "When hell freezes over",
+      "idiom": "when hell freezes over",
       "meaning_en": "something that will never happen",
       "meaning_vi": "không bao giờ, không đời nào",
       "example": "I'll go back to that store when hell freezes over!",

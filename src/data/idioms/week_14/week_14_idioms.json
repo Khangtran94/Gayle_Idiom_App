@@ -1,10 +1,10 @@
 {
   "title": "MAKING INTRODUCTIONS",
-  "conversation": "At the dinner party, Lisa introduces Lori and Mike to Jane and Kyle Chen. Lori and Jane realize they’ve met previously through work.\n\nLisa: Let me <u><b>make some introductions</b></u>. Lori and Mike Garcia, this is Jane and Kyle Chen.\nLori: Nice to meet you.\nKyle: I’m sorry, I <u><b>didn’t catch your names</b></u>.\nLori: I’m Lori and this is my husband Mike.\nLisa: You guys <u><b>have a lot in common</b></u>, so I’m sure you’ll <u><b>hit it off</b></u>.\nJane: Lori, you <u><b>look familiar</b></u>, but I <u><b>can’t quite place you</b></u>.\nLori: Your name <u><b>rings a bell</b></u>. Do you work at Harco Insurance?\nJane: I used to be <u><b>in sales</b></u> there. I left about a year ago.\nLori: I used to work at Comtek International. You sold us our insurance plan.\nJane: Yes, that’s right! <u><b>It’s a small world</b></u>!\nLori: It sure is. I’m glad we’ve <u><b>crossed paths</b></u> again.\nJane: Me too. <u><b>What have you been up to</b></u> since you left Comtek?\nLori: <u><b>It’s a long story</b></u>. Let’s <u><b>grab some drinks</b></u> and I’ll <u><b>fill you in</b></u>.",
+  "conversation": "At the dinner party, Lisa introduces Lori and Mike to Jane and Kyle Chen. Lori and Jane realize they’ve met previously through work.\n\nLisa: Let me <u><b>make some introductions</b></u>. Lori and Mike Garcia, this is Jane and Kyle Chen.\nLori: Nice to meet you.\nKyle: I’m sorry, <u><b>I didn’t catch your names</b></u>.\nLori: I’m Lori and this is my husband Mike.\nLisa: You guys <u><b>have a lot in common</b></u>, so I’m sure you’ll <u><b>hit it off</b></u>.\nJane: Lori, you <u><b>look familiar</b></u>, but <u><b>I can’t quite place you</b></u>.\nLori: Your name <u><b>rings a bell</b></u>. Do you work at Harco Insurance?\nJane: I used to be <u><b>in sales</b></u> there. I left about a year ago.\nLori: I used to work at Comtek International. You sold us our insurance plan.\nJane: Yes, that’s right! <u><b>It’s a small world</b></u>!\nLori: It sure is. I’m glad we’ve <u><b>crossed paths</b></u> again.\nJane: Me too. <u><b>What have you been up to</b></u> since you left Comtek?\nLori: <u><b>It’s a long story</b></u>. Let’s <u><b>grab some drinks</b></u> and I’ll <u><b>fill you in</b></u>.",
   "idioms": [
     {
       "id": "w14_01",
-      "idiom": "make some introductions",
+      "idiom": "make introductions",
       "meaning_en": "To introduce people to each other by name for the first time",
       "meaning_vi": "giới thiệu ai đó với ai đó",
       "example": "Before we start the meeting, let me make some introductions.",
@@ -20,7 +20,7 @@
     },
     {
       "id": "w14_02",
-      "idiom": "I didn’t catch your names",
+      "idiom": "catch someone's name",
       "meaning_en": "I didn't hear your name when you were introduced",
       "meaning_vi": "tôi đã không nghe rõ tên bạn",
       "example": "I'm sorry, the room was so loud that I didn't catch your names.",
@@ -85,7 +85,7 @@
     },
     {
       "id": "w14_06",
-      "idiom": "I can’t quite place you",
+      "idiom": "place someone",
       "meaning_en": "I've seen (or met) you before, but I can't remember where or when",
       "meaning_vi": "Tôi đã gặp bạn ở đâu đó, nhưng tôi không thể nhớ chính xác là ở đâu hoặc khi nào",
       "example": "I recognize your voice, but I can't quite place you.",
@@ -118,7 +118,7 @@
     },
     {
       "id": "w14_08",
-      "idiom": "in sales",
+      "idiom": "be in sales",
       "meaning_en": "to work in a sales position",
       "meaning_vi": "làm trong bộ phận bán hàng/kinh doanh",
       "example": "She has been in sales for over ten years.",
@@ -134,7 +134,7 @@
     },
     {
       "id": "w14_09",
-      "idiom": "It’s a small world",
+      "idiom": "be a small world",
       "meaning_en": "This expression is used when people are surprised to find out they know each other from some past experience",
       "meaning_vi": "Thế giới quả thật nhỏ bé! (Tình cờ gặp lại nhau)",
       "example": "I saw my old neighbor in Paris; it's a small world!",
@@ -166,7 +166,7 @@
     },
     {
       "id": "w14_11",
-      "idiom": "What have you been up to",
+      "idiom": "be up to something",
       "meaning_en": "A common way to ask what someone has been doing lately",
       "meaning_vi": "Dạo này bạn làm gì rồi?",
       "example": "It's been a long time! What have you been up to?",
@@ -182,7 +182,7 @@
     },
     {
       "id": "w14_12",
-      "idiom": "It’s a long story",
+      "idiom": "be a long story",
       "meaning_en": "Used to indicate that something is complicated and would take a long time to explain fully",
       "meaning_vi": "đó là một câu chuyện dài (khó giải thích nhanh)",
       "example": "Why did I quit my job? It's a long story.",
@@ -198,7 +198,7 @@
     },
     {
       "id": "w14_13",
-      "idiom": "grab some drinks",
+      "idiom": "grab a drink",
       "meaning_en": "To get something to drink; to go out for a drink",
       "meaning_vi": "đi mua đồ uống / đi uống nước",
       "example": "Let's grab some drinks after work on Friday.",
@@ -215,7 +215,7 @@
     },
     {
       "id": "w14_14",
-      "idiom": "fill someone in (on something)",
+      "idiom": "fill someone in",
       "meaning_en": "To update someone; to tell somebody what's been going on",
       "meaning_vi": "cập nhật cho ai đó; kể cho ai đó nghe chuyện đã xảy ra",
       "example": "I missed the meeting, so could you fill me in on what happened?",

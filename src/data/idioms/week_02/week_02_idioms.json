@@ -1,6 +1,6 @@
 {
   "title": "RETURNING AN ITEM TO THE STORE",
-  "conversation": "Paul: Hi, I bought this camera here yesterday, and it's not working.\nTim: Did you charge the battery and put it in correctly?\nPaul: Yes. I followed the directions <u><b>to the letter</b></u>.\nTim: Do you mind if I <u><b>take a crack at</b></u> it?\nPaul: <u><b>Be my guest</b></u>.\nTim: I usually <u><b>have the magic touch</b></u> . . . Hmmm, you're right. It doesn't work. Would you like a replacement?\nPaul: No, this is the second one I've had to return. I think I'll <u><b>steer clear of</b></u> this model.\nTim: <u><b>I hear what you're saying</b></u>. It's frustrating when you get one bad unit, <u><b>let alone</b></u>, two!\nPaul: Yeah, it's a <u><b>bummer</b></u>! I'd like my money back.\nTim: If you give me your receipt, I'll <u><b>issue a credit</b></u> to your credit card. But you might also try a different model or brand.\nPaul: Maybe I will try a different camera.\nTim: We've got an excellent Canon camera that's the same price as this one. It would be an <u><b>even exchange</b></u>.\nPaul: Okay, I'll take it. I hope this one <u><b>works out</b></u>.\nTim: If you're not happy with it, <u><b>don't hesitate</b></u> to bring it back.",
+  "conversation": "Paul: Hi, I bought this camera here yesterday, and it's not working.\nTim: Did you charge the battery and put it in correctly?\nPaul: Yes. I followed the directions <u><b>to the letter</b></u>.\nTim: Do you mind if I <u><b>take a crack at</b></u> it?\nPaul: <u><b>Be my guest</b></u>.\nTim: I usually <u><b>have the magic touch</b></u> . . . Hmmm, you're right. It doesn't work. Would you like a replacement?\nPaul: No, this is the second one I've had to return. I think I'll <u><b>steer clear of</b></u> this model.\nTim: <u><b>I hear what you're saying</b></u>. It's frustrating when you get one bad unit, <u><b>let alone</b></u>, two!\nPaul: Yeah, it's a <u><b>bummer</b></u>! I'd like my money back.\nTim: If you give me your receipt, I'll <u><b>issue a credit</b></u> to your credit card. But you might also try a different model or brand.\nPaul: Maybe I will try a different camera.\nTim: We've got an excellent Canon camera that's the same price as this one. It would be an <u><b>even exchange</b></u>.\nPaul: Okay, I'll take it. I hope this one <u><b>work out</b></u>.\nTim: If you're not happy with it, <u><b>don't hesitate to</b></u> bring it back.",
   "idioms": [
     {
       "id": "w02_01",
@@ -37,7 +37,7 @@
     },
     {
       "id": "w02_03",
-      "idiom": "Be my guest",
+      "idiom": "be my guest",
       "meaning_en": "please go ahead; try it yourself",
       "meaning_vi": "cứ tự nhiên, xin cứ việc",
       "example": "If you want to use my phone, be my guest.",
@@ -86,7 +86,7 @@
     },
     {
       "id": "w02_06",
-      "idiom": "I hear what you're saying",
+      "idiom": "hear what one is saying",
       "meaning_en": "to understand or empathize with someone's point of view",
       "meaning_vi": "Tôi hiểu những gì bạn đang nói / chia sẻ",
       "example": "I hear what you're saying about the price, but the quality is much better.",
@@ -183,7 +183,7 @@
     },
     {
       "id": "w02_12",
-      "idiom": "don't hesitate to",
+      "idiom": "not hesitate to",
       "meaning_en": "feel free to do something; do it without worrying or waiting",
       "meaning_vi": "đừng ngần ngại làm gì đó",
       "example": "If you have any questions, please don't hesitate to ask.",

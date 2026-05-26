@@ -1,10 +1,10 @@
 {
-  "title": "Checking Into a Hotel",
-  "conversation": "When Maria goes to check into her hotel, Chad, at reception, informs her that he doesn't have her reservation. He finds a room for her, which ends up being too noisy.\n\nChad: How can I help you?\nMaria: I'm checking in. I've got a reservation under the name Baker.\nChad: Okay, let me <u><b>pull up</b></u> your reservation. You said, \"Baker.\"\nMaria: Yes, Maria Baker.\nChad: Unfortunately, I have no record of your reservation. It must have gotten lost in our system.\nMaria: Great. <u><b>Just my luck</b></u>!\nChad: Don't worry. We've got plenty of rooms. Are you a member of our rewards program yet?\nMaria: No, I don't travel that much so it's not <u><b>worth my while</b></u>.\nChad: You can start earning points with this stay. Then you can get discounts on future stays and special offers by mail.\nMaria: <u><b>As a rule</b></u>, I don't join these programs. I get enough <u><b>junk mail</b></u> already.\n\n(ten minutes later)\n\nMaria: I just checked my room, and I'll need a different room.\nChad: What's the problem?\nMaria: The 12th floor is <u><b>a zoo</b></u>. There's some kind of convention going on up there and people are <u><b>making a racket</b></u>.\nChad: I'm sorry about that. Let's see what else we have.\nMaria: Also, you must have given me a smoking room because it <u><b>reeks of</b></u> cigarette smoke!\nChad: I do apologize for that. Let me give you room 1485. It should be quiet and smoke free.",
+  "title": "CHECKING INTO A HOTEL",
+  "conversation": "When Maria goes to check into her hotel, Chad, at reception, informs her that he doesn't have her reservation. He finds a room for her, which ends up being too noisy.\n\nChad: How can I help you?\nMaria: I'm <u><b>checking in</b></u>. I've got a reservation under the name Baker.\nChad: Okay, let me <u><b>pull up your reservation</b></u>. You said, \"Baker.\"\nMaria: Yes, Maria Baker.\nChad: Unfortunately, I have no record of your reservation. It must have gotten lost in our system.\nMaria: Great. <u><b>Just my luck</b></u>!\nChad: Don't worry. We've got plenty of rooms. Are you a member of our <u><b>rewards program</b></u> yet?\nMaria: No, I don't travel that much so it's not <u><b>worth my while</b></u>.\nChad: You can start <u><b>earning points</b></u> with this stay. Then you can get discounts on future stays and <u><b>special offers</b></u> by mail.\nMaria: <u><b>As a rule</b></u>, I don't join these programs. I get enough <u><b>junk mail</b></u> already.\n\n(ten minutes later)\n\nMaria: I just checked my room, and I'll need a different room.\nChad: What's the problem?\nMaria: The 12th floor is <u><b>a zoo</b></u>. There's some kind of convention going on up there and people are <u><b>making a racket</b></u>.\nChad: I'm sorry about that. Let's see what else we have.\nMaria: Also, you must have given me a smoking room because it <u><b>reeks of</b></u> cigarette smoke!\nChad: <u><b>I do apologize for that</b></u>. Let me give you room 1485. It should be quiet and smoke free.",
   "idioms": [
     {
       "id": "w19_01",
-      "idiom": "checking in",
+      "idiom": "check in",
       "meaning_en": "to report your arrival or register at a hotel, airport, or event",
       "meaning_vi": "làm thủ tục nhận phòng, báo danh",
       "example": "She is checking in at the hotel counter.",
@@ -20,7 +20,7 @@
     },
     {
       "id": "w19_02",
-      "idiom": "pull up your reservation",
+      "idiom": "pull up one's reservation",
       "meaning_en": "to retrieve information from a computer system",
       "meaning_vi": "truy xuất thông tin từ hệ thống máy tính",
       "example": "Can you pull up my order details on your computer, please?",
@@ -36,7 +36,7 @@
     },
     {
       "id": "w19_03",
-      "idiom": "just my luck",
+      "idiom": "just one's luck",
       "meaning_en": "An expression used to say that one is always unlucky or that a bad situation is typical of one's bad fortune.",
       "meaning_vi": "Thật là xui xẻo (đúng là số của tôi)!",
       "example": "My flight was cancelled and then I lost my wallet. Just my luck!",
@@ -68,7 +68,7 @@
     },
     {
       "id": "w19_05",
-      "idiom": "worth one's while",
+      "idiom": "be worth one's while",
       "meaning_en": "Important, useful, or satisfying enough to be worth the time, money, or effort spent on it.",
       "meaning_vi": "Đáng thời gian, tiền bạc hoặc công sức bỏ ra.",
       "example": "It's a long drive, but the beautiful view makes it worth your while.",
@@ -84,7 +84,7 @@
     },
     {
       "id": "w19_06",
-      "idiom": "earning points",
+      "idiom": "earn points",
       "meaning_en": "Accumulating points or credits through purchases or activities, typically in a loyalty program.",
       "meaning_vi": "Tích lũy điểm.",
       "example": "You'll earn points on every purchase and get discounts later.",
@@ -100,7 +100,7 @@
     },
     {
       "id": "w19_07",
-      "idiom": "special offers",
+      "idiom": "special offer",
       "meaning_en": "promotional deals or discounts given to customers",
       "meaning_vi": "ưu đãi đặc biệt, giảm giá",
       "example": "You'll receive special offers and discounts by mail.",
@@ -147,7 +147,7 @@
     },
     {
       "id": "w19_10",
-      "idiom": "a zoo",
+      "idiom": "be a zoo",
       "meaning_en": "A place or situation that is extremely noisy, chaotic, or crowded.",
       "meaning_vi": "Nơi cực kỳ hỗn loạn, ồn ào náo nhiệt.",
       "example": "The shopping mall was a zoo the day before Christmas.",

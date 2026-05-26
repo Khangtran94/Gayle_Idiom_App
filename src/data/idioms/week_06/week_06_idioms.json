@@ -1,6 +1,6 @@
 {
   "title": "COMPLAINING AT A RESTAURANT",
-  "conversation": "At Carmen’s Bistro, all is not going well. John complains to Kevin, the waiter, about his overdone steak. Tanya complains that her fish is too rare and that the music is too loud.\n\nKevin: How are we doing?\nJohn: Not very well. I ordered my steak <u><b>medium rare</b></u>, and it’s <u><b>burnt to a crisp</b></u>.\nKevin: I’m sorry about that. I can ask our chef to prepare another one.\nJohn: Okay, please do that.\nKevin: <u><b>You bet</b></u>. And how’s your fish, ma’am?\nTanya: It’s very rare.\nKevin: Would you like me to have the chef put it back in the oven?\nTanya: No, I’ve <u><b>lost my appetite for</b></u> fish.\nKevin: I’d be happy to bring you something else.\nTanya: Okay, let me try the stuffed chicken breast.\n\n(Ten minutes after the waiter has brought the new meals.)\n\nKevin: How are we doing over here?\nTanya: I was wondering if you could <u><b>turn down the music</b></u>. Loud music in restaurants is a <u><b>pet peeve</b></u> of mine.\nKevin: Sure, I’ll take care of that. Can I get you another <u><b>round of drinks</b></u>?\nJohn: No, we’re <u><b>all set</b></u> for now.\n\n(The waiter returns after fifteen minutes.)\n\nKevin: Are you still <u><b>working on</b></u> your meals?\nTanya: I’ll need a <u><b>doggy bag</b></u>.\nJohn: Would you mind <u><b>wrapping this up</b></u>, too?\nKevin: I’ll bring you some containers and you can <u><b>box up</b></u> your <u><b>leftovers</b></u>. <u><b>Can I interest you in dessert?</b></u>\nTanya: I’m <u><b>stuffed</b></u>.\nJohn: Could you please bring the check?",
+  "conversation": "At Carmen’s Bistro, all is not going well. John complains to Kevin, the waiter, about his overdone steak. Tanya complains that her fish is too rare and that the music is too loud.\n\nKevin: How are we doing?\nJohn: Not very well. I ordered my steak <u><b>medium rare</b></u>, and it’s <u><b>burnt to a crisp</b></u>.\nKevin: I’m sorry about that. I can ask our chef to prepare another one.\nJohn: Okay, please do that.\nKevin: <u><b>You bet</b></u>. And how’s your fish, ma’am?\nTanya: It’s very rare.\nKevin: Would you like me to have the chef put it back in the oven?\nTanya: No, I’ve <u><b>lost my appetite</b></u> for fish.\nKevin: I’d be happy to bring you something else.\nTanya: Okay, let me try the <u><b>stuffed</b></u> chicken breast.\n\n(Ten minutes after the waiter has brought the new meals.)\n\nKevin: How are we doing over here?\nTanya: I was wondering if you could <u><b>turn down</b></u> the music. Loud music in restaurants is a <u><b>pet peeve</b></u> of mine.\nKevin: Sure, I’ll take care of that. <u><b>Can I interest you in</b></u> another <u><b>round of drinks</b></u>?\nJohn: No, we’re <u><b>all set</b></u> for now.\n\n(The waiter returns after fifteen minutes.)\n\nKevin: Are you still <u><b>working on</b></u> your meals?\nTanya: I’ll need a <u><b>doggy bag</b></u>.\nJohn: Would you mind <u><b>wrapping up</b></u> this, too?\nKevin: I’ll bring you some containers and you can <u><b>box up</b></u> your <u><b>leftovers</b></u>. <u><b>Can I interest you in</b></u> dessert?\nTanya: I’m <u><b>stuffed</b></u>.\nJohn: Could you please bring the check?",
   "idioms": [
     {
       "id": "w06_01",
@@ -19,7 +19,7 @@
     },
     {
       "id": "w06_02",
-      "idiom": "burnt to a crisp",
+      "idiom": "burn to a crisp",
       "meaning_en": "extremely overcooked or burned",
       "meaning_vi": "cháy đen, cháy thành than",
       "example": "The toast was left in the toaster too long and was burnt to a crisp.",
@@ -35,7 +35,7 @@
     },
     {
       "id": "w06_03",
-      "idiom": "You bet",
+      "idiom": "you bet",
       "meaning_en": "certainly; you're welcome; used to express agreement or to say yes",
       "meaning_vi": "chắc chắn rồi, không có gì",
       "example": "\"Can you help me with this?\" \"You bet!\"",
@@ -113,7 +113,7 @@
     },
     {
       "id": "w06_08",
-      "idiom": "all set",
+      "idiom": "be all set",
       "meaning_en": "finished; ready; not needing anything else",
       "meaning_vi": "xong rồi, chuẩn bị xong, đủ rồi",
       "example": "I don't need any more help, I'm all set.",
@@ -207,7 +207,7 @@
     },
     {
       "id": "w06_14",
-      "idiom": "Can I interest you in...?",
+      "idiom": "interest someone in",
       "meaning_en": "a polite way to offer something to someone",
       "meaning_vi": "Tôi có thể mời bạn dùng... không?",
       "example": "Can I interest you in a cup of coffee after dinner?",
@@ -223,7 +223,7 @@
     },
     {
       "id": "w06_15",
-      "idiom": "stuffed",
+      "idiom": "be stuffed",
       "meaning_en": "feeling very full after eating a lot of food",
       "meaning_vi": "no căng, no ứ hự",
       "example": "I've eaten so much turkey that I'm absolutely stuffed.",

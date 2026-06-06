@@ -25,6 +25,14 @@ const allWeeks = Object.entries(weekModules)
     })
     .sort((a, b) => a.weekNum - b.weekNum)
 
+const allIdioms = allWeeks.flatMap(w => 
+    (w.data || []).map(item => ({
+        ...item,
+        weekNum: w.weekNum,
+        weekTitle: w.title
+    }))
+)
+
 export default function App() {
     const [selectedWeek, setSelectedWeek] = useState(0)
     const [lang, setLang] = useState("both")
@@ -36,6 +44,7 @@ export default function App() {
     const [showSyncModal, setShowSyncModal] = useState(() => {
         return !localStorage.getItem("gayle_sync_code_seen")
     })
+    const [searchQuery, setSearchQuery] = useState("")
 
     function handleSyncModalClose() {
         localStorage.setItem("gayle_sync_code_seen", "1")
@@ -45,6 +54,17 @@ export default function App() {
     const dm = darkMode
     const currentWeek = allWeeks[selectedWeek]
     const idioms = currentWeek?.data ?? []
+
+    const filteredIdioms = searchQuery.trim()
+        ? allIdioms.filter(item => {
+            const query = searchQuery.toLowerCase()
+            return (
+                (item.idiom || "").toLowerCase().includes(query) ||
+                (item.meaning_en || "").toLowerCase().includes(query) ||
+                (item.meaning_vi || "").toLowerCase().includes(query)
+            )
+        })
+        : []
 
     function handleTitleClick() {
         const next = titleClicks + 1
@@ -157,58 +177,128 @@ export default function App() {
                         ))}
                     </div>
 
-                    {/* Week Selector */}
-                    {mode !== "admin" && (
-                        <div className="flex gap-2 flex-wrap justify-center mb-6">
-                            {allWeeks.map((week, i) => (
+                    {/* Search Bar */}
+                    <div className="max-w-md mx-auto mb-6 relative animate-fadeIn">
+                        <div className="relative flex items-center">
+                            <span className="absolute left-3 text-gray-400">🔍</span>
+                            <input
+                                type="text"
+                                placeholder={lang === "vi" ? "Tìm idiom, nghĩa tiếng Anh hoặc tiếng Việt..." : "Search idiom, English or Vietnamese meaning..."}
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                                className={`w-full pl-10 pr-10 py-2.5 rounded-xl border transition shadow-sm outline-none text-sm ${
+                                    dm
+                                        ? "bg-gray-800 border-gray-700 text-white placeholder-gray-500 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                                        : "bg-white border-gray-200 text-gray-800 placeholder-gray-400 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                                }`}
+                            />
+                            {searchQuery && (
                                 <button
-                                    key={i}
-                                    onClick={() => setSelectedWeek(i)}
-                                    className={`px-4 py-2 rounded-lg text-sm font-medium border transition
-                    ${selectedWeek === i
-                                            ? "bg-indigo-600 text-white border-indigo-600"
-                                            : dm
-                                                ? "bg-gray-800 text-gray-300 border-gray-600 hover:border-indigo-400"
-                                                : "bg-white text-gray-600 border-gray-300 hover:border-indigo-400"
-                                        }`}
+                                    onClick={() => setSearchQuery("")}
+                                    className={`absolute right-3 p-1 rounded-full text-gray-400 transition ${
+                                        dm ? "hover:bg-gray-700 hover:text-gray-200" : "hover:bg-gray-100 hover:text-gray-600"
+                                    }`}
+                                    title={lang === "vi" ? "Xóa tìm kiếm" : "Clear search"}
                                 >
-                                    {week.label}
+                                    ✕
                                 </button>
-                            ))}
+                            )}
                         </div>
-                    )}
+                    </div>
 
-                    {/* Week title */}
-                    {mode !== "admin" && currentWeek?.title && (
-                        <h2 className={`text-xl font-bold text-center mb-6 ${dm ? "text-white" : "text-gray-700"}`}>
-                            Week {currentWeek.weekNum} — {currentWeek.title}
-                        </h2>
-                    )}
+                    {/* Search Results */}
+                    {searchQuery.trim() !== "" ? (
+                        <div className={`mb-8 p-6 rounded-2xl border transition animate-fadeIn ${
+                            dm ? "bg-gray-800/40 border-gray-700" : "bg-gray-50 border-gray-200"
+                        }`}>
+                            <div className="flex justify-between items-center mb-4">
+                                <h3 className={`font-semibold text-lg ${dm ? "text-white" : "text-gray-800"}`}>
+                                    {lang === "vi" ? "Kết Quả Tìm Kiếm" : "Search Results"} ({filteredIdioms.length})
+                                </h3>
+                                <button
+                                    onClick={() => setSearchQuery("")}
+                                    className="text-xs text-indigo-500 hover:text-indigo-400 font-medium px-2 py-1 rounded hover:bg-indigo-500/10 transition"
+                                >
+                                    {lang === "vi" ? "Xóa bộ lọc" : "Clear Search"}
+                                </button>
+                            </div>
 
-                    {/* Content */}
-                    {mode === "browse" && (
-                        <div className="flex flex-col lg:flex-row gap-6">
-                            <div className="flex flex-col gap-4 lg:w-1/2">
-                                {idioms.map(item => (
-                                    <IdiomCard key={item.id} item={item} lang={lang} darkMode={dm} />
-                                ))}
-                            </div>
-                            <div className="lg:w-1/2">
-                                <ConversationPanel week={currentWeek} darkMode={dm} />
-                            </div>
+                            {filteredIdioms.length === 0 ? (
+                                <p className={`text-center py-8 text-sm ${dm ? "text-gray-400" : "text-gray-500"}`}>
+                                    {lang === "vi" ? "Không tìm thấy idiom nào phù hợp." : "No matching idioms found."}
+                                </p>
+                            ) : (
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    {filteredIdioms.slice(0, 6).map(item => (
+                                        <IdiomCard key={`${item.weekNum}-${item.id}`} item={item} lang={lang} darkMode={dm} />
+                                    ))}
+                                </div>
+                            )}
+
+                            {filteredIdioms.length > 6 && (
+                                <p className={`text-xs text-center mt-4 ${dm ? "text-gray-400" : "text-gray-500"}`}>
+                                    {lang === "vi" 
+                                        ? `Đang hiển thị 6 trên ${filteredIdioms.length} kết quả. Nhập chi tiết hơn để thu hẹp kết quả.` 
+                                        : `Showing 6 of ${filteredIdioms.length} results. Refine your search query to see more.`}
+                                </p>
+                            )}
                         </div>
-                    )}
+                    ) : (
+                        <>
+                            {/* Week Selector */}
+                            {mode !== "admin" && (
+                                <div className="flex gap-2 flex-wrap justify-center mb-6">
+                                    {allWeeks.map((week, i) => (
+                                        <button
+                                            key={i}
+                                            onClick={() => setSelectedWeek(i)}
+                                            className={`px-4 py-2 rounded-lg text-sm font-medium border transition
+                            ${selectedWeek === i
+                                                    ? "bg-indigo-600 text-white border-indigo-600"
+                                                    : dm
+                                                        ? "bg-gray-800 text-gray-300 border-gray-600 hover:border-indigo-400"
+                                                        : "bg-white text-gray-600 border-gray-300 hover:border-indigo-400"
+                                                }`}
+                                        >
+                                            {week.label}
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
 
-                    {mode === "flashcard" && (
-                        <Flashcard key={selectedWeek} idioms={idioms} lang={lang} darkMode={dm} />
-                    )}
+                            {/* Week title */}
+                            {mode !== "admin" && currentWeek?.title && (
+                                <h2 className={`text-xl font-bold text-center mb-6 ${dm ? "text-white" : "text-gray-700"}`}>
+                                    Week {currentWeek.weekNum} — {currentWeek.title}
+                                </h2>
+                            )}
 
-                    {mode === "games" && (
-                        <Games allWeeks={allWeeks} darkMode={dm} />
-                    )}
+                            {/* Content */}
+                            {mode === "browse" && (
+                                <div className="flex flex-col lg:flex-row gap-6">
+                                    <div className="flex flex-col gap-4 lg:w-1/2">
+                                        {idioms.map(item => (
+                                            <IdiomCard key={item.id} item={item} lang={lang} darkMode={dm} />
+                                        ))}
+                                    </div>
+                                    <div className="lg:w-1/2">
+                                        <ConversationPanel week={currentWeek} darkMode={dm} />
+                                    </div>
+                                </div>
+                            )}
 
-                    {mode === "admin" && (
-                        <AdminUpload onIdiomsExtracted={handleIdiomsExtracted} />
+                            {mode === "flashcard" && (
+                                <Flashcard key={selectedWeek} idioms={idioms} lang={lang} darkMode={dm} />
+                            )}
+
+                            {mode === "games" && (
+                                <Games allWeeks={allWeeks} darkMode={dm} />
+                            )}
+
+                            {mode === "admin" && (
+                                <AdminUpload onIdiomsExtracted={handleIdiomsExtracted} />
+                            )}
+                        </>
                     )}
 
                 </div>

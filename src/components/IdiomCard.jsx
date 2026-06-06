@@ -11,7 +11,18 @@ export default function IdiomCard({ item, lang, darkMode: dm }) {
         <div className={`rounded-2xl shadow-sm border p-5 ${dm ? "bg-gray-800 border-gray-700" : "bg-white border-gray-100"
             }`}>
             <div className="flex items-center justify-between mb-2">
-                <h2 className="text-xl font-bold text-indigo-400">"{item.idiom}"</h2>
+                <div className="flex items-center gap-2 flex-wrap">
+                    <h2 className="text-xl font-bold text-indigo-400">"{item.idiom}"</h2>
+                    {item.weekNum && (
+                        <span className={`text-xs px-2.5 py-0.5 rounded-full font-semibold border ${
+                            dm 
+                                ? "bg-indigo-950/40 text-indigo-300 border-indigo-800/40" 
+                                : "bg-indigo-50 text-indigo-600 border-indigo-150"
+                        }`}>
+                            Week {item.weekNum}
+                        </span>
+                    )}
+                </div>
                 <button
                     onClick={() => speakText(item.idiom)}
                     className={`p-2 rounded-full transition ${dm

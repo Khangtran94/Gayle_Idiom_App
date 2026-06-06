@@ -4,7 +4,7 @@
   "idioms": [
     {
       "id": "w05_01",
-      "idiom": "be starving",
+      "idiom": "starve",
       "meaning_en": "extremely hungry",
       "meaning_vi": "đang rất đói",
       "example": "I haven't eaten all day, so I'm starving.",
@@ -35,7 +35,7 @@
     },
     {
       "id": "w05_03",
-      "idiom": "be right with someone",
+      "idiom": "right with someone",
       "meaning_en": "I will help or serve you in a moment",
       "meaning_vi": "Tôi sẽ phục vụ/hỗ trợ bạn ngay đây",
       "example": "Finish your phone call, and I'll be right with you to help with those bags.",
@@ -67,7 +67,7 @@
     },
     {
       "id": "w05_05",
-      "idiom": "be packed to the rafters",
+      "idiom": "packed to the rafters",
       "meaning_en": "extremely crowded; full to capacity",
       "meaning_vi": "chật kín người, không còn chỗ trống",
       "example": "The stadium was packed to the rafters for the final game of the season.",
@@ -147,7 +147,7 @@
     },
     {
       "id": "w05_10",
-      "idiom": "be known for",
+      "idiom": "known for",
       "meaning_en": "famous for; having a reputation for",
       "meaning_vi": "nổi tiếng về điều gì",
       "example": "This region is known for its beautiful vineyards.",
@@ -162,7 +162,7 @@
     },
     {
       "id": "w05_11",
-      "idiom": "be in the mood for",
+      "idiom": "in the mood for",
       "meaning_en": "to want, to have an appetite for, feeling like doing or having something specific",
       "meaning_vi": "đang muốn/có hứng thú với cái gì",
       "example": "Are you in the mood for Italian food tonight?",

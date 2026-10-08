@@ -1,0 +1,123 @@
+{
+  "title": "TAKING A TAXI",
+  "conversation": "Ian gets in a taxi. He's in a big rush because he has an interview in ten minutes. Unfortunately, he gets stuck in traffic.\nAli: <u><b>Where are you headed?</b></u>\nIan: 411 Wall Street.\nAli: <u><b>Hop in!</b></u>\nIan: I've got a meeting in 10 minutes. Can you <u><b>step on it</b></u>?\nAli: This is the fastest I can go. If I go any faster, I'm going to <u><b>get pulled over</b></u>.\nIan: Don't you know some <u><b>back roads</b></u> we can take?\nAli: No, this is the best way to go. Oops! That was a <u><b>close call</b></u>. That bus almost hit us!\nIan: I've got an interview at 10.\nAli: I hate to <u><b>break it to you</b></u>, but there's <u><b>bumper-to-bumper traffic</b></u> up ahead.\nIan: Yes, I see that <u><b>traffic is heavy</b></u>. What's going on?\nAli: It looks like there was a <u><b>fender bender</b></u>. Now there's <u><b>rubber necking</b></u>.\nIan: <u><b>What rotten luck!</b></u>\nAli: We're only five blocks away. It'll be quicker if I let you out here and you run the rest of the way.\nIan: Okay. Here's 10 bucks. <u><b>Keep the change</b></u>.",
+  "idioms": [
+    {
+      "id": "w21_01",
+      "idiom": "be headed",
+      "meaning_en": "To be going in a particular direction or to a particular destination.",
+      "meaning_vi": "Đang đi về hướng nào, đến địa điểm nào.",
+      "example": "<u><b>Are you headed</b></u> home after work?",
+      "context": "Ali: <u><b>Where are you headed?</b></u>",
+      "week": 21
+    },
+    {
+      "id": "w21_02",
+      "idiom": "hop in",
+      "meaning_en": "An informal invitation to get into a vehicle.",
+      "meaning_vi": "Lời mời thân mật để lên xe (vào xe).",
+      "example": "“The car's ready, <u><b>hop in</b></u>!” she said.",
+      "context": "Ali: <u><b>Hop in!</b></u>",
+      "week": 21
+    },
+    {
+      "id": "w21_03",
+      "idiom": "step on it",
+      "meaning_en": "To go faster, especially when driving a vehicle.",
+      "meaning_vi": "Tăng tốc, lái xe nhanh hơn.",
+      "example": "We're late, you need to <u><b>step on it</b></u>!",
+      "context": "Can you <u><b>step on it</b></u>?",
+      "week": 21
+    },
+    {
+      "id": "w21_04",
+      "idiom": "get pulled over",
+      "meaning_en": "To be stopped by the police while driving.",
+      "meaning_vi": "Bị cảnh sát giao thông dừng xe kiểm tra.",
+      "example": "I hope I don't <u><b>get pulled over</b></u> for speeding.",
+      "context": "If I go any faster, I'm going to <u><b>get pulled over</b></u>.",
+      "week": 21
+    },
+    {
+      "id": "w21_05",
+      "idiom": "back road",
+      "meaning_en": "A minor road, often less traveled and scenic, usually connecting rural areas or serving as an alternative to main roads.",
+      "meaning_vi": "Đường nhỏ, đường nông thôn, đường tắt, thường ít người qua lại hoặc là con đường thay thế cho đường chính.",
+      "example": "We took the <u><b>back road</b></u> to avoid the highway traffic.",
+      "context": "Don't you know some <u><b>back roads</b></u> we can take?",
+      "week": 21
+    },
+    {
+      "id": "w21_06",
+      "idiom": "close call",
+      "meaning_en": "A narrow escape from danger or disaster; a situation where something bad almost happened.",
+      "meaning_vi": "Tình huống suýt gặp nguy hiểm hoặc tai nạn; thoát hiểm trong gang tấc.",
+      "example": "That near collision was a real <u><b>close call</b></u>.",
+      "context": "Oops! That was a <u><b>close call</b></u>.",
+      "week": 21
+    },
+    {
+      "id": "w21_07",
+      "idiom": "break it to someone",
+      "meaning_en": "To tell someone bad news, usually gently or carefully.",
+      "meaning_vi": "Báo tin xấu cho ai đó, thường là một cách nhẹ nhàng hoặc cẩn thận.",
+      "example": "I don't know how to <u><b>break it to him</b></u> that he didn't get the job.",
+      "context": "I hate to <u><b>break it to you</b></u>, but there's bumper-to-bumper traffic up ahead.",
+      "week": 21
+    },
+    {
+      "id": "w21_08",
+      "idiom": "bumper-to-bumper traffic",
+      "meaning_en": "Traffic that is so heavy that vehicles are very close together and moving very slowly or not at all.",
+      "meaning_vi": "Tình trạng giao thông ùn tắc nghiêm trọng, xe cộ nối đuôi nhau di chuyển rất chậm hoặc không di chuyển được.",
+      "example": "There was <u><b>bumper-to-bumper traffic</b></u> on the highway during rush hour.",
+      "context": "...but there's <u><b>bumper-to-bumper traffic</b></u> up ahead.",
+      "week": 21
+    },
+    {
+      "id": "w21_09",
+      "idiom": "heavy traffic",
+      "meaning_en": "A large number of vehicles on the road, causing slow movement.",
+      "meaning_vi": "Lượng xe cộ đông đúc trên đường, gây cản trở di chuyển.",
+      "example": "We encountered <u><b>heavy traffic</b></u> on our way to the beach.",
+      "context": "Yes, I see that <u><b>traffic is heavy</b></u>. What's going on?",
+      "week": 21
+    },
+    {
+      "id": "w21_10",
+      "idiom": "fender bender",
+      "meaning_en": "A minor car accident causing only slight damage.",
+      "meaning_vi": "Một vụ va chạm xe ô tô nhỏ, chỉ gây hư hại nhẹ.",
+      "example": "Luckily, it was just a minor <u><b>fender bender</b></u>, and no one was hurt.",
+      "context": "It looks like there was a <u><b>fender bender</b></u>.",
+      "week": 21
+    },
+    {
+      "id": "w21_11",
+      "idiom": "rubberneck",
+      "meaning_en": "To slow down or turn one's head to stare at something (especially an accident or something unusual), often impeding traffic.",
+      "meaning_vi": "Chậm lại hoặc ngoái đầu nhìn chằm chằm vào cái gì đó (đặc biệt là tai nạn hoặc điều bất thường), thường làm cản trở giao thông.",
+      "example": "People started to <u><b>rubberneck</b></u> as they passed the accident scene.",
+      "context": "Now there's <u><b>rubber necking</b></u>.",
+      "week": 21
+    },
+    {
+      "id": "w21_12",
+      "idiom": "rotten luck",
+      "meaning_en": "Very bad fortune or unfortunate circumstances.",
+      "meaning_vi": "Vận rủi, vận đen đủi.",
+      "example": "It was just <u><b>rotten luck</b></u> that our flight was canceled.",
+      "context": "Ian: <u><b>What rotten luck!</b></u>",
+      "week": 21
+    },
+    {
+      "id": "w21_13",
+      "idiom": "keep the change",
+      "meaning_en": "To tell someone, often a service person like a taxi driver, to retain the remaining money after a payment.",
+      "meaning_vi": "Giữ lại tiền thừa (thường dùng khi trả tiền cho người làm dịch vụ như tài xế taxi, phục vụ).",
+      "example": "“The total is $8.50,” said the cashier. “Here's $10, <u><b>keep the change</b></u>.”",
+      "context": "Okay. Here's 10 bucks. <u><b>Keep the change</b></u>.",
+      "week": 21
+    }
+  ]
+}

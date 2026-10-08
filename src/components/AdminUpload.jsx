@@ -3,10 +3,68 @@ import { GoogleGenerativeAI } from "@google/generative-ai"
 
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY)
 
+const CANDIDATE_MODELS = [
+    "gemini-2.5-flash",
+    "gemini-3.1-flash-lite",
+    "gemini-flash-latest"
+]
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+
+async function generateWithFallback(parts, onProgress) {
+    let lastError = null
+
+    for (let mIndex = 0; mIndex < CANDIDATE_MODELS.length; mIndex++) {
+        const modelName = CANDIDATE_MODELS[mIndex]
+
+        for (let attempt = 1; attempt <= 2; attempt++) {
+            try {
+                if (onProgress) {
+                    onProgress(
+                        mIndex === 0 && attempt === 1
+                            ? "🤖 AI is reading the paper..."
+                            : `🤖 Trying ${modelName}${attempt > 1 ? ` (retry ${attempt})` : ""}...`
+                    )
+                }
+
+                const model = genAI.getGenerativeModel({
+                    model: modelName,
+                    generationConfig: { responseMimeType: "application/json" }
+                })
+
+                const result = await model.generateContent(parts)
+                const text = result.response.text().trim()
+                return text
+            } catch (err) {
+                lastError = err
+                console.warn(`Attempt ${attempt} on ${modelName} failed:`, err.message)
+
+                const isTransient =
+                    err.message?.includes("503") ||
+                    err.message?.includes("429") ||
+                    err.message?.includes("high demand") ||
+                    err.message?.includes("overloaded")
+
+                if (isTransient && attempt < 2) {
+                    if (onProgress) {
+                        onProgress(`Model busy (503). Retrying in 2s...`)
+                    }
+                    await sleep(2000)
+                } else {
+                    break
+                }
+            }
+        }
+    }
+
+    throw lastError || new Error("Failed to generate content after trying fallback models.")
+}
+
 export default function AdminUpload({ onIdiomsExtracted }) {
     const [file, setFile] = useState(null)
     const [preview, setPreview] = useState(null)
     const [loading, setLoading] = useState(false)
+    const [statusMessage, setStatusMessage] = useState("")
     const [error, setError] = useState(null)
     const [extractedData, setExtractedData] = useState(null)
     const [weekNumber, setWeekNumber] = useState("")
@@ -34,6 +92,7 @@ export default function AdminUpload({ onIdiomsExtracted }) {
         }
 
         setLoading(true)
+        setStatusMessage("🤖 AI is reading the paper...")
         setError(null)
 
         try {
@@ -53,8 +112,6 @@ export default function AdminUpload({ onIdiomsExtracted }) {
                 setLoading(false)
                 return
             }
-
-            const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" })
 
             const prompt = `This is a paper from an English class. It contains a conversation with idioms.
 
@@ -96,8 +153,7 @@ Return ONLY the JSON object, nothing else. No markdown, no backticks.`;
                 }
             }
 
-            const result = await model.generateContent([prompt, imagePart])
-            const text = result.response.text().trim()
+            const text = await generateWithFallback([prompt, imagePart], setStatusMessage)
             console.log("Raw Gemini response:", text)
 
             const clean = text.replace(/```json|```/g, "").trim()
@@ -121,9 +177,15 @@ Return ONLY the JSON object, nothing else. No markdown, no backticks.`;
 
         } catch (err) {
             console.error("Full error:", err)
-            setError("Something went wrong: " + err.message)
+            const is503 = err.message?.includes("503") || err.message?.includes("high demand") || err.message?.includes("overloaded")
+            if (is503) {
+                setError("Google AI is currently experiencing high demand (503). Retried across models without success. Please wait a moment and try again.")
+            } else {
+                setError("Something went wrong: " + err.message)
+            }
         } finally {
             setLoading(false)
+            setStatusMessage("")
         }
     }
 
@@ -198,7 +260,7 @@ Return ONLY the JSON object, nothing else. No markdown, no backticks.`;
                     disabled={loading || !file || !weekNumber}
                     className="w-full py-3 bg-indigo-600 text-white rounded-xl font-medium hover:bg-indigo-700 transition disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                    {loading ? "🤖 AI is reading the paper..." : "✨ Extract Idioms with AI"}
+                    {loading ? (statusMessage || "🤖 AI is reading the paper...") : "✨ Extract Idioms with AI"}
                 </button>
             </div>
 
